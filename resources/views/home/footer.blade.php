@@ -3,23 +3,23 @@
       <div class="row justify-content-between">
         <div class="col-lg-4 col-md-6 footer-widget footer-about">
           <h3 class="widget-title">About Us</h3>
-          <img loading="lazy" class="footer-logo" src="images/footer-logo.png" alt="Constra">
+          <img loading="lazy" style="width: 100%; object-fit: scale;" class="logo img-fluid" src="images/PSA-Logoo.png" alt="">
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor inci done idunt ut
             labore et dolore magna aliqua.</p>
           <div class="footer-social">
             <ul>
-              <li><a href="https://facebook.com/themefisher" aria-label="Facebook"><i
+              <li><a target="_blank" href="https://www.facebook.com/philippinesocietyofanesthesiologists/" aria-label="Facebook"><i
                     class="fab fa-facebook-f"></i></a></li>
-              <li><a href="https://twitter.com/themefisher" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+              {{-- <li><a href="https://twitter.com/themefisher" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
               </li>
               <li><a href="https://instagram.com/themefisher" aria-label="Instagram"><i
                     class="fab fa-instagram"></i></a></li>
-              <li><a href="https://github.com/themefisher" aria-label="Github"><i class="fab fa-github"></i></a></li>
+              <li><a href="https://github.com/themefisher" aria-label="Github"><i class="fab fa-github"></i></a></li> --}}
             </ul>
           </div><!-- Footer social end -->
         </div><!-- Col end -->
 
-        <div class="col-lg-4 col-md-6 footer-widget mt-5 mt-md-0">
+        <div class="mt-5 col-lg-4 col-md-6 footer-widget mt-md-0">
           <h3 class="widget-title">Working Hours</h3>
           <div class="working-hours">
             We work 7 days a week, every day excluding major holidays. Contact us if you have an emergency, with our
@@ -30,7 +30,7 @@
           </div>
         </div><!-- Col end -->
 
-        <div class="col-lg-3 col-md-6 mt-5 mt-lg-0 footer-widget">
+        <div class="mt-5 col-lg-3 col-md-6 mt-lg-0 footer-widget">
           <h3 class="widget-title">Services</h3>
           <ul class="list-arrow">
             <li><a href="service-single.html">Pre-Construction</a></li>
@@ -48,7 +48,7 @@
     <div class="container">
       <div class="row align-items-center">
         <div class="col-md-12">
-          <div class="copyright-info text-center">
+          <div class="text-center copyright-info">
             <span>Copyright &copy; <script>
                 document.write(new Date().getFullYear())
               </script>, Designed &amp; Developed by <a href="https://themefisher.com">Themefisher</a></span>
@@ -56,14 +56,14 @@
         </div>
 
         <div class="col-md-12">
-          <div class="copyright-info text-center">
+          <div class="text-center copyright-info">
             <span>Distributed by <a href="https://themewagon.com/">Themewagon</a></span>
           </div>
         </div>
 
         <div class="col-md-12">
-          <div class="footer-menu text-center">
-            <ul class="list-unstyled mb-0">
+          <div class="text-center footer-menu">
+            <ul class="mb-0 list-unstyled">
               <li><a href="about.html">About</a></li>
               <li><a href="team.html">Our people</a></li>
               <li><a href="faq.html">Faq</a></li>

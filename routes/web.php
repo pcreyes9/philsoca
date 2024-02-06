@@ -25,6 +25,10 @@ Route::get('/past_presidents', function () {
     return view('home/about us/legacy/pastPresidents');
 })->name('pres');
 
+Route::get('/links', function () {
+    return view('home/links');
+})->name('links');
+
 
 Route::middleware([
     'auth:sanctum',

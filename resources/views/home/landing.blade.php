@@ -114,10 +114,15 @@
         <div class="container text-center">
             <div class="row justify-content-center g-0 " >
                 <div class="col-sm-4 " >
-                    <img loading="lazy" class="img-fluid w-75 zoom" style="width: 200px;" src="images/MIDYEAR_RATES_2024.png" alt="img">
+                    <a class=" gallery-popup" href="images/MIDYEAR_RATES_2024.png">
+                        <img loading="lazy" class="img-fluid w-75 zoom" style="width: 200px;" src="images/MIDYEAR_RATES_2024.png" alt="img">
+                    </a>
+
                 </div>
                 <div class="col-sm-8 d-none d-sm-block">
-                    <img loading="lazy" class="img-fluid w-200 " src="images/MIDYEAR_2024.png" alt="img">
+                    <a class="gallery-popup" href="images/MIDYEAR_2024.png">
+                        <img loading="lazy" class="img-fluid w-200 " src="images/MIDYEAR_2024.png" alt="img">
+                    </a>
                 </div>
             </div>
         </div>

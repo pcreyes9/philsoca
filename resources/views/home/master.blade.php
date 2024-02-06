@@ -50,7 +50,6 @@
 
             <!-- initialize jQuery Library -->
             @include('home.scripts')
-
         </div><!-- Body inner end -->
     </body>
   </html>

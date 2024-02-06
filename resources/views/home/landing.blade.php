@@ -21,7 +21,7 @@
             </div>
         </div>
     </div>
-
+    {{-- TESTING --}}
     <div class="banner-carousel-item" style="background-image:url(images/slider-main/bg2.jpg)">
       <div class="text-left slider-content">
           <div class="container h-100">

@@ -5,7 +5,7 @@
 
 @section('content')
     <div class="mb-0 banner-carousel banner-carousel-1">
-        <div class="banner-carousel-item" style="background-image:url(images/slider-main/bg1.jpg)">
+        <div class="banner-carousel-item" style="background-image:url(images/slider-main/slider1.jpg)">
         <div class="slider-content">
             <div class="container h-100">
                 <div class="row align-items-center h-100">
@@ -22,7 +22,7 @@
         </div>
     </div>
     {{-- TESTING --}}
-    <div class="banner-carousel-item" style="background-image:url(images/slider-main/bg2.jpg)">
+    <div class="banner-carousel-item" style="background-image:url(images/slider-main/slider2.jpg)">
       <div class="text-left slider-content">
           <div class="container h-100">
             <div class="row align-items-center h-100">
@@ -39,7 +39,7 @@
       </div>
     </div>
 
-    <div class="banner-carousel-item" style="background-image:url(images/slider-main/bg3.jpg)">
+    <div class="banner-carousel-item" style="background-image:url(images/slider-main/slider3.jpg)">
       <div class="text-right slider-content">
           <div class="container h-100">
             <div class="row align-items-center h-100">

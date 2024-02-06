@@ -21,8 +21,9 @@ Route::get('/psa-hymn', function () {
     return view('home/about us/legacy/PSAHymn');
 })->name('hymn');
 
-
-
+Route::get('/past_presidents', function () {
+    return view('home/about us/legacy/pastPresidents');
+})->name('pres');
 
 
 Route::middleware([

@@ -17,7 +17,7 @@
                             <li class="dropdown-submenu">
                                 <a href="#!" class="dropdown-toggle" data-toggle="dropdown">LEGACY</a>
                                 <ul class="dropdown-menu">
-                                  <li><a href="#!">PAST PRESIDENTS</a></li>
+                                  <li><a href="{{route('pres')}}">PAST PRESIDENTS</a></li>
                                   <li><a href="#!">QUINTIN J. GOMEZ AWARDEE</a></li>
                                   <li><a href="#!">MANUEL SIDAO LEADERSHIP AWARDEE</a></li>
                                   <li><a href="{{route('hymn')}}">PSA HYMN</a></li>

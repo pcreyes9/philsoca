@@ -8,6 +8,12 @@ Description: Constra - Construction Html5 Template
 [TABLE OF CONTENTS]
 -------------------------------------------------------------------*/
 @import url(https://fonts.googleapis.com/css?family=Montserrat:300,400,400i,500,500i,600,600i,700,700i,800|Open+Sans:400,400i,600,600i,700,700i,800&display=swap);
+
+/* MY OWN CSS */
+
+
+
+
 /* Typography
 ================================================== */
 body {
@@ -2888,15 +2894,20 @@ img.testimonial-thumb {
 }
 
 .ts-team-content-classic .ts-name {
-  font-size: 16px;
-  margin-bottom: 5px;
-  color: #212121;
+    padding: 0.75rem;
+    background-color: #000066;
+  font-size: 17px;
+  color: #fff;
 }
 
 .ts-team-content-classic .ts-designation {
-  color: #888;
+  color: #000;
   margin-bottom: 5px;
   font-weight: 600;
+  font-size: 15px;
+   /* border-radius: 25px; */
+  border: 1.5px solid #73AD21;
+  /* width: 50%;  */
 }
 
 .ts-team-content-classic .team-social-icons a i {

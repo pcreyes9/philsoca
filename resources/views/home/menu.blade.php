@@ -44,7 +44,7 @@
                       <li class="nav-item dropdown">
                           <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">GALLERY <i class="fa fa-angle-down"></i></a>
                           <ul class="dropdown-menu" role="menu">
-                            <li><a href="typography.html">MIDYEAR CONVENTION 2023: VIGAN CITY</a></li>
+                            <li><a href="{{ route('gallery') }}">MIDYEAR CONVENTION 2023: VIGAN CITY</a></li>
                             <li><a href="">ANNUAL CONVENTION 2023: MARRIOT GRAND BALLROOM</a></li>
                           </ul>
                       </li>

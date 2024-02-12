@@ -18,14 +18,14 @@
                                 <a href="#!" class="dropdown-toggle" data-toggle="dropdown">LEGACY</a>
                                 <ul class="dropdown-menu">
                                   <li><a href="{{route('pres')}}">PAST PRESIDENTS</a></li>
-                                  <li><a href="#!">QUINTIN J. GOMEZ AWARDEE</a></li>
-                                  <li><a href="#!">MANUEL SIDAO LEADERSHIP AWARDEE</a></li>
+                                  <li><a href="{{ route('QJG') }}">QUINTIN J. GOMEZ AWARDEE</a></li>
+                                  <li><a href="{{ route('sidao') }}">MANUEL SILAO LEADERSHIP AWARDEE</a></li>
                                   <li><a href="{{route('hymn')}}">PSA HYMN</a></li>
                                 </ul>
                             </li>
-                            <li><a href="team.html">OFFICERS & BOARDS</a></li>
-                            <li><a href="testimonials.html">SUBSPECIALTY & SIG</a></li>
-                            <li><a href="faq.html">CHAPTER PRESIDENTS</a></li>
+                            <li><a href="{{ route('offBoards') }}">OFFICERS & BOARDS</a></li>
+                            <li><a href="{{ route('subspecialty') }}">SUBSPECIALTY & SIG</a></li>
+                            <li><a href="{{ route('chapPres') }}">CHAPTER PRESIDENTS</a></li>
                           </ul>
                       </li>
 

@@ -6,7 +6,7 @@
 @section('content')
     @include('home.banner')
 
-    <section id="main-container" class="pb-4 main-container">
+    <section id="main-container" class="pb-4 main-container project-area solid-bg">
         <div class="container text-center">
           <div class="text-center row">
             <div class="col-lg-12">

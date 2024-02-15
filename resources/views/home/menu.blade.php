@@ -48,25 +48,12 @@
                             <li><a href="">ANNUAL CONVENTION 2023: MARRIOT GRAND BALLROOM</a></li>
                           </ul>
                       </li>
-
-                      {{-- <li class="nav-item dropdown">
-                          <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">News <i class="fa fa-angle-down"></i></a>
-                          <ul class="dropdown-menu" role="menu">
-                            <li><a href="news-left-sidebar.html">News Left Sidebar</a></li>
-                            <li><a href="news-right-sidebar.html">News Right Sidebar</a></li>
-                            <li><a href="news-single.html">News Single</a></li>
-                          </ul>
-                      </li> --}}
-
-                      {{-- <li class="nav-item"><a class="nav-link" href="contact.html">LOGIN</a></li>
-                      <li class="nav-item"><a class="nav-link" href="contact.html">REGISTER</a></li> --}}
-
                       @if (Route::has('login'))
                         @auth
                             <li class="nav-item dropdown">
                                 <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Hello, Dr. {{ Auth::user()->name }} <i class="fa fa-angle-down"></i></a>
                                 <ul class="dropdown-menu" role="menu">
-                                    <li><a href="{{ route('profile.show') }}">Profile</a></li>
+                                    <li><a href="{{ route('dashboard') }}">My Account</a></li>
                                     {{-- <li><a href="service-single.html">Logout</a></li> --}}
                                     {{-- <form method="POST" action="{{ route('logout') }}" x-data>
                                         @csrf

@@ -12,7 +12,7 @@
                 <div class="col-12">
                     <div class="row shuffle-wrapper">
                         @foreach ($pics as $pic)
-                            <div class="col-lg-4 col-md-6 shuffle-item p-3">
+                            <div class="col-lg-4 col-md-6 shuffle-item p-2">
                                 <a class="gallery-popup" href="images/convention/{{ $pic }}.jpg">
                                     <img class="img-fluid" src="images/convention/{{ $pic }}.jpg" alt="project-image">
                                 </a>    

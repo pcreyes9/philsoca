@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\GalleryController;
+use App\Http\Controllers\DashboardController;
 
 /*
 |--------------------------------------------------------------------------
@@ -67,10 +68,12 @@ Route::middleware([
     config('jetstream.auth_session'),
     'verified',
 ])->group(function () {
-    Route::get('/dashboard', function () {
-        return view('dashboard');
-    })->name('dashboard');
+    Route::get('/dashboard', [DashboardController::class, 'dashboard'])->name('dashboard');
+    Route::get('/contactInfo', [DashboardController::class, 'contactInfo'])->name('contactInfo');
+    Route::get('/ledger', [DashboardController::class, 'ledger'])->name('ledger');
+    Route::get('/paymentHistory', [DashboardController::class, 'paymentHistory'])->name('paymentHistory');
 });
 
 
 Route::get('/gallery', [GalleryController::class, 'show'])->name('gallery');
+// Route::get('/dashbaord', [DashboardController::class, 'show'])->name('dashbaord');

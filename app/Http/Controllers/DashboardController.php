@@ -47,6 +47,7 @@ class DashboardController extends Controller
 
         $ledger = PaymentHistory::select(DB::raw('payment_date, payment_type, or_no, payment_ref_no, SUM(amount_due) as amount'))
         ->where('member_id_no', Auth::user()->psa_id)
+        ->where('or_no', '>', '0')
         ->orderBy('fiscal_year', 'desc')
         ->groupBy('payment_date', 'payment_type', 'or_no','payment_ref_no')
         ->get();

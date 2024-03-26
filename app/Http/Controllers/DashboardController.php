@@ -16,7 +16,7 @@ class DashboardController extends Controller
     public function dashboard(){
         
         $id = Auth::user()->psa_id;
-        $info = Members::where('id', Auth::user()->psa_id)->get();
+        $info = Members::where('PSA_ID', Auth::user()->psa_id)->get();
 
         // dd($info->toArray());
         return view("user_account.dashboard", [
@@ -25,9 +25,9 @@ class DashboardController extends Controller
     }
 
     public function contactInfo(){
-        $info = Members::where('id', Auth::user()->psa_id)->get();
+        $info = Members::where('PSA_ID', Auth::user()->psa_id)->get();
 
-        // dd("contactInfo");
+        // dd(Auth::user()->psa_id);
         return view("user_account.contactInfo", [
             'info' =>$info
         ]);
@@ -44,7 +44,7 @@ class DashboardController extends Controller
         ]);
     }
     public function paymentHistory(){
-
+        
         $ledger = PaymentHistory::select(DB::raw('payment_date, payment_type, or_no, payment_ref_no, SUM(amount_due) as amount'))
         ->where('member_id_no', Auth::user()->psa_id)
         ->where('or_no', '>', '0')

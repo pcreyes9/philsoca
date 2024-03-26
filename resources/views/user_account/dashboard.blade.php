@@ -24,51 +24,51 @@
                                 
                                 <div>
                                     <label for="first_name" class="block mb-2 text-sm font-medium text-gray-900">First name</label>
-                                    <input value="{{ $infos->FIRST_NAME }}" type="text" id="first_name" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 "  required disabled readonly>
+                                    <input value="{{ $infos->first_name }}" type="text" id="first_name" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 "  required disabled readonly>
                                 </div>
                                 <div>
                                     <label for="last_name" class="block mb-2 text-sm font-medium text-gray-900 ">Last name</label>
-                                    <input value="{{ $infos->LAST_NAME }}" type="text" id="last_name" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 " required disabled readonly> 
+                                    <input value="{{ $infos->last_name }}" type="text" id="last_name" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 " required disabled readonly> 
                                 </div>
                                 <div>
                                     <label for="company" class="block mb-2 text-sm font-medium text-gray-900 ">Middle Initial</label>
-                                    <input value="{{ $infos->ID }}" type="text" id="company" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 "  requ disabled readonlyired>
+                                    <input value="{{ $infos->mem_middle_name }}" type="text" id="company" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 "  requ disabled readonly>
                                 </div> 
                                 <div>
                                     <label for="company" class="block mb-2 text-sm font-medium text-gray-900 ">PSA ID</label>
-                                    <input value="{{ $infos->ID }}" type="text" id="company" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 "  requ disabled readonlyired>
+                                    <input value="{{ $infos->PSA_ID }}" type="text" id="company" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 "  requ disabled readonly>
                                 </div>  
                                 <div>
                                     <label for="phone" class="block mb-2 text-sm font-medium text-gray-900 ">Membership Type</label>
-                                    <input value="{{ $infos->PSA_Member }}" type="tel" id="phone" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 "  pa disabled readonlyttern="[0-9]{3}-[0-9]{2}-[0-9]{3}" required>
+                                    <input value="{{ $infos->MEMBERSHIP }}" type="tel" id="phone" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 "  pa disabled readonlyttern="[0-9]{3}-[0-9]{2}-[0-9]{3}" required>
                                 </div>
                                 <div>
                                     <label for="website" class="block mb-2 text-sm font-medium text-gray-900 ">PSA Chapter</label>
-                                    <input type="url" id="website" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 "   disabled readonlyrequired>
+                                    <input type="url" value="{{ $infos->psa_chapter_code }}" id="website" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 "   disabled  required>
                                 </div>
                                 
                                 
                                 <div>
                                     <label for="visitors" class="block mb-2 text-sm font-medium text-gray-900 ">Citizenship<label>
-                                    <input type="number" id="visitors" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 " required disabled readonly>                          
+                                    <input type="url" value="{{ $infos->mem_citizenship }}" id="website" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 "  disabled  required>                          
                                 </div>
                                 <div>
                                     <label for="visitors" class="block mb-2 text-sm font-medium text-gray-900 ">Date of Birth<label>
-                                    <input type="number" id="visitors" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 " required disabled readonly>                          
+                                    <input  value="{{ $infos->mem_birth_date}}" type="url" id="visitors" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 " required disabled >                          
                                 </div>
                                 <div>
                                     <label for="visitors" class="block mb-2 text-sm font-medium text-gray-900 ">Religion<label>
-                                    <input type="number" id="visitors" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 " required disabled readonly>                          
+                                    <input type="url" value="{{ $infos->mem_religion}}" id="visitors" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 " required disabled >                          
                                 </div>
                                 <div>
                                     <label for="visitors" class="block mb-2 text-sm font-medium text-gray-900 ">Civil Status<label>
-                                    <input type="number" id="visitors" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 " required disabled readonly>                          
+                                    <input type="url" value="{{ $infos->mem_civil_status}}" id="visitors" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 " required disabled >                          
                                 </div>
                             </div>
 
                             <div class="mb-6">
                                 <label for="email" class="block mb-2 text-sm font-medium text-gray-900 ">Home Address</label>
-                                <input type="email" id="email" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 " disabled required>
+                                <input value="{{ $infos->mem_home_address }}" type="email" id="email" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 " disabled required>
                             </div> 
                             <div class="mb-6">
                                 <label for="password" class="block mb-2 text-sm font-medium text-gray-900 ">Password</label>

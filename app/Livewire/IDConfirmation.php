@@ -17,6 +17,7 @@ class IDConfirmation extends Component
         $this->PSAid=Members::where('PSA_ID', $this->PSAid)->value('PSA_ID');
         //dd($this->name);
     }
+    
     public function render()
     {
         $this->last_name=Members::where('PSA_ID', $this->PSAid)->value('LAST_NAME');

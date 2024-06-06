@@ -30,7 +30,7 @@
             <!--/ Topbar end -->
             <!-- Header start -->
             <header id="header" class="header-one">
-                <title>PSA-INC: @yield('title')</title>
+                <title>@yield('title') | 24th ACA Congress</title>
                 @include('home.header')
                 @include('home.menu')
                 <!--/ Navigation end -->

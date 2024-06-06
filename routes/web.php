@@ -28,8 +28,6 @@ Route::get('/links', function () {
 
 
 // MENU: ABOUT US/
-
-
 Route::get('/officers_boards', function () {
     return view('home/about us/officersBoards');
 })->name('offBoards');
@@ -60,7 +58,9 @@ Route::get('/leadership_awardee', function () {
     return view('home/about us/legacy/leadership');
 })->name('sidao');
 
-
+Route::get('/venue', function () {
+    return view('home/venue');
+})->name('venue');
 
 
 Route::middleware([

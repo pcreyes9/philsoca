@@ -29,6 +29,24 @@ p {
   line-height: 26px;
   font-size: 15px;
 }
+.hotel-p {
+  font-family: "Open Sans", sans-serif;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased !important;
+  line-height: 26px;
+  font-size: 19px;
+  text-align: justify;
+  letter-spacing: 1px;
+  
+}
+.hotel-col {
+  font-family: 'Montserrat', sans-serif;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased !important;
+  line-height: 26px;
+  font-size: 20px;
+  font-weight: bold;
+}
 
 h1,
 h2,
@@ -286,6 +304,7 @@ a:focus {
 .section-title {
   font-size: 18px;
   line-height: 28px;
+  letter-spacing: 1px;
   margin: 0;
   text-transform: uppercase;
   font-weight: 300;
@@ -295,6 +314,7 @@ a:focus {
   font-weight: 900;
   font-size: 36px;
   line-height: 46px;
+  letter-spacing: 2px;
   margin: 0 0 60px;
   color: #212121;
 }
@@ -721,7 +741,7 @@ ul.top-info li p.info-text {
 }
 
 ul.navbar-nav > li > a {
-  padding: 15px 0 !important;
+  padding: 7px 0 !important;
   color: #fff;
 }
 
@@ -3507,6 +3527,20 @@ label {
 .error-page .error-body .btn {
   margin-top: 30px;
   font-weight: 700;
+}
+
+.fade-img {
+  position: relative; 
+}
+
+.fade-img:after {
+  content:""; 
+  position: absolute; 
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: linear-gradient(to bottom, rgba(255,255,255,0) 0%,rgba(255,255,255,1) 100%);
+  height: 40%;  
 }
 
 /*# sourceMappingURL=style.css.map */

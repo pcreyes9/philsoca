@@ -33,7 +33,6 @@ class DashboardController extends Controller
         ]);
     }
 
-
     public function ledger(){
 
         $ledger = Ledger::where('member_id_no', Auth::user()->psa_id)->orderBy('fiscal_year', 'desc')->get();

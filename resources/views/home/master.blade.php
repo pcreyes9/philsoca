@@ -21,7 +21,7 @@
     ================================================== -->
         @include('home.css')
 
-
+        @livewireStyles
     </head>
     <body>
         <div class="body-inner">
@@ -38,18 +38,19 @@
             <!--/ Header end -->
 
             @yield('content')
-
+            @livewireScripts
 
             <footer id="footer" class="footer bg-overlay">
                 @include('home.footer')
             </footer><!-- Footer end -->
 
-
+            
             <!-- Javascript Files
             ================================================== -->
 
             <!-- initialize jQuery Library -->
             @include('home.scripts')
+            
         </div><!-- Body inner end -->
     </body>
   </html>

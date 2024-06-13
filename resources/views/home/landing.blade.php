@@ -115,8 +115,8 @@
 
   <section id="news" class="project-area solid-bg">
     <div class="container">
-      <div class="row">
-          <div  class="col-lg-4" >
+      <div class="row ">
+          <div  class="col-lg-4 text-center"  >
               <a class="gallery-popup " href="images/Ruenreong.jpg">
                 <img loading="lazy" class="img-fluid w-75 zoom fade-img" src="images/Ruenreong.jpg" alt="img" style="box-shadow: 3px 3px 5px;"> 
             </a>
@@ -147,7 +147,9 @@
   </section>
 
 
+  <div class = "d-none d-sm-block">
+    @include('home.maps')
 
-  @include('home.maps')
+  </div>
 
 @endsection

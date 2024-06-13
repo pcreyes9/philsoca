@@ -1,11 +1,10 @@
 <?php
 
 namespace App\Livewire;
-
 use App\Models\Members;
 use Livewire\Component;
 
-class IDConfirmation extends Component
+class TestLivewire extends Component
 {
     public $PSAid="";
     public $last_name;
@@ -26,6 +25,6 @@ class IDConfirmation extends Component
             $this->last_name=Members::where('PSA_ID', $this->PSAid)->value('LAST_NAME');
             $this->first_name=Members::where('PSA_ID', $this->PSAid)->value('FIRST_NAME');
         }
-        return view('livewire.i-d-confirmation');
+        return view('livewire.test-livewire');
     }
 }

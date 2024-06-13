@@ -3,6 +3,7 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\GalleryController;
 use App\Http\Controllers\DashboardController;
+use App\Livewire\MemReg;
 
 /*
 |--------------------------------------------------------------------------
@@ -61,6 +62,13 @@ Route::get('/leadership_awardee', function () {
 Route::get('/venue', function () {
     return view('home/venue');
 })->name('venue');
+
+Route::get('/registration', [MemReg::class, 'render'])->name('reg');
+
+Route::get('/registration', function () {
+    return view('registration.mem-registration');
+})->name('reg');
+
 
 
 Route::middleware([

@@ -1,10 +1,7 @@
 <x-app-layout>
     <x-slot name="header">
-        <x-nav-link class="pr-3" href="{{ route('dashboard') }}" :active="request()->routeIs('dashboard')">
-            {{ __('Personal Information') }}
-        </x-nav-link>
-        <x-nav-link class="pr-3" href="{{ route('contactInfo') }}" :active="request()->routeIs('contactInfo')">
-            {{ __('Contact Information') }}
+        <x-nav-link class="pr-3" href="{{ route('admin') }}" :active="request()->routeIs('admin')">
+            {{ __('Summary') }}
         </x-nav-link>
     </x-slot>
 
@@ -18,7 +15,7 @@
                         Personal Information
                     </h1>
                     
-                    <form>
+                    {{-- <form>
                         @foreach ($info as $infos )
                             <div class="grid gap-6 mb-6  md:grid-cols-3">
                                 
@@ -79,7 +76,7 @@
                                 <input type="password" id="confirm_password" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 "  required disabled readonlyuired>
                             </div> 
                         @endforeach
-                    </form>
+                    </form> --}}
                 </div>
             </div>
         </div>

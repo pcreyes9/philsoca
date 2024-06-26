@@ -2,58 +2,39 @@
 
 namespace App\Http\Controllers;
 
-use App\Models\Ledger;
-use App\Models\Members;
-use Illuminate\Http\Request;
+
+use App\Exports\ExcelExport;
+use App\Models\Registration;
 use App\Models\PaymentHistory;
 use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Auth;
+use Maatwebsite\Excel\Facades\Excel;
+
 
 class DashboardController extends Controller
 {
-    public $ledger, $info;
+    public $re, $info;
 
     public function dashboard(){
         
         $id = Auth::user()->psa_id;
-        $info = Members::where('PSA_ID', Auth::user()->psa_id)->get();
+        // $info = Members::where('PSA_ID', Auth::user()->psa_id)->get();
 
         // dd($info->toArray());
-        return view("user_account.dashboard", [
-            'info' =>$info
-        ]);
+        return view("user_account.dashboard");
     }
-
-    public function contactInfo(){
-        $info = Members::where('PSA_ID', Auth::user()->psa_id)->get();
-
-        // dd(Auth::user()->psa_id);
-        return view("user_account.contactInfo", [
-            'info' =>$info
-        ]);
-    }
-
-    public function ledger(){
-
-        $ledger = Ledger::where('member_id_no', Auth::user()->psa_id)->orderBy('fiscal_year', 'desc')->get();
-
-        // dd($ledger->toArray());
-        return view("user_account.ledger", [
-            'ledger' => $ledger
-        ]);
-    }
-    public function paymentHistory(){
+    public function viewMemReg (){
+        // $reg = Registration::all()->orderBy('id');
+        $reg = DB::table('registrations')->orderBy('id', 'DESC')->get();
         
-        $ledger = PaymentHistory::select(DB::raw('payment_date, payment_type, or_no, payment_ref_no, SUM(amount_due) as amount'))
-        ->where('member_id_no', Auth::user()->psa_id)
-        ->where('or_no', '>', '0')
-        ->orderBy('fiscal_year', 'desc')
-        ->groupBy('payment_date', 'payment_type', 'or_no','payment_ref_no')
-        ->get();
-
-        // dd(Auth::user()->psa_id);
-        return view("user_account.payment-history", [
-            'ledger' => $ledger
-        ]);
+        // dd($reg->toArray());
+        return view ("user_account.viewMemReg", ['reg' => $reg]);
     }
+
+    public function exportExcel(){
+        // dd("working");
+        return Excel::download(new ExcelExport, 'export-excel.xlsx');
+    }
+
+    
 }

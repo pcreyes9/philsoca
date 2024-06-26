@@ -12,23 +12,15 @@
                 @csrf
                 {{-- <input type="text" wire:model.live='id'>
                 <h1>{{$id}}</h1> --}}
-                <div class="mb-4">
-                    <x-label value="{{ __('PSA ID') }}" />
-                    <x-input wire:keydown.enter='search' wire:model.live='PSAid' value={{$PSAid}} class="block mt-1 w-full" type="text" name="psa_id" required autofocus autocomplete="psa_id"/>
-                </div>
-                <div>
-                    <x-label for="last_name" value="{{ __('Last Name') }}" />
-                    <x-input id="last_name" class="block mt-1 w-full" type="text" name="last_name"  value={{$last_name}} required autofocus autocomplete="last_name" readonly/>
-                </div>
 
                 <div class="mt-4">
-                    <x-label for="first_name" value="{{ __('First Name') }}" />
-                    <x-input id="first_name" class="block mt-1 w-full" type="text" name="first_name"  value={{$first_name}} required autocomplete="first_name" readonly/>
+                    <x-label for="first_name" value="{{ __('Username') }}" />
+                    <x-input id="first_name" class="block mt-1 w-full" type="text" name="username"  required autocomplete="username" />
                 </div>
 
                 <div class="mt-4">
                     <x-label for="email" value="{{ __('Email') }}" />
-                    <x-input id="email" class="block mt-1 w-full" type="email" name="email" :value="old('email')" required autocomplete="username" />
+                    <x-input id="email" class="block mt-1 w-full" type="email" name="email" :value="old('email')" required autocomplete="email" />
                 </div>
 
                 <div class="mt-4">

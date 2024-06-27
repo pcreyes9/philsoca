@@ -6,49 +6,49 @@
         <div class="col-md-2">
             <div class="form-group">
                 <label style=" font-weight: 750; font-size: medium;" >PSA ID</label>
-                <input style="box-shadow: 2px 2px 3px;" class="form-control form-control-name" name="psa_id" required autofocus autocomplete="psa_id" type="number" required  wire:model.live='PSAid' value={{$PSAid}}>
+                <input style="box-shadow: 2px 2px 3px gray; background-color: white; color: black; font-weight: bold;s" class="form-control form-control-name" name="psa_id" required autofocus autocomplete="psa_id" type="number" required  wire:model.live='PSAid' value={{$PSAid}}>
             </div>
         </div>
         <div class="col-md-4">
             <div class="form-group">
                 <label style=" font-weight: 750; font-size: medium;">Last Name </label>
-                <input style="box-shadow: 2px 2px 3px;" class="form-control form-control-name" name="name" id="name" placeholder="" readonly type="text" wire:model="last_name" value={{$last_name}} >
+                <input style="box-shadow: 2px 2px 3px gray; background-color: white; color: black; font-weight: bold;s" class="form-control form-control-name" name="name" id="name" placeholder="" readonly type="text" wire:model="last_name" value={{$last_name}} >
             </div>
         </div>
         <div class="col-md-4">
             <div class="form-group">
                 <label style=" font-weight: 750; font-size: medium;">First Name</label>
-                <input style="box-shadow: 2px 2px 3px;" class="form-control form-control-email" name="text" id="text" placeholder="" readonly type="text" wire:model="first_name" value={{$first_name}}>
+                <input style="box-shadow: 2px 2px 3px gray; background-color: white; color: black; font-weight: bold;s" class="form-control form-control-email" name="text" id="text" placeholder="" readonly type="text" wire:model="first_name" value={{$first_name}}>
             </div>
         </div>
         <div class="col-md-2">
             <div class="form-group">
                 <label style=" font-weight: 750; font-size: medium;">Middle Initial</label>
-                <input style="box-shadow: 2px 2px 3px; text-transform: uppercase;" class="form-control form-control-email" name="text" type="text"  id="text" placeholder=""  readonly wire:model="middle_initial" value={{$middle_initial}}  >
+                <input style="box-shadow: 2px 2px 3px gray; background-color: white; color: black; font-weight: bold;s" class="form-control form-control-email" name="text" type="text"  id="text" placeholder=""  readonly wire:model="middle_initial" value={{$middle_initial}}  >
             </div>
         </div>
         <div class="col-md-6">
             <div class="form-group">
             <label style=" font-weight: 750; font-size: medium;">Name of Hospital</label>
-            <input style="box-shadow: 2px 2px 3px;" class="form-control form-control-subject" name="subject" id="subject" wire:model="hospitalName" placeholder="" required>
+            <input style="box-shadow: 2px 2px 3px gray; background-color: white; color: black; font-weight: bold;s" class="form-control form-control-subject" name="subject" id="subject" wire:model="hospitalName" placeholder="" required>
             </div>
         </div>
         <div class="col-md-6">
             <div class="form-group">
             <label style=" font-weight: 750; font-size: medium;">Address of Hospital</label>
-            <input style="box-shadow: 2px 2px 3px;" class="form-control form-control-subject" name="subject" id="subject" wire:model="hospitalAddress" placeholder="" required>
+            <input style="box-shadow: 2px 2px 3px gray; background-color: white; color: black; font-weight: bold;s" class="form-control form-control-subject" name="subject" id="subject" wire:model="hospitalAddress" placeholder="" required>
             </div>
         </div>
         <div class="col-md-4">
             <div class="form-group">
             <label style=" font-weight: 750; font-size: medium;">Email</label>
-            <input style="box-shadow: 2px 2px 3px;" class="form-control form-control-subject" type="email" name="subject" id="subject" wire:model="email" placeholder="" required>
+            <input style="box-shadow: 2px 2px 3px gray; background-color: white; color: black; font-weight: bold;s" class="form-control form-control-subject" type="email" name="subject" id="subject" wire:model="email" placeholder="" required>
             </div>
         </div>
         <div class="col-md-4">
             <div class="form-group">
             <label style=" font-weight: 750; font-size: medium;">Contact Number</label>
-            <input style="box-shadow: 2px 2px 3px;" class="form-control form-control-subject" type="number" name="subject" id="subject" wire:model="contactNumber" placeholder="" required>
+            <input style="box-shadow: 2px 2px 3px gray; background-color: white; color: black; font-weight: bold;s" class="form-control form-control-subject" type="number" name="subject" id="subject" wire:model="contactNumber" placeholder="" required>
             </div>
         </div>
         <div class="col-md-4">
@@ -169,7 +169,7 @@
             <div class="col-md-6">
                 <div class="form-group">
                     <label style=" font-weight: 750; font-size: medium;">Enter Last Name:</label>
-                    <input style="box-shadow: 2px 2px 3px;" class="form-control form-control-subject" placeholder="" wire:model.live='name'>
+                    <input style="box-shadow: 2px 2px 3px gray; background-color: white; color: black; font-weight: bold;" class="form-control form-control-subject" placeholder="" wire:model.live='name'>
                 </div>
                 <button type="button" class="btn btn-primary solid blank mb-3" wire:click="checker">Check</button>
             </div>
@@ -177,7 +177,7 @@
                 <div class="form-group">
                 <label style=" font-weight: 750; font-size: medium;">PSA ID</label>
                 @if ($this->res !=null)
-                    <textarea class="form-control " rows="5" style=" font-weight: 750; font-size: medium; box-shadow: 2px 2px 3px; text-align:left;" id="message-text" readonly>{{ implode("\n", $res)}}</textarea>
+                    <textarea class="form-control " rows="6" style="box-shadow: 2px 2px 3px gray; background-color: white; color: black; font-weight: bold; text-align:left;" id="message-text" readonly>{{ implode("\n", $res)}}</textarea>
                 @endif
                 </div>
             </div>

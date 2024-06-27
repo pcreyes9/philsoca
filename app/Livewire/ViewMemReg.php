@@ -12,12 +12,12 @@ use Barryvdh\DomPDF\Facade\PDF;
 class ViewMemReg extends Component
 {
     use WithPagination;
-    public $from, $to;
+    public $from, $to, $sort ="id";
 
     public function render()
     {
         // $reg = DB::table('registrations')->orderBy('id', 'DESC')->get()->paginate(5);
-        $reg = Registration::orderBy('id', 'DESC')->paginate(10);
+        $reg = Registration::orderBy($this->sort, 'DESC')->paginate(10);
         
         return view('livewire.view-mem-reg',  ['reg' => $reg]);
 

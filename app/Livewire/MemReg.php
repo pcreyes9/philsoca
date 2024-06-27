@@ -85,7 +85,7 @@ class MemReg extends Component
         else if ( $this->PSAid != "" ||  $this->PSAid != null){
             if(strtolower($this->paymentProof->extension()) == "jpg" || strtolower($this->paymentProof->extension()) == "png" || strtolower($this->paymentProof->extension()) ==  "jpeg" || strtolower($this->paymentProof->extension()) == "gif"){
                 // IMG CERT
-                if($this->imgCert != null && $this->imgCert != ""){
+                if($this->imgCert != null || $this->imgCert != ""){
                     if(strtolower($this->imgCert->extension()) == "jpg" || strtolower($this->imgCert->extension()) == "png" || strtolower($this->imgCert->extension()) ==  "jpeg" || strtolower($this->imgCert->extension()) == "gif"){
                         $imgNameCert = $this->PSAid.' '.$this->last_name . ', ' . $this->first_name . " - Trainee Certification" . '.' . $this->imgCert->extension();
                         $this->imgCert->storeAs('photos/trainee cert', $imgNameCert);

@@ -41,13 +41,14 @@ Route::get('/psa-id-checker', function () {
 
 
 Route::get('/emailsend', function (Request $request){
+    
     $email = $request->query('email');
     $name = $request->query('name');
-
+    
     Mail::to($email)->send(new MyTestEmail($name));
-
+    
     return redirect()->route('reg')->with('success', 'Your registration is on process, Dr. ' . $name . '. We will update you in this email, ' . $email);
-
+    
 })->name('emailsend');
 
 //ADMIN SIDE
@@ -64,6 +65,17 @@ Route::middleware([
         return view('user_account.viewMemReg');
     })->name('viewMemReg');
 
+    Route::get('/admin/viewMemReg/download/trainee/{trainee_cert}', function ($trainee_cert){
+        // dd($trainee_cert);
+        $pathToFile = public_path('storage/photos/trainee cert/'. $trainee_cert);
+        return response()->download($pathToFile);
+    });
+
+    Route::get('/admin/viewMemReg/download/senior/{senior_citizen}', function ($senior_citizen){
+        // dd($trainee_cert);
+        $pathToFile = public_path('storage/photos/senior ids/'. $senior_citizen);
+        return response()->download($pathToFile);
+    });
 
     Route::get('/admin/dashboard/export-excel', function () {
         return Excel::download(new ExcelExport, 'regs.xlsx');

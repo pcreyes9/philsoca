@@ -34,6 +34,9 @@ class MemReg extends Component
         $this->gender=Members::where('member_id_no', $this->PSAid)->value('mem_gender');
         $this->memType=Members::where('member_id_no', $this->PSAid)->value('psa_mem_type');
 
+        if(strlen($this->PSAid) > 4){
+            session()->flash('message', 'Your PSA ID has only 4 digits.');
+        }
         
         if(strlen($this->name) >= 3){
             // dd(strlen($this->name));
@@ -45,8 +48,6 @@ class MemReg extends Component
         // dd($this->res);
         }
             
-        
-
         // if($this->PSAid == ""){
         //     $this->last_name=Members::where('member_id_no', $this->PSAid)->value('mem_last_name');
         //     $this->first_name=Members::where('member_id_no', $this->PSAid)->value('mem_first_name');
@@ -77,13 +78,15 @@ class MemReg extends Component
     }
 
     public function submit (){
+        // dd($this->imgSenior);
+        
 
         $err = "";
         if(Registration::where('psa_id', '=', $this->PSAid)->exists()){
             session()->flash('message', 'You are already registered. If you have any concern about your registration, please kindly reply to the email we sent to '. Registration::where('psa_id', '=', $this->PSAid)->value('email') .'. Thank you!');
         }
         else if ( $this->PSAid != "" ||  $this->PSAid != null){
-            if(strtolower($this->paymentProof->extension()) == "jpg" || strtolower($this->paymentProof->extension()) == "png" || strtolower($this->paymentProof->extension()) ==  "jpeg" || strtolower($this->paymentProof->extension()) == "gif"){
+            if(strtolower($this->paymentProof->extension()) == "heic" || strtolower($this->paymentProof->extension()) == "jpg" || strtolower($this->paymentProof->extension()) == "png" || strtolower($this->paymentProof->extension()) ==  "jpeg" || strtolower($this->paymentProof->extension()) == "gif"){
                 // IMG CERT
                 if($this->imgCert != null || $this->imgCert != ""){
                     if(strtolower($this->imgCert->extension()) == "jpg" || strtolower($this->imgCert->extension()) == "png" || strtolower($this->imgCert->extension()) ==  "jpeg" || strtolower($this->imgCert->extension()) == "gif"){
@@ -100,7 +103,8 @@ class MemReg extends Component
                 }
                 
                 //IMG SENIOR
-                if($this->imgSenior != null && $this->imgSenior != ""){
+                // dd($this->senior);
+                if($this->imgSenior != null && $this->imgSenior != "" && $this->senior == "yesSen"){
                     if(strtolower($this->imgSenior->extension()) == "jpg" || strtolower($this->imgSenior->extension()) == "png" || strtolower($this->imgSenior->extension()) ==  "jpeg" || strtolower($this->imgSenior->extension()) == "gif"){
                         $imgNameSenior = $this->PSAid.' '.$this->last_name . ', ' . $this->first_name . " - Senior ID" . '.' . $this->imgSenior->extension();
                         $this->imgSenior->storeAs('photos/senior ids', $imgNameSenior);
@@ -113,11 +117,9 @@ class MemReg extends Component
                 else{
                     $imgNameSenior = "Not available";
                 }
-                
     
                 $imgNamePayment = $this->PSAid.' '.$this->last_name . ', ' . $this->first_name . " - Proof of Payment" . '.' . $this->paymentProof->extension();
                 $this->paymentProof->storeAs('photos/proof of payments', $imgNamePayment);
-    
     
                 if($err != ""){
                     session()->flash('message', $err);
@@ -143,10 +145,12 @@ class MemReg extends Component
                     
                     session()->flash('message', 'YOU ARE REGISTERED SUCCESSFULLY, DR ' . $this->last_name . '!');
                     // dd($this->email);
+                    
                     return redirect()->route('emailsend', ['email' => $this->email, 'name' => $this->last_name]);
+                    // sleep(seconds: 3);
                     return $this->cleanvars();
+                    
                 }
-                
             }
             else{
                 session()->flash('message', 'Invalid file format of proof of payment.');
@@ -155,6 +159,7 @@ class MemReg extends Component
     }
 
     public function cleanvars(){
+        
         $imgName = "";
         $this->imgCert = "";
         $this->paymentProof = "";

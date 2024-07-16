@@ -12,15 +12,36 @@ use Barryvdh\DomPDF\Facade\PDF;
 class ViewMemReg extends Component
 {
     use WithPagination;
-    public $from, $to, $sort ="id";
+    public $from, $to, $sort ="regNew", $sortName="Registration ID";
 
     public function render()
     {
-        // $reg = DB::table('registrations')->orderBy('id', 'DESC')->get()->paginate(5);
-        $reg = Registration::orderBy($this->sort, 'DESC')->paginate(10);
-        
-        return view('livewire.view-mem-reg',  ['reg' => $reg]);
+        if($this->sort == 'regNew'){
+            $reg = Registration::orderBy('id', 'DESC')->paginate(10);
+            $this->sortName="Registration ID (newest)";
+        }
+        else if($this->sort == 'regOld'){
+            $reg = Registration::orderBy('id', 'ASC')->paginate(10);
+            $this->sortName="Registration ID (oldest)";
+        }
+        else if($this->sort == 'psaIDNew'){
+            $reg = Registration::orderBy('psa_id', 'DESC')->paginate(10);
+            $this->sortName="PSA ID (newest)";
+        }
+        else if($this->sort == 'psaIDOld'){
+            $reg = Registration::orderBy('psa_id', 'ASC')->paginate(10);
+            $this->sortName="PSA ID (oldest)";
+        }
+        else if ($this->sort == 'dateNew'){
+            $reg = Registration::orderBy('created_at', 'DESC')->paginate(10);
+            $this->sortName="Date of Registration (newest)";
+        }
+        else if ($this->sort == 'dateOld'){
+            $reg = Registration::orderBy('created_at', 'ASC')->paginate(10);
+            $this->sortName="Date of Registration (oldest)";
+        }
 
+        return view('livewire.view-mem-reg',  ['reg' => $reg]);
     }
 
     public function exportPDF(){

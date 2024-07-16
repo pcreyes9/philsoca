@@ -11,7 +11,7 @@ use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\GalleryController;
 use App\Http\Controllers\DashboardController;
-use Barryvdh\DomPDF\Facade\PDF;
+use Barryvdh\DomPDF\Facade\Pdf;
 
 /*
 |--------------------------------------------------------------------------
@@ -35,19 +35,27 @@ Route::get('/venue', function () {
 Route::get('/registration', function () {
     return view('registration.mem-registration');
 })->name('reg');
+
 Route::get('/psa-id-checker', function () {
     return view('registration.psa-id-checker');
 })->name('psaID-checker');
 
+Route::get('/organizing-committee', function () {
+    return view('home/pages/organizing-committee');
+})->name('orgCom');
+
+
+
 
 Route::get('/emailsend', function (Request $request){
+    
     $email = $request->query('email');
     $name = $request->query('name');
-
+    
     Mail::to($email)->send(new MyTestEmail($name));
-
+    
     return redirect()->route('reg')->with('success', 'Your registration is on process, Dr. ' . $name . '. We will update you in this email, ' . $email);
-
+    
 })->name('emailsend');
 
 //ADMIN SIDE
@@ -64,6 +72,17 @@ Route::middleware([
         return view('user_account.viewMemReg');
     })->name('viewMemReg');
 
+    Route::get('/admin/viewMemReg/download/trainee/{trainee_cert}', function ($trainee_cert){
+        // dd($trainee_cert);
+        $pathToFile = public_path('storage/photos/trainee cert/'. $trainee_cert);
+        return response()->download($pathToFile);
+    });
+
+    Route::get('/admin/viewMemReg/download/senior/{senior_citizen}', function ($senior_citizen){
+        // dd($trainee_cert);
+        $pathToFile = public_path('storage/photos/senior ids/'. $senior_citizen);
+        return response()->download($pathToFile);
+    });
 
     Route::get('/admin/dashboard/export-excel', function () {
         return Excel::download(new ExcelExport, 'regs.xlsx');

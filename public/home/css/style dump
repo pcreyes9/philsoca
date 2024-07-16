@@ -15,12 +15,9 @@ Description: Constra - Construction Html5 Template
 }
 
 
+
+
 /* MY OWN CSS */
-
-.borderless td, .borderless th {
-  border: none;
-}
-
 .loader{
   position: fixed;
   top: 0;
@@ -65,11 +62,6 @@ Description: Constra - Construction Html5 Template
 body {
   background: #fff;
   color: #555;
-}
-
-/* TABLE  */
-table{
-  font-size: large;
 }
 
 body,
@@ -746,7 +738,8 @@ ul.top-info li p.info-text {
 
 .header-one,
 .header-one .site-navigation {
-  background: #000066;
+  background: rgb(0, 0, 102, 0.90);
+  padding-bottom: 2px;
 }
 
 .header-one .navbar-collapse {
@@ -805,9 +798,12 @@ ul.navbar-nav > li > a {
   }
 }
 
+/* MENU HOVER COLOR */
 ul.navbar-nav > li:hover > a,
 ul.navbar-nav > li.active > a {
   color: #03ac13 !important;
+  background-color: #808080 !important;
+  padding: 5px 6px 5px 6px !important;
 }
 
 /*-- Logo --*/
@@ -1035,18 +1031,24 @@ ul.navbar-nav > li > a:after {
   display: none;
 }
 
+/* MENU TEXT NAVBAR  */
 ul.navbar-nav > li > a {
   font-family: "Montserrat", sans-serif;
-  color: #fff !important;
+  color: #000000 !important;
   text-rendering: optimizeLegibility;
   font-weight: 700 !important;
   text-transform: uppercase;
   letter-spacing: -.2px;
   font-size: 14px;
-  margin: 0;
+  margin: 4px 1px 4px 1px;
   line-height: 40px;
-  padding: 30px 0;
+  /* padding: 30px 0; */
   transition: 350ms;
+
+  background-color: #ffffff;
+  padding: 3px 5px 3px 5px !important;
+  box-shadow: 3px 3px 4px #888888;
+  border-radius: 5px;
 }
 
 .navbar-light ul.navbar-nav > li > a {

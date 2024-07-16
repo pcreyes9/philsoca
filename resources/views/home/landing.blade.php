@@ -10,11 +10,13 @@
             <div class="container h-100">
                 <div class="row align-items-center h-100">
                     <div class="text-center col-md-12">
-                    <h2 class="slide-title" data-animation-in="slideInLeft">17 Years of excellence in</h2>
-                    <h3 class="slide-sub-title" data-animation-in="slideInRight">Construction Industry</h3>
+                    <h2 class="slide-title" data-animation-in="slideInLeft">Asean Congress of Anesthesiologists 2025</h2>
+                    <h3 class="slide-sub-title" data-animation-in="slideInRight">Shaping the Future
+                      of Perioperative  Patient Care
+                      </h3>
                     <p data-animation-in="slideInLeft" data-duration-in="1.2">
-                        <a href="services.html" class="slider btn btn-primary">Our Services</a>
-                        <a href="contact.html" class="border slider btn btn-primary">Contact Now</a>
+                        <a href="{{route('reg')}}" class="slider btn btn-primary">Register Now!</a>
+                        {{-- <a href="contact.html" class="border slider btn btn-primary">Contact Now</a> --}}
                     </p>
                     </div>
                 </div>
@@ -79,9 +81,9 @@
 
   <section id="ts-features" class="ts-features">
     <div class="container" >
-      <div class="row justify-content-center">
-          <div class="mt-5 col-lg-9">
-            <h3 class=" into-sub-title">Dear All 23rd ACA 2023 Participants,</h3>
+      <div class="row justify-content-center" data-animation-in="slideInLeft" data-duration-in="1.2">
+          <div class="mt-5 col-lg-9 " >
+            <h3 class=" into-sub-title" >Dear All 23rd ACA 2023 Participants,</h3>
             <p class="hotel-p">
               <br>
               On behalf of the organizing committee of the 23rd ASEAN Congress of Anesthesiologists 2023 (ACA 2023) in conjunction with the 98th Annual Scientific Meeting of the Royal College of Anesthesiologists of Thailand, I would like to extend our heartfelt gratitude for your invaluable participation at the congress.

@@ -66,11 +66,10 @@ class MemReg extends Component
             $this->show = false;
         else
             $this->show = true; 
-        
-        
     }
     public function checker(){
         $this->res=array();
+        
         $this->list=DB::table('members')->where('mem_last_name', 'like', '%'.$this->name )->orWhere('mem_last_name', 'like', $this->name .'%' )->get()->toArray();
         foreach($this->list as $lis){
             $this->res [] = $lis->member_id_no . ' - ' . $lis->mem_last_name . ', ' . $lis->mem_first_name;
@@ -79,8 +78,6 @@ class MemReg extends Component
 
     public function submit (){
         // dd($this->imgSenior);
-        
-
         $err = "";
         if(Registration::where('psa_id', '=', $this->PSAid)->exists()){
             session()->flash('message', 'You are already registered. If you have any concern about your registration, please kindly reply to the email we sent to '. Registration::where('psa_id', '=', $this->PSAid)->value('email') .'. Thank you!');

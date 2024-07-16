@@ -42,7 +42,6 @@ class ViewMemReg extends Component
         }
 
         return view('livewire.view-mem-reg',  ['reg' => $reg]);
-
     }
 
     public function exportPDF(){

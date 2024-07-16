@@ -11,7 +11,7 @@ use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\GalleryController;
 use App\Http\Controllers\DashboardController;
-use Barryvdh\DomPDF\Facade\PDF;
+use Barryvdh\DomPDF\Facade\Pdf;
 
 /*
 |--------------------------------------------------------------------------
@@ -35,9 +35,16 @@ Route::get('/venue', function () {
 Route::get('/registration', function () {
     return view('registration.mem-registration');
 })->name('reg');
+
 Route::get('/psa-id-checker', function () {
     return view('registration.psa-id-checker');
 })->name('psaID-checker');
+
+Route::get('/organizing-committee', function () {
+    return view('home/pages/organizing-committee');
+})->name('orgCom');
+
+
 
 
 Route::get('/emailsend', function (Request $request){

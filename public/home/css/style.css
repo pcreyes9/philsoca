@@ -17,6 +17,23 @@ Description: Constra - Construction Html5 Template
 
 /* MY OWN CSS */
 
+.master-bg{
+  /* background-image: url(images/bg/master.jpg) !important; */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+
+  overflow: hidden;
+  background-size: 100% 100%;   
+
+  opacity: 0.4;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+}
+
 .borderless td, .borderless th {
   border: none;
 }

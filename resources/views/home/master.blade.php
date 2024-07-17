@@ -36,8 +36,19 @@
                 <!--/ Navigation end -->
             </header>
             <!--/ Header end -->
+            
+            {{-- style="background-image:url(images/bg/master.jpg); " --}}
 
-            @yield('content')
+            <div style="overflow: hidden; position: relative;">
+                <img class="master-bg" src="images/bg/master.jpg" alt="">
+                <div style="position: relative">
+                    @yield('content')
+                </div>
+            </div>
+
+            
+
+            {{-- @yield('content') --}}
             @livewireScripts
 
             <footer id="footer" class="footer bg-overlay">

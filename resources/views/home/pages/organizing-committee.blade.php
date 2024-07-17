@@ -9,7 +9,7 @@
         <div class="container" >
             <div class="row justify-content-center" data-animation-in="slideInLeft" data-duration-in="1.2">
                 <div class="col-lg-12 " >
-                    <h3 class="into-sub-title" >The 24rd ASEAN Congress of Anesthesiologists (ACA 2024) Organizing Committee</h3>
+                    <h3 class="into-sub-title" >The 24th ASEAN Congress of Anesthesiologists (ACA 2024) Organizing Committee</h3>
                     <div class="row justify-content-center mt-5">
                         <div class="col-auto">
                             <table class="table borderless text-left table-responsive" >

@@ -32,7 +32,7 @@
               <h3 class="slide-title" data-animation-in="fadeIn">Asean Congress of Anesthesiologists 2025</h3>
               <h3 class="slide-sub-title" data-animation-in="slideInLeft">Shaping the Future of Perioperative  Patient Care</h3>
               <p data-animation-in="slideInRight">
-                  <a href="services.html" class="border slider btn btn-primary">Register Now!</a>
+                  <a href="{{route('reg')}}" class="border slider btn btn-primary">Register Now!</a>
               </p>
             </div>
           </div>

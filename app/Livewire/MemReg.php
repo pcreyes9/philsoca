@@ -2,6 +2,7 @@
 
 namespace App\Livewire;
 
+use Carbon\Carbon;
 use App\Models\Members;
 use Livewire\Component;
 use App\Livewire\Request;
@@ -77,7 +78,8 @@ class MemReg extends Component
     }
 
     public function submit (){
-        // dd($this->imgSenior);
+        $date = Carbon::now();
+        // dd($date->toDateTimeString());
         $err = "";
         if(Registration::where('psa_id', '=', $this->PSAid)->exists()){
             session()->flash('message', 'You are already registered. If you have any concern about your registration, please kindly reply to the email we sent to '. Registration::where('psa_id', '=', $this->PSAid)->value('email') .'. Thank you!');
@@ -87,7 +89,7 @@ class MemReg extends Component
                 // IMG CERT
                 if($this->imgCert != null || $this->imgCert != ""){
                     if(strtolower($this->imgCert->extension()) == "jpg" || strtolower($this->imgCert->extension()) == "png" || strtolower($this->imgCert->extension()) ==  "jpeg" || strtolower($this->imgCert->extension()) == "gif"){
-                        $imgNameCert = $this->PSAid.' '.$this->last_name . ', ' . $this->first_name . " - Trainee Certification" . '.' . $this->imgCert->extension();
+                        $imgNameCert = $this->PSAid.' '.$this->last_name . ', ' . $this->first_name . " - Trainee Certification " . $date->toDateTimeString() . '.' . $this->imgCert->extension();
                         $this->imgCert->storeAs('photos/trainee cert', $imgNameCert);
                     }
                     else{
@@ -103,7 +105,7 @@ class MemReg extends Component
                 // dd($this->senior);
                 if($this->imgSenior != null && $this->imgSenior != "" && $this->senior == "yesSen"){
                     if(strtolower($this->imgSenior->extension()) == "jpg" || strtolower($this->imgSenior->extension()) == "png" || strtolower($this->imgSenior->extension()) ==  "jpeg" || strtolower($this->imgSenior->extension()) == "gif"){
-                        $imgNameSenior = $this->PSAid.' '.$this->last_name . ', ' . $this->first_name . " - Senior ID" . '.' . $this->imgSenior->extension();
+                        $imgNameSenior = $this->PSAid.' '.$this->last_name . ', ' . $this->first_name . " - Senior ID " . $date->toDateTimeString() . '.' . $this->imgSenior->extension();
                         $this->imgSenior->storeAs('photos/senior ids', $imgNameSenior);
                     }
                     else{
@@ -115,7 +117,7 @@ class MemReg extends Component
                     $imgNameSenior = "Not available";
                 }
     
-                $imgNamePayment = $this->PSAid.' '.$this->last_name . ', ' . $this->first_name . " - Proof of Payment" . '.' . $this->paymentProof->extension();
+                $imgNamePayment = $this->PSAid.' '.$this->last_name . ', ' . $this->first_name . " - Proof of Payment " . $date->toDateTimeString() .'.' . $this->paymentProof->extension();
                 $this->paymentProof->storeAs('photos/proof of payments', $imgNamePayment);
     
                 if($err != ""){

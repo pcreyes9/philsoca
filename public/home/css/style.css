@@ -613,21 +613,23 @@ a[href^=tel] {
 
 .btn-white.btn-primary {
   background: #fff;
-  color: #b90d21;
+  color: #000066;
 }
 
 .btn-primary {
-  background: #b90d21;
+  background: #000066;
 }
 
 .btn-dark {
-  background: #000066;
+  background: #b90d21;
 }
 
-.btn-primary:hover,
+.btn-primary:hover{
+  background: #5555e5;
+}
 .btn-dark:hover,
 .btn-white.btn-primary:hover {
-  background: #000066;
+  background: #d44858;
   color: #fff;
 }
 
@@ -1499,7 +1501,7 @@ ul.navbar-nav > li.header-get-a-quote:hover > a:after {
 .slick-dots li button:hover:before, .slick-dots .slick-dots li button:focus:before,
 .slick-dots li.slick-active button:before {
   opacity: 1;
-  color: #b90d21;
+  color: #000066;
 }
 
 .slick-slide {

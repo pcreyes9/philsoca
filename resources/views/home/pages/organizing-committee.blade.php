@@ -5,7 +5,7 @@
 
 @section('content')
     @include('home.banner')
-    <section id="main-container" class="main-container text-center project-area solid-bg">
+    <section id="main-container" class="main-container text-center project-area">
         <div class="container" >
             <div class="row justify-content-center" data-animation-in="slideInLeft" data-duration-in="1.2">
                 <div class="col-lg-12 " >

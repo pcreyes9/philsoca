@@ -6,7 +6,7 @@ use Livewire\Component;
 use App\Models\Registration;
 use Livewire\WithPagination;
 use Illuminate\Support\Facades\DB;
-use Barryvdh\DomPDF\Facade\PDF;
+use Barryvdh\DomPDF\Facade\Pdf;
 
 
 class ViewMemReg extends Component
@@ -46,7 +46,7 @@ class ViewMemReg extends Component
 
     public function exportPDF(){
         $info = Registration::where('id', '>=' , $this->from)->where('id', '<=' , $this->to)->get();
-        $pdf = PDF::loadView('exportPDF', [
+        $pdf = Pdf::loadView('exportPDF', [
             'info' => $info
         ]);
         return response()->streamDownload(function () use ($pdf) { echo $pdf->stream(); }, 'Registration ID ' . $this->from . ' - ' . $this->to .'.pdf');

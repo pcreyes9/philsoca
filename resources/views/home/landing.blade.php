@@ -15,7 +15,7 @@
                 of Perioperative  Patient Care
               </h3>
               <p data-animation-in="slideInLeft" data-duration-in="1.2">
-                  <a href="{{route('reg')}}" class="slider btn btn-primary">Register Now!</a>
+                  <a href="{{route('reg')}}" class="slider btn btn-primary">Register Now! TESTING HOME LAPTOP</a>
               </p>
             </div>
           </div>

@@ -124,8 +124,8 @@
             </div>
         </div>
         <div class="d-grid gap-4 mt-4">
-            <a href="{{route('memReg')}}" class="btn btn-primary mb-2" style="font-size: 20px">Local Registration</a>
-            <a href="#" class="btn btn-dark mb-2" style="font-size: 20px">International Registration</a>
+            <a href="{{route('memReg')}}" class="btn btn-primary mb-1" style="font-size: 20px">Local Registration</a>
+            <a href="#" class="btn btn-dark mb-1" style="font-size: 20px">International Registration</a>
         </div>
     </div>
 </section><!-- Main container end -->

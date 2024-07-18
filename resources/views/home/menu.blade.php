@@ -9,14 +9,14 @@
           <div id="navbar-collapse" class="collapse navbar-collapse opa">
             <ul class="mr-auto nav navbar-nav">
               <li class="nav-item" ><a class="nav-link" href="{{route('home')}}" >HOME</a></li>
-              <li class="nav-item"><a class="nav-link" href="{{route('home')}}">SCIENTIFIC PROGRAM</a></li>
+              {{-- <li class="nav-item"><a class="nav-link" href="{{route('home')}}">SCIENTIFIC PROGRAM</a></li> --}}
               <li class="nav-item"><a class="nav-link" href="{{route('orgCom')}}">ORGANIZING COMMITTEE</a></li>
               <li class="nav-item"><a class="nav-link" href="{{route('reg')}}">REGISTRATION</a></li>
-              <li class="nav-item"><a class="nav-link" href="{{route('home')}}">ABSTRACT SUBMISSION</a></li>
-              <li class="nav-item"><a class="nav-link" href="{{route('home')}}">SPONSORSHIP & EXHIBITION</a></li>
-              <li class="nav-item"><a class="nav-link" href="{{route('venue')}}">VENUE</a></li>
-              <li class="nav-item"><a class="nav-link" href="{{route('home')}}">ACCOMMODATIONS</a></li>
-              <li class="nav-item"><a class="nav-link" href="{{route('home')}}">CONTACT</a></li>
+              {{-- <li class="nav-item"><a class="nav-link" href="{{route('home')}}">ABSTRACT SUBMISSION</a></li> --}}
+              {{-- <li class="nav-item"><a class="nav-link" href="{{route('home')}}">SPONSORSHIP & EXHIBITION</a></li> --}}
+              {{-- <li class="nav-item"><a class="nav-link" href="{{route('venue')}}">VENUE</a></li> --}}
+              {{-- <li class="nav-item"><a class="nav-link" href="{{route('home')}}">ACCOMMODATIONS</a></li> --}}
+              {{-- <li class="nav-item"><a class="nav-link" href="{{route('home')}}">CONTACT</a></li> --}}
             </ul>
           </div>
         </nav>

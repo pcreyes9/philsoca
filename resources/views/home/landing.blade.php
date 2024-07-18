@@ -133,7 +133,7 @@
         </div><!-- Col end -->
       </div><!-- Row end -->
     </div>
-    <hr class="solid" style="border-top: 2px solid #bbb;">
+    {{-- <hr class="solid" style="border-top: 2px solid #bbb;"> --}}
   </section>
 
   <div class = "d-none d-sm-block">

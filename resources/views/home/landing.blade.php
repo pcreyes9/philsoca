@@ -23,7 +23,7 @@
       </div>
     </div>
     {{-- TESTING --}}
-    <div class="banner-carousel-item" style="background-image:url(images/slider-main/slider4.jpg)">
+    <div class="banner-carousel-item" style="background-image:url(images/slider-main/luneta3.jpg)">
       <div class="text-left slider-content">
         <div class="container h-100 ">
           <div class="row align-items-center h-100 ">

@@ -105,7 +105,20 @@ p {
   font-size: 19px;
   text-align: justify;
   letter-spacing: 1px;
-  
+  /* font-weight: 700; */
+  /* color: black; */
+}
+
+.para-head{
+  font-family: "Open Sans", sans-serif;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased !important;
+  line-height: 26px;
+  font-size: 19px;
+  text-align: justify;
+  letter-spacing: 1px;
+   font-weight: 700;
+  color: black;
 }
 .hotel-col {
   font-family: 'Montserrat', sans-serif;
@@ -368,6 +381,15 @@ a:focus {
 }
 
 /* Title Border */
+
+.section-header{
+  font-size: 25px;
+  line-height: 28px;
+  letter-spacing: 1px;
+  margin: 0;
+  text-transform: uppercase;
+  font-weight: 300;
+}
 /* Section title */
 .section-title {
   font-size: 18px;

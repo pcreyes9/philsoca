@@ -1,6 +1,5 @@
 
 <form wire:submit.prevent="submit">
-    
     {{-- <div wire:loading>LOADING...</div> --}}
     @csrf
     <div class="error-container"></div>
@@ -155,8 +154,6 @@
                 {{ session('message') }}
             </div>
         @endif
-
-
         {{-- <div class="form-group">
             <label>Message</label>
             <textarea class="form-control form-control-message" name="message" id="message" placeholder="" rows="10" required></textarea>

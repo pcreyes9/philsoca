@@ -76,33 +76,21 @@
   <section id="ts-features" class="ts-features">
     <div class="container" >
       <div class="row justify-content-center" data-animation-in="slideInLeft" data-duration-in="1.2">
-        <div class="mt-5 col-lg-9 " >
-          <h3 class=" into-sub-title" >Dear All 23rd ACA 2023 Participants,</h3>
+        <div class="mt-3 col-lg-9 " >
+          <h3 class=" into-sub-title" >Dear All 24th ACA 2025 Participants,</h3>
           <p class="hotel-p">
-            <br>
-            On behalf of the organizing committee of the 23rd ASEAN Congress of Anesthesiologists 2023 (ACA 2023) in conjunction with the 98th Annual Scientific Meeting of the Royal College of Anesthesiologists of Thailand, I would like to extend our heartfelt gratitude for your invaluable participation at the congress.
-            <br>
-            <br>
-            The success of the 23rd ACA 2023 hinged on the commitment and unwavering support of individuals like you. Your active engagement, insightful contributions, and dedication to advancing the field of anesthesiology greatly enriched our event and left an indelible mark.
-            Your presence not only contributed to the exchange of knowledge and ideas but also fostered meaningful connections within our community. The positive impact of your involvement will resonate long after the conference concludes, influencing the practice and progress of anesthesiology in our region.
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas semper nunc nec ornare ornare. Nam sagittis elit ac ligula bibendum condimentum. In sodales, neque et tincidunt congue, lorem dui interdum arcu, id lobortis tortor nibh quis magna. Pellentesque sit amet semper turpis, non feugiat tellus. Duis malesuada nibh nec suscipit volutpat. 
             <br>
             <br>
-            We sincerely appreciate the time and effort you invested in making ACA 2023 a resounding success. Your willingness to share your expertise and experiences played a pivotal role in enhancing the quality of our scientific discussions and workshops.
+            Phasellus ut enim id turpis euismod fermentum quis eu eros. Vestibulum rhoncus ante tellus, a iaculis turpis placerat eget. Fusce vel libero id est ullamcorper sagittis. Integer ullamcorper lacus non justo tincidunt porttitor. Duis ornare sollicitudin mi quis dignissim. Duis imperdiet justo nec tellus pellentesque, vel porta eros sodales. Etiam et convallis odio. Mauris interdum tortor augue, in dictum leo congue eu. Morbi a mauris consectetur ipsum finibus ultricies.
             <br>
             <br>
-            As we reflect on the exceptional moments and learning opportunities that ACA 2023 provided, we are reminded of the collaborative spirit that defines our field. Your contributions have reinforced our belief in the power of collective knowledge and collaboration.
-            <br>
-            <br>
-            Once again, thank you for your invaluable contribution to the 23rd ASEAN Congress of Anesthesiologists 2023. We look forward to the possibility of future collaborations and hope to continue our journey together in advancing the practice of anesthesiology.
-            <br>
-            <br>
-            If you have any feedback or suggestions about the congress, please feel free to share them with us. Your insights are invaluable in helping us improve future events.
-            Wishing you continued success in your endeavors, and we hope to meet again soon.
+            Nam ultricies est ac enim condimentum, id euismod ante porttitor. Nam bibendum cursus urna ac imperdiet. Cras semper, dolor fringilla molestie scelerisque, urna nulla consectetur justo, eu egestas urna ipsum quis purus. Pellentesque elementum in tellus eu volutpat. In sollicitudin est ex, eget pharetra risus scelerisque vitae. Sed dictum dolor nec mauris scelerisque efficitur sit amet vel quam. Nunc et rutrum est. Nunc tempor placerat diam, sit amet mattis eros semper nec.
           </p>
           <h2>
             Warm regards,
             <br>
-            23rd ACA 2023 Congress Organizing Committee
+            24th ACA 2025 Congress Organizing Committee
           </h2>
         </div><!-- Col end -->
       </div><!-- Row end -->
@@ -113,26 +101,34 @@
     <div class="container">
       <div class="row ">
         <div  class="col-lg-4 text-center"  >
-          <a class="gallery-popup " href="images/Ruenreong.jpg">
-            <img loading="lazy" class="img-fluid w-75 zoom fade-img" src="images/Ruenreong.jpg" alt="img" style="box-shadow: 3px 3px 5px;"> 
+          <a class="gallery-popup wrapper" href="images/PSA President 2024.jpg">
+            <img id="slide" class="img-fluid w-75 zoom fade-img" src="images/PSA President 2024.jpg" alt="img" style="box-shadow: 3px 3px 5px;"> 
           </a>
         </div>
-
+        
         <div class="col-lg-8 mt-4 mt-lg-0">
           {{-- <h3 class="into-sub-title">Our Values</h3> --}}
           <p class="hotel-p">Dear All,
             <br>
             <br>
-            As the President of the Royal College of Anesthesiologists of Thailand (RCAT), it is my great pleasure to graciously welcome you to our 23rd ASEAN Congress of Anesthesiologists (ACA2023). The ACA was established by the collaboration and cooperation of its members across ASEAN countries. The mission is to provide a forum for the anesthesiologists to have excellent opportunities to exchange their mutual interests and experiences and share current advanced knowledge in anesthesia, critical care and pain medicine.
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas semper nunc nec ornare ornare. Nam sagittis elit ac ligula bibendum condimentum. In sodales, neque et tincidunt congue, lorem dui interdum arcu, id lobortis tortor nibh quis magna. Pellentesque sit amet semper turpis, non feugiat tellus. Duis malesuada nibh nec suscipit volutpat. 
             <br>
             <br>
-            Since its inception, the ACA has held its scientific meeting regularly every two years. The meeting venue has been voluntarily rotated among the member countries. However, the effect of the global pandemic of the COVID-19 era has precluded only our on-site meetings, but our relationships remain. The situation is improving, and Thailand has the great opportunity to return our relationships by hosting this ACA2023.
+            Phasellus ut enim id turpis euismod fermentum quis eu eros. Vestibulum rhoncus ante tellus, a iaculis turpis placerat eget. Fusce vel libero id est ullamcorper sagittis. Integer ullamcorper lacus non justo tincidunt porttitor. Duis ornare sollicitudin mi quis dignissim. Duis imperdiet justo nec tellus pellentesque, vel porta eros sodales. Etiam et convallis odio. Mauris interdum tortor augue, in dictum leo congue eu. Morbi a mauris consectetur ipsum finibus ultricies.
             <br>
             <br>
-            I would like to take this opportunity to humbly invite all of you to join this resuming scientific congress. I do hope our hosting of the ACA2023 will be a fruitful and appropriate platform for communication academically and socially among our members to share their valued and distinctive experiences.
+            Nam ultricies est ac enim condimentum, id euismod ante porttitor. Nam bibendum cursus urna ac imperdiet. Cras semper, dolor fringilla molestie scelerisque, urna nulla consectetur justo, eu egestas urna ipsum quis purus. Pellentesque elementum in tellus eu volutpat. In sollicitudin est ex, eget pharetra risus scelerisque vitae. Sed dictum dolor nec mauris scelerisque efficitur sit amet vel quam. Nunc et rutrum est. Nunc tempor placerat diam, sit amet mattis eros semper nec.
             <br>
             <br>              
             Best wishes and kind regards,
+            <br>
+            <br>
+            <strong>
+              Peñafrancia C. Cano
+              <br>
+              President, Philippine Society of Anesthesiologists
+            </strong>    
+            
           </p>
         </div><!-- Col end -->
       </div><!-- Row end -->

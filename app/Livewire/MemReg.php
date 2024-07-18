@@ -78,7 +78,7 @@ class MemReg extends Component
     }
 
     public function submit (){
-        $date = Carbon::now();
+        $date = Carbon::now()->format('mdy - his');
         // dd($date->toDateTimeString());
         $err = "";
         if(Registration::where('psa_id', '=', $this->PSAid)->exists()){
@@ -89,7 +89,7 @@ class MemReg extends Component
                 // IMG CERT
                 if($this->imgCert != null || $this->imgCert != ""){
                     if(strtolower($this->imgCert->extension()) == "jpg" || strtolower($this->imgCert->extension()) == "png" || strtolower($this->imgCert->extension()) ==  "jpeg" || strtolower($this->imgCert->extension()) == "gif"){
-                        $imgNameCert = $this->PSAid.' '.$this->last_name . ', ' . $this->first_name . " - Trainee Certification " . $date->toDateTimeString() . '.' . $this->imgCert->extension();
+                        $imgNameCert = $this->PSAid.' '.$this->last_name . " - Trainee Certification " . $date . '.' . $this->imgCert->extension();
                         $this->imgCert->storeAs('photos/trainee cert', $imgNameCert);
                     }
                     else{
@@ -105,7 +105,7 @@ class MemReg extends Component
                 // dd($this->senior);
                 if($this->imgSenior != null && $this->imgSenior != "" && $this->senior == "yesSen"){
                     if(strtolower($this->imgSenior->extension()) == "jpg" || strtolower($this->imgSenior->extension()) == "png" || strtolower($this->imgSenior->extension()) ==  "jpeg" || strtolower($this->imgSenior->extension()) == "gif"){
-                        $imgNameSenior = $this->PSAid.' '.$this->last_name . ', ' . $this->first_name . " - Senior ID " . $date->toDateTimeString() . '.' . $this->imgSenior->extension();
+                        $imgNameSenior = $this->PSAid .' '. $this->last_name . " - Senior ID " . $date . '.' . $this->imgSenior->extension();
                         $this->imgSenior->storeAs('photos/senior ids', $imgNameSenior);
                     }
                     else{
@@ -116,8 +116,8 @@ class MemReg extends Component
                 else{
                     $imgNameSenior = "Not available";
                 }
-    
-                $imgNamePayment = $this->PSAid.' '.$this->last_name . ', ' . $this->first_name . " - Proof of Payment " . $date->toDateTimeString() .'.' . $this->paymentProof->extension();
+                // dd($date);
+                $imgNamePayment = $this->PSAid.' '.$this->last_name . " - Proof of Payment " . $date .'.' . $this->paymentProof->extension();
                 $this->paymentProof->storeAs('photos/proof of payments', $imgNamePayment);
     
                 if($err != ""){

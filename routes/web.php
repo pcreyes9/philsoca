@@ -33,8 +33,12 @@ Route::get('/venue', function () {
 })->name('venue');
 
 Route::get('/registration', function () {
-    return view('registration.mem-registration');
+    return view('home/pages/registration-details');
 })->name('reg');
+
+Route::get('/mem-registration', function () {
+    return view('registration.mem-registration');
+})->name('memReg');
 
 Route::get('/psa-id-checker', function () {
     return view('registration.psa-id-checker');

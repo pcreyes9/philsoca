@@ -11,7 +11,7 @@
         <div class="row justify-content-center mb-5" data-animation-in="slideInLeft" data-duration-in="1.2">
             <div class="col-lg-12 mb-5" >
                 <h3 class="into-sub-title" >The 24th ASEAN Congress of Anesthesiologists (ACA 2024)</h3>
-                <h3 class="section-header">23rd - 25th October 2025 | Manila Marriott Hotel | Pasay | Philippines</h3>
+                <h3 class="section-header">23rd - 25th October 2025 | Manila Marriott Hotel | Pasay City | Philippines</h3>
             </div>
             <div class="col-lg-9 mt-4 mt-lg-0">
                 <p class="para-head">Registration Guidelines</p>
@@ -123,9 +123,9 @@
                 </p>
             </div>
         </div>
-        <div class="d-grid gap-2 w-full mt-4">
-            <a href="{{route('memReg')}}" class="btn btn-primary" style="font-size: 20px">Local Registration</a>
-            <a href="#" class="btn btn-dark" style="font-size: 20px">International Registration</a>
+        <div class="d-grid gap-4 mt-4">
+            <a href="{{route('memReg')}}" class="btn btn-primary mb-2" style="font-size: 20px">Local Registration</a>
+            <a href="#" class="btn btn-dark mb-2" style="font-size: 20px">International Registration</a>
         </div>
     </div>
 </section><!-- Main container end -->

@@ -422,7 +422,7 @@ a:focus {
 }
 
 @media (max-width: 575px) {
-  .section-sub-title {
+  .section-sub-title{
     font-size: 28px;
   }
 }
@@ -1392,9 +1392,27 @@ ul.navbar-nav > li.header-get-a-quote:hover > a:after {
 }
 
 .slide-title-box {
-  font-size: 16px;
+  font-size: 30px;
+  line-height: 45px;
+  background: rgba(0, 0, 102, .8);
+  color: #fff;
+  display: inline-block;
+  padding: 0 15px;
+  margin: 0 0 10px;
+}
+.slide-title-box-red {
+  font-size: 20px;
   line-height: 39px;
-  background: #000066;
+  background: rgba(185, 13, 33, .8);
+  color: #fff;
+  display: inline-block;
+  padding: 0 15px;
+  margin: 0 0 10px;
+}
+.slide-title-box-yellow {
+  font-size: 25px;
+  line-height: 39px;
+  background: rgba(254, 209, 65, .8);
   color: #fff;
   display: inline-block;
   padding: 0 15px;
@@ -1439,7 +1457,7 @@ ul.navbar-nav > li.header-get-a-quote:hover > a:after {
 }
 
 @media (max-width: 575px) {
-  .slide-sub-title {
+  .slide-sub-title, .slide-title-box  {
     font-size: 30px;
     line-height: 30px;
   }
@@ -1627,8 +1645,15 @@ ul.navbar-nav > li.header-get-a-quote:hover > a:after {
 }
 
 @media (max-width: 767px) {
-  .box-slide-sub-title {
+  .box-slide-sub-title{
     font-size: 26px;
+  }
+  .slide-title-box {
+    font-size: 20px;
+  }
+  .slide-title-box-red {
+    line-height: 22px;
+    font-size: 16px;
   }
 }
 

@@ -17,6 +17,18 @@ Description: Constra - Construction Html5 Template
 
 /* MY OWN CSS */
 
+.slider-p{
+  font-size: 30px;
+  line-height: 36px;
+  font-weight: 300;
+  color: #fff;
+  margin: 20px 0 10px;
+
+  font-family: 'Montserrat', sans-serif;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased !important;
+}
+
 .master-bg{
   /* background-image: url(images/bg/master.jpg) !important; */
   background-position: center;
@@ -1511,7 +1523,7 @@ ul.navbar-nav > li.header-get-a-quote:hover > a:after {
 }
 
 .banner-carousel .slick-dots {
-  opacity: 0;
+  opacity: 0.0;
   filter: alpha(opacity=0);
   bottom: 60px;
 }
@@ -1522,7 +1534,7 @@ ul.navbar-nav > li.header-get-a-quote:hover > a:after {
 
 .slick-dots li button:hover:before, .slick-dots .slick-dots li button:focus:before,
 .slick-dots li.slick-active button:before {
-  opacity: 1;
+  opacity: 0.0;
   color: #000066;
 }
 

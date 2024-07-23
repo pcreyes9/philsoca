@@ -5,34 +5,40 @@
 
 @section('content')
   <div class="mb-0 banner-carousel banner-carousel-1">
-    <div class="banner-carousel-item" style="background-image:url(images/slider-main/slider4.jpg)">
+    {{-- <div class="banner-carousel-item" style="background-image:url(images/slider-main/slider6.jpg); " >
       <div class="slider-content">
         <div class="container h-100">
-          <div class="row align-items-center h-100">
+          <div class="row ">
             <div class="text-center col-md-12">
-              <h2 class="slide-title" data-animation-in="slideInLeft">Asean Congress of Anesthesiologists 2025</h2>
-              <h3 class="slide-sub-title" data-animation-in="slideInRight">Shaping the Future
-                of Perioperative  Patient Care
-              </h3>
-              <p data-animation-in="slideInLeft" data-duration-in="1.2">
-                  <a href="{{route('reg')}}" class="slider btn btn-primary">Register Now!</a>
+              <h2 class="slide-title" style="margin-top: 40px !important;"  data-animation-in="slideInLeft">The 24th ASEAN Congress of Anesthesiologists</h2>
+              <p class="slider-p" data-animation-in="slideInRight">
+                In conjunction with the 35th Annual Convention of the <br> Philippine Society of Anesthesiologists
+              </p>
+              <h5 class="slide-sub-title" style="margin-top: 350px;" data-animation-in="slideInRight">Shaping the Future
+                of Perioperative Patient Care
+              </h5>
+              <p class="slider-p" data-animation-in="slideInLeft">
+                Manila Marriott Hotel | October 23 - 25, 2025
               </p>
             </div>
           </div>
         </div>
       </div>
-    </div>
+    </div> --}}
     {{-- TESTING --}}
-    <div class="banner-carousel-item" style="background-image:url(images/slider-main/luneta3.jpg)">
+    <div class="banner-carousel-item" style="background-image:url(images/slider-main/slider7.jpg)">
       <div class="text-left slider-content">
         <div class="container h-100 ">
           <div class="row align-items-center h-100 ">
             <div class="col-md-12 mt-20">
               <h2 class="slide-title-box" data-animation-in="slideInDown">Manila, Philippines</h2>
-              <h3 class="slide-title" data-animation-in="fadeIn">Asean Congress of Anesthesiologists 2025</h3>
-              <h3 class="slide-sub-title" data-animation-in="slideInLeft">Shaping the Future of Perioperative  Patient Care</h3>
-              <p data-animation-in="slideInRight">
-                  <a href="{{route('reg')}}" class="border slider btn btn-primary">Register Now!</a>
+              <h2 class="slide-title" style="margin-top: 40px !important; color:  rgb(255, 255, 255); font-family: 'Source Sans Pro', sans-serif; "  data-animation-in="slideInLeft">The 24th ASEAN Congress of Anesthesiologists</h2>
+              <p class="slider-p" data-animation-in="slideInRight">
+                In conjunction with the 35th Annual Convention of the <br> Philippine Society of Anesthesiologists
+              </p>
+              <h5 class="slide-sub-title" style="color: #FED141; text-shadow: 2px 2px #000066;" data-animation-in="slideInLeft">Shaping the Future of Perioperative Patient Care</h5>
+              <p class="slider-p" data-animation-in="slideInLeft">
+                Manila Marriott Hotel | October 23 - 25, 2025
               </p>
             </div>
           </div>
@@ -59,19 +65,19 @@
     </div> --}}
   </div>
 
-  <section class="call-to-action-box no-padding">
+  {{-- <section class="call-to-action-box no-padding">
     <div class="container" style="background-image:url(images/bg/callAction.jpg); background-size: 1260px 883px;">
       <div class="action-style-box">
         <div class="row justify-content-center">
           <div class="text-center  text-md-left">
             <div class="call-to-action-text">
-              <h1 class="action-title">October 23 - 25, 2025 | Manila Marriot Hotel | Manila | Philippines</h1>
+              <h1 class="action-title">October 23 - 25, 2025 | Manila Marriott Hotel | Manila | Philippines</h1>
             </div>
           </div><!-- Col end -->
         </div><!-- row end -->
       </div><!-- Action style box -->
     </div><!-- Container end -->
-  </section>
+  </section> --}}
 
   <section id="ts-features" class="ts-features">
     <div class="container" >

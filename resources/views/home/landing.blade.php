@@ -27,18 +27,18 @@
       </div>
     </div> --}}
     {{-- TESTING --}}
-    <div class="banner-carousel-item" style="background-image:url(images/slider-main/slider6n.jpg)">
+    <div class="banner-carousel-item" style="background-image:url(images/slider-main/slider6expo.jpg)">
       <div class="text-left slider-content">
         <div class="container h-100 ">
           <div class="row align-items-center h-100 ">
             <div class="col-md-12 mt-20">
               <h2 class="slide-title-box" data-animation-in="slideInDown">The 24th ASEAN Congress of Anesthesiologists</h2>
 
-              <p class="slider-p" style="color: #ebebeb; text-shadow: 2px 2px #000066; font-family: 'montserrat', sans-serif; font-weight: 700;" data-animation-in="slideInRight">
+              <p class="slider-p" style="color: #ebebeb; text-shadow: 2px 2px #000066; font-family: 'montserrat', sans-serif; font-weight: 500;" data-animation-in="slideInRight">
                 In conjunction with the 35th Annual Convention of the <br> Philippine Society of Anesthesiologists
               </p>
-              <h5 class="slide-sub-title" style="color: #FED141; text-shadow: 2px 2px #000066;" data-animation-in="slideInLeft">Shaping the Future of Perioperative Patient Care</h5>
-              <h2 class="slide-title-box-red" data-animation-in="slideInUp"> Manila Marriott Hotel | October 23 - 25, 2025</h2>
+              <h5 class="slide-sub-title" style="color: #FED141;" data-animation-in="slideInLeft">Shaping the Future of Perioperative Patient Care</h5>
+              <h2 class="slide-title-box-red" data-animation-in="slideInDown"> Manila Marriott Hotel | October 23 - 25, 2025</h2>
             </div>
           </div>
         </div>
@@ -46,18 +46,18 @@
     </div>
 
 
-    <div class="banner-carousel-item" style="background-image:url(images/slider-main/slider7.jpg)">
+    <div class="banner-carousel-item" style="background-image:url(images/slider-main/slider7expo.jpg)">
       <div class="text-left slider-content">
         <div class="container h-100 ">
           <div class="row align-items-center h-100 ">
             <div class="col-md-12 mt-20">
               <h2 class="slide-title-box" data-animation-in="slideInDown">The 24th ASEAN Congress of Anesthesiologists</h2>
 
-              <p class="slider-p" style="color: #ebebeb; text-shadow: 2px 2px #000066; font-family: 'montserrat', sans-serif; font-weight: 700;" data-animation-in="slideInRight">
+              <p class="slider-p" style="color: #ebebeb; text-shadow: 2px 2px #000066; font-family: 'montserrat', sans-serif; font-weight: 500;" data-animation-in="slideInRight">
                 In conjunction with the 35th Annual Convention of the <br> Philippine Society of Anesthesiologists
               </p>
               <h5 class="slide-sub-title" style="color: #FED141; text-shadow: 2px 2px #000066;" data-animation-in="slideInLeft">Shaping the Future of Perioperative Patient Care</h5>
-              <h2 class="slide-title-box-red" data-animation-in="slideInUp"> Manila Marriott Hotel | October 23 - 25, 2025</h2>
+              <h2 class="slide-title-box-red" data-animation-in="slideInDown"> Manila Marriott Hotel | October 23 - 25, 2025</h2>
             </div>
           </div>
         </div>

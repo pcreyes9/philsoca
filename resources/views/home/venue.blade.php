@@ -8,7 +8,7 @@
             <div class="container p-4 ml-15" style="background-color:#e9eaec; border-radius: 25px">
                 <div class="row">
                     <div class="col-12">
-                        <h2 class="section-title">Metro Manila</h2>
+                        <h2 class="section-title">Metro Manila | Philippines</h2>
                         <h3 class="section-sub-title ">MANILA MARRIOTT HOTEL</h3>
                     </div>
                 </div>
@@ -19,7 +19,7 @@
                             
                             <p class="hotel-p" style="color: #ffffff;"><strong>Contact No.:</strong><br>
                             <span style="color: #FED141">+63 2-89889999 <br>
-                                0920 952 2120</span>
+                                
                                 <br><br> <strong>Email:</strong> <br> <span style="color: #FED141">mnlmarriotthotel@gmail.com</span> <br><br>
                                 <strong>Address:</strong> <br> <span style="color: #FED141">Manila Marriott Hotel, Newport Blvd, Pasay, Metro Manila, Philippines</span> 
                             </p>
@@ -35,8 +35,8 @@
                     <hr class="" style="clear:both; border: 1px solid black;"/>
                     <div class="text-center row">
                         <div class="col-12">
-                            <h2 class="section-title">REACHING OUR OFFICE</h2>
-                            <h3 class="section-sub-title">FIND OUR LOCATION</h3>
+                            {{-- <h2 class="section-title">REACHING OUR OFFICE</h2> --}}
+                            <h3 class="section-sub-title">FIND OUR VENUE</h3>
                         </div>
                     </div>
                     <div class="container text-center rounded-5">

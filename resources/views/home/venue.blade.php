@@ -4,12 +4,12 @@
 
 @section('content')
     <div class="">
-        <section id="news" class="project-area solid-bg">
-            <div class="container p-4 ml-15" style="background-color:#e9eaec; border-radius: 25px">
+        <section id="news" class="project-area">
+            <div class="container p-4 ml-15" style="background: rgba(146, 12, 28, 0.5); border-radius: 25px">
                 <div class="row">
                     <div class="col-12">
-                        <h2 class="section-title">Metro Manila | Philippines</h2>
-                        <h3 class="section-sub-title ">MANILA MARRIOTT HOTEL</h3>
+                        <h2 class="section-title" >Metro Manila | Philippines</h2>
+                        <h3 class="section-sub-title " >MANILA MARRIOTT HOTEL</h3>
                     </div>
                 </div>
                 <div class="container text-center">
@@ -33,10 +33,13 @@
                         
                     </div>
                     <hr class="" style="clear:both; border: 1px solid black;"/>
-                    <div class="text-center row">
+                    <div class="text-left row">
                         <div class="col-12">
-                            {{-- <h2 class="section-title">REACHING OUR OFFICE</h2> --}}
-                            <h3 class="section-sub-title">FIND OUR VENUE</h3>
+                            <h2 class="section-title">REACHING OUR Venue</h2>
+                            <h3 class="section-sub-title">Manila Marriott Hotel</h3>    
+                            <p class="hotel-p" style="color: #000066;"><strong>Website: </strong> <a target="_blank" href="https://www.marriott.com/en-us/hotels/mnlap-manila-marriott-hotel/overview/">https://www.marriott.com/en-us/hotels/mnlap-manila-marriott-hotel/overview/</a><br>
+                            
+                            </p>
                         </div>
                     </div>
                     <div class="container text-center rounded-5">

@@ -27,11 +27,11 @@
       </div>
     </div> --}}
     {{-- TESTING --}}
-    <div class="banner-carousel-item" style="background-image:url(images/slider-main/slider6expo.jpg)">
+    <div class="banner-carousel-item mt-5" style="background-image:url(images/slider-main/ACA_Poster.png)">
       <div class="text-left slider-content">
         <div class="container h-100 ">
           <div class="row align-items-center h-100 ">
-            <div class="col-md-12 mt-20">
+            {{-- <div class="col-md-12 mt-20">
               <h2 class="slide-title-box" data-animation-in="slideInDown">The 24th ASEAN Congress of Anesthesiologists</h2>
 
               <p class="slider-p" style="color: #ebebeb; text-shadow: 2px 2px #000066; font-family: 'montserrat', sans-serif; font-weight: 500;" data-animation-in="slideInRight">
@@ -39,14 +39,14 @@
               </p>
               <h5 class="slide-sub-title" style="color: #FED141;" data-animation-in="slideInLeft">Shaping the Future of Perioperative Patient Care</h5>
               <h2 class="slide-title-box-red" data-animation-in="slideInDown"> Manila Marriott Hotel | October 23 - 25, 2025</h2>
-            </div>
+            </div> --}}
           </div>
         </div>
       </div>
     </div>
 
 
-    <div class="banner-carousel-item" style="background-image:url(images/slider-main/slider7expo.jpg)">
+    {{-- <div class="banner-carousel-item" style="background-image:url(images/slider-main/slider7expo.jpg)">
       <div class="text-left slider-content">
         <div class="container h-100 ">
           <div class="row align-items-center h-100 ">
@@ -62,7 +62,7 @@
           </div>
         </div>
       </div>
-    </div>
+    </div> --}}
 
     {{-- <div class="banner-carousel-item" style="background-image:url(images/slider-main/slider4.jpg)">
       <div class="text-right slider-content">
@@ -102,6 +102,7 @@
       <div class="row justify-content-center" data-animation-in="slideInLeft" data-duration-in="1.2">
         <div class="mt-3 col-lg-9 " >
           <h3 class=" into-sub-title" >Dear All 24th ACA 2025 Participants,</h3>
+          <p id="demo"></p>
           <p class="hotel-p">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas semper nunc nec ornare ornare. Nam sagittis elit ac ligula bibendum condimentum. In sodales, neque et tincidunt congue, lorem dui interdum arcu, id lobortis tortor nibh quis magna. Pellentesque sit amet semper turpis, non feugiat tellus. Duis malesuada nibh nec suscipit volutpat. 
             <br>
@@ -163,4 +164,11 @@
   <div class = "d-none d-sm-block">
     @include('home.maps')
   </div>
+  <script>
+    var w = window.innerWidth;
+    var h = window.innerHeight;
+    
+    var x = document.getElementById("demo");
+    x.innerHTML = "Browser width: " + w + ", height: " + h + ".";
+    </script>
 @endsection

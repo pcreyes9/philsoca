@@ -5,16 +5,17 @@
 @section('content')
     <div class="">
         <section id="news" class="project-area">
-            <div class="container p-4 ml-15" style="background: rgba(146, 12, 28, 0.5); border-radius: 25px">
+            <div class="container p-4 ml-15" >
+                {{-- style="background: rgba(255, 255, 255, 0.5); border-radius: 25px" --}}
                 <div class="row">
-                    <div class="col-12">
+                    <div class="col-12 text-center">
                         <h2 class="section-title" >Metro Manila | Philippines</h2>
                         <h3 class="section-sub-title " >MANILA MARRIOTT HOTEL</h3>
                     </div>
                 </div>
                 <div class="container text-center">
                     <div class="row justify-content-center">
-                        <div class="col-sm-4 p-2 px-3" style="background-color: #000066;" >
+                        {{-- <div class="col-sm-4 p-2 px-3" style="background-color: #000066;" >
                             <h1 style="color: #ffffff;">Venue</h1>
                             
                             <p class="hotel-p" style="color: #ffffff;"><strong>Contact No.:</strong><br>
@@ -23,9 +24,9 @@
                                 <br><br> <strong>Email:</strong> <br> <span style="color: #FED141">mnlmarriotthotel@gmail.com</span> <br><br>
                                 <strong>Address:</strong> <br> <span style="color: #FED141">Manila Marriott Hotel, Newport Blvd, Pasay, Metro Manila, Philippines</span> 
                             </p>
-                        </div>
+                        </div> --}}
                         
-                        <div class="col-sm-8 d-none d-sm-block">
+                        <div class="col-sm-10 d-sm-block">
                             <a class="gallery-popup" href="images/Manila Marriott Hotel.jpg">
                                 <img loading="lazy" class="img-fluid w-100 " src="images/Manila Marriott Hotel.jpg" alt="img">
                             </a>
@@ -34,11 +35,13 @@
                     </div>
                     <hr class="" style="clear:both; border: 1px solid black;"/>
                     <div class="text-left row">
-                        <div class="col-12">
+                        <div class="col-12 text-center">
                             <h2 class="section-title">REACHING OUR Venue</h2>
                             <h3 class="section-sub-title">Manila Marriott Hotel</h3>    
-                            <p class="hotel-p" style="color: #000066;"><strong>Website: </strong> <a target="_blank" href="https://www.marriott.com/en-us/hotels/mnlap-manila-marriott-hotel/overview/">https://www.marriott.com/en-us/hotels/mnlap-manila-marriott-hotel/overview/</a><br>
-                            
+                            <p class="hotel-p" style="color: #000066;">
+                                <strong>Website: </strong> <a target="_blank" href="https://www.marriott.com/en-us/hotels/mnlap-manila-marriott-hotel/overview/">https://www.marriott.com/en-us/hotels/mnlap-manila-marriott-hotel/overview/</a><br>
+                                <strong>Email: </strong> mnlmarriotthotel@gmail.com<br>
+                                <strong>Contact No.: </strong> +63 2-89889999<br>
                             </p>
                         </div>
                     </div>

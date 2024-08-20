@@ -27,7 +27,7 @@
       </div>
     </div> --}}
     {{-- TESTING --}}
-    <div class="banner-carousel-item mt-5" style="background-image:url(images/slider-main/ACA_Poster.png)">
+    <div class="banner-carousel-item mt-5" style="background-image:url(images/slider-main/ACA_Poster.png); box-shadow: 50px 50px 10px;">
       <div class="text-left slider-content">
         <div class="container h-100 ">
           <div class="row align-items-center h-100 ">
@@ -102,7 +102,6 @@
       <div class="row justify-content-center" data-animation-in="slideInLeft" data-duration-in="1.2">
         <div class="mt-3 col-lg-9 " >
           <h3 class=" into-sub-title" >Dear All 24th ACA 2025 Participants,</h3>
-          <p id="demo"></p>
           <p class="hotel-p">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas semper nunc nec ornare ornare. Nam sagittis elit ac ligula bibendum condimentum. In sodales, neque et tincidunt congue, lorem dui interdum arcu, id lobortis tortor nibh quis magna. Pellentesque sit amet semper turpis, non feugiat tellus. Duis malesuada nibh nec suscipit volutpat. 
             <br>

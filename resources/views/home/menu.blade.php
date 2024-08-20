@@ -1,4 +1,4 @@
-<div class="site-navigation" style="opacity: 90% !important ">
+<div class="site-navigation" style="opacity: 88% !important ">
   <div class="container" >
     <div class="row">
       <div class="col-lg-16">
@@ -15,7 +15,7 @@
               <li class="nav-item"><a class="nav-link" href="{{route('home')}}">ABSTRACT SUBMISSION</a></li>
               <li class="nav-item"><a class="nav-link" href="{{route('home')}}">SPONSORSHIP & EXHIBITION</a></li>
               <li class="nav-item"><a class="nav-link" href="{{route('venue')}}">VENUE</a></li>
-              <li class="nav-item"><a class="nav-link" href="{{route('home')}}">ACCOMMODATIONS</a></li>
+              <li class="nav-item"><a class="nav-link" href="{{route('accommodations')}}">ACCOMMODATIONS</a></li>
               <li class="nav-item"><a class="nav-link" href="{{route('home')}}">CONTACT</a></li>
             </ul>
           </div>

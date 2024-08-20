@@ -32,6 +32,10 @@ Route::get('/venue', function () {
     return view('home/venue');
 })->name('venue');
 
+Route::get('/accommodations', function () {
+    return view('home/pages/accommodations');
+})->name('accommodations');
+
 Route::get('/registration', function () {
     return view('home/pages/registration-details');
 })->name('reg');

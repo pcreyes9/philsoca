@@ -9,13 +9,58 @@ Description: Constra - Construction Html5 Template
 -------------------------------------------------------------------*/
 @import url(https://fonts.googleapis.com/css?family=Montserrat:300,400,400i,500,500i,600,600i,700,700i,800|Open+Sans:400,400i,600,600i,700,700i,800&display=swap);
 @layer base {
-  .swal2-toast.swal2-icon-success{
-    /* @apply bg-blue-300 !important; */
-  }
+  /* .swal2-toast.swal2-icon-success{
+    @apply bg-blue-300 !important;
+  } */
 }
 
 
 /* MY OWN CSS */
+
+.mySlide{
+	font-family: 'arial black';
+	font-size: 60px;
+	/* text-align: center; */
+	padding: 0;
+	margin: 0;
+	margin-left: 50%;
+	transform: translateX(-200%);
+	opacity: 0;
+	animation: slide-in-anim 1.5s ease-out forwards;
+}
+
+.imgSlide{
+	width: 100%;
+	opacity: 0;
+	margin-left: 50%;
+	transform: translateX(-200%);
+	opacity: 0;
+	animation: slide-in-anim 1.5s ease-out forwards;
+}
+
+.upSlide {
+  top: 100%;
+  position: relative;
+  transition: all .3s ease-out;
+  /* background: #428bca; */
+  height: 100%;
+}
+
+@keyframes slide-in-anim {
+	20% {
+		opacity: 0;
+	}
+	60% {
+		transform: translateX(-45%);
+	}
+	75% {
+		transform: translateX(-52%);
+	}
+	100% {
+		opacity: 1;
+		transform: translateX(-50%);
+	}
+}
 
 .slider-p{
   font-size: 30px;

@@ -8,9 +8,9 @@
                     <h3 class="section-sub-title " >MANILA MARRIOTT HOTEL</h3>
                 </div>
             </div> --}}
-            <div class="container">
-                <div class="row justify-content-center">
-                    <div class="col-sm-5 text-left">
+            <div class="container ">
+                <div class="row justify-content-center ">
+                    <div class="col-sm-5 text-left ">
                         <h3>Executive Suite Amenities</h3>
                         
                         <p class="hotel-p" >By staying in one of our executive suites, you can enjoy exclusive additional amenities at no extra cost. Some things to look forward to include Executive Lounge access 7-days a week, added privacy with an exclusive access floor, complimentary breakfasts, afternoon tea, hors d'oeuvres, and desserts daily, free access to our business services, and complimentary garment pressing for 2 items during your stay with us.
@@ -19,7 +19,7 @@
                     
                     <div class="col-sm-7  text-sm-center">
                         <a class="gallery-popup" href="images/Manila Marriott Hotel.jpg">
-                            <img loading="lazy" class="img-fluid w-100 rounded" src="images/Manila Marriott Hotel.jpg" alt="img">
+                            <img loading="lazy" class="img-fluid w-100 rounded imgSlide" src="images/Manila Marriott Hotel.jpg" alt="img">
                         </a>
                     </div>
                     
@@ -28,7 +28,7 @@
 
                     <div class="col-sm-7  text-sm-center">
                         <a class="gallery-popup" href="images/Manila Marriott Hotel.jpg">
-                            <img loading="lazy" class="img-fluid w-100 rounded" src="images/Manila Marriott Hotel.jpg" alt="img">
+                            <img loading="lazy" class="img-fluid w-100 rounded imgSlide" src="images/Manila Marriott Hotel.jpg" alt="img">
                         </a>
                     </div>
                     <div class="col-sm-5 text-left mt-sm-0 mt-3">

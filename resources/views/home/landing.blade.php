@@ -101,7 +101,7 @@
     </div><!-- Container end -->
   </section> --}}
 
-  <section id="ts-features" class="ts-features">
+  {{-- <section id="ts-features" class="ts-features">
     <div class="container" >
       <div class="row justify-content-center">
         <div class="col-lg-9 upSlide" >
@@ -120,12 +120,12 @@
             <br>
             24th ACA 2025 Congress Organizing Committee
           </h2>
-        </div><!-- Col end -->
-      </div><!-- Row end -->
-    </div><!-- Container end -->
-  </section><!-- Feature are end -->
+        </div>
+      </div>
+    </div>
+  </section> --}}
 
-  <section id="news" class="project-area solid-bg">
+  {{-- <section id="news" class="project-area solid-bg">
     <div class="container">
       <div class="row ">
         <div  class="col-lg-4 text-center"  >
@@ -135,7 +135,6 @@
         </div>
         
         <div class="col-lg-8 mt-4 mt-lg-0">
-          {{-- <h3 class="into-sub-title">Our Values</h3> --}}
           <p class="hotel-p">Dear All,
             <br>
             <br>
@@ -158,13 +157,13 @@
             </strong>    
             
           </p>
-        </div><!-- Col end -->
-      </div><!-- Row end -->
+        </div>
+      </div>
     </div>
-    {{-- <hr class="solid" style="border-top: 2px solid #bbb;"> --}}
-  </section>
+  </section> --}}
+  {{-- <hr class="solid" style="border-top: 2px solid #bbb;"> --}}
 
-  <div class = "d-none d-sm-block">
+  {{-- <div class = "d-none d-sm-block">
     @include('home.maps')
   </div>
   <script>
@@ -173,5 +172,5 @@
     
     var x = document.getElementById("demo");
     x.innerHTML = "Browser width: " + w + ", height: " + h + ".";
-    </script>
+    </script> --}}
 @endsection

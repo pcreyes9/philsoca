@@ -13,14 +13,14 @@
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="mr-auto nav navbar-nav">
               <li class="nav-item" ><a class="nav-link" href="{{route('home')}}" >HOME</a></li>
-              <li class="nav-item"><a class="nav-link" href="{{route('home')}}">SCIENTIFIC PROGRAM</a></li>
-              <li class="nav-item"><a class="nav-link" href="{{route('orgCom')}}">ORGANIZING COMMITTEE</a></li>
-              <li class="nav-item"><a class="nav-link" href="{{route('reg')}}">REGISTRATION</a></li>
-              <li class="nav-item"><a class="nav-link" href="{{route('home')}}">ABSTRACT SUBMISSION</a></li>
-              <li class="nav-item"><a class="nav-link" href="{{route('home')}}">SPONSORSHIP & EXHIBITION</a></li>
-              <li class="nav-item"><a class="nav-link" href="{{route('venue')}}">VENUE</a></li>
-              <li class="nav-item"><a class="nav-link" href="{{route('accommodations')}}">ACCOMMODATIONS</a></li>
-              <li class="nav-item"><a class="nav-link" href="{{route('home')}}">CONTACT</a></li>
+              <li class="nav-item"><a class="nav-link" href="#">SCIENTIFIC PROGRAM</a></li>
+              <li class="nav-item"><a class="nav-link" href="#">ORGANIZING COMMITTEE</a></li>
+              <li class="nav-item"><a class="nav-link" href="#">REGISTRATION</a></li>
+              <li class="nav-item"><a class="nav-link" href="#">ABSTRACT SUBMISSION</a></li>
+              <li class="nav-item"><a class="nav-link" href="#">SPONSORSHIP & EXHIBITION</a></li>
+              <li class="nav-item"><a class="nav-link" href="#">VENUE</a></li>
+              <li class="nav-item"><a class="nav-link" href="#">ACCOMMODATIONS</a></li>
+              <li class="nav-item"><a class="nav-link" href="#">CONTACT</a></li>
             </ul>
             <img loading="lazy" style="width: 15%; object-fit: scale;" class="logo img-fluid" src="images/ACA_LOGO.png" alt="">
 

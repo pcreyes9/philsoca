@@ -4,7 +4,7 @@
 @section('title', 'Home')
 
 @section('content')
-  <div class="mb-0 banner-carousel banner-carousel-1">
+  <div class="mb-5 banner-carousel banner-carousel-1">
     {{-- <div class="banner-carousel-item" style="background-image:url(images/slider-main/slider6.jpg); " >
       <div class="slider-content">
         <div class="container h-100">

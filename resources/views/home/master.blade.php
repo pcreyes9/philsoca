@@ -15,7 +15,7 @@
 
         <!-- Favicon
         ================================================== -->
-        <link rel="icon" type="image/png" href="images/PSA_LOGO.png">
+        <link rel="icon" type="image/png" href="images/ACA_LOGO.png">
 
         <!-- CSS
         ================================================== -->

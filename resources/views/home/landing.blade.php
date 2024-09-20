@@ -46,7 +46,7 @@
     </div> --}}
 
     <div class="mt-3 mt-lg-5">
-      <img class="imgSlide w-75 w-lg-75 " src="images/slider-main/ACA_POSTER_MAIN.png" alt="">
+      <img class="imgSlide w-100 w-lg-75 " src="images/slider-main/ACA_POSTER_MAIN.png" alt="">
     </div>
 
 

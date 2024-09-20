@@ -844,7 +844,7 @@ ul.top-info li p.info-text {
 
 .header-one,
 .header-one .site-navigation {
-  background: #000066;
+  background: #f2de02;
 }
 
 .header-one .navbar-collapse {
@@ -1081,6 +1081,7 @@ ul.navbar-nav > li {
   }
   ul.navbar-nav > li .nav-link {
     font-size: 12px;
+
   }
 }
 

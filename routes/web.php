@@ -55,16 +55,16 @@ Route::get('/organizing-committee', function () {
 
 
 
-Route::get('/emailsend', function (Request $request){
+// Route::get('/emailsend', function (Request $request){
     
-    $email = $request->query('email');
-    $name = $request->query('name');
+//     $email = $request->query('email');
+//     $name = $request->query('name');
     
-    Mail::to($email)->send(new MyTestEmail($name));
+//     Mail::to($email)->send(new MyTestEmail($name));
     
-    return redirect()->route('reg')->with('success', 'Your registration is on process, Dr. ' . $name . '. We will update you in this email, ' . $email);
+//     return redirect()->route('reg')->with('success', 'Your registration is on process, Dr. ' . $name . '. We will update you in this email, ' . $email);
     
-})->name('emailsend');
+// })->name('emailsend');
 
 //ADMIN SIDE
 
@@ -92,9 +92,9 @@ Route::middleware([
         return response()->download($pathToFile);
     });
 
-    Route::get('/admin/dashboard/export-excel', function () {
-        return Excel::download(new ExcelExport, 'regs.xlsx');
-    })->name('exportExcel');
+    // Route::get('/admin/dashboard/export-excel', function () {
+    //     return Excel::download(new ExcelExport, 'regs.xlsx');
+    // })->name('exportExcel');
 
     // Route::get('/admin/dashboard/export-pdf', function (Request $request) {
     //     $info = $request->query('info');

@@ -5,7 +5,9 @@
         <div class="text-center copyright-info">
           <span>Copyright &copy; <script>
               document.write(new Date().getFullYear())
-            </script>, Designed &amp; Developed by pcreyes with <a href="https://themefisher.com">Themefisher</a></span>
+            </script>  PSA, INC. – All rights reserved
+            {{-- , Designed &amp; Developed by pcreyes with <a href="https://themefisher.com">Themefisher</a> --}}
+            </span>
         </div>
       </div>
 
@@ -17,13 +19,13 @@
 
       <div class="col-md-12">
         <div class="text-center footer-menu">
-          <ul class="mb-0 list-unstyled">
+          {{-- <ul class="mb-0 list-unstyled">
             <li><a href="about.html">About</a></li>
             <li><a href="team.html">Our people</a></li>
             <li><a href="faq.html">Faq</a></li>
             <li><a href="news-left-sidebar.html">Blog</a></li>
             <li><a href="pricing.html">Pricing</a></li>
-          </ul>
+          </ul> --}}
         </div>
       </div>
     </div><!-- Row end -->

@@ -751,8 +751,8 @@ a[href^=tel] {
 /* Top Bar
 ================================================== */
 .top-bar {
-  padding: 8px 0;
-  background: #ebebeb;
+  /* padding: 8px 0; */
+  /* background: #ebebeb; */
   position: relative;
 }
 
@@ -827,7 +827,7 @@ ul.top-info li p.info-text {
 }
 
 .top-bar-border .top-social li a {
-  color: #7c7c7c;
+  /* color: #7c7c7c; */
 }
 
 .top-bar-border ul.top-info li i {
@@ -869,7 +869,7 @@ ul.top-info li p.info-text {
 }
 
 .header-one .logo-area {
-  padding: 30px 0;
+  /* padding: 30px 0; */
 }
 
 .navbar-fixed {

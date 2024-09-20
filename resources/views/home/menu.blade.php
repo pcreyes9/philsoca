@@ -1,12 +1,16 @@
 <div class="site-navigation" style="opacity: 88% !important ">
   <div class="container" >
     <div class="row">
-      <div class="col-lg-16">
-        <nav class="ml-2 p-0 navbar navbar-expand-lg navbar-dark">
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse" aria-controls="navbar-collapse" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
+      {{-- col-lg-16 --}}
+      <div class="">
+        <nav class="ml-3 py-1 p-0 navbar navbar-expand-lg navbar-dark">
+          
+          {{-- <img loading="lazy" style="width: 15%; object-fit: scale;" class="logo img-fluid" src="images/ACA_LOGO.png" alt=""> --}}
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
           </button>
-          <div id="navbar-collapse" class="collapse navbar-collapse opa">
+        
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="mr-auto nav navbar-nav">
               <li class="nav-item" ><a class="nav-link" href="{{route('home')}}" >HOME</a></li>
               <li class="nav-item"><a class="nav-link" href="{{route('home')}}">SCIENTIFIC PROGRAM</a></li>
@@ -18,6 +22,8 @@
               <li class="nav-item"><a class="nav-link" href="{{route('accommodations')}}">ACCOMMODATIONS</a></li>
               <li class="nav-item"><a class="nav-link" href="{{route('home')}}">CONTACT</a></li>
             </ul>
+            <img loading="lazy" style="width: 15%; object-fit: scale;" class="logo img-fluid" src="images/ACA_LOGO.png" alt="">
+
           </div>
         </nav>
       </div>

@@ -45,8 +45,8 @@
       </div>
     </div> --}}
 
-    <div>
-      <img class="imgSlide w-75 mt-lg-5" src="images/slider-main/ACA_Poster.png" alt="">
+    <div class="mt-3 mt-lg-5">
+      <img class="imgSlide w-75 w-lg-75 " src="images/slider-main/ACA_POSTER_MAIN.png" alt="">
     </div>
 
 
@@ -104,7 +104,7 @@
   <section id="ts-features" class="ts-features">
     <div class="container" >
       <div class="row justify-content-center">
-        <div class="mt-3 col-lg-9 upSlide" >
+        <div class="col-lg-9 upSlide" >
           <h3 class=" into-sub-title" >Dear All 24th ACA 2025 Participants,</h3>
           <p class="hotel-p">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas semper nunc nec ornare ornare. Nam sagittis elit ac ligula bibendum condimentum. In sodales, neque et tincidunt congue, lorem dui interdum arcu, id lobortis tortor nibh quis magna. Pellentesque sit amet semper turpis, non feugiat tellus. Duis malesuada nibh nec suscipit volutpat. 

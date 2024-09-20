@@ -29,12 +29,16 @@
 
             <!--/ Topbar end -->
             <!-- Header start -->
+            
             <header id="header" class="header-one">
                 <title>@yield('title') | 24th ACA Congress</title>
                 @include('home.header')
+                {{-- @include('home.navbar') --}}
                 @include('home.menu')
+
                 <!--/ Navigation end -->
             </header>
+            
             <!--/ Header end -->
             
             {{-- style="background-image:url(images/bg/master.jpg); " --}}

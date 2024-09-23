@@ -33,7 +33,7 @@
             <header id="header" class="header-one">
                 <title>@yield('title') | 24th ACA Congress</title>
                 @include('home.header')
-                {{-- @include('home.menu') --}}
+                @include('home.menu')
 
                 <!--/ Navigation end -->
             </header>
@@ -45,8 +45,13 @@
             <div style="overflow: hidden; position: relative;">
                 <img class="master-bg" src="images/bg/master.jpg" alt="">
                 <div style="position: relative">
-                    {{-- @yield('content') --}}
-                    <h1 class="text-center m-5">THIS SITE IS UPDATING...</h1>
+                    @yield('content')
+
+
+                    {{-- <div class="container">
+                        <h1 class="text-center m-5">THIS SITE IS UPDATING...</h1>
+                    </div> --}}
+                    
                 </div>
             </div>
 

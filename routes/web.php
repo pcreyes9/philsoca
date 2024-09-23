@@ -53,7 +53,7 @@ Route::get('/organizing-committee', function () {
 })->name('orgCom');
 
 
-
+//test
 
 // Route::get('/emailsend', function (Request $request){
     

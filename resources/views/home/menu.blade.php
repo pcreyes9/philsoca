@@ -22,8 +22,7 @@
               <li class="nav-item"><a class="nav-link" style="color: #000066 !important" href="#">ACCOMMODATIONS</a></li>
               <li class="nav-item"><a class="nav-link" style="color: #000066 !important" href="#">CONTACT</a></li>
             </ul>
-            <img loading="lazy" style="width: 15%; object-fit: scale;" class="logo img-fluid" src="images/ACA_LOGO.png" alt="">
-
+            <img loading="lazy" style="width: 15%; object-fit: scale;" class="logo img-fluid" src="images/ACA_LOGO_non.png" alt="">
           </div>
         </nav>
       </div>

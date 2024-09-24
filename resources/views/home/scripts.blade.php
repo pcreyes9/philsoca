@@ -17,6 +17,6 @@
 <script src="home/plugins/google-map/map.js" defer></script>
 
 <!-- Template custom -->
-<script src="home/js/script.js"></script>
+<script src="home/js/script.js?ver=<?php echo time()?>"></script>
 
 

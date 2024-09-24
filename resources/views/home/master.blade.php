@@ -49,7 +49,7 @@
 
 
                     <div class="container">
-                        <h1 class="text-center m-5">THIS SITE IS UPDATING...</h1>
+                        <h1 class="text-center m-5">THIS SITE IS UNDER DEVELOPMENT</h1>
                     </div>
                     
                 </div>

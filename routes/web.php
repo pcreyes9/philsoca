@@ -26,10 +26,10 @@ use App\Http\Controllers\DashboardController;
 */
 
 Route::get('/', function () {
-    // Artisan::call('cache:clear');
-    // Artisan::call('route:clear');
-    // Artisan::call('config:clear');
-    // Artisan::call('view:clear');
+    Artisan::call('cache:clear');
+    Artisan::call('route:clear');
+    Artisan::call('config:clear');
+    Artisan::call('view:clear');
     return view('home/landing');
 })->name('home');
 

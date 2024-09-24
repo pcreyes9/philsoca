@@ -28,29 +28,29 @@ Route::get('/', function () {
     return view('home/landing');
 })->name('home');
 
-Route::get('/venue', function () {
-    return view('home/venue');
-})->name('venue');
+// Route::get('/venue', function () {
+//     return view('home/venue');
+// })->name('venue');
 
-Route::get('/accommodations', function () {
-    return view('home/pages/accommodations');
-})->name('accommodations');
+// Route::get('/accommodations', function () {
+//     return view('home/pages/accommodations');
+// })->name('accommodations');
 
-Route::get('/registration', function () {
-    return view('home/pages/registration-details');
-})->name('reg');
+// Route::get('/registration', function () {
+//     return view('home/pages/registration-details');
+// })->name('reg');
 
-Route::get('/mem-registration', function () {
-    return view('registration.mem-registration');
-})->name('memReg');
+// Route::get('/mem-registration', function () {
+//     return view('registration.mem-registration');
+// })->name('memReg');
 
-Route::get('/psa-id-checker', function () {
-    return view('registration.psa-id-checker');
-})->name('psaID-checker');
+// Route::get('/psa-id-checker', function () {
+//     return view('registration.psa-id-checker');
+// })->name('psaID-checker');
 
-Route::get('/organizing-committee', function () {
-    return view('home/pages/organizing-committee');
-})->name('orgCom');
+// Route::get('/organizing-committee', function () {
+//     return view('home/pages/organizing-committee');
+// })->name('orgCom');
 
 
 // Route::get('/emailsend', function (Request $request){
@@ -66,40 +66,40 @@ Route::get('/organizing-committee', function () {
 
 //ADMIN SIDE
 
-Route::middleware([
-    'auth:sanctum',
-    config('jetstream.auth_session'),
-    'verified',
-])->group(function () {
-    Route::get('/admin/dashboard', [DashboardController::class, 'dashboard'])->name('admin');
-    // Route::get('/dashboard', [DashboardController::class, 'dashboard'])->name('dashboard');
+// Route::middleware([
+//     'auth:sanctum',
+//     config('jetstream.auth_session'),
+//     'verified',
+// ])->group(function () {
+//     Route::get('/admin/dashboard', [DashboardController::class, 'dashboard'])->name('admin');
+//     // Route::get('/dashboard', [DashboardController::class, 'dashboard'])->name('dashboard');
     
-    Route::get('/admin/viewMemReg', function () {
-        return view('user_account.viewMemReg');
-    })->name('viewMemReg');
+//     Route::get('/admin/viewMemReg', function () {
+//         return view('user_account.viewMemReg');
+//     })->name('viewMemReg');
 
-    Route::get('/admin/viewMemReg/download/trainee/{trainee_cert}', function ($trainee_cert){
-        // dd($trainee_cert);
-        $pathToFile = public_path('storage/photos/trainee cert/'. $trainee_cert);
-        return response()->download($pathToFile);
-    });
+//     Route::get('/admin/viewMemReg/download/trainee/{trainee_cert}', function ($trainee_cert){
+//         // dd($trainee_cert);
+//         $pathToFile = public_path('storage/photos/trainee cert/'. $trainee_cert);
+//         return response()->download($pathToFile);
+//     });
 
-    Route::get('/admin/viewMemReg/download/senior/{senior_citizen}', function ($senior_citizen){
-        // dd($trainee_cert);
-        $pathToFile = public_path('storage/photos/senior ids/'. $senior_citizen);
-        return response()->download($pathToFile);
-    });
+//     Route::get('/admin/viewMemReg/download/senior/{senior_citizen}', function ($senior_citizen){
+//         // dd($trainee_cert);
+//         $pathToFile = public_path('storage/photos/senior ids/'. $senior_citizen);
+//         return response()->download($pathToFile);
+//     });
 
-    // Route::get('/admin/dashboard/export-excel', function () {
-    //     return Excel::download(new ExcelExport, 'regs.xlsx');
-    // })->name('exportExcel');
+//     // Route::get('/admin/dashboard/export-excel', function () {
+//     //     return Excel::download(new ExcelExport, 'regs.xlsx');
+//     // })->name('exportExcel');
 
-    // Route::get('/admin/dashboard/export-pdf', function (Request $request) {
-    //     $info = $request->query('info');
-    //     // dd($info);
-    //     $pdf = PDF::loadView('exportPDF', $info);
-    //     return $pdf->download('reg.pdf');
-    // })->name('exportPDF');
-});
+//     // Route::get('/admin/dashboard/export-pdf', function (Request $request) {
+//     //     $info = $request->query('info');
+//     //     // dd($info);
+//     //     $pdf = PDF::loadView('exportPDF', $info);
+//     //     return $pdf->download('reg.pdf');
+//     // })->name('exportPDF');
+// });
 
 

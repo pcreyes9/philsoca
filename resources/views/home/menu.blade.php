@@ -3,6 +3,8 @@
     <div class="row">
       {{-- col-lg-16 --}}
       <div class="">
+        {{-- mt-3 mt-sm-3  mt-lg-2 --}}
+        <img loading="lazy" style="width: 16%; object-fit: scale;" class="logo img-fluid icon-logo align-middle mt-3 mt-sm-2" src="images/ACA_LOGO_non.png" alt="">
         <nav class="ml-3 py-1 p-0 navbar navbar-expand-lg navbar-dark">
           
           {{-- <img loading="lazy" style="width: 15%; object-fit: scale;" class="logo img-fluid" src="images/ACA_LOGO.png" alt=""> --}}
@@ -23,18 +25,15 @@
               <li class="nav-item"><a class="nav-link" style="color: #000066 !important" href="#">CONTACT</a></li>
               {{-- testing --}}
             </ul>
-            <img loading="lazy" style="width: 15%; object-fit: scale;" class="logo img-fluid" src="images/ACA_LOGO_non.png" alt="">
-          </div>
+            
+          </div >
+            
+          
         </nav>
       </div>
         <!--/ Col end -->
     </div>
         <!--/ Row end -->
-    <div class="search-block" style="display: none;">
-      <label for="search-field" class="mb-0 w-100">
-        <input type="text" class="form-control" id="search-field" placeholder="Type what you want and enter">
-      </label>
-    </div>
   </div>
 </div>
 {{-- </div> --}}

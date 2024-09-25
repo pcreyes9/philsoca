@@ -46,7 +46,7 @@
     </div> --}}
 
     <div class="">
-      <img class="imgSlide w-100 w-lg-75 " src="images/slider-main/ACA_POSTER_MAIN.png" alt="">
+      <img class="imgSlide w-100 w-lg-75 " src="images/slider-main/ACA POSTER V5.png" alt="">
     </div>
 
 

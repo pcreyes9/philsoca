@@ -46,15 +46,9 @@
                 <img class="master-bg" src="images/bg/master.jpg" alt="">
                 <div style="position: relative">
                     {{-- @yield('content') --}}
-
-
-                    <div class="container">
-                        <h1 class="text-center m-5">THIS SITE IS UNDER DEVELOPMENT</h1>
-                    </div>
                     
                 </div>
             </div>
-
             
 
             {{-- @yield('content') --}}

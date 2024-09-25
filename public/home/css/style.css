@@ -1042,6 +1042,12 @@ ul.top-info-box > li.nav-search i {
   padding: 12px;
 }
 
+.icon-logo{
+  float: right;
+  /* margin-top: 5px; */
+  /* padding: 12px; */
+}
+
 .navbar {
   border-radius: 0;
   border: 0;
@@ -1053,7 +1059,7 @@ ul.top-info-box > li.nav-search i {
   padding: 6px;
   border-radius: 0;
   font-size: 1rem;
-  background: #b90d21;
+  background: #000066;
 }
 
 .navbar-toggler:focus {

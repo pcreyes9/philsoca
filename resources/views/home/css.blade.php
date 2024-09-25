@@ -10,4 +10,4 @@
 <!-- Colorbox -->
 <link rel="stylesheet" href="home/plugins/colorbox/colorbox.css">
 <!-- Template styles-->
-<link rel="stylesheet" href="home/css/style.css">
+<link rel="stylesheet" href="home/css/style.css?ver=<?php echo time()?>">

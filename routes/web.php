@@ -8,10 +8,11 @@ use App\Mail\MyTestEmail;
 use App\Exports\ExcelExport;
 use App\Livewire\ViewMemReg;
 use Illuminate\Http\Request;
+use Barryvdh\DomPDF\Facade\Pdf;
 use Illuminate\Support\Facades\Route;
+use Illuminate\Support\Facades\Artisan;
 use App\Http\Controllers\GalleryController;
 use App\Http\Controllers\DashboardController;
-use Barryvdh\DomPDF\Facade\Pdf;
 
 /*
 |--------------------------------------------------------------------------
@@ -25,6 +26,10 @@ use Barryvdh\DomPDF\Facade\Pdf;
 */
 
 Route::get('/', function () {
+    Artisan::call('cache:clear');
+    Artisan::call('route:clear');
+    Artisan::call('config:clear');
+    Artisan::call('view:clear');
     return view('home/landing');
 })->name('home');
 

@@ -5,7 +5,7 @@
         <div class="text-center copyright-info">
           <span>Copyright &copy; <script>
               document.write(new Date().getFullYear())
-            </script>  PSA, INC. – All rights reserved
+            </script>  PSA, Inc. – All rights reserved
             {{-- , Designed &amp; Developed by pcreyes with <a href="https://themefisher.com">Themefisher</a> --}}
             </span>
         </div>

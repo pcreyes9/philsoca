@@ -45,12 +45,12 @@
             <div style="overflow: hidden; position: relative;">
                 <img class="master-bg" src="images/bg/master.jpg" alt="">
                 <div style="position: relative">
-                    {{-- @yield('content') --}}
+                    @yield('content')
 
 
-                    <div class="container">
+                    {{-- <div class="container">
                         <h1 class="text-center m-5">THIS SITE IS UNDER DEVELOPMENT...</h1>
-                    </div>
+                    </div> --}}
                     
                 </div>
             </div>

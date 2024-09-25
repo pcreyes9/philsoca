@@ -45,7 +45,7 @@
             <div style="overflow: hidden; position: relative;">
                 <img class="master-bg" src="images/bg/master.jpg" alt="">
                 <div style="position: relative">
-                    {{-- @yield('content') --}}
+                    @yield('content')
 
 
                     {{-- <div class="container">

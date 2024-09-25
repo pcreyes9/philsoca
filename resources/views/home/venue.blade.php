@@ -5,7 +5,7 @@
 @section('content')
     <div class="">
         <section id="news" class="project-area">
-            <div class="container p-4 ml-15" >
+            <div class="container ml-15" >
                 {{-- style="background: rgba(255, 255, 255, 0.5); border-radius: 25px" --}}
                 <div class="row">
                     <div class="col-12 text-center">
@@ -36,8 +36,8 @@
                     <hr class="" style="clear:both; border: 1px solid black;"/>
                     <div class="text-left row">
                         <div class="col-12 text-center">
-                            <h2 class="section-title">REACHING OUR Venue</h2>
-                            <h3 class="section-sub-title">Manila Marriott Hotel</h3>    
+                            {{-- <h2 class="section-title">REACHING OUR Venue</h2>
+                            <h3 class="section-sub-title">Manila Marriott Hotel</h3>     --}}
                             <p class="hotel-p" style="color: #000066;">
                                 <strong>Website: </strong> <a target="_blank" href="https://www.marriott.com/en-us/hotels/mnlap-manila-marriott-hotel/overview/">https://www.marriott.com/en-us/hotels/mnlap-manila-marriott-hotel/overview/</a><br>
                                 <strong>Email: </strong> mnlmarriotthotel@gmail.com<br>

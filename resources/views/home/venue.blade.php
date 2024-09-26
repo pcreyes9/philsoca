@@ -28,7 +28,7 @@
                         
                         <div class="col-sm-10 d-sm-block">
                             <a class="gallery-popup" href="images/Manila Marriott Hotel.jpg">
-                                <img loading="lazy" class="img-fluid w-100 " src="images/Manila Marriott Hotel.jpg" alt="img">
+                                <img loading="lazy" class="img-fluid w-100 " src="images/Marriot Hotel.png" alt="img">
                             </a>
                         </div>
                         
@@ -45,8 +45,8 @@
                             </p>
                         </div>
                     </div>
-                    <div class="container text-center rounded-5">
-                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3862.379885735202!2d121.0185!3d14.520249999999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397ceccf5c03667%3A0xf83d6792c2c9f350!2sManila%20Marriott%20Hotel!5e0!3m2!1sen!2sph!4v1722479528506!5m2!1sen!2sph" width="1000" height="600" style="border:2px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    <div class="maps text-center rounded-5">
+                        <iframe class="responsive-iframe" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3862.379885735202!2d121.0185!3d14.520249999999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397ceccf5c03667%3A0xf83d6792c2c9f350!2sManila%20Marriott%20Hotel!5e0!3m2!1sen!2sph!4v1722479528506!5m2!1sen!2sph" width="1000" height="600" style="border:2px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                     </div>
                 </div>
             </div>

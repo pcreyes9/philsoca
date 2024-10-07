@@ -17,21 +17,19 @@
         
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="mr-auto nav navbar-nav" >
-              <li class="nav-item" ><a class="nav-link" style="color: #000066 !important" href="{{route('home')}}" >HOME</a></li>
-              <li class="nav-item"><a class="nav-link" style="color: #000066 !important" href="#">SCIENTIFIC PROGRAM</a></li>
-              <li class="nav-item"><a class="nav-link"style="color: #000066 !important" href="#">ORGANIZING COMMITTEE</a></li>
-              <li class="nav-item"><a class="nav-link" style="color: #000066 !important" href="#">REGISTRATION</a></li>
-              <li class="nav-item"><a class="nav-link" style="color: #000066 !important" href="#">ABSTRACT SUBMISSION</a></li>
-              <li class="nav-item"><a class="nav-link" style="color: #000066 !important" href="#">SPONSORSHIP & EXHIBITION</a></li>
-              <li class="nav-item"><a class="nav-link" style="color: #000066 !important" href="{{route('venue')}}">VENUE</a></li>
-              <li class="nav-item"><a class="nav-link" style="color: #000066 !important" href="#">ACCOMMODATIONS</a></li>
-              <li class="nav-item"><a class="nav-link" style="color: #000066 !important" href="#">CONTACT</a></li>
+              <li class="nav-item"><a class="nav-link" href="{{route('home')}}" >HOME</a></li>
+              <li class="nav-item"><a class="nav-link" href="#">SCIENTIFIC PROGRAM</a></li>
+              <li class="nav-item"><a class="nav-link" href="#">ORGANIZING COMMITTEE</a></li>
+              <li class="nav-item"><a class="nav-link" href="#">REGISTRATION</a></li>
+              <li class="nav-item"><a class="nav-link" href="#">ABSTRACT SUBMISSION</a></li>
+              <li class="nav-item"><a class="nav-link" href="#">SPONSORSHIP & EXHIBITION</a></li>
+              <li class="nav-item"><a class="nav-link" href="{{route('venue')}}">VENUE</a></li>
+              <li class="nav-item"><a class="nav-link" href="#">ACCOMMODATIONS</a></li>
+              <li class="nav-item"><a class="nav-link" href="#">CONTACT</a></li>
               {{-- testing --}}
             </ul>
             
           </div >
-            
-          
         </nav>
       </div>
         <!--/ Col end -->

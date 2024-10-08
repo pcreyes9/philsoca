@@ -1,3 +1,4 @@
+<?php $page='venue'; ?>
 @extends('home.master')
 
 @section('title', 'Venue')

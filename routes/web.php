@@ -41,13 +41,13 @@ Route::get('/venue', function () {
 //     return view('home/pages/accommodations');
 // })->name('accommodations');
 
-// Route::get('/registration', function () {
-//     return view('home/pages/registration-details');
-// })->name('reg');
+Route::get('/registration', function () {
+    return view('home/pages/registration-details');
+})->name('reg');
 
-// Route::get('/mem-registration', function () {
-//     return view('registration.mem-registration');
-// })->name('memReg');
+Route::get('/mem-registration', function () {
+    return view('registration.mem-registration');
+})->name('memReg');
 
 // Route::get('/psa-id-checker', function () {
 //     return view('registration.psa-id-checker');

@@ -11,7 +11,7 @@
         <div class="row justify-content-center mb-5" data-animation-in="slideInLeft" data-duration-in="1.2">
             <div class="col-lg-12 mb-5" >
                 <h3 class="into-sub-title" >The 24th ASEAN Congress of Anesthesiologists (ACA 2024)</h3>
-                <h3 class="section-header">23rd - 25th October 2025 | Manila Marriott Hotel | Pasay City | Philippines</h3>
+                <h3 class="section-header">23rd - 25th October 2025 | MARRIOTT GRAND BALLROOM | Pasay City | Philippines</h3>
             </div>
             <div class="col-lg-9 mt-4 mt-lg-0">
                 <p class="para-head">Registration Guidelines</p>

@@ -2859,7 +2859,7 @@ img.testimonial-thumb {
 /*-- Banner --*/
 .banner-area {
   position: relative;
-  min-height: 300px;
+  min-height: 120px;
   color: #fff;
   background-position: 50% 50%;
   background-size: cover;
@@ -2868,7 +2868,8 @@ img.testimonial-thumb {
 .banner-title {
   color: #fff;
   text-transform: uppercase;
-  font-size: 58px;
+  letter-spacing: 10px;
+  font-size: 30px;
   font-weight: 900;
 }
 

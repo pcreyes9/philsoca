@@ -46,7 +46,7 @@
     </div> --}}
 
     <div class="">
-      <img class="imgSlide w-100 w-lg-75 " src="images/slider-main/ACA POSTER V6.png" alt="">
+      <img class="imgSlide w-100 w-lg-75 " src="images/slider-main/ACA POSTER V7.png" alt="">
     </div>
 
     {{-- <div class="banner-carousel-item" style="background-image:url(images/slider-main/slider7expo.jpg)">

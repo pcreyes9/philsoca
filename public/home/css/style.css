@@ -18,10 +18,25 @@ Description: Constra - Construction Html5 Template
 
 /* MY OWN CSS */
 
+/* .fd {
+  animation: fd-in linear both;
+  animation-timeline: view();
+  animation-range: entry 50% cover 50%;
+
+}
+
+@keyframes fd-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+} */
 
 .maps{
   position: relative;
-  overflow: hidden;
+  overflow: clip;
   width: 100%;
   padding-top: 56.25%; /* 16:9 Aspect Ratio (divide 9 by 16 = 0.5625) */
 }
@@ -100,7 +115,7 @@ Description: Constra - Construction Html5 Template
   background-size: cover;
   position: absolute;
 
-  overflow: hidden;
+  overflow: clip;
   background-size: 100% 100%;   
 
   opacity: 0.4;
@@ -272,7 +287,7 @@ body {
 
 .body-inner {
   position: relative;
-  overflow: hidden;
+  overflow: clip;
 }
 
 .preload {
@@ -424,7 +439,7 @@ a:focus {
   width: 1px;
   clip: rect(1px, 1px, 1px, 1px);
   border: 0;
-  overflow: hidden;
+  overflow: clip;
 }
 
 /* Dropcap */
@@ -512,7 +527,7 @@ a:focus {
   position: relative;
   display: block;
   height: 0;
-  overflow: hidden;
+  overflow: clip;
 }
 
 .embed-responsive iframe {
@@ -1852,7 +1867,7 @@ ul.navbar-nav > li.header-get-a-quote:hover > a:after {
 .featured-tab .tab-content {
   border-top: 0;
   padding: 0;
-  overflow: hidden;
+  overflow: clip;
 }
 
 .featured-tab .nav.nav-tabs {
@@ -2186,7 +2201,7 @@ ul.navbar-nav > li.header-get-a-quote:hover > a:after {
 
 .shuffle-item .project-img-container {
   position: relative;
-  overflow: hidden;
+  overflow: clip;
 }
 
 .shuffle-item .project-img-container img {
@@ -2294,7 +2309,7 @@ ul.navbar-nav > li.header-get-a-quote:hover > a:after {
 
 .project-slide .item {
   position: relative;
-  overflow: hidden;
+  overflow: clip;
   width: 100%;
 }
 
@@ -2859,7 +2874,7 @@ img.testimonial-thumb {
 /*-- Banner --*/
 .banner-area {
   position: relative;
-  min-height: 120px;
+  min-height: 90px;
   color: #fff;
   background-position: 50% 50%;
   background-size: cover;
@@ -2869,8 +2884,8 @@ img.testimonial-thumb {
   color: #fff;
   text-transform: uppercase;
   letter-spacing: 10px;
-  font-size: 30px;
-  font-weight: 900;
+  font-size: 25px;
+  font-weight: 800;
 }
 
 @media (max-width: 767px) {
@@ -3073,7 +3088,7 @@ img.testimonial-thumb {
 
 .ts-team-wrapper {
   position: relative;
-  overflow: hidden;
+  overflow: clip;
 }
 
 .ts-team-wrapper .ts-team-content {

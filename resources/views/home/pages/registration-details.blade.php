@@ -14,19 +14,19 @@
                 <h3 class="section-header">23rd - 25th October 2025 | MARRIOTT GRAND BALLROOM | Pasay City | Philippines</h3>
             </div>
             <div class="col-lg-9 mt-4 mt-lg-0">
-                <p class="para-head">Registration Guidelines</p>
-                <p class="hotel-p">
+                <p class="para-head fd">Registration Guidelines</p>
+                <p class="hotel-p fd">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas semper nunc nec ornare ornare. Nam sagittis elit ac ligula bibendum condimentum. In sodales, neque et tincidunt congue, lorem dui interdum arcu, id lobortis tortor nibh quis magna. Pellentesque sit amet semper turpis, non feugiat tellus. Duis malesuada nibh nec suscipit volutpat.
                 </p>
                 <br>
-                <p class="para-head">Registration Rates</p>
-                <p class="hotel-p">
+                <p class="para-head fd">Registration Rates</p>
+                <p class="hotel-p fd">
                     All conference participants and presenters of accepted presentations must register and make the registration fees in full.               
                 </p>
                 <br>
-                <p class="para-head text-center">International Rates</p>
+                <p class="para-head text-center fd">International Rates</p>
                 <div class="table-responsive">
-                    <table class="table">
+                    <table class="table fd">
                         <thead class="bg-primary text-white">
                             <tr>
                                 <th class="text-left" scope="col">Registration Type</th>
@@ -53,15 +53,15 @@
                 </div>
                 
                 <br>
-                <p class="para-head text-center">Local (Philippines) Rates</p>
+                <p class="para-head text-center fd ">Local (Philippines) Rates</p>
                 <div class="table-responsive">
                     <table class="table">
                         <thead class="bg-danger text-white" >
                             <tr>
-                                    <th class="text-left" scope="col">Registration Type</th>
-                                    <th scope="col">Early Bird Rate</th>
-                                    <th scope="col">Pre-Registration</th>
-                                    <th scope="col">Onsite Registration</th>
+                                <th class="text-left" scope="col">Registration Type</th>
+                                <th scope="col">Early Bird Rate</th>
+                                <th scope="col">Pre-Registration</th>
+                                <th scope="col">Onsite Registration</th>
                             </tr>
                         </thead>
                         <tbody>
@@ -102,23 +102,23 @@
                 {{-- <a class="gallery-popup wrapper" href="images/MC 2024 RATES.jpg">
                     <img class="img-fluid w-50 zoom fade-img" src="images/MC 2024 RATES.jpg" alt="">
                 </a> --}}
-                <p class="hotel-p">
+                <p class="hotel-p fd">
                     <br>
                     Remarks: other type of registrations stated above will fall under “NON-Member” category.
                 </p>
                 <br>    
-                <p class="para-head">Member States of Asean</p>
-                <p class="hotel-p">
+                <p class="para-head fd">Member States of Asean</p>
+                <p class="hotel-p fd">
                     Brunei, Cambodia, Indonesia, Laos, Malaysia, Myanmar, Philippines, Singapore, Thailand, and Vietnam.
                 </p>
                 <br>    
-                <p class="para-head">Registration Procedure</p>
-                <p class="hotel-p">
+                <p class="para-head fd">Registration Procedure</p>
+                <p class="hotel-p fd">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas semper nunc nec ornare ornare. Nam sagittis elit ac ligula bibendum condimentum. In sodales, neque et tincidunt congue, lorem dui interdum arcu, id lobortis tortor nibh quis magna. Pellentesque sit amet semper turpis, non feugiat tellus. Duis malesuada nibh nec suscipit volutpat.
                 </p>
                 <br>
-                <p class="para-head">Payment Details</p>
-                <p class="hotel-p">
+                <p class="para-head fd">Payment Details</p>
+                <p class="hotel-p fd">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas semper nunc nec ornare ornare. Nam sagittis elit ac ligula bibendum condimentum. In sodales, neque et tincidunt congue, lorem dui interdum arcu, id lobortis tortor nibh quis magna. Pellentesque sit amet semper turpis, non feugiat tellus. Duis malesuada nibh nec suscipit volutpat.
                 </p>
             </div>
@@ -130,3 +130,5 @@
     </div>
 </section><!-- Main container end -->
 @endsection
+
+

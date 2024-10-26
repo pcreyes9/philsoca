@@ -33,9 +33,9 @@ Route::get('/', function () {
     return view('home/landing');
 })->name('home');
 
-// Route::get('/venue', function () {
-//     return view('home/venue');
-// })->name('venue');
+Route::get('/venue', function () {
+    return view('home/venue');
+})->name('venue');
 
 // Route::get('/accommodations', function () {
 //     return view('home/pages/accommodations');
@@ -53,9 +53,9 @@ Route::get('/', function () {
 //     return view('registration.psa-id-checker');
 // })->name('psaID-checker');
 
-// Route::get('/organizing-committee', function () {
-//     return view('home/pages/organizing-committee');
-// })->name('orgCom');
+Route::get('/organizing-committee', function () {
+    return view('home/pages/organizing-committee');
+})->name('orgCom');
 
 
 // Route::get('/emailsend', function (Request $request){

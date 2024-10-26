@@ -40,12 +40,12 @@
 </section>
 <section id="news" class="project-area" style="background: #000066; color: white !important">
     <div class="container" >
-        <div class="text-left row">
-            <div class="col-12 col-md-5 text-center">
+        <div class="text-left">
+            <div class="text-center">
                 {{-- <h2 class="section-title">REACHING OUR Venue</h2>
                 <h3 class="section-sub-title">Manila Marriott Hotel</h3>     --}}
 
-                <p class="hotel-p" style="color: #dbdbdb;">
+                <p class="hotel-p pb-4" style="color: #dbdbdb;">
                     <strong>Marriott Grand Ballroom</strong><br>
                     2 Resorts Drive, Newport World Resorts, NCR - Fourth District, Barangay 183, Pasay City, Metro Manila, Philippines, 1309 <br><br>
                     <strong>Email: </strong> mnlmarriotthotel@gmail.com<br>
@@ -55,12 +55,16 @@
                         </svg></a><br>
                 </p>
             </div>
-            <div class="col-12 col-md-7 text-center">
+            {{-- <div class="col-12 col-md-7 text-center">
                 <div class="maps text-center rounded-5">
-                {{-- <iframe class="responsive-iframe" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3862.379885735202!2d121.0185!3d14.520249999999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397ceccf5c03667%3A0xf83d6792c2c9f350!2sManila%20Marriott%20Hotel!5e0!3m2!1sen!2sph!4v1722479528506!5m2!1sen!2sph" width="1000" height="800" style="border:2px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> --}}
                 <iframe class="responsive-iframe" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3862.3633535007502!2d121.0145836757402!3d14.521196879014486!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397cf2a572a7d8d%3A0x55a7edf4c7773bda!2sMarriott%20Grand%20Ballroom!5e0!3m2!1sen!2sph!4v1728444732486!5m2!1sen!2sph" width="1000" height="800" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-            </div>   
-            </div>          
+            </div>    --}}
+            <div class="rounded">
+                <iframe class="rounded w-100" 
+                style="height: 500px;" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3862.3633535007502!2d121.0145836757402!3d14.521196879014486!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397cf2a572a7d8d%3A0x55a7edf4c7773bda!2sMarriott%20Grand%20Ballroom!5e0!3m2!1sen!2sph!4v1728444732486!5m2!1sen!2sph" 
+                loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            </div>        
         </div>
     </div>
 </section>

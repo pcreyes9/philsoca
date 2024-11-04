@@ -8,10 +8,10 @@
     <section id="main-container" class="main-container text-center project-area">
         <div class="container" >
             <div class="row justify-content-center">
-                <div class="col-lg-12 " >
+                <div class="col-lg-12" >
                     {{-- <h3 class="into-sub-title .d-md-none .d-lg-block" style="color: #000066">The 24th ASEAN Congress of Anesthesiologists (ACA 2024) Organizing Committee</h3> --}}
 
-                    <h3 class="into-sub-title" style="color: #000066; font-size: 2.2vmax; ">The 24th ASEAN Congress of Anesthesiologists <br> (ACA 2025) <br> Organizing Committee</h3>
+                    <h3 class="into-sub-title" style="color: #000066; font-size: 2.3vmax; ">The 24<sup style="text-transform: lowercase">th</sup> ASEAN Congress of Anesthesiologists <br> (ACA 2025) <br> Organizing Committee</h3>
                     <div class="row justify-content-center mt-5">
                         <div class="col-auto">
                             <table class="table borderless text-left table-responsive" >

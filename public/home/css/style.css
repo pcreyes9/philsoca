@@ -1489,7 +1489,7 @@ ul.navbar-nav > li.header-get-a-quote:hover > a:after {
 
 @media (max-width: 575px) {
   .banner-carousel .banner-carousel-item {
-    height: 450px;
+    height: 200px;
   }
 }
 
@@ -2005,7 +2005,7 @@ ul.navbar-nav > li.header-get-a-quote:hover > a:after {
 
 /* Service box bg */
 .ts-service-box-bg {
-  background: #252525;
+  background: #000066;
   color: #fff;
   padding: 30px;
 }

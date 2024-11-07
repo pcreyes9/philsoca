@@ -29,7 +29,7 @@
               </div>
             </div><!-- Col 1 end --> --}}
       
-            <div class="col-md-6">
+            <div class="col-md-6 mb-3 mb-md-0">
               <div class="ts-service-box-bg text-center h-100">
                 <span class="ts-service-icon icon-round">
                   <i class="fa fa-envelope mr-0"></i>
@@ -40,6 +40,7 @@
                 </div>
               </div>
             </div><!-- Col 2 end -->
+
       
             <div class="col-md-6">
               <div class="ts-service-box-bg text-center h-100">
@@ -55,7 +56,7 @@
       
           </div><!-- 1st row end -->
 
-        <div class="gap-60"></div>
+        <div class="gap-40"></div>
         
         <div class="rounded">
             <iframe class="rounded w-100" 

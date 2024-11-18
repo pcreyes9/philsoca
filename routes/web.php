@@ -57,9 +57,9 @@ Route::get('/venue', function () {
 //     return view('home/pages/organizing-committee');
 // })->name('orgCom');
 
-// Route::get('/contact', function () {
-//     return view('home/pages/contact');
-// })->name('contact');
+Route::get('/contact', function () {
+    return view('home/pages/contact');
+})->name('contact');
 
 // Route::get('/emailsend', function (Request $request){
     

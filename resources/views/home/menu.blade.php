@@ -25,10 +25,9 @@
               <li class="nav-item"><a class="nav-link" href="#">SPONSORSHIP & EXHIBITION</a></li>
               <li class="nav-item"><a class="nav-link" href="{{route('venue')}}">VENUE</a></li>
               <li class="nav-item"><a class="nav-link" href="#">ACCOMMODATIONS</a></li>
-              <li class="nav-item"><a class="nav-link" href="#">CONTACT</a></li>
+              <li class="nav-item"><a class="nav-link" href="{{ route('contact') }}">CONTACT</a></li>
               {{-- testing --}}
             </ul>
-            
           </div >
         </nav>
       </div>

@@ -11,7 +11,7 @@
     <div class="container text-center justify">
         <div class="text-center">
             <div class="">
-                <h2 class="section-title">Reaching our Office</h2>
+                {{-- <h2 class="section-title">Reaching our Office</h2> --}}
                 <h3 class="section-sub-title">Contact Us</h3>
             </div>
         </div>
@@ -49,7 +49,8 @@
                 </span>
                 <div class="ts-service-box-content">
                   <h4>Call Us</h4>
-                  <p>Tel: 89295852 | 84522058</p>
+                  <p>Tel: 89295852 | 84522058 <br> Cel no. : +63 9178329069 | +63 9209522120</p>
+                  
                 </div>
               </div>
             </div><!-- Col 3 end -->

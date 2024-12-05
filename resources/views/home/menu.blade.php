@@ -19,7 +19,11 @@
             <ul class="mr-auto nav navbar-nav" >
               <li class="nav-item"><a class="nav-link" href="{{route('home')}}" >HOME</a></li>
               <li class="nav-item"><a class="nav-link" href="#">SCIENTIFIC PROGRAM</a></li>
+<<<<<<< HEAD
               <li class="nav-item"><a class="nav-link" href="{{route('orgCom')}}">ORGANIZING COMMITTEE</a></li>
+=======
+              <li class="nav-item"><a class="nav-link" href="{{ route('orgCom') }}">ORGANIZING COMMITTEE</a></li>
+>>>>>>> c5ff39a62b30cf41bd3d1dbdaad790cfe30b2ca0
               <li class="nav-item"><a class="nav-link" href="#">REGISTRATION</a></li>
               <li class="nav-item"><a class="nav-link" href="#">ABSTRACT SUBMISSION</a></li>
               <li class="nav-item"><a class="nav-link" href="#">SPONSORSHIP & EXHIBITION</a></li>

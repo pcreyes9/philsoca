@@ -34,6 +34,10 @@ Description: Constra - Construction Html5 Template
   }
 } */
 
+hr.solid {
+  border-top: 3px solid #000066;
+}
+
 .maps{
   position: relative;
   overflow: clip;
@@ -501,7 +505,7 @@ a:focus {
 }
 
 @media (max-width: 575px) {
-  .section-sub-title{
+  .section-sub-title, .orgcom-title{
     font-size: 28px;
   }
 }
@@ -3126,7 +3130,7 @@ img.testimonial-thumb {
 
 .ts-team-wrapper .ts-designation {
   color: #fff;
-  font-size: 14px;
+  font-size: 16px;
   margin-bottom: 15px;
   font-weight: 700;
 }
@@ -3152,18 +3156,33 @@ img.testimonial-thumb {
   margin-top: 15px;
 }
 
+
+.orgcom-title{
+  font-size: 40px;
+  color: #ac071a;
+  padding-bottom: 5px;
+}
+
 .ts-team-content-classic .ts-name {
     padding: 0.75rem;
     background-color: #000066;
-  font-size: 17px;
+  font-size: 16px;
   color: #fff;
+  height: 70px;
+  position: relative;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
 }
 
 .ts-team-content-classic .ts-designation {
   color: #000;
+  padding: 4px;
   margin-bottom: 5px;
-  font-weight: 600;
-  font-size: 15px;
+  font-weight: 700;
+  font-size: 17px;
    /* border-radius: 25px; */
   border: 1.5px solid #73AD21;
   /* width: 50%;  */

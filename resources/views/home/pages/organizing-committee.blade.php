@@ -21,7 +21,7 @@
                                         <td>Dr. Peñafrancia C. Cano</td>
                                     </tr>
                                     <tr>
-                                        <th scope="row"><strong>Scientific Committee: </strong></th>
+                                        <th scope="row"><strong>Scientific Committee Chair: </strong></th>
                                         <td>Dr. Celine B. Zaldivar</td>
                                     </tr>
                                     <tr >

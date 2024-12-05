@@ -11,11 +11,7 @@
                 <div class="col-lg-12" >
                     {{-- <h3 class="into-sub-title .d-md-none .d-lg-block" style="color: #000066">The 24th ASEAN Congress of Anesthesiologists (ACA 2024) Organizing Committee</h3> --}}
 
-<<<<<<< HEAD
-                    <h3 class="into-sub-title" style="color: #000066; font-size: 2.1vmax; ">The 24<sup style="text-transform: lowercase">th</sup> ASEAN Congress of Anesthesiologists <br> (ACA 2025)  <br>  Organizing Committee</h3>
-=======
                     <h3 class="into-sub-title" style="color: #000066; font-size: 2.1vmax; ">The 24<sup style="text-transform: lowercase">th</sup> ASEAN Congress of Anesthesiologists <br> (ACA 2025)Organizing Committee</h3>
->>>>>>> c5ff39a62b30cf41bd3d1dbdaad790cfe30b2ca0
                     <div class="row justify-content-center mt-5">
                         <div class="col-auto">
                             <table class="table borderless text-left table-responsive" >
@@ -25,13 +21,8 @@
                                         <td>Dr. Peñafrancia C. Cano</td>
                                     </tr>
                                     <tr>
-<<<<<<< HEAD
-                                        <th scope="row"><strong>Chair Scientific Committee Chair: </strong></th>
-                                        <td>Dr. Celina Z. Ancheta</td>
-=======
                                         <th scope="row"><strong>Scientific Committee: </strong></th>
                                         <td>Dr. Celine B. Zaldivar</td>
->>>>>>> c5ff39a62b30cf41bd3d1dbdaad790cfe30b2ca0
                                     </tr>
                                     <tr >
                                         <th scope="row" ><strong>Secretariat: </strong></th>

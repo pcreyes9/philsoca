@@ -62,13 +62,7 @@ Route::get('/contact', function () {
 //     return view('registration.psa-id-checker');
 // })->name('psaID-checker');
 
-// Route::get('/organizing-committee', function () {
-//     return view('home/pages/organizing-committee');
-// })->name('orgCom');
 
-// Route::get('/contact', function () {
-//     return view('home/pages/contact');
-// })->name('contact');
 
 // Route::get('/emailsend', function (Request $request){
     

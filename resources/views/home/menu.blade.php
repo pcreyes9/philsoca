@@ -20,8 +20,8 @@
               <li class="nav-item"><a class="nav-link" href="{{route('home')}}" >HOME</a></li>
               <li class="nav-item"><a class="nav-link" href="#">SCIENTIFIC PROGRAM</a></li>
               <li class="nav-item"><a class="nav-link" href="{{ route('orgCom') }}">ORGANIZING COMMITTEE</a></li>
-              <li class="nav-item"><a class="nav-link" href="#">REGISTRATION</a></li>
-              <li class="nav-item"><a class="nav-link" href="#">ABSTRACT SUBMISSION</a></li>
+              <li class="nav-item"><a class="nav-link" href="{{route('reg')}}">REGISTRATION</a></li>
+              <li class="nav-item"><a class="nav-link" href="{{ route('abstract') }}">ABSTRACT SUBMISSION</a></li>
               <li class="nav-item"><a class="nav-link" href="#">SPONSORSHIP & EXHIBITION</a></li>
               <li class="nav-item"><a class="nav-link" href="{{route('venue')}}">VENUE</a></li>
               <li class="nav-item"><a class="nav-link" href="#">ACCOMMODATIONS</a></li>

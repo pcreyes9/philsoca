@@ -11,7 +11,7 @@
                 <div class="col-lg-12" >
                     {{-- <h3 class="into-sub-title .d-md-none .d-lg-block" style="color: #000066">The 24th ASEAN Congress of Anesthesiologists (ACA 2024) Organizing Committee</h3> --}}
 
-                    <h3 class="into-sub-title" style="color: #000066; font-size: 2.1vmax; ">The 24<sup style="text-transform: lowercase">th</sup> ASEAN Congress of Anesthesiologists <br> (ACA 2025)Organizing Committee</h3>
+                    <h3 class="into-sub-title" style="color: #000066; font-size: 2.1vmax; ">The 24<sup style="text-transform: lowercase">th</sup> ASEAN Congress of Anesthesiologists <br> (ACA 2025) Organizing Committee</h3>
                     <div class="row justify-content-center mt-5">
                         <div class="col-auto">
                             <table class="table borderless text-left table-responsive" >
@@ -25,7 +25,7 @@
                                         <td>Dr. Celine B. Zaldivar</td>
                                     </tr>
                                     <tr >
-                                        <th scope="row" ><strong>Secretariat: </strong></th>
+                                        <th scope="row" ><strong>Registration Committee: </strong></th>
                                         <td>Dr. Ma. Janetth B. Serrano</td>
                                     </tr>
                                     <tr>
@@ -42,24 +42,24 @@
                                         
                                     </tr>
                                     <tr>
-                                        <th scope="row"><strong>Booth Lay out: </strong></th>
+                                        <th scope="row"><strong>Trade & Exhibits: </strong></th>
                                         <td>Dr. Francis B. Mayuga</td>
                                     </tr>
                                     <tr>
-                                        <th scope="row"><strong>Posters/Research:</strong> <br> Members:</th>
+                                        <th scope="row"><strong>Research:</strong> <br> &nbsp &nbsp Chair <br> &nbsp &nbsp Members:</th>
                                         <td>Dr. Julie B. Balacuit <br> Dr. Melissa M. Caranto <br> Dr. Emmanuel S. Prudente <br> Dr. Aileen L. Rosales</td>
                                     </tr>
                                     <tr>
-                                        <th scope="row"><strong>Socials:</strong> <br> Members:</th>
+                                        <th scope="row"><strong>Socials Events:</strong> <br> &nbsp &nbsp Chair <br> &nbsp &nbsp Members:</th>
                                         <td>Dr. Carmelita S. Lunas <br> Dr. Arnel M. Asino <br> Dr. Cherynne Inso-De Guzman</td>
                                     </tr>
                                     <tr>
-                                        <th scope="row"><strong>Hospitality: </strong></th>
+                                        <th scope="row"><strong>Meet & Greet: </strong></th>
                                         <td>Dr. Joselito T. Morete</td>
                                     </tr>
                                     <tr>
-                                        <th scope="row"><strong>Souvenir Program: </strong></th>
-                                        <td>Dr. Jonnel L. Lim</td>
+                                        <th scope="row"><strong>Souvenir Program: </strong> <br> &nbsp &nbsp Chair <br> &nbsp &nbsp Members:</th>
+                                        <td>Dr. Jonnel L. Lim <br> <br> Dr. Cristina Mayo Milo</td>
                                     </tr>
                                     <tr>
                                         <th scope="row"><strong>Advisory Board: </strong></th>
@@ -68,10 +68,7 @@
                                 </tbody>
                             </table>
                         </div>
-
                     </div>
-                    
-                    
                 </div><!-- Col end -->
             </div><!-- Row end -->
           </div><!-- Container end -->

@@ -33,10 +33,6 @@ Route::get('/', function () {
     return view('home/landing');
 })->name('home');
 
-Route::get('/abstract', function () {
-    return view('home/pages/abstract');
-})->name('abstract');
-
 Route::get('/venue', function () {
     return view('home/venue');
 })->name('venue');
@@ -49,14 +45,18 @@ Route::get('/contact', function () {
     return view('home/pages/contact');
 })->name('contact');
 
+// Route::get('/abstract', function () {
+//     return view('home/pages/abstract');
+// })->name('abstract');
+
 
 // Route::get('/accommodations', function () {
 //     return view('home/pages/accommodations');
 // })->name('accommodations');
 
-Route::get('/registration', function () {
-    return view('home/pages/registration-details');
-})->name('reg');
+// Route::get('/registration', function () {
+//     return view('home/pages/registration-details');
+// })->name('reg');
 
 // Route::get('/mem-registration', function () {
 //     return view('registration.mem-registration');

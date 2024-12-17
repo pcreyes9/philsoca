@@ -14,7 +14,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
 
         <meta name="description" content="ASEAN CONGRESS OF ANESTHESIOLOGISTS IN MANILA 2025">
-        <meta name="keywords" content="anesthesia, anesthesiologists, ACA, doctors, congress, ">
+        <meta name="keywords" content="anesthesia, anesthesiologists, ACA, doctors, congress, philippines, manila, anes">
 
         
 
@@ -48,7 +48,7 @@
             {{-- style="background-image:url(images/bg/master.jpg); " --}}
 
             <div style="overflow: hidden; position: relative;">
-                <img class="master-bg" src="images/bg/master.jpg" alt="">
+                <img class="master-bg" src="images/bg/master.jpg" alt="ASEAN CONGRESS OF ANESTHESIOLOGISTS IN MANILA 2025">
                 <div style="position: relative">
                     @yield('content')
 

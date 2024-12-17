@@ -3,6 +3,10 @@
 use App\Livewire\MemReg;
 // use Barryvdh\DomPDF\PDF;
 
+use Spatie\Sitemap\Sitemap;
+use Spatie\Sitemap\Tags\Url;
+
+
 
 use App\Mail\MyTestEmail;
 use App\Exports\ExcelExport;
@@ -14,6 +18,7 @@ use Illuminate\Support\Facades\Artisan;
 use App\Http\Controllers\GalleryController;
 use App\Http\Controllers\DashboardController;
 
+
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -24,6 +29,14 @@ use App\Http\Controllers\DashboardController;
 | be assigned to the "web" middleware group. Make something great!
 |
 */
+Route::get('/sitemap.xml', function () {
+    $sitemap = Sitemap::create()
+        ->add(Url::create('/'))
+        ->add(Url::create('/about'))
+        ->add(Url::create('/contact'));
+
+    return $sitemap->toResponse(request());
+});
 
 Route::get('/', function () {
     Artisan::call('cache:clear');

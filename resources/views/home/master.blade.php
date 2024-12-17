@@ -13,6 +13,9 @@
         <meta name="description" content="Construction Html5 Template">
         <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
 
+        <meta name="description" content="ASEAN CONGRESS OF ANESTHESIOLOGISTS IN MANILA 2025">
+        <meta name="keywords" content="anesthesia, anesthesiologists, ACA, doctors, congress, ">
+
         <!-- Favicon
         ================================================== -->
         <link rel="icon" type="image/png" href="images/ACA_LOGO.png">

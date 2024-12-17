@@ -10,11 +10,13 @@
         <!-- Mobile Specific Metas
         ================================================== -->
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="description" content="Construction Html5 Template">
+        {{-- <meta name="description" content="Construction Html5 Template"> --}}
         <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
 
         <meta name="description" content="ASEAN CONGRESS OF ANESTHESIOLOGISTS IN MANILA 2025">
         <meta name="keywords" content="anesthesia, anesthesiologists, ACA, doctors, congress, ">
+
+        
 
         <!-- Favicon
         ================================================== -->
@@ -72,7 +74,20 @@
 
             <!-- initialize jQuery Library -->
             @include('home.scripts')
-            
+
+            <script type="application/ld+json">
+                {
+                  "@context": "https://aca2025manila.org/",
+                  "@type": "WebSite",
+                  "name": "The 24th ASEAN Congress of Anesthesiologists",
+                  "url": "https://aca2025manila.org/",
+                  "potentialAction": {
+                    "@type": "SearchAction",
+                    "target": "https://www.example.com/search?q={search_term_string}",
+                    "query-input": "required name=search_term_string"
+                  }
+                }
+            </script>
         </div><!-- Body inner end -->
     </body>
 </html>

@@ -45,6 +45,10 @@ Route::get('/contact', function () {
     return view('home/pages/contact');
 })->name('contact');
 
+// Route::get('/abstract', function () {
+//     return view('home/pages/abstract');
+// })->name('abstract');
+
 
 // Route::get('/accommodations', function () {
 //     return view('home/pages/accommodations');

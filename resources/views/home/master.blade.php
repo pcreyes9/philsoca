@@ -31,7 +31,7 @@
             <!-- Header start -->
             
             <header id="header" class="header-one">
-                <title>@yield('title') | 24th ACA Congress</title>
+                <title>@yield('title') | 24th ASEAN CONGRESS OF ANESTHESIOLOGISTS</title>
                 @include('home.header')
                 @include('home.menu')
 

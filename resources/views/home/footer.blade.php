@@ -35,6 +35,6 @@
         <i class="fa fa-angle-double-up"></i>
       </button>
     </div>
-
+    
   </div><!-- Container end -->
 </div><!-- Copyright end -->

@@ -8,64 +8,128 @@
     <section id="main-container" class="main-container text-center project-area">
         <div class="container" >
             <div class="row justify-content-center">
-                <div class="col-lg-12" >
+                <div class="" >
 
                     <h3 class="into-sub-title" style="color: #000066; font-size: 2.1vmax; ">Invited Speakers</h3>
                     <div class="row justify-content-center mt-5">
                         <div class="col-auto">
-                            {{-- <table class="table borderless text-left table-responsive" >
-                                <tbody>
+                            <table class="table borderless text-left table-responsive" >
+                                <tbody class="text-center">
                                     <tr>
-                                        <th scope="row"><strong>Overall Chair: </strong></th>
-                                        <td>Dr. Peñafrancia C. Cano</td>
+                                        <th scope="row"><strong>Sanjib Adhikary, MD -  USA</strong></th>
+                                        {{-- <td>Dr. Peñafrancia C. Cano</td> --}}
                                     </tr>
                                     <tr>
-                                        <th scope="row"><strong>Scientific Committee Chair: </strong></th>
-                                        <td>Dr. Celine B. Zaldivar</td>
+                                        <th scope="row"><strong>Phuping Akavipat, MD - Thailand </strong></th>
+                                        {{-- <td>Dr. Celine B. Zaldivar</td> --}}
                                     </tr>
                                     <tr >
-                                        <th scope="row" ><strong>Registration Committee: </strong></th>
-                                        <td>Dr. Ma. Janetth B. Serrano</td>
+                                        <th scope="row" ><strong>Chris Bowden, MD - Australia </strong></th>
+                                        {{-- <td>Dr. Ma. Janetth B. Serrano</td> --}}
                                     </tr>
                                     <tr>
-                                        <th scope="row"><strong>Treasurer: </strong></th>
-                                        <td>Dr. Zenaida M. Mariano</td>
+                                        <th scope="row"><strong>Susilo Chandra, MD -  Indonesia</strong></th>
+                                        {{-- <td>Dr. Zenaida M. Mariano</td> --}}
                                     </tr>
                                     <tr>
-                                        <th scope="row"><strong>Ways & Means: </strong></th>
-                                        <td>Dr. Edgard M. Simon</td>
+                                        <th scope="row"><strong>Sophia Chew, MD -  Singapore</strong></th>
+                                        {{-- <td>Dr. Edgard M. Simon</td> --}}
                                     </tr>
                                     <tr >
-                                        <th scope="row" ><strong>Physical Arrangement: </strong></th>
-                                        <td>Dr. Salvador J. Brodit <br> Dr. Godfrey G. Agcon</td>
+                                        <th scope="row" ><strong>Yong Chow Yen, MD - Malaysia</strong></th>
+                                        {{-- <td>Dr. Salvador J. Brodit <br> Dr. Godfrey G. Agcon</td> --}}
                                         
                                     </tr>
                                     <tr>
-                                        <th scope="row"><strong>Trade & Exhibits: </strong></th>
-                                        <td>Dr. Francis B. Mayuga</td>
+                                        <th scope="row"><strong>Nabil Elkassabany, MD -  USA</strong></th>
+                                        {{-- <td>Dr. Francis B. Mayuga</td> --}}
                                     </tr>
                                     <tr>
-                                        <th scope="row"><strong>Research:</strong> <br> &nbsp &nbsp Chair <br> &nbsp &nbsp Members</th>
-                                        <td><br> Dr. Julie B. Balacuit <br> Dr. Melissa M. Caranto <br> Dr. Emmanuel S. Prudente <br> Dr. Aileen L. Rosales</td>
+                                        <th scope="row"><strong>Xavier Falieres, MD - Netherlands</strong></th>
+                                        {{-- <td><br> Dr. Julie B. Balacuit <br> Dr. Melissa M. Caranto <br> Dr. Emmanuel S. Prudente <br> Dr. Aileen L. Rosales</td> --}}
                                     </tr>
                                     <tr>
-                                        <th scope="row"><strong>Socials Events:</strong> <br> &nbsp &nbsp Chair <br> &nbsp &nbsp Members</th>
-                                        <td><br> Dr. Carmelita S. Lunas <br> Dr. Arnel M. Asino <br> Dr. Cherynne Inso-De Guzman</td>
+                                        <th scope="row"><strong>Daniela Filipescu, MD</strong></th>
+                                        {{-- <td><br> Dr. Carmelita S. Lunas <br> Dr. Arnel M. Asino <br> Dr. Cherynne Inso-De Guzman</td> --}}
                                     </tr>
                                     <tr>
-                                        <th scope="row"><strong>Meet & Greet: </strong></th>
-                                        <td>Dr. Joselito T. Morete</td>
+                                        <th scope="row"><strong>Rodney Gabriel, MD - USA</strong></th>
+                                        {{-- <td>Dr. Joselito T. Morete</td> --}}
                                     </tr>
                                     <tr>
-                                        <th scope="row"><strong>Souvenir Program: </strong> <br> &nbsp &nbsp Chair <br> &nbsp &nbsp Members</th>
-                                        <td><br> Dr. Jonnel L. Lim <br> Dr. Cristina Mayo Milo</td>
+                                        <th scope="row"><strong>Adrian Gelb, MD - USA </strong></th>
+                                        {{-- <td><br> Dr. Jonnel L. Lim <br> Dr. Cristina Mayo Milo</td> --}}
                                     </tr>
                                     <tr>
-                                        <th scope="row"><strong>Advisory Board: </strong></th>
-                                        <td>Dr. Florian R. Nuevo <br> Dr. Eric V. Nagtalon</td>
+                                        <th scope="row"><strong>Patrick Giam, MD - USA </strong></th>
+                                        {{-- <td>Dr. Florian R. Nuevo <br> Dr. Eric V. Nagtalon</td> --}}
+                                    </tr>
+                                    <tr>
+                                        <th scope="row"><strong>Jean Louis Horn, MD - USA</strong></th>
+                                        {{-- <td>Dr. Joselito T. Morete</td> --}}
+                                    </tr>
+                                    <tr>
+                                        <th scope="row"><strong>Samuel Ern Hung Tsan, MD - Malaysia</strong></th>
+                                        {{-- <td><br> Dr. Jonnel L. Lim <br> Dr. Cristina Mayo Milo</td> --}}
+                                    </tr>
+                                    <tr>
+                                        <th scope="row"><strong>Jin Tae Kim, MD -  Korea</strong></th>
+                                        {{-- <td>Dr. Florian R. Nuevo <br> Dr. Eric V. Nagtalon</td> --}}
+                                    </tr>
+                                    <tr>
+                                        <th scope="row"><strong>Tae-Yop Kim, MD -  Korea</strong></th>
+                                        {{-- <td>Dr. Florian R. Nuevo <br> Dr. Eric V. Nagtalon</td> --}}
+                                    </tr>
+                                    <tr>
+                                        <th scope="row"><strong>Ban Leong, MD - Singapore</strong></th>
+                                        {{-- <td>Dr. Joselito T. Morete</td> --}}
+                                    </tr>
+                                    <tr>
+                                        <th scope="row"><strong>Carina Li, MD - Hongkong</strong></th>
+                                        {{-- <td><br> Dr. Jonnel L. Lim <br> Dr. Cristina Mayo Milo</td> --}}
+                                    </tr>
+                                    <tr>
+                                        <th scope="row"><strong>Hasmizy Muhammad, MD - Malaysia</strong></th>
+                                        {{-- <td>Dr. Florian R. Nuevo <br> Dr. Eric V. Nagtalon</td> --}}
+                                    </tr>
+                                    <tr>
+                                        <th scope="row"><strong>Sasikaan Nimmaanrat, MD - Thailand</strong></th>
+                                        {{-- <td>Dr. Florian R. Nuevo <br> Dr. Eric V. Nagtalon</td> --}}
+                                    </tr>
+                                    <tr>
+                                        <th scope="row"><strong>Heather Nixon, MD </strong></th>
+                                        {{-- <td>Dr. Florian R. Nuevo <br> Dr. Eric V. Nagtalon</td> --}}
+                                    </tr>
+                                    <tr>
+                                        <th scope="row"><strong>Afak Nsiri, MD </strong></th>
+                                        {{-- <td>Dr. Joselito T. Morete</td> --}}
+                                    </tr>
+                                    <tr>
+                                        <th scope="row"><strong>Jeffrey Pasternak, MD - USA</strong></th>
+                                        {{-- <td><br> Dr. Jonnel L. Lim <br> Dr. Cristina Mayo Milo</td> --}}
+                                    </tr>
+                                    <tr>
+                                        <th scope="row"><strong>Wanda Popescu, MD - USA</strong></th>
+                                        {{-- <td>Dr. Florian R. Nuevo <br> Dr. Eric V. Nagtalon</td> --}}
+                                    </tr>
+                                    <tr>
+                                        <th scope="row"><strong>Biswas Pradhan, MD - Nepal</strong></th>
+                                        {{-- <td>Dr. Florian R. Nuevo <br> Dr. Eric V. Nagtalon</td> --}}
+                                    </tr>
+                                    <tr>
+                                        <th scope="row"><strong>Alex Sia, MD - Singapore</strong></th>
+                                        {{-- <td><br> Dr. Jonnel L. Lim <br> Dr. Cristina Mayo Milo</td> --}}
+                                    </tr>
+                                    <tr>
+                                        <th scope="row"><strong>Athmaja Thottungal, MD</strong></th>
+                                        {{-- <td>Dr. Florian R. Nuevo <br> Dr. Eric V. Nagtalon</td> --}}
+                                    </tr>
+                                    <tr>
+                                        <th scope="row"><strong>Shigeki Yamaguchi, MD - Japan</strong></th>
+                                        {{-- <td>Dr. Florian R. Nuevo <br> Dr. Eric V. Nagtalon</td> --}}
                                     </tr>
                                 </tbody>
-                            </table> --}}
+                            </table>
                         </div>
                     </div>
                 </div>

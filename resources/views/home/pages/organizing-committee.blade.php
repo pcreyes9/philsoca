@@ -58,7 +58,7 @@
                                         <td>Dr. Joselito T. Morete</td>
                                     </tr>
                                     <tr>
-                                        <th scope="row"><strong>Souvenir Program: </strong> <br> &nbsp &nbsp Chair <br> &nbsp &nbsp Members</th>
+                                        <th scope="row"><strong>Souvenir Program: </strong> <br> &nbsp &nbsp Chair <br> &nbsp &nbsp Member</th>
                                         <td><br> Dr. Jonnel L. Lim <br> Dr. Cristina Mayo Milo</td>
                                     </tr>
                                     <tr>

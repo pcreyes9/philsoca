@@ -1,20 +1,19 @@
 @extends('home.master')
 
-@section('title', 'Organizing Committee')
-{{-- @section('banner-name', 'Organizing Committee') --}}
+@section('title', 'Speakers')
+@section('banner-name', 'Program > Speakers')
 
 @section('content')
-    {{-- @include('home.banner') --}}
+@include('home.banner')
     <section id="main-container" class="main-container text-center project-area">
         <div class="container" >
             <div class="row justify-content-center">
                 <div class="col-lg-12" >
-                    {{-- <h3 class="into-sub-title .d-md-none .d-lg-block" style="color: #000066">The 24th ASEAN Congress of Anesthesiologists (ACA 2024) Organizing Committee</h3> --}}
 
-                    <h3 class="into-sub-title" style="color: #000066; font-size: 2.1vmax; ">The 24<sup style="text-transform: lowercase">th</sup> ASEAN Congress of Anesthesiologists <br> (ACA 2025) Organizing Committee</h3>
+                    <h3 class="into-sub-title" style="color: #000066; font-size: 2.1vmax; ">Invited Speakers</h3>
                     <div class="row justify-content-center mt-5">
                         <div class="col-auto">
-                            <table class="table borderless text-left table-responsive" >
+                            {{-- <table class="table borderless text-left table-responsive" >
                                 <tbody>
                                     <tr>
                                         <th scope="row"><strong>Overall Chair: </strong></th>
@@ -66,13 +65,11 @@
                                         <td>Dr. Florian R. Nuevo <br> Dr. Eric V. Nagtalon</td>
                                     </tr>
                                 </tbody>
-                            </table>
+                            </table> --}}
                         </div>
                     </div>
-                </div><!-- Col end -->
-            </div><!-- Row end -->
-          </div><!-- Container end -->
-    </section><!-- Main container end -->
-
-
+                </div>
+            </div>
+          </div>
+    </section>
 @endsection

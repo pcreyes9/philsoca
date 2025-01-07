@@ -10,11 +10,19 @@
             <div class="row justify-content-center">
                 <div class="" >
 
-                    <h3 class="into-sub-title" style="color: #000066; font-size: 2.1vmax; ">Invited Speakers</h3>
+                    <h3 class="org-title" style="color: #000066;">Invited Speakers</h3>
                     <div class="row justify-content-center mt-5">
                         <div class="col-auto">
                             <table class="table borderless text-left table-responsive" >
                                 <tbody class="text-center">
+                                    <tr>
+                                        <th scope="row"><strong>Daniela Filipescu, MD - Romania</strong></th>
+                                        {{-- <td><br> Dr. Carmelita S. Lunas <br> Dr. Arnel M. Asino <br> Dr. Cherynne Inso-De Guzman</td> --}}
+                                    </tr>
+                                    <tr>
+                                        <th scope="row"><strong>Patrick Giam, MD - USA </strong></th>
+                                        {{-- <td>Dr. Florian R. Nuevo <br> Dr. Eric V. Nagtalon</td> --}}
+                                    </tr>
                                     <tr>
                                         <th scope="row"><strong>Sanjib Adhikary, MD -  USA</strong></th>
                                         {{-- <td>Dr. Peñafrancia C. Cano</td> --}}
@@ -35,11 +43,6 @@
                                         <th scope="row"><strong>Sophia Chew, MD -  Singapore</strong></th>
                                         {{-- <td>Dr. Edgard M. Simon</td> --}}
                                     </tr>
-                                    <tr >
-                                        <th scope="row" ><strong>Yong Chow Yen, MD - Malaysia</strong></th>
-                                        {{-- <td>Dr. Salvador J. Brodit <br> Dr. Godfrey G. Agcon</td> --}}
-                                        
-                                    </tr>
                                     <tr>
                                         <th scope="row"><strong>Nabil Elkassabany, MD -  USA</strong></th>
                                         {{-- <td>Dr. Francis B. Mayuga</td> --}}
@@ -48,10 +51,7 @@
                                         <th scope="row"><strong>Xavier Falieres, MD - Netherlands</strong></th>
                                         {{-- <td><br> Dr. Julie B. Balacuit <br> Dr. Melissa M. Caranto <br> Dr. Emmanuel S. Prudente <br> Dr. Aileen L. Rosales</td> --}}
                                     </tr>
-                                    <tr>
-                                        <th scope="row"><strong>Daniela Filipescu, MD - Romania</strong></th>
-                                        {{-- <td><br> Dr. Carmelita S. Lunas <br> Dr. Arnel M. Asino <br> Dr. Cherynne Inso-De Guzman</td> --}}
-                                    </tr>
+                                    
                                     <tr>
                                         <th scope="row"><strong>Rodney Gabriel, MD - USA</strong></th>
                                         {{-- <td>Dr. Joselito T. Morete</td> --}}
@@ -60,10 +60,7 @@
                                         <th scope="row"><strong>Adrian Gelb, MD - USA </strong></th>
                                         {{-- <td><br> Dr. Jonnel L. Lim <br> Dr. Cristina Mayo Milo</td> --}}
                                     </tr>
-                                    <tr>
-                                        <th scope="row"><strong>Patrick Giam, MD - USA </strong></th>
-                                        {{-- <td>Dr. Florian R. Nuevo <br> Dr. Eric V. Nagtalon</td> --}}
-                                    </tr>
+                                    
                                     <tr>
                                         <th scope="row"><strong>Jean Louis Horn, MD - USA</strong></th>
                                         {{-- <td>Dr. Joselito T. Morete</td> --}}
@@ -139,6 +136,10 @@
                                     <tr>
                                         <th scope="row"><strong>Shigeki Yamaguchi, MD - Japan</strong></th>
                                         {{-- <td>Dr. Florian R. Nuevo <br> Dr. Eric V. Nagtalon</td> --}}
+                                    </tr>
+                                    <tr >
+                                        <th scope="row" ><strong>Yong Chow Yen, MD - Malaysia</strong></th>
+                                        {{-- <td>Dr. Salvador J. Brodit <br> Dr. Godfrey G. Agcon</td> --}}
                                     </tr>
                                 </tbody>
                             </table>

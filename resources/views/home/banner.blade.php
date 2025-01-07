@@ -3,7 +3,7 @@
   <div class="banner-text">
     <div class="container">
         <div class="row">
-          <div class="col-lg-12">
+          <div class="ml-3 col-lg-16 col-sm-16">
               <div class="banner-heading">
                 <h1 class="banner-title text-left">@yield('banner-name')</h1>
                 {{-- <nav aria-label="breadcrumb">

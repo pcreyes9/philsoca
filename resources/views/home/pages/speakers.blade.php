@@ -81,6 +81,10 @@
                                         {{-- <td>Dr. Florian R. Nuevo <br> Dr. Eric V. Nagtalon</td> --}}
                                     </tr>
                                     <tr>
+                                        <th scope="row"><strong>Varinee Lekprasert, MD - Thailand</strong></th>
+                                        {{-- <td>Dr. Joselito T. Morete</td> --}}
+                                    </tr>
+                                    <tr>
                                         <th scope="row"><strong>Ban Leong, MD - Singapore</strong></th>
                                         {{-- <td>Dr. Joselito T. Morete</td> --}}
                                     </tr>

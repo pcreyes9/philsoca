@@ -74,6 +74,7 @@ hr.solid {
 	transform: translateX(-200%);
 	opacity: 0;
 	animation: slide-in-anim 1.5s ease-out forwards;
+  z-index: -1;
 }
 
 .upSlide {
@@ -127,6 +128,7 @@ hr.solid {
   top: 0;
   width: 100%;
   height: 100%;
+  z-index: -1;
 }
 
 .borderless td, .borderless th {
@@ -882,6 +884,8 @@ ul.top-info li p.info-text {
 .header-one,
 .header-one .site-navigation {
   background: #f2de02;
+  z-index: 1100;
+
 }
 
 .header-one .navbar-collapse {
@@ -1244,7 +1248,7 @@ ul.navbar-nav > li > a {
 .dropdown-menu {
   text-align: left;
   background: #fff;
-  z-index: 100;
+  z-index: 1100;
   min-width: 200px;
   border-radius: 0;
   border: 0;
@@ -1842,6 +1846,26 @@ ul.navbar-nav > li.header-get-a-quote:hover > a:after {
   font-size: 32px;
   line-height: normal;
   margin: 10px 0;
+}
+
+.org-title{
+  font-weight: 900;
+  text-transform: uppercase;
+  font-size: 40px;
+  line-height: normal;
+  margin: 10px 0;
+}
+
+@media (max-width: 767px) {
+  .org-title {
+    font-size: 40px;
+  }
+}
+
+@media (max-width: 575px) {
+  .org-title {
+    font-size: 25px;
+  }
 }
 
 /*-- Featured Tab --*/
@@ -2900,7 +2924,7 @@ img.testimonial-thumb {
 
 @media (max-width: 575px) {
   .banner-title {
-    font-size: 32px;
+    font-size: 15px;
   }
 }
 

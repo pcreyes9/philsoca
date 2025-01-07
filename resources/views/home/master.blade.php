@@ -48,11 +48,9 @@
             {{-- style="background-image:url(images/bg/master.jpg); " --}}
 
             <div style="overflow: hidden; position: relative;">
-                <img class="master-bg" src="images/bg/master.jpg" alt="ASEAN CONGRESS OF ANESTHESIOLOGISTS IN MANILA 2025">
-                <div style="position: relative">
+                <img  class="master-bg" src="images/bg/master.jpg" alt="ASEAN CONGRESS OF ANESTHESIOLOGISTS IN MANILA 2025">
+                <div >
                     @yield('content')
-
-
                     {{-- <div class="container">
                         <h1 class="text-center m-5">THIS SITE IS UNDER DEVELOPMENT...</h1>
                     </div> --}}

@@ -130,6 +130,10 @@
                                         {{-- <td><br> Dr. Jonnel L. Lim <br> Dr. Cristina Mayo Milo</td> --}}
                                     </tr>
                                     <tr>
+                                        <th scope="row"><strong>Jina Sinskey, MD - USA</strong></th>
+                                        {{-- <td><br> Dr. Jonnel L. Lim <br> Dr. Cristina Mayo Milo</td> --}}
+                                    </tr>
+                                    <tr>
                                         <th scope="row"><strong>Athmaja Thottungal, MD - United Kingdom</strong></th>
                                         {{-- <td>Dr. Florian R. Nuevo <br> Dr. Eric V. Nagtalon</td> --}}
                                     </tr>

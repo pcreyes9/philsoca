@@ -49,7 +49,7 @@
                                         {{-- <td><br> Dr. Julie B. Balacuit <br> Dr. Melissa M. Caranto <br> Dr. Emmanuel S. Prudente <br> Dr. Aileen L. Rosales</td> --}}
                                     </tr>
                                     <tr>
-                                        <th scope="row"><strong>Daniela Filipescu, MD</strong></th>
+                                        <th scope="row"><strong>Daniela Filipescu, MD - Romania</strong></th>
                                         {{-- <td><br> Dr. Carmelita S. Lunas <br> Dr. Arnel M. Asino <br> Dr. Cherynne Inso-De Guzman</td> --}}
                                     </tr>
                                     <tr>
@@ -89,7 +89,15 @@
                                         {{-- <td><br> Dr. Jonnel L. Lim <br> Dr. Cristina Mayo Milo</td> --}}
                                     </tr>
                                     <tr>
+                                        <th scope="row"><strong>Suraphong Lorsomradee, MD - Thailand</strong></th>
+                                        {{-- <td><br> Dr. Jonnel L. Lim <br> Dr. Cristina Mayo Milo</td> --}}
+                                    </tr>
+                                    <tr>
                                         <th scope="row"><strong>Hasmizy Muhammad, MD - Malaysia</strong></th>
+                                        {{-- <td>Dr. Florian R. Nuevo <br> Dr. Eric V. Nagtalon</td> --}}
+                                    </tr>
+                                    <tr>
+                                        <th scope="row"><strong>Tony Ng, MD - Australia</strong></th>
                                         {{-- <td>Dr. Florian R. Nuevo <br> Dr. Eric V. Nagtalon</td> --}}
                                     </tr>
                                     <tr>
@@ -97,11 +105,11 @@
                                         {{-- <td>Dr. Florian R. Nuevo <br> Dr. Eric V. Nagtalon</td> --}}
                                     </tr>
                                     <tr>
-                                        <th scope="row"><strong>Heather Nixon, MD </strong></th>
+                                        <th scope="row"><strong>Heather Nixon, MD  - USA</strong></th>
                                         {{-- <td>Dr. Florian R. Nuevo <br> Dr. Eric V. Nagtalon</td> --}}
                                     </tr>
                                     <tr>
-                                        <th scope="row"><strong>Afak Nsiri, MD </strong></th>
+                                        <th scope="row"><strong>Afak Nsiri, MD - Morocco</strong></th>
                                         {{-- <td>Dr. Joselito T. Morete</td> --}}
                                     </tr>
                                     <tr>
@@ -121,7 +129,7 @@
                                         {{-- <td><br> Dr. Jonnel L. Lim <br> Dr. Cristina Mayo Milo</td> --}}
                                     </tr>
                                     <tr>
-                                        <th scope="row"><strong>Athmaja Thottungal, MD</strong></th>
+                                        <th scope="row"><strong>Athmaja Thottungal, MD - United Kingdom</strong></th>
                                         {{-- <td>Dr. Florian R. Nuevo <br> Dr. Eric V. Nagtalon</td> --}}
                                     </tr>
                                     <tr>

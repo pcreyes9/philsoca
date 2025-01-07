@@ -22,7 +22,7 @@
                                     </tr>
                                     <tr>
                                         <th scope="row"><strong>Scientific Committee Chair: </strong></th>
-                                        <td>Dr. Celine B. Zaldivar</td>
+                                        <td>Dr. Celina Z. Ancheta</td>
                                     </tr>
                                     <tr >
                                         <th scope="row" ><strong>Registration Committee: </strong></th>

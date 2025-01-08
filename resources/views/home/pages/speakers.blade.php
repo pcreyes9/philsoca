@@ -57,11 +57,6 @@
                                         {{-- <td>Dr. Joselito T. Morete</td> --}}
                                     </tr>
                                     <tr>
-                                        <th scope="row"><strong>Adrian Gelb, MD - USA </strong></th>
-                                        {{-- <td><br> Dr. Jonnel L. Lim <br> Dr. Cristina Mayo Milo</td> --}}
-                                    </tr>
-                                    
-                                    <tr>
                                         <th scope="row"><strong>Jean Louis Horn, MD - USA</strong></th>
                                         {{-- <td>Dr. Joselito T. Morete</td> --}}
                                     </tr>

@@ -26,7 +26,7 @@
                             <img loading="lazy" src="images/PSA President 2024.jpg" class="img-fluid" alt="team-img">
                         </div>
                         <div class="ts-team-content-classic">
-                            <h3 class="ts-name">Dr. Penafrancia C. Cano</h3>
+                            <h3 class="ts-name">Dr. Peñafrancia C. Cano</h3>
                         {{-- <p class="ts-designation">Chief Operating Officer</p>
                         <p class="ts-description">Nats Stenman began his career in construction with boots on the ground</p> --}}
                         <!--/ social-icons-->
@@ -272,7 +272,7 @@
 
             <div class="row text-center">
               <div class="col-lg-12">
-                  <h3 class="orgcom-title text-center mb-4">Socials Events</h3>
+                  <h3 class="orgcom-title text-center mb-4">Social Events</h3>
               </div>
             </div>
               <div class="row  justify-content-center">

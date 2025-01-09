@@ -35,7 +35,7 @@ Description: Constra - Construction Html5 Template
 } */
 
 hr.solid {
-  border-top: 3px solid #000066;
+  border-top: 3px solid #f2de02;
 }
 
 .maps{
@@ -3150,6 +3150,7 @@ img.testimonial-thumb {
   margin-bottom: 3px;
   line-height: normal;
   color: #ac071a;
+  text-align: center;
 }
 
 .ts-team-wrapper .ts-designation {
@@ -3157,6 +3158,7 @@ img.testimonial-thumb {
   font-size: 16px;
   margin-bottom: 15px;
   font-weight: 700;
+  text-align: center;
 }
 
 .ts-team-wrapper .team-social-icons a i {
@@ -3183,7 +3185,7 @@ img.testimonial-thumb {
 
 .orgcom-title{
   font-size: 40px;
-  color: #ac071a;
+  color: #000066;
   padding-bottom: 5px;
 }
 

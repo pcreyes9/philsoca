@@ -54,6 +54,10 @@ Route::get('/organizing-committee', function () {
     return view('home/pages/organizing-committee');
 })->name('orgCom');
 
+// Route::get('/organizing-committee', function () {
+//     return view('home/pages/orgComPic');
+// })->name('orgCom');
+
 Route::get('/speakers', function () {
     return view('home/pages/speakers');
 })->name('speakers');
@@ -62,18 +66,18 @@ Route::get('/contact', function () {
     return view('home/pages/contact');
 })->name('contact');
 
-Route::get('/abstract', function () {
-    return view('home/pages/abstract');
-})->name('abstract');
+// Route::get('/abstract', function () {
+//     return view('home/pages/abstract');
+// })->name('abstract');
 
 
 // Route::get('/accommodations', function () {
 //     return view('home/pages/accommodations');
 // })->name('accommodations');
 
-Route::get('/registration', function () {
-    return view('home/pages/registration-details');
-})->name('reg');
+// Route::get('/registration', function () {
+//     return view('home/pages/registration-details');
+// })->name('reg');
 
 // Route::get('/mem-registration', function () {
 //     return view('registration.mem-registration');

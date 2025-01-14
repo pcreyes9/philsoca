@@ -1,17 +1,17 @@
 <?php
 
 use App\Livewire\MemReg;
-// use Barryvdh\DomPDF\PDF;
-
-use Spatie\Sitemap\Sitemap;
-use Spatie\Sitemap\Tags\Url;
-
-
 
 use App\Mail\MyTestEmail;
+use Spatie\Sitemap\Sitemap;
+
+
+
 use App\Exports\ExcelExport;
 use App\Livewire\ViewMemReg;
+use App\Models\Registration;
 use Illuminate\Http\Request;
+use Spatie\Sitemap\Tags\Url;
 use Barryvdh\DomPDF\Facade\Pdf;
 use Illuminate\Support\Facades\Route;
 use Illuminate\Support\Facades\Artisan;
@@ -50,13 +50,13 @@ Route::get('/venue', function () {
     return view('home/venue');
 })->name('venue');
 
-Route::get('/organizing-committee', function () {
-    return view('home/pages/organizing-committee');
-})->name('orgCom');
-
 // Route::get('/organizing-committee', function () {
-//     return view('home/pages/orgComPic');
+//     return view('home/pages/organizing-committee');
 // })->name('orgCom');
+
+Route::get('/organizing-committee', function () {
+    return view('home/pages/orgComPic');
+})->name('orgCom');
 
 Route::get('/speakers', function () {
     return view('home/pages/speakers');
@@ -75,13 +75,13 @@ Route::get('/contact', function () {
 //     return view('home/pages/accommodations');
 // })->name('accommodations');
 
-// Route::get('/registration', function () {
-//     return view('home/pages/registration-details');
-// })->name('reg');
+Route::get('/registration', function () {
+    return view('home/pages/registration-details');
+})->name('reg');
 
-// Route::get('/mem-registration', function () {
-//     return view('registration.mem-registration');
-// })->name('memReg');
+Route::get('/mem-registration', function () {
+    return view('registration.mem-registration');
+})->name('memReg');
 
 // Route::get('/psa-id-checker', function () {
 //     return view('registration.psa-id-checker');
@@ -89,16 +89,16 @@ Route::get('/contact', function () {
 
 
 
-// Route::get('/emailsend', function (Request $request){
+Route::get('/emailsend', function (Request $request){
     
-//     $email = $request->query('email');
-//     $name = $request->query('name');
+    $email = $request->query('email');
+    $name = $request->query('name');
     
-//     Mail::to($email)->send(new MyTestEmail($name));
+    Mail::to($email)->send(new MyTestEmail($name));
     
-//     return redirect()->route('reg')->with('success', 'Your registration is on process, Dr. ' . $name . '. We will update you in this email, ' . $email);
+    return redirect()->route('reg')->with('success', 'Your registration is on process, Dr. ' . $name . '. We will update you in this email, ' . $email);
     
-// })->name('emailsend');
+})->name('emailsend');
 
 //ADMIN SIDE
 
@@ -107,35 +107,56 @@ Route::get('/contact', function () {
 //     config('jetstream.auth_session'),
 //     'verified',
 // ])->group(function () {
-//     Route::get('/admin/dashboard', [DashboardController::class, 'dashboard'])->name('admin');
-//     // Route::get('/dashboard', [DashboardController::class, 'dashboard'])->name('dashboard');
+
+Route::get('/admin/dashboard/sending', function (Request $request) {
+        // dd($request->query('id'));
+        
+        $info = Registration::where('psa_id', $request->query('id'))->get();
+        // dd($info);
+
+        $pdf = PDF::loadView('barcodePDF', [
+            'info' => $info
+        ]);
+
+        // $conv = $info->toArray();
+
+        // dd($conv->psa_id);
+
+        Storage::put('public/storage/uploads/'.  $request->query('id') . 'pdf', $pdf->output());
+        return redirect()->back();
+        // return $pdf->download('testing.pdf');
+
+    })->name('sending');
+
+    Route::get('/admin/dashboard', [DashboardController::class, 'dashboard'])->name('admin');
+    Route::get('/dashboard', [DashboardController::class, 'dashboard'])->name('dashboard');
     
-//     Route::get('/admin/viewMemReg', function () {
-//         return view('user_account.viewMemReg');
-//     })->name('viewMemReg');
+    Route::get('/admin/viewMemReg', function () {
+        return view('user_account.viewMemReg');
+    })->name('viewMemReg');
 
-//     Route::get('/admin/viewMemReg/download/trainee/{trainee_cert}', function ($trainee_cert){
-//         // dd($trainee_cert);
-//         $pathToFile = public_path('storage/photos/trainee cert/'. $trainee_cert);
-//         return response()->download($pathToFile);
-//     });
+    Route::get('/admin/viewMemReg/download/trainee/{trainee_cert}', function ($trainee_cert){
+        // dd($trainee_cert);
+        $pathToFile = public_path('storage/photos/trainee cert/'. $trainee_cert);
+        return response()->download($pathToFile);
+    });
 
-//     Route::get('/admin/viewMemReg/download/senior/{senior_citizen}', function ($senior_citizen){
-//         // dd($trainee_cert);
-//         $pathToFile = public_path('storage/photos/senior ids/'. $senior_citizen);
-//         return response()->download($pathToFile);
-//     });
+    Route::get('/admin/viewMemReg/download/senior/{senior_citizen}', function ($senior_citizen){
+        // dd($trainee_cert);
+        $pathToFile = public_path('storage/photos/senior ids/'. $senior_citizen);
+        return response()->download($pathToFile);
+    });
 
-//     // Route::get('/admin/dashboard/export-excel', function () {
-//     //     return Excel::download(new ExcelExport, 'regs.xlsx');
-//     // })->name('exportExcel');
+    Route::get('/admin/dashboard/export-excel', function () {
+        return Excel::download(new ExcelExport, 'regs.xlsx');
+    })->name('exportExcel');
 
-//     // Route::get('/admin/dashboard/export-pdf', function (Request $request) {
-//     //     $info = $request->query('info');
-//     //     // dd($info);
-//     //     $pdf = PDF::loadView('exportPDF', $info);
-//     //     return $pdf->download('reg.pdf');
-//     // })->name('exportPDF');
+    // Route::get('/admin/dashboard/export-pdf', function (Request $request) {
+    //     $info = $request->query('info');
+    //     // dd($info);
+    //     $pdf = PDF::loadView('exportPDF', $info);
+    //     return $pdf->download('reg.pdf');
+    // })->name('exportPDF');
 // });
 
 

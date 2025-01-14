@@ -30,23 +30,23 @@
                         <thead class="bg-primary text-white">
                             <tr>
                                 <th class="text-left" scope="col">Registration Type</th>
-                                <th scope="col">Early Bird Rate</th>
-                                <th scope="col">Pre-Registration</th>
+                                <th scope="col">Early Bird</th>
+                                <th scope="col">Registration Period</th>
                                 <th scope="col">Onsite Registration</th>
                             </tr>
                         </thead>
                         <tbody>
                             <tr>
                                 <th class="text-left" scope="row">Asean Members</th>
-                                <td>$400</td>
                                 <td>$450</td>
-                                <td>$600</td>
+                                <td>$550</td>
+                                <td>$750</td>
                             </tr>
                             <tr>
                                 <th class="text-left" scope="row">Non-Asean Members</th>
-                                <td>$500</td>
-                                <td>$550</td>
-                                <td>$700</td>
+                                <td>$600</td>
+                                <td>$650</td>
+                                <td>$850</td>
                             </tr>
                         </tbody>
                     </table>
@@ -60,40 +60,40 @@
                             <tr>
                                 <th class="text-left" scope="col">Registration Type</th>
                                 <th scope="col">Early Bird Rate</th>
-                                <th scope="col">Pre-Registration</th>
+                                <th scope="col">Registration Period</th>
                                 <th scope="col">Onsite Registration</th>
                             </tr>
                         </thead>
                         <tbody>
                             <tr>
-                                <th class="text-left" scope="row">Regular Life Members</th>
-                                <td>P15,000</td>
-                                <td>P18,000</td>
-                                <td>P21,000</td>
+                                <th class="text-left" scope="row">Regular Members</th>
+                                <td>₱16,000</td>
+                                <td>₱18,000</td>
+                                <td>₱20,000</td>
                             </tr>
-                            <tr>
+                            <tr> 
                                 <th class="text-left" scope="row">Residents/Trainees</th>
-                                <td>P12,000</td>
-                                <td>P15,000</td>
-                                <td>P18,000</td>
+                                <td>₱14,000</td>
+                                <td>₱15,000</td>
+                                <td>₱18,000</td>
                             </tr>
                             <tr>
-                                <th class="text-left" scope="row">PWD/Seniors</th>
-                                <td>P9,600</td>
-                                <td>P12,000</td>
-                                <td>P14,400</td>
+                                <th class="text-left" scope="row">PWD/Seniors Citizens <br>  (with 20% discount)</th>
+                                <td>₱12,800</td>
+                                <td>₱14,400</td>
+                                <td>₱16,000</td>
                             </tr>
                             <tr>
                                 <th class="text-left" scope="row">Life Members</th>
-                                <td>P9,000</td>
-                                <td>P9,000</td>
-                                <td>P9,000</td>
+                                <td>₱10,000</td>
+                                <td>₱10,000</td>
+                                <td>₱10,000</td>
                             </tr>
                             <tr>
                                 <th class="text-left" scope="row">Non-Members</th>
-                                <td>P18,000</td>
-                                <td>P21,000</td>
-                                <td>P24,000</td>
+                                <td>₱25,000</td>
+                                <td>₱25,000</td>
+                                <td>₱25,000</td>
                             </tr>
                         </tbody>
                     </table>
@@ -124,7 +124,7 @@
             </div>
         </div>
         <div class="d-grid gap-4 mt-4">
-            <a href="#" target="_blank" class="btn btn-primary mb-1" style="font-size: 20px">Local Registration</a>
+            <a href="{{ route('memReg') }}" target="_blank" class="btn btn-primary mb-1" style="font-size: 20px">Local Registration</a>
             <a href="#" class="btn btn-dark mb-1" style="font-size: 20px">International Registration</a>
         </div>
     </div>

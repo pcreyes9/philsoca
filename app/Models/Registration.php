@@ -22,6 +22,8 @@ class Registration extends Model
         'membership',
         'senior_citizen',
         'proof_payment',
-        'trainee_cert'
+        'trainee_cert',
+        'status'
+        
     ];
 }

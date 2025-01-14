@@ -84,6 +84,15 @@
                                     <th scope="col" class="px-6 py-3 text-center">
                                         Proof if Senior/Trainee
                                     </th>
+                                    <th scope="col" class="px-6 py-3 text-center">
+                                        Registration Date
+                                    </th>
+                                    <th scope="col" class="px-6 py-3 text-center">
+                                        Status
+                                    </th>
+                                    <th scope="col" class="px-6 py-3 text-center">
+                                        Action
+                                    </th>
                                 </tr>
                             </thead>
                             
@@ -94,7 +103,7 @@
                                             {{ $regs->id }}    
                                         </th>
                                         <td class="px-6 py-4 text-center">
-                                            {{ $regs->psa_id }}    
+                                            { !! DNS2D::getBarcodeHTML("$regs->psa_id",'barcode') !! }
                                         </td>
                                         <td class="px-6 py-4 ">
                                             {{ $regs->last_name }}    
@@ -130,6 +139,16 @@
                                                 -
                                             </td>
                                         @endif
+                                        <td class="px-6 py-4 text-center">
+                                            {{ $regs->created_at }}    
+                                        </td>
+                                        <td class="px-6 py-4 text-center leading-5 font-semibold text-red-800">
+                                            {{ $regs->status }}    
+                                        </td>
+                                        <td class="px-6 py-4 whitespace-nowrap text-sm font-medium">
+                                            <a href="{{ route('sending', ['email' => $regs->email, 'name' => $regs->last_name, 'id' => $regs->psa_id])}}" class="text-blue-600 hover:text-blue-900 mb-2 mr-2">Approve</a>
+                                            <a href="{{ route('dashboard', $regs->id) }}" class="text-red-600 hover:text-red-900 mb-2 mr-2">Delete</a>
+                                        </td>
                                     </tr>
                                 @endforeach
                             </tbody>
@@ -199,7 +218,6 @@
                                 Print
                             </div>    
                         </button>
-                        
                     </form>
                 </div>
             </div>

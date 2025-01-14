@@ -26,6 +26,7 @@ return new class extends Migration
             $table->string('senior_citizen')->nullable();
             $table->string('proof_payment')->nullable();
             $table->string('trainee_cert')->nullable();
+            $table->string('status');
             $table->timestamps();
         });
     }

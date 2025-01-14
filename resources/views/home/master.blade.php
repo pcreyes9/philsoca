@@ -16,6 +16,8 @@
         <meta name="description" content="ASEAN CONGRESS OF ANESTHESIOLOGISTS IN MANILA 2025">
         <meta name="keywords" content="anesthesia, anesthesiologists, ACA, doctors, congress, philippines, manila, anes">
 
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" />
+
         
 
         <!-- Favicon
@@ -36,6 +38,7 @@
             <!-- Header start -->
             
             <header id="header" class="header-one">
+
                 <title>@yield('title') | 24th ASEAN CONGRESS OF ANESTHESIOLOGISTS</title>
                 @include('home.header')
                 @include('home.menu')

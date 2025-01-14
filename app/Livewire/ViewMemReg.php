@@ -46,10 +46,21 @@ class ViewMemReg extends Component
 
     public function exportPDF(){
         $info = Registration::where('id', '>=' , $this->from)->where('id', '<=' , $this->to)->get();
+        dd($info);
         $pdf = Pdf::loadView('exportPDF', [
             'info' => $info
         ]);
         return response()->streamDownload(function () use ($pdf) { echo $pdf->stream(); }, 'Registration ID ' . $this->from . ' - ' . $this->to .'.pdf');
         return redirect()->back();
+    }
+
+    public function barcodePDF(){
+        $info = Registration::where('id', $this->id)->get();
+        
+        $pdf = Pdf::loadView('barcodePDF', [
+            'info' => $info
+        ]);
+
+        Storage::put('public/storage/uploads/'. $info->psa_id . 'pdf', $pdf->output());
     }
 }

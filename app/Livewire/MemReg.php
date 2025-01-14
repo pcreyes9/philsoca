@@ -136,6 +136,7 @@ class MemReg extends Component
                         'contact_number' => $this->contactNumber,
                         'gender' => $this->gender,
                         'membership' => $this->memType,
+                        'status' => "Pending",
             
                         'senior_citizen' => $imgNameSenior,
                         'proof_payment' => $imgNamePayment,

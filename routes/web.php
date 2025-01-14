@@ -29,14 +29,14 @@ use App\Http\Controllers\DashboardController;
 | be assigned to the "web" middleware group. Make something great!
 |
 */
-Route::get('/sitemap.xml', function () {
-    $sitemap = Sitemap::create()
-        ->add(Url::create('/'))
-        ->add(Url::create('/about'))
-        ->add(Url::create('/contact'));
+// Route::get('/sitemap.xml', function () {
+//     $sitemap = Sitemap::create()
+//         ->add(Url::create('/'))
+//         ->add(Url::create('/about'))
+//         ->add(Url::create('/contact'));
 
-    return $sitemap->toResponse(request());
-});
+//     return $sitemap->toResponse(request());
+// });
 
 Route::get('/', function () {
     Artisan::call('cache:clear');

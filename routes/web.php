@@ -109,28 +109,42 @@ Route::get('/emailsend', function (Request $request){
 // ])->group(function () {
 
 Route::get('/admin/dashboard/sending', function (Request $request) {
-        // dd($request->query('id'));
-        
         $info = Registration::where('psa_id', $request->query('id'))->get();
-        // dd($info);
+
+        $email = $request->query('email');
+        $name = $request->query('name');
+        $id = $request->query('id');
 
         $pdf = PDF::loadView('barcodePDF', [
             'info' => $info
-        ]);
+        ])->setPaper('a5', 'landscape');
 
-        // $conv = $info->toArray();
+        $path = Storage::put('public/storage/uploads/'.  $request->query('id') . '.pdf', $pdf->output());
+        Storage::put($path, $pdf->output());
 
-        // dd($conv->psa_id);
+        // Mail::to($email)->send(new MyTestEmail($name, $id));
 
-        Storage::put('public/storage/uploads/'.  $request->query('id') . 'pdf', $pdf->output());
+        Registration::where('psa_id', $id)->update(['status' => 'Approved']);
+
+        notify()->success( $name . ' has been approved and barcode was already sent!', 'Approval Success!');
         return redirect()->back();
+        
         // return $pdf->download('testing.pdf');
 
     })->name('sending');
 
     Route::get('/admin/dashboard', [DashboardController::class, 'dashboard'])->name('admin');
     Route::get('/dashboard', [DashboardController::class, 'dashboard'])->name('dashboard');
-    
+
+    Route::get('/admin/pendingReg', function () {
+        // notify()->success('Laravel Notify is awesome!');
+        return view('user_account.pendingReg');
+    })->name('pendingReg');
+
+    Route::get('/admin/approvedReg', function () {
+        return view('user_account.approvedReg');
+    })->name('approvedReg');
+
     Route::get('/admin/viewMemReg', function () {
         return view('user_account.viewMemReg');
     })->name('viewMemReg');

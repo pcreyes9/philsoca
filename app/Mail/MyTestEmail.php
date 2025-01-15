@@ -16,9 +16,9 @@ class MyTestEmail extends Mailable
     /**
      * Create a new message instance.
      */
-    public function __construct(private string $name)
+    public function __construct(private string $name, private string $id)
     {
-        //
+        // dd($this->id);
     }
 
     /**
@@ -49,7 +49,9 @@ class MyTestEmail extends Mailable
      */
     public function attachments(): array
     {
-        return [];
+        return [
+            storage_path('app/public/storage/uploads/' . $this->id . '.pdf'),
+        ];
         
     }
 }

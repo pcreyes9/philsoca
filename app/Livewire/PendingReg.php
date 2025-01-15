@@ -10,17 +10,15 @@ use Livewire\WithPagination;
 use Barryvdh\DomPDF\Facade\Pdf;
 use Illuminate\Support\Facades\DB;
 
-
-class ViewMemReg extends Component
+class PendingReg extends Component
 {
     use WithPagination;
     public $barcode, $from, $to, $sort ="regNew", $sortName="Registration ID";
 
     public function render()
     {
-        
         if($this->sort == 'regNew'){
-            $reg = Registration::orderBy('id', 'DESC')->paginate(10);
+            $reg = Registration::where('status', 'Pending')->orderBy('id', 'DESC')->paginate(10);
             $this->sortName="Registration ID (newest)";
         }
         else if($this->sort == 'regOld'){
@@ -44,18 +42,12 @@ class ViewMemReg extends Component
             $this->sortName="Date of Registration (oldest)";
         }
 
-        $barcode = DNS1D::getBarcodeHTML('123456789', 'C128'); 
-        // dd($barcode);
-        if ($barcode === false) {
-            dd("Failed to generate barcode. Check your input.") ;
-        }
-
-        return view('livewire.view-mem-reg',  ['reg' => $reg, 'barcode' => $barcode]);
+        return view('livewire.pending-reg',  ['reg' => $reg]);
     }
 
     public function exportPDF(){
         $info = Registration::where('id', '>=' , $this->from)->where('id', '<=' , $this->to)->get();
-        // dd($info);
+        dd($info);
         $pdf = Pdf::loadView('exportPDF', [
             'info' => $info
         ]);
@@ -72,12 +64,4 @@ class ViewMemReg extends Component
 
         Storage::put('public/storage/uploads/'. $info->psa_id . 'pdf', $pdf->output());
     }
-
-    public function approval ($id){
-        notify()->success('Laravel Notify is awesome!');
-        // dd($id);
-        // return redirect()->back();
-        
-    }
-
 }

@@ -29,10 +29,14 @@
         @include('home.css')
 
         @livewireStyles
+        @notifyCss
+
     </head>
     <body>
         <div class="body-inner">
             @include('home.top-info')
+            <x-notify::notify/>
+
 
             <!--/ Topbar end -->
             <!-- Header start -->
@@ -64,6 +68,7 @@
 
             {{-- @yield('content') --}}
             @livewireScripts
+            @notifyJs
 
             <footer id="footer" class="footer bg-overlay">
                 @include('home.footer')
@@ -88,6 +93,28 @@
                     "query-input": "required name=search_term_string"
                   }
                 }
+            </script>
+            <script>
+                window.addEventListener('show-confirmation', event => {
+                    Swal.fire({
+                        title: "Are you sure?",
+                        text: "You won't be able to revert this!",
+                        icon: "warning",
+                        showCancelButton: true,
+                        confirmButtonColor: "#3085d6",
+                        cancelButtonColor: "#d33",
+                        confirmButtonText: "Yes, delete it!"
+                        }).then((result) => {
+                            if (result.isConfirmed) {
+                                Livewire.emit('approvalConfirmed')
+                                Swal.fire({
+                                    title: "Approved!",
+                                    text: "Your file has been approved.",
+                                    icon: "success"
+                                });
+                            }
+                    })
+                });
             </script>
         </div><!-- Body inner end -->
     </body>

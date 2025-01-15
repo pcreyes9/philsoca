@@ -19,4 +19,35 @@
 <!-- Template custom -->
 <script src="home/js/script.js?ver=<?php echo time()?>"></script>
 
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+{{-- SWEET ALERT SCRIPTS --}}
+
+<script>
+    window.addEventListener('show-confirmation', event => {
+        Swal.fire({
+            title: "Are you sure?",
+            text: "You won't be able to revert this!",
+            icon: "warning",
+            showCancelButton: true,
+            confirmButtonColor: "#3085d6",
+            cancelButtonColor: "#d33",
+            confirmButtonText: "Yes, delete it!"
+            }).then((result) => {
+                if (result.isConfirmed) {
+                    Livewire.emit('approvalConfirmed')
+                    Swal.fire({
+                        title: "Approved!",
+                        text: "Your file has been approved.",
+                        icon: "success"
+                    });
+                }
+        })
+    });
+</script>
+
+
+
+
+
 

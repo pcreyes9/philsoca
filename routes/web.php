@@ -3,10 +3,11 @@
 use App\Livewire\MemReg;
 
 use App\Mail\MyTestEmail;
+use App\Mail\ApprovedEmail;
+
+
+
 use Spatie\Sitemap\Sitemap;
-
-
-
 use App\Exports\ExcelExport;
 use App\Livewire\ViewMemReg;
 use App\Models\Registration;
@@ -83,6 +84,11 @@ Route::get('/mem-registration', function () {
     return view('registration.mem-registration');
 })->name('memReg');
 
+Route::get('/non-mem-registration', function () {
+    // dd("asd");
+    return view('registration.non-mem-registration');
+})->name('nonMemReg');
+
 // Route::get('/psa-id-checker', function () {
 //     return view('registration.psa-id-checker');
 // })->name('psaID-checker');
@@ -122,7 +128,7 @@ Route::get('/admin/dashboard/sending', function (Request $request) {
         $path = Storage::put('public/storage/uploads/'.  $request->query('id') . '.pdf', $pdf->output());
         Storage::put($path, $pdf->output());
 
-        // Mail::to($email)->send(new MyTestEmail($name, $id));
+        // Mail::to($email)->send(new ApprovedEmail($name, $id));
 
         Registration::where('psa_id', $id)->update(['status' => 'Approved']);
 

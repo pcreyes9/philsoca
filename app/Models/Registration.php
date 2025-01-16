@@ -23,7 +23,7 @@ class Registration extends Model
         'senior_citizen',
         'proof_payment',
         'trainee_cert',
-        'status'
-        
+        'status',
+        'country'
     ];
 }

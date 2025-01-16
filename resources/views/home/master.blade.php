@@ -18,8 +18,6 @@
 
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" />
 
-        
-
         <!-- Favicon
         ================================================== -->
         <link rel="icon" type="image/png" href="images/ACA_LOGO.png">
@@ -27,9 +25,10 @@
         <!-- CSS
         ================================================== -->
         @include('home.css')
+        @notifyCss
 
         @livewireStyles
-        @notifyCss
+        
 
     </head>
     <body>
@@ -67,8 +66,9 @@
             
 
             {{-- @yield('content') --}}
-            @livewireScripts
             @notifyJs
+            @livewireScripts
+            
 
             <footer id="footer" class="footer bg-overlay">
                 @include('home.footer')

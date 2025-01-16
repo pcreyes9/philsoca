@@ -22,23 +22,23 @@ class PendingReg extends Component
             $this->sortName="Registration ID (newest)";
         }
         else if($this->sort == 'regOld'){
-            $reg = Registration::orderBy('id', 'ASC')->paginate(10);
+            $reg = Registration::where('status', 'Pending')->orderBy('id', 'ASC')->paginate(10);
             $this->sortName="Registration ID (oldest)";
         }
         else if($this->sort == 'psaIDNew'){
-            $reg = Registration::orderBy('psa_id', 'DESC')->paginate(10);
+            $reg = Registration::where('status', 'Pending')->orderBy('psa_id', 'DESC')->paginate(10);
             $this->sortName="PSA ID (newest)";
         }
         else if($this->sort == 'psaIDOld'){
-            $reg = Registration::orderBy('psa_id', 'ASC')->paginate(10);
+            $reg = Registration::where('status', 'Pending')->orderBy('psa_id', 'ASC')->paginate(10);
             $this->sortName="PSA ID (oldest)";
         }
         else if ($this->sort == 'dateNew'){
-            $reg = Registration::orderBy('created_at', 'DESC')->paginate(10);
+            $reg = Registration::where('status', 'Pending')->orderBy('created_at', 'DESC')->paginate(10);
             $this->sortName="Date of Registration (newest)";
         }
         else if ($this->sort == 'dateOld'){
-            $reg = Registration::orderBy('created_at', 'ASC')->paginate(10);
+            $reg = Registration::where('status', 'Pending')->orderBy('created_at', 'ASC')->paginate(10);
             $this->sortName="Date of Registration (oldest)";
         }
 
@@ -55,13 +55,8 @@ class PendingReg extends Component
         return redirect()->back();
     }
 
-    public function barcodePDF(){
-        $info = Registration::where('id', $this->id)->get();
-        
-        $pdf = Pdf::loadView('barcodePDF', [
-            'info' => $info
-        ]);
-
-        Storage::put('public/storage/uploads/'. $info->psa_id . 'pdf', $pdf->output());
+    public function deleteReg($id){
+        Registration::where('psa_id', $id)->update(['status' => 'Deleted']);
+        return redirect(request()->header('Referer'));
     }
 }

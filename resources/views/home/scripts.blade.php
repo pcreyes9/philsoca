@@ -19,7 +19,7 @@
 <!-- Template custom -->
 <script src="home/js/script.js?ver=<?php echo time()?>"></script>
 
-<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+{{-- <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script> --}}
 
 {{-- SWEET ALERT SCRIPTS --}}
 

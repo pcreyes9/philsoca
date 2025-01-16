@@ -82,6 +82,9 @@
                                         Membership
                                     </th>
                                     <th scope="col" class="px-6 py-3 text-center">
+                                        Country
+                                    </th>
+                                    <th scope="col" class="px-6 py-3 text-center">
                                         Proof if Senior/Trainee
                                     </th>
                                     <th scope="col" class="px-6 py-3 text-center">
@@ -120,6 +123,9 @@
                                         <td class="px-6 py-4 text-center">
                                             {{ $regs->membership }}    
                                         </td>
+                                        <td class="px-6 py-4 text-center">
+                                            {{ $regs->country }}    
+                                        </td>
                                         @if ($regs->trainee_cert != "Not available")
                                             <td class="px-6 py-4 text-center">
                                                 Trainee Cert
@@ -146,8 +152,8 @@
                                             {{ $regs->status }}    
                                         </td>
                                         <td class="px-6 py-4 whitespace-nowrap text-sm font-medium">
-                                            <a href="{{ route('sending', ['email' => $regs->email, 'name' => $regs->last_name, 'id' => $regs->psa_id])}}" wire:click.prevent="statusCheck({{ $regs->psa_id }})" class="text-blue-600 hover:text-blue-900 mb-2 mr-2">Hold</a>
-                                            <a href="{{ route('dashboard', $regs->id) }}" class="text-red-600 hover:text-red-900 mb-2 mr-2">Delete</a>
+                                            <a href="#" wire:confirm="Are you sure you want to HOLD?" wire:click.prevent="statusCheck({{ $regs->psa_id }})" class="text-blue-600 hover:text-blue-900 mb-2 mr-2">Hold</a>
+                                            <a href="#" wire:confirm="Are you sure you want to DELETE?" wire:click.prevent="deleteReg({{ $regs->psa_id }})" class="text-red-700 hover:text-red-900 mb-2 mr-2">Delete</a>
                                         </td>
                                     </tr>
                                 @endforeach

@@ -70,9 +70,11 @@ class ApprovedReg extends Component
         // dd("gea");
         Registration::where('psa_id', $id)->update(['status' => 'Pending']);
         return redirect(request()->header('Referer'));
-        // return back();
+        // return back(); 
+    }
 
-        
-        
+    public function deleteReg($id){
+        Registration::where('psa_id', $id)->update(['status' => 'Deleted']);
+        return redirect(request()->header('Referer'));
     }
 }

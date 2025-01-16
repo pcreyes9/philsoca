@@ -27,6 +27,7 @@ return new class extends Migration
             $table->string('proof_payment')->nullable();
             $table->string('trainee_cert')->nullable();
             $table->string('status');
+            $table->string('country');
             $table->timestamps();
         });
     }

@@ -11,7 +11,7 @@ use Livewire\WithFileUploads;
 use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Storage;
 
-class MemReg extends Component
+class MemberReg extends Component
 {
     use WithFileUploads;
 
@@ -59,7 +59,7 @@ class MemReg extends Component
            
         //     // dd($this->list->toArray());
         // }
-        return view('livewire.mem-reg');
+        return view('livewire.member-reg');
     }
     public function showChecker(){
         // dd("checker");
@@ -86,31 +86,31 @@ class MemReg extends Component
         if(Registration::where('psa_id', '=', $this->PSAid)->exists()){
             session()->flash('message', 'You are already registered. If you have any concern about your registration, please kindly reply to the email we sent to '. Registration::where('psa_id', '=', $this->PSAid)->value('email') .'. Thank you!');
         }
-        // else if($this->memType == 'LM'){
-        //    Registration::create([
-        //         'psa_id' => $this->PSAid,
-        //         'last_name' => $this->last_name,
-        //         'first_name' => $this->first_name,
-        //         'middle_name' => $this->middle_initial,
-        //         'hospital_name' => $this->hospitalName,
-        //         'hospital_address' => $this->hospitalAddress,
-        //         'email' => $this->email,
-        //         'contact_number' => $this->contactNumber,
-        //         'gender' => 'N/A',
-        //         'membership' => $this->memType,
+        else if($this->memType == 'LM'){
+           Registration::create([
+                'psa_id' => $this->PSAid,
+                'last_name' => $this->last_name,
+                'first_name' => $this->first_name,
+                'middle_name' => $this->middle_initial,
+                'hospital_name' => $this->hospitalName,
+                'hospital_address' => $this->hospitalAddress,
+                'email' => $this->email,
+                'contact_number' => $this->contactNumber,
+                'gender' => 'N/A',
+                'membership' => $this->memType,
         
-        //         'senior_citizen' => 'Not available',
-        //         'proof_payment' => 'Not available',
-        //         'trainee_cert' => 'Not available'
-        //     ]);
+                'senior_citizen' => 'Not available',
+                'proof_payment' => 'Not available',
+                'trainee_cert' => 'Not available'
+            ]);
             
-        //     session()->flash('message', 'YOU ARE REGISTERED SUCCESSFULLY, DR ' . $this->last_name . '!');
-        //     // dd($this->email);
+            session()->flash('message', 'YOU ARE REGISTERED SUCCESSFULLY, DR ' . $this->last_name . '!');
+            // dd($this->email);
             
-        //     return redirect()->route('emailsend', ['email' => $this->email, 'name' => $this->last_name]);
-        //     // sleep(seconds: 3);
-        //     return $this->cleanvars(); 
-        // }
+            return redirect()->route('emailsend', ['email' => $this->email, 'name' => $this->last_name]);
+            // sleep(seconds: 3);
+            return $this->cleanvars(); 
+        }
         else if( $this->paymentProof == null){
             session()->flash('message', 'Invalid file format of proof of payment. Please try refreshing the page');
         }
@@ -133,11 +133,10 @@ class MemReg extends Component
                 
                 //IMG SENIOR ID
                 if($this->imgSenior != null && $this->imgSenior != "" && $this->senior == "yesSen"){
-                    if($this->memType != "TM"){
+                    if($this->memType == "RM"){
                         if(strtolower($this->imgSenior->extension()) == "jpg" || strtolower($this->imgSenior->extension()) == "png" || strtolower($this->imgSenior->extension()) ==  "jpeg" || strtolower($this->imgSenior->extension()) == "gif"){
                             $imgNameSenior = $this->PSAid .' '. $this->last_name . " - Senior ID " . $date . '.' . $this->imgSenior->extension();
                             $this->imgSenior->storeAs('photos/senior ids', $imgNameSenior);
-                            $imgNameCert = "Not available";
                         }
                         else{
                             $err = "Invalid file format of senior ID.";
@@ -171,7 +170,7 @@ class MemReg extends Component
                     $err = "";
                 }
                 else{
-                    $imgNameCert = "Not available";
+                    
                     Registration::create([
                         'psa_id' => $this->PSAid,
                         'last_name' => $this->last_name,
@@ -184,7 +183,6 @@ class MemReg extends Component
                         'gender' => 'N/A',
                         'membership' => $this->memType,
                         'status' => "Pending",
-                        'country' => "Philippines",
             
                         'senior_citizen' => $imgNameSenior,
                         'proof_payment' => $imgNamePayment,

@@ -128,7 +128,7 @@ Route::get('/admin/dashboard/sending', function (Request $request) {
         $path = Storage::put('public/storage/uploads/'.  $request->query('id') . '.pdf', $pdf->output());
         Storage::put($path, $pdf->output());
 
-        // Mail::to($email)->send(new ApprovedEmail($name, $id));
+        Mail::to($email)->send(new ApprovedEmail($name, $id));
 
         Registration::where('psa_id', $id)->update(['status' => 'Approved']);
 

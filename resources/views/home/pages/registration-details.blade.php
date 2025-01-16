@@ -56,7 +56,7 @@
                 
                 <br>
                 <p class="para-head text-center fd mb-4">Local (Philippines) Rates</p>
-                <div class="table-responsive">
+                <div class="table-responsive mb-3">
                     <table class="table">
                         <thead class="bg-danger text-white" >
                             <tr>
@@ -101,10 +101,7 @@
                     </table>
                 </div>                
 
-                {{-- <a class="gallery-popup wrapper" href="images/MC 2024 RATES.jpg">
-                    <img class="img-fluid w-50 zoom fade-img" src="images/MC 2024 RATES.jpg" alt="">
-                </a> --}}
-                <p class="hotel-p fd">
+                {{-- <p class="hotel-p fd">
                     <br>
                     Remarks: other type of registrations stated above will fall under “NON-Member” category.
                 </p>
@@ -118,10 +115,10 @@
                 <p class="hotel-p fd">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas semper nunc nec ornare ornare. Nam sagittis elit ac ligula bibendum condimentum. In sodales, neque et tincidunt congue, lorem dui interdum arcu, id lobortis tortor nibh quis magna. Pellentesque sit amet semper turpis, non feugiat tellus. Duis malesuada nibh nec suscipit volutpat.
                 </p>
-                <br>
-                <p class="para-head fd">Payment Details</p>
+                <br> --}}
+                <p class="para-head fd mb-2">Bank Details</p>
                 <p class="hotel-p fd">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas semper nunc nec ornare ornare. Nam sagittis elit ac ligula bibendum condimentum. In sodales, neque et tincidunt congue, lorem dui interdum arcu, id lobortis tortor nibh quis magna. Pellentesque sit amet semper turpis, non feugiat tellus. Duis malesuada nibh nec suscipit volutpat.
+                    Security Bank Account Number:<strong> 0039-8075-39</strong> <br> Account name: <strong>Philippine Society of Anesthesiologists, inc.</strong>
                 </p>
 
                 <div class="d-grid gap-2 mt-5">

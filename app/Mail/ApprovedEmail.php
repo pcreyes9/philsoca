@@ -37,7 +37,7 @@ class ApprovedEmail extends Mailable
     public function content(): Content
     {
         return new Content(
-            view: 'mail.test-email',
+            view: 'mail.approve-email',
             with: ['name' => $this->name]
         );
     }

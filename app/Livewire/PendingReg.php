@@ -47,7 +47,7 @@ class PendingReg extends Component
 
     public function exportPDF(){
         $info = Registration::where('id', '>=' , $this->from)->where('id', '<=' , $this->to)->get();
-        dd($info);
+        // dd($info);
         $pdf = Pdf::loadView('exportPDF', [
             'info' => $info
         ]);

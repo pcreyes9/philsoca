@@ -150,7 +150,7 @@
                                             {{ $regs->created_at }}    
                                         </td>
                                         @if ($regs->status == 'Pending')
-                                            <td class="px-6 py-4 text-center leading-5 font-semibold text-red-800">
+                                            <td class="px-6 py-4 text-center leading-5 font-semibold text-yellow-400">
                                                 {{ $regs->status }} 
                                             </td> 
                                             <td class="px-6 py-4 whitespace-nowrap text-sm font-medium">

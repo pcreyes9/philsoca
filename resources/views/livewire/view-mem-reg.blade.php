@@ -174,7 +174,7 @@
                                             </td> 
                                             <td class="px-6 py-4 whitespace-nowrap text-sm font-medium">
                                                 {{-- <a href="" wire:confirm="Are you sure you want to approve? " wire:click.prevent='approval({{ $regs->psa_id }})' class="text-blue-600 hover:text-blue-900 mb-2 mr-2">Approve</a> --}}
-                                                <a href="{{ route('sending', ['email' => $regs->email, 'name' => $regs->last_name, 'id' => $regs->psa_id])}}" wire:confirm="Are you sure you want to APPROVE?" wire:click.prevent="" class="text-blue-600 hover:text-blue-900 mb-2 mr-2">Approve</a>
+                                                <a href="{{ route('sending', ['email' => $regs->email, 'name' => $regs->last_name, 'id' => $regs->psa_id])}}" wire:confirm="Are you sure you want to APPROVE?" wire:click="" class="text-blue-600 hover:text-blue-900 mb-2 mr-2">Approve</a>
                                                 <a href="#" wire:confirm="Are you sure you want to DELETE?" wire:click.prevent="deleteReg({{ $regs->psa_id }})" class="text-red-700 hover:text-red-900 mb-2 mr-2">Delete</a>
                                             </td>  
                                         @endif

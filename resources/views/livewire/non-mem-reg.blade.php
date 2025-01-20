@@ -346,10 +346,10 @@
                 @if  ($country  == "Brunei" ||  $country  == "Cambodia" ||  $country  == "Indonesia" ||  $country  == "Laos" ||  $country  == "Malaysia" || 
                      $country  == "Myanmar" ||  $country  == "Singapore" ||  $country  == "Thailand" ||  $country  == "Vietnam")
 
-                    <label style="font-weight: 750; font-size: medium; color: black">ASEAN MEMBERS: $450</label><br>
+                    <label style="font-weight: 750; font-size: medium; color: black">ASEAN MEMBER: $450</label><br>
                     
                 @else
-                    <label style="font-weight: 750; font-size: medium; color: black">NON ASEAN MEMBERS: $600</label><br>
+                    <label style="font-weight: 750; font-size: medium; color: black">NON ASEAN MEMBER: $600</label><br>
                 @endif
                 <label style="font-style: italic; font-weight: 300; font-size: normal; color: black">Early Bird (Jan 20 - Apr 30, 2025)</label><br>
 
@@ -377,7 +377,11 @@
             <label>Message</label>
             <textarea class="form-control form-control-message" name="message" id="message" placeholder="" rows="10" required></textarea>
         </div> --}}
-        
+        <p class="para-head fd mb-2">Bank Details</p>
+        <p class="hotel-p fd">
+            BPI Dollar Account Number:<strong> 004434-0395-47</strong> <br> Account name: <strong>Philippine Society of Anesthesiologists, Inc.</strong> <br> SWIFT CODE: <strong>BOPIPHMM</strong>
+        </p>
+
         <div class="text-right"><br>
             <button wire:loading.attr="disabled" type="submit" class="btn btn-primary solid blank" style="background: #d6cb00; color: #000066">
                 {{-- <div class="loader"></div> --}}

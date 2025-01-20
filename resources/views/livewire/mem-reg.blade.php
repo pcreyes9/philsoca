@@ -129,7 +129,7 @@
                         </label>
                     </div>
                 </div>
-            @endif
+            @endif            
         
             @if ( $senior  == 'yesSen' && $memType != 'TM')
                 <div class="col-md-4 mt-4">
@@ -140,27 +140,43 @@
             @endif
 
             @if ($memType == 'TM')
-            <div class="col-md-4 mt-4">
-                <label style=" font-weight: 750; font-size: medium; color:black">PWD</label><br>
-                <div class="form-check">
-                    <input style="color: black" class="form-check-input" type="radio" name="radioSenior" value = "yesSen" id="yesSen" wire:model.live='senior' required>
-                    <label style="color: black" class="form-check-label" for="yesSen">
-                        Yes
-                    </label>
-                </div>
-                <div class="form-check">
-                    <input style="color: black" class="form-check-input" type="radio" name="radioSenior" value = "noSen"  id="noSen" wire:model.live='senior'  required>
-                    <label style="color: black" class="form-check-label" for="noSen">
-                        No
-                    </label>
-                </div>
-            </div>
-                @if ( $senior  == 'yesSen')
                 <div class="col-md-4 mt-4">
-                    <label style=" font-weight: 750; font-size: medium; color: black">PWD ID</label><br>
-                    <input style="color: black" type="file" wire:model="imgSenior" required>
-                    @error('paymentProof') <span class="error">{{ $message }}</span> @enderror
+                    <label style=" font-weight: 750; font-size: medium; color:black">PWD</label><br>
+                    <div class="form-check">
+                        <input style="color: black" class="form-check-input" type="radio" name="radioSenior" value = "yesSen" id="yesSen" wire:model.live='senior' required>
+                        <label style="color: black" class="form-check-label" for="yesSen">
+                            Yes
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input style="color: black" class="form-check-input" type="radio" name="radioSenior" value = "noSen"  id="noSen" wire:model.live='senior'  required>
+                        <label style="color: black" class="form-check-label" for="noSen">
+                            No
+                        </label>
+                    </div>
                 </div>
+            {{-- <div class="col-md-4 mt-4">
+                <label style=" font-weight: 750; font-size: medium; color: black">Rate to be paid </label><br>
+                
+                @if ($memType == "RM" && $senior == "yesSen")
+                    <label style=" font-weight: 750; font-size: medium; color: black">PWD/Senior Citizen: ₱12,800</label><br>
+                @elseif ($memType == "TM" && $senior == "yesSen")
+                    <label style=" font-weight: 750; font-size: medium; color: black">PWD/Senior Citizen: ₱12,800</label><br>
+                @elseif ( $memType == "RM")
+                    <label style=" font-weight: 750; font-size: medium; color: black">Regular Member: ₱16,000</label><br>
+                @elseif ($memType == "TM")
+                    <label style=" font-weight: 750; font-size: medium; color: black">Resident/Trainee Member: ₱14,000</label><br>
+                @elseif ($memType ==  "LM")
+                    <label style=" font-weight: 750; font-size: medium; color: black">Resident/Trainee Member: ₱10,000</label><br>
+                @endif
+                <label style="font-style: italic; font-weight: 300; font-size: normal; color: black">Early Bird (Jan 20 - Apr 30, 2025)</label><br>
+            </div> --}}
+                @if ( $senior  == 'yesSen')
+                    <div class="col-md-4 mt-4">
+                        <label style=" font-weight: 750; font-size: medium; color: black">PWD ID</label><br>
+                        <input style="color: black" type="file" wire:model="imgSenior" required>
+                        @error('paymentProof') <span class="error">{{ $message }}</span> @enderror
+                    </div>
                 @endif
                 {{-- <div class="col-md-4 mt-4">
                     <label style=" font-weight: 750; font-size: medium;  color:black">Certificate of Institution</label><br>

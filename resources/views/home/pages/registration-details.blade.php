@@ -118,7 +118,7 @@
                 <br> --}}
                 <p class="para-head fd mb-2">Bank Details</p>
                 <p class="hotel-p fd">
-                    Security Bank Account Number:<strong> 0039-8075-39</strong> <br> Account name: <strong>Philippine Society of Anesthesiologists, Inc.</strong>
+                    Security Bank Account Number:<strong> 0000039-8075-39</strong> <br> Account name: <strong>Philippine Society of Anesthesiologists, Inc.</strong>
                 </p>
                 <br>
                 <p class="hotel-p fd">

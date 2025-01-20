@@ -99,7 +99,7 @@
                 {{-- {{ $country }} --}}
                 <label style="font-weight: 750; font-size: medium; color: black">Country</label> 
             
-                <select id="country" name="country" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg p-2" wire:model="country" required style="box-shadow: 2px 2px 3px gray; background-color: #000066; color: white; font-weight: bold;s">
+                <select id="country" name="country" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg p-2" wire:model.live="country" required style="box-shadow: 2px 2px 3px gray; background-color: #000066; color: white; font-weight: bold;s">
                     <option value="Afghanistan">Afghanistan</option>
                     <option value="Åland Islands">Åland Islands</option>
                     <option value="Albania">Albania</option>
@@ -345,6 +345,22 @@
                     <option value="Zambia">Zambia</option>
                     <option value="Zimbabwe">Zimbabwe</option>
                 </select>
+            </div>
+            <div class="col-md-4 mt-4">
+                <label style="font-weight: 750; font-size: medium; color: black">Rate to be paid:</label><br>
+                @if  ($country  == "Brunei" ||  $country  == "Cambodia" ||  $country  == "Indonesia" ||  $country  == "Laos" ||  $country  == "Malaysia" || 
+                     $country  == "Myanmar" ||  $country  == "Singapore" ||  $country  == "Thailand" ||  $country  == "Vietnam")
+
+                    <label style="font-weight: 750; font-size: medium; color: black">ASEAN MEMBERS: $450</label><br>
+                    
+                @else
+                    <label style="font-weight: 750; font-size: medium; color: black">NON ASEAN MEMBERS: $600</label><br>
+                @endif
+                <label style="font-style: italic; font-weight: 300; font-size: normal; color: black">Early Bird (Jan 20 - Apr 30, 2025)</label><br>
+
+            
+                <label style="font-weight: 750; font-size: medium; color: black"></label>
+                @error('paymentProof') <span class="error">{{ $message }}</span> @enderror
             </div>
             
         </div>

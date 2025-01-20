@@ -80,11 +80,11 @@ Route::get('/registration', function () {
     return view('home/pages/registration-details');
 })->name('reg');
 
-Route::get('/mem-registration', function () {
+Route::get('/local-registration', function () {
     return view('registration.mem-registration');
 })->name('memReg');
 
-Route::get('/non-mem-registration', function () {
+Route::get('/international-registration', function () {
     // dd("asd");
     return view('registration.non-mem-registration');
 })->name('nonMemReg');

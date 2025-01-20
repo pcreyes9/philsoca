@@ -90,6 +90,7 @@ class NonMemReg extends Component
             else{
                 Registration::create([
                     'psa_id' => '0000',
+                    'prc_number' => '0',
                     'last_name' => ucfirst($this->last_name),
                     'first_name' => ucfirst($this->first_name),
                     'middle_name' => ucfirst($this->middle_initial),

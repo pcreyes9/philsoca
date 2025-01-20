@@ -27,7 +27,7 @@ class MyTestEmail extends Mailable
     public function envelope(): Envelope
     {
         return new Envelope(
-            subject: 'Registration for Annual Convention 2024',
+            subject: 'Registration for ASEAN Congress of Anesthesiologists 2025',
         );
     }
 

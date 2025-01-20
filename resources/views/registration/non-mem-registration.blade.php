@@ -1,6 +1,6 @@
 @extends('home.master')
 
-@section('title', 'Non-Members Register')
+@section('title', 'International Registration')
 {{-- @section('banner-name', 'PSA NON-MEMBERS REGISTRATION') --}}
 
 @section('content')

@@ -1,6 +1,6 @@
 @extends('home.master')
 
-@section('title', 'Register')
+@section('title', 'Local Registration')
 @section('banner-name', 'PSA MEMBERS REGISTRATION')
 
 @section('content')

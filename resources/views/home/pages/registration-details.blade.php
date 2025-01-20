@@ -7,7 +7,15 @@
 @include('home.banner')
 
 <section id="main-container" class="pb-4 main-container text-center project-area ">
+
+
     <div class="container">
+        @if (session('success'))
+            <div class="alert alert-success">
+                {{ session('success') }}
+            </div>
+        @endif
+
         <div class="row justify-content-center mb-5" data-animation-in="slideInLeft" data-duration-in="1.2">
             <div class="col-lg-12" >
                 <h3 class="into-sub-title" >The 24<sup class="text-lowercase">th</sup> ASEAN Congress of Anesthesiologists (ACA 2025)</h3>
@@ -122,7 +130,7 @@
                 </p>
                 <br>
                 <p class="hotel-p fd">
-                    BPI Dollar Account Number:<strong> 004434-0395-47</strong> <br> Account name: <strong>Philippine Society of Anesthesiologists, Inc.</strong>
+                    BPI Dollar Account Number:<strong> 004434-0395-47</strong> <br> Account name: <strong>Philippine Society of Anesthesiologists, Inc.</strong> <br> SWIFT CODE: <strong>BOPIPHMM</strong>
                 </p>
 
 

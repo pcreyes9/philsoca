@@ -91,11 +91,6 @@
             @endif --}}
                 
             <div class="col-md-4 mt-4">
-                <label style="font-weight: 750; font-size: medium; color: black">Proof of Payment</label><br>
-                <input style="color: #000066" type="file" wire:model="paymentProof" required>
-                @error('paymentProof') <span class="error">{{ $message }}</span> @enderror
-            </div>
-            <div class="col-md-4 mt-4">
                 {{-- {{ $country }} --}}
                 <label style="font-weight: 750; font-size: medium; color: black">Country</label> 
             
@@ -360,6 +355,12 @@
 
             
                 <label style="font-weight: 750; font-size: medium; color: black"></label>
+                @error('paymentProof') <span class="error">{{ $message }}</span> @enderror
+            </div>
+
+            <div class="col-md-4 mt-4">
+                <label style="font-weight: 750; font-size: medium; color: black">Proof of Payment</label><br>
+                <input style="color: #000066" type="file" wire:model="paymentProof" required>
                 @error('paymentProof') <span class="error">{{ $message }}</span> @enderror
             </div>
             

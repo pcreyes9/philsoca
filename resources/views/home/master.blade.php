@@ -16,7 +16,7 @@
         <meta name="description" content="ASEAN CONGRESS OF ANESTHESIOLOGISTS IN MANILA 2025">
         <meta name="keywords" content="anesthesia, anesthesiologists, ACA, doctors, congress, philippines, manila, anes">
 
-        
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" />
 
         <!-- Favicon
         ================================================== -->
@@ -25,17 +25,23 @@
         <!-- CSS
         ================================================== -->
         @include('home.css')
+        @notifyCss
 
         @livewireStyles
+        
+
     </head>
     <body>
         <div class="body-inner">
             @include('home.top-info')
+            <x-notify::notify/>
+
 
             <!--/ Topbar end -->
             <!-- Header start -->
             
             <header id="header" class="header-one">
+
                 <title>@yield('title') | 24th ASEAN CONGRESS OF ANESTHESIOLOGISTS</title>
                 @include('home.header')
                 @include('home.menu')
@@ -60,7 +66,9 @@
             
 
             {{-- @yield('content') --}}
+            @notifyJs
             @livewireScripts
+            
 
             <footer id="footer" class="footer bg-overlay">
                 @include('home.footer')
@@ -85,6 +93,28 @@
                     "query-input": "required name=search_term_string"
                   }
                 }
+            </script>
+            <script>
+                window.addEventListener('show-confirmation', event => {
+                    Swal.fire({
+                        title: "Are you sure?",
+                        text: "You won't be able to revert this!",
+                        icon: "warning",
+                        showCancelButton: true,
+                        confirmButtonColor: "#3085d6",
+                        cancelButtonColor: "#d33",
+                        confirmButtonText: "Yes, delete it!"
+                        }).then((result) => {
+                            if (result.isConfirmed) {
+                                Livewire.emit('approvalConfirmed')
+                                Swal.fire({
+                                    title: "Approved!",
+                                    text: "Your file has been approved.",
+                                    icon: "success"
+                                });
+                            }
+                    })
+                });
             </script>
         </div><!-- Body inner end -->
     </body>

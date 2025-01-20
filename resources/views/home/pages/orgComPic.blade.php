@@ -26,7 +26,7 @@
                             <img loading="lazy" src="images/PSA President 2024.jpg" class="img-fluid" alt="team-img">
                         </div>
                         <div class="ts-team-content-classic">
-                            <h3 class="ts-name">Dr. Penafrancia C. Cano</h3>
+                            <h3 class="ts-name">Dr. Peñafrancia C. Cano</h3>
                         {{-- <p class="ts-designation">Chief Operating Officer</p>
                         <p class="ts-description">Nats Stenman began his career in construction with boots on the ground</p> --}}
                         <!--/ social-icons-->
@@ -38,7 +38,7 @@
           
             <hr class="solid">
 
-            <div class="row text-center">
+            <div class="row text-center mt-5">
               <div class="col-lg-12">
                   <h3 class="orgcom-title text-center mb-4">Scientific Committee Chair</h3>
               </div>
@@ -63,7 +63,7 @@
           
             <hr class="solid">
 
-            <div class="row text-center">
+            <div class="row text-center mt-5">
               <div class="col-lg-12">
                   <h3 class="orgcom-title text-center mb-4">Registration Committee</h3>
               </div>
@@ -88,9 +88,9 @@
           
             <hr class="solid">
 
-            <div class="row text-center">
+            <div class="row text-center mt-5">
               <div class="col-lg-12">
-                  <h3 class="orgcom-title text-center mb-4">Treasurer</h3>
+                  <h3 class="orgcom-title text-center mb-4">Finance Committee</h3>
               </div>
             </div>
             
@@ -101,7 +101,7 @@
                             <img loading="lazy" src="images/placeholder_img.png" class="img-fluid" alt="team-img">
                         </div>
                         <div class="ts-team-content-classic text-center ">
-                            <h3 class="ts-name">Dr. Zenaida M. Mariano</h3>
+                            <h3 class="ts-name">Dr. Carmelita S. Lunas</h3>
                         {{-- <p class="ts-designation">Chief Operating Officer</p>
                         <p class="ts-description">Nats Stenman began his career in construction with boots on the ground</p> --}}
                         <!--/ social-icons-->
@@ -110,10 +110,27 @@
                   <!--/ Team wrapper 1 end -->
                 </div><!-- Col end -->
             </div><!-- Content row 1 end -->
+
+            <div class="row justify-content-center">
+              <div class="col-lg-3 col-sm-6 mb-5">
+                  <div class="ts-team-wrapper">
+                      <div class="team-img-wrapper">
+                          <img loading="lazy" src="images/placeholder_img.png" class="img-fluid" alt="team-img">
+                      </div>
+                      <div class="ts-team-content-classic text-center ">
+                          <h3 class="ts-name">Dr. Zenaida M. Mariano</h3>
+                      {{-- <p class="ts-designation">Chief Operating Officer</p>
+                      <p class="ts-description">Nats Stenman began his career in construction with boots on the ground</p> --}}
+                      <!--/ social-icons-->
+                      </div>
+                  </div>
+                <!--/ Team wrapper 1 end -->
+              </div><!-- Col end -->
+          </div><!-- Content row 1 end -->
           
             <hr class="solid">
 
-            <div class="row text-center">
+            <div class="row text-center mt-5">
               <div class="col-lg-12">
                   <h3 class="orgcom-title text-center mb-4">Wasy & Means</h3>
               </div>
@@ -138,7 +155,7 @@
           
             <hr class="solid">
 
-            <div class="row text-center">
+            <div class="row text-center mt-5">
               <div class="col-lg-12">
                   <h3 class="orgcom-title text-center mb-4">Physical Arrangement</h3>
               </div>
@@ -177,7 +194,7 @@
 
               <hr class="solid">
 
-            <div class="row text-center">
+            <div class="row text-center mt-5">
               <div class="col-lg-12">
                   <h3 class="orgcom-title text-center mb-4">Trade & Exhibits </h3>
               </div>
@@ -202,7 +219,7 @@
 
             <hr class="solid">
 
-            <div class="row text-center">
+            <div class="row text-center mt-5">
               <div class="col-lg-12">
                   <h3 class="orgcom-title text-center mb-4">Research</h3>
               </div>
@@ -270,9 +287,9 @@
 
               <hr class="solid">
 
-            <div class="row text-center">
+            <div class="row text-center mt-5">
               <div class="col-lg-12">
-                  <h3 class="orgcom-title text-center mb-4">Socials Events</h3>
+                  <h3 class="orgcom-title text-center mb-4">Social Events</h3>
               </div>
             </div>
               <div class="row  justify-content-center">
@@ -324,7 +341,7 @@
 
           <hr class="solid">
 
-            <div class="row text-center">
+            <div class="row text-center mt-5">
               <div class="col-lg-12">
                   <h3 class="orgcom-title text-center mb-4">Meet & Greet </h3>
               </div>
@@ -349,7 +366,7 @@
 
             <hr class="solid">
 
-            <div class="row text-center">
+            <div class="row text-center mt-5">
               <div class="col-lg-12">
                   <h3 class="orgcom-title text-center mb-4">Souvenir Program</h3>
               </div>
@@ -388,7 +405,7 @@
 
           <hr class="solid">
 
-            <div class="row text-center">
+            <div class="row text-center mt-5">
               <div class="col-lg-12">
                   <h3 class="orgcom-title text-center mb-4">Advisory Board</h3>
               </div>

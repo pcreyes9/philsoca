@@ -2,13 +2,14 @@
     {{-- <div wire:loading>LOADING...</div> --}}
     @csrf
     <div class="mb-5">
-        <button type="button" class="btn btn-dark solid mb-2" wire:click="showChecker" style="box-shadow: 2px 2px 3px gray; background-color: #ac071a; color: white; font-weight: bold">PSA ID NO. Checker</button>
+        {{ $PSAid }}
+        <button type="button" class="btn btn-dark solid blank mb-2" wire:click="showChecker">PSA ID NO. Checker</button>
         @if ($show)
             <div class="row mt-3">
                 <div class="col-md-4">
                     <div class="form-group">
-                        <label style=" font-weight: 750; font-size: medium; color:black;">Enter Last Name:</label>
-                        <input style="box-shadow: 2px 2px 3px gray; background-color: #000066; color: white; font-weight: bold" class="form-control form-control-subject" placeholder="" wire:model.live='name'>
+                        <label style=" font-weight: 750; font-size: medium; color:white;">Enter Last Name:</label>
+                        <input style="box-shadow: 2px 2px 3px gray; background-color: white; color: black; font-weight: bold;" class="form-control form-control-subject" placeholder="" wire:model.live='name'>
                     </div>
                     <button type="button" class="btn btn-primary solid blank mb-3" wire:click="checker" style="background: #d6cb00; color: #000066">Check</button>
                 </div>
@@ -30,6 +31,7 @@
                 <label style=" font-weight: 750; font-size: medium; color: black">PSA ID No.</label>
                 <input style="box-shadow: 2px 2px 3px gray; background-color: #000066; color: white; font-weight: bold" class="form-control form-control-name" name="psa_id" required autofocus autocomplete="psa_id" type="number" required wire:model.live='PSAid' value={{$PSAid}}>
             </div>
+            
         </div>
         <div class="col-md-4">
             <div class="form-group">
@@ -68,18 +70,11 @@
             </div>
         </div>
         <div class="col-md-4">
-        <div class="form-group">
-                <label style=" font-weight: 750; font-size: medium; color: black">Contact Number</label>
-                <input style="box-shadow: 2px 2px 3px gray; background-color: #000066; color: white; font-weight: bold;s" class="form-control form-control-subject" type="number" name="subject" id="subject" wire:model="contactNumber" placeholder="" required>
-            </div>
-        </div>
-        <div class="col-md-4">
             <div class="form-group">
-                <label style=" font-weight: 750; font-size: medium; color: black">PRC Number</label>
-                <input style="box-shadow: 2px 2px 3px gray; background-color: #000066; color: white; font-weight: bold;s" class="form-control form-control-subject" type="number" name="subject" id="subject" wire:model="prcNumber" placeholder="" required>
+            <label style=" font-weight: 750; font-size: medium; color: black">Contact Number</label>
+            <input style="box-shadow: 2px 2px 3px gray; background-color: #000066; color: white; font-weight: bold;s" class="form-control form-control-subject" type="number" name="subject" id="subject" wire:model="contactNumber" placeholder="" required>
             </div>
         </div>
-        
             <div class="col-md-4">
                 <label style=" font-weight: 750; font-size: medium; color: black">Membership Type</label><br>
                 {{-- <div class="pl-5 ml-5 text-left"> --}}
@@ -113,7 +108,7 @@
                 {{-- </div> --}}
             </div>
 
-            @if ($memType != 'TM')
+            @if ($memType == 'RM')
                 <div class="col-md-4 mt-4">
                     <label style=" font-weight: 750; font-size: medium; color:black">Senior Citizen/PWD ID</label><br>
                     <div class="form-check">
@@ -129,9 +124,9 @@
                         </label>
                     </div>
                 </div>
-            @endif            
+            @endif
         
-            @if ( $senior  == 'yesSen' && $memType != 'TM')
+            @if ( $senior  == 'yesSen' && $memType == 'RM')
                 <div class="col-md-4 mt-4">
                     <label style=" font-weight: 750; font-size: medium; color: black">Senior Citizen ID</label><br>
                     <input style="color: black" type="file" wire:model="imgSenior" required>
@@ -140,54 +135,40 @@
             @endif
 
             @if ($memType == 'TM')
-                <div class="col-md-4 mt-4">
-                    <label style=" font-weight: 750; font-size: medium; color:black">PWD</label><br>
-                    <div class="form-check">
-                        <input style="color: black" class="form-check-input" type="radio" name="radioSenior" value = "yesSen" id="yesSen" wire:model.live='senior' required>
-                        <label style="color: black" class="form-check-label" for="yesSen">
-                            Yes
-                        </label>
-                    </div>
-                    <div class="form-check">
-                        <input style="color: black" class="form-check-input" type="radio" name="radioSenior" value = "noSen"  id="noSen" wire:model.live='senior'  required>
-                        <label style="color: black" class="form-check-label" for="noSen">
-                            No
-                        </label>
-                    </div>
+            <div class="col-md-4 mt-4">
+                <label style=" font-weight: 750; font-size: medium; color:black">PWD</label><br>
+                <div class="form-check">
+                    <input style="color: black" class="form-check-input" type="radio" name="radioSenior" value = "yesSen" id="yesSen" wire:model.live='senior' required>
+                    <label style="color: black" class="form-check-label" for="yesSen">
+                        Yes
+                    </label>
                 </div>
-            {{-- <div class="col-md-4 mt-4">
-                <label style=" font-weight: 750; font-size: medium; color: black">Rate to be paid </label><br>
-                
-                @if ($memType == "RM" && $senior == "yesSen")
-                    <label style=" font-weight: 750; font-size: medium; color: black">PWD/Senior Citizen: ₱12,800</label><br>
-                @elseif ($memType == "TM" && $senior == "yesSen")
-                    <label style=" font-weight: 750; font-size: medium; color: black">PWD/Senior Citizen: ₱12,800</label><br>
-                @elseif ( $memType == "RM")
-                    <label style=" font-weight: 750; font-size: medium; color: black">Regular Member: ₱16,000</label><br>
-                @elseif ($memType == "TM")
-                    <label style=" font-weight: 750; font-size: medium; color: black">Resident/Trainee Member: ₱14,000</label><br>
-                @elseif ($memType ==  "LM")
-                    <label style=" font-weight: 750; font-size: medium; color: black">Resident/Trainee Member: ₱10,000</label><br>
-                @endif
-                <label style="font-style: italic; font-weight: 300; font-size: normal; color: black">Early Bird (Jan 20 - Apr 30, 2025)</label><br>
-            </div> --}}
+                <div class="form-check">
+                    <input style="color: black" class="form-check-input" type="radio" name="radioSenior" value = "noSen"  id="noSen" wire:model.live='senior'  required>
+                    <label style="color: black" class="form-check-label" for="noSen">
+                        No
+                    </label>
+                </div>
+            </div>
                 @if ( $senior  == 'yesSen')
-                    <div class="col-md-4 mt-4">
-                        <label style=" font-weight: 750; font-size: medium; color: black">PWD ID</label><br>
-                        <input style="color: black" type="file" wire:model="imgSenior" required>
-                        @error('paymentProof') <span class="error">{{ $message }}</span> @enderror
-                    </div>
+                <div class="col-md-4 mt-4">
+                    <label style=" font-weight: 750; font-size: medium; color: black">PWD ID</label><br>
+                    <input style="color: black" type="file" wire:model="imgSenior" required>
+                    @error('paymentProof') <span class="error">{{ $message }}</span> @enderror
+                </div>
                 @endif
                 {{-- <div class="col-md-4 mt-4">
                     <label style=" font-weight: 750; font-size: medium;  color:black">Certificate of Institution</label><br>
                     <input style="color: black" type="file" wire:model="imgCert" required>
                 </div> --}}
             @endif
-            <div class="col-md-4 mt-4">
-                <label style=" font-weight: 750; font-size: medium; color:black">Proof of Payment</label><br>
-                <input style="color: black" type="file" wire:model="paymentProof" required>
-                @error('paymentProof') <span class="error">{{ $message }}</span> @enderror
-            </div>
+            @if($memType != 'LM')
+                <div class="col-md-4 mt-4">
+                    <label style=" font-weight: 750; font-size: medium; color:black">Proof of Payment</label><br>
+                    <input style="color: black" type="file" wire:model="paymentProof" required>
+                    @error('paymentProof') <span class="error">{{ $message }}</span> @enderror
+                </div>
+            @endif
         </div>
         
         <br>

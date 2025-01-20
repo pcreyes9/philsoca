@@ -29,7 +29,7 @@
                                         <td>Dr. Ma. Janetth B. Serrano</td>
                                     </tr>
                                     <tr>
-                                        <th scope="row"><strong>Treasurer: </strong></th>
+                                        <th scope="row"><strong>Finance Committee: </strong></th>
                                         <td>Dr. Zenaida M. Mariano</td>
                                     </tr>
                                     <tr>

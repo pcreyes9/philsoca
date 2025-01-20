@@ -149,35 +149,13 @@
                                             <a href="{{ url('storage/photos/proof of payments/' . $regs->proof_payment) }}">
                                             {{ $regs->created_at }}    
                                         </td>
-                                        @if ($regs->status == 'Approved')
-                                            <td class="px-6 py-4 text-center leading-5 font-semibold text-green-500">
-                                                {{ $regs->status }}    
-                                            </td>
-                                            <td class="px-6 py-4 whitespace-nowrap text-sm font-medium">
-                                                {{-- <a href="" wire:confirm="Are you sure you want to approve? " wire:click.prevent='approval({{ $regs->psa_id }})' class="text-blue-600 hover:text-blue-900 mb-2 mr-2">Approve</a> --}}
-                                                <a href="" wire:confirm="Are you sure you want to HOLD?" wire:click.prevent="statusCheck({{ $regs->psa_id }})" class="text-blue-600 hover:text-blue-900 mb-2 mr-2">Hold</a>
-                                                <a href="#" wire:confirm="Are you sure you want to DELETE?" wire:click.prevent="deleteReg({{ $regs->psa_id }})" class="text-red-700 hover:text-red-900 mb-2 mr-2">Delete</a>
-                                            </td>
-
-                                        @elseif ($regs->status == 'Deleted')
-                                            <td class="px-6 py-4 text-center leading-5 font-semibold text-red-600">
-                                                {{ $regs->status }} 
-                                            </td> 
-                                            <td class="px-6 py-4 whitespace-nowrap text-sm font-medium">
-                                                {{-- <a href="" wire:confirm="Are you sure you want to approve? " wire:click.prevent='approval({{ $regs->psa_id }})' class="text-blue-600 hover:text-blue-900 mb-2 mr-2">Approve</a> --}}
-                                                <a href="" wire:confirm="Are you sure you want to RECOVER?" wire:click.prevent="statusCheck({{ $regs->psa_id }})" class="text-blue-600 hover:text-blue-900 mb-2 mr-2">Recover</a>
-                                                <a href="#" wire:confirm="Are you sure you want to DELETE?" wire:click.prevent="deleteReg({{ $regs->psa_id }})" class="text-red-700 hover:text-red-900 mb-2 mr-2">Delete</a>
-                                            </td>
-                                        @else
-                                            <td class="px-6 py-4 text-center leading-5 font-semibold text-yellow-500">
-                                                {{ $regs->status }} 
-                                            </td> 
-                                            <td class="px-6 py-4 whitespace-nowrap text-sm font-medium">
-                                                {{-- <a href="" wire:confirm="Are you sure you want to approve? " wire:click.prevent='approval({{ $regs->psa_id }})' class="text-blue-600 hover:text-blue-900 mb-2 mr-2">Approve</a> --}}
-                                                <a href="{{ route('sending', ['email' => $regs->email, 'name' => $regs->last_name, 'id' => $regs->psa_id])}}" wire:confirm="Are you sure you want to APPROVE?" wire:click.prevent="" class="text-blue-600 hover:text-blue-900 mb-2 mr-2">Approve</a>
-                                                <a href="#" wire:confirm="Are you sure you want to DELETE?" wire:click.prevent="deleteReg({{ $regs->psa_id }})" class="text-red-700 hover:text-red-900 mb-2 mr-2">Delete</a>
-                                            </td>  
-                                        @endif
+                                        <td class="px-6 py-4 text-center leading-5 font-semibold text-green-500">
+                                            {{ $regs->status }}    
+                                        </td>
+                                        <td class="px-6 py-4 whitespace-nowrap text-sm font-medium">
+                                            <a href="#" wire:confirm="Are you sure you want to HOLD?" wire:click.prevent="statusCheck({{ $regs->psa_id }})" class="text-blue-600 hover:text-blue-900 mb-2 mr-2">Hold</a>
+                                            <a href="#" wire:confirm="Are you sure you want to DELETE?" wire:click.prevent="deleteReg({{ $regs->psa_id }})" class="text-red-700 hover:text-red-900 mb-2 mr-2">Delete</a>
+                                        </td>
                                     </tr>
                                 @endforeach
                             </tbody>
@@ -253,4 +231,3 @@
         </div>
     </div> 
 </div> 
- 

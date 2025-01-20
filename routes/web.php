@@ -1,17 +1,18 @@
 <?php
 
 use App\Livewire\MemReg;
-// use Barryvdh\DomPDF\PDF;
-
-use Spatie\Sitemap\Sitemap;
-use Spatie\Sitemap\Tags\Url;
-
-
 
 use App\Mail\MyTestEmail;
+use App\Mail\ApprovedEmail;
+
+
+
+use Spatie\Sitemap\Sitemap;
 use App\Exports\ExcelExport;
 use App\Livewire\ViewMemReg;
+use App\Models\Registration;
 use Illuminate\Http\Request;
+use Spatie\Sitemap\Tags\Url;
 use Barryvdh\DomPDF\Facade\Pdf;
 use Illuminate\Support\Facades\Route;
 use Illuminate\Support\Facades\Artisan;
@@ -29,14 +30,14 @@ use App\Http\Controllers\DashboardController;
 | be assigned to the "web" middleware group. Make something great!
 |
 */
-Route::get('/sitemap.xml', function () {
-    $sitemap = Sitemap::create()
-        ->add(Url::create('/'))
-        ->add(Url::create('/about'))
-        ->add(Url::create('/contact'));
+// Route::get('/sitemap.xml', function () {
+//     $sitemap = Sitemap::create()
+//         ->add(Url::create('/'))
+//         ->add(Url::create('/about'))
+//         ->add(Url::create('/contact'));
 
-    return $sitemap->toResponse(request());
-});
+//     return $sitemap->toResponse(request());
+// });
 
 Route::get('/', function () {
     Artisan::call('cache:clear');
@@ -50,13 +51,13 @@ Route::get('/venue', function () {
     return view('home/venue');
 })->name('venue');
 
-Route::get('/organizing-committee', function () {
-    return view('home/pages/organizing-committee');
-})->name('orgCom');
-
 // Route::get('/organizing-committee', function () {
-//     return view('home/pages/orgComPic');
+//     return view('home/pages/organizing-committee');
 // })->name('orgCom');
+
+Route::get('/organizing-committee', function () {
+    return view('home/pages/orgComPic');
+})->name('orgCom');
 
 Route::get('/speakers', function () {
     return view('home/pages/speakers');
@@ -75,13 +76,18 @@ Route::get('/contact', function () {
 //     return view('home/pages/accommodations');
 // })->name('accommodations');
 
-// Route::get('/registration', function () {
-//     return view('home/pages/registration-details');
-// })->name('reg');
+Route::get('/registration', function () {
+    return view('home/pages/registration-details');
+})->name('reg');
 
-// Route::get('/mem-registration', function () {
-//     return view('registration.mem-registration');
-// })->name('memReg');
+Route::get('/local-registration', function () {
+    return view('registration.mem-registration');
+})->name('memReg');
+
+Route::get('/international-registration', function () {
+    // dd("asd");
+    return view('registration.non-mem-registration');
+})->name('nonMemReg');
 
 // Route::get('/psa-id-checker', function () {
 //     return view('registration.psa-id-checker');
@@ -89,53 +95,88 @@ Route::get('/contact', function () {
 
 
 
-// Route::get('/emailsend', function (Request $request){
+Route::get('/emailsend', function (Request $request){
     
-//     $email = $request->query('email');
-//     $name = $request->query('name');
+    $email = $request->query('email');
+    $name = $request->query('name');
     
-//     Mail::to($email)->send(new MyTestEmail($name));
+    Mail::to($email)->send(new MyTestEmail($name));
     
-//     return redirect()->route('reg')->with('success', 'Your registration is on process, Dr. ' . $name . '. We will update you in this email, ' . $email);
+    return redirect()->route('reg')->with('success', 'Your registration is on process, Dr. ' . $name . '. We will update you in this email, ' . $email . '. Thank you and we hope to see you soon!');
     
-// })->name('emailsend');
+})->name('emailsend');
 
 //ADMIN SIDE
 
-// Route::middleware([
-//     'auth:sanctum',
-//     config('jetstream.auth_session'),
-//     'verified',
-// ])->group(function () {
-//     Route::get('/admin/dashboard', [DashboardController::class, 'dashboard'])->name('admin');
-//     // Route::get('/dashboard', [DashboardController::class, 'dashboard'])->name('dashboard');
-    
-//     Route::get('/admin/viewMemReg', function () {
-//         return view('user_account.viewMemReg');
-//     })->name('viewMemReg');
+Route::middleware([
+    'auth:sanctum',
+    config('jetstream.auth_session'),
+    'verified',
+])->group(function () {
 
-//     Route::get('/admin/viewMemReg/download/trainee/{trainee_cert}', function ($trainee_cert){
-//         // dd($trainee_cert);
-//         $pathToFile = public_path('storage/photos/trainee cert/'. $trainee_cert);
-//         return response()->download($pathToFile);
-//     });
+Route::get('/admin/dashboard/sending', function (Request $request) {
+        $info = Registration::where('psa_id', $request->query('id'))->get();
 
-//     Route::get('/admin/viewMemReg/download/senior/{senior_citizen}', function ($senior_citizen){
-//         // dd($trainee_cert);
-//         $pathToFile = public_path('storage/photos/senior ids/'. $senior_citizen);
-//         return response()->download($pathToFile);
-//     });
+        $email = $request->query('email');
+        $name = $request->query('name');
+        $id = $request->query('id');
 
-//     // Route::get('/admin/dashboard/export-excel', function () {
-//     //     return Excel::download(new ExcelExport, 'regs.xlsx');
-//     // })->name('exportExcel');
+        $pdf = PDF::loadView('barcodePDF', [
+            'info' => $info
+        ])->setPaper('a5', 'landscape');
 
-//     // Route::get('/admin/dashboard/export-pdf', function (Request $request) {
-//     //     $info = $request->query('info');
-//     //     // dd($info);
-//     //     $pdf = PDF::loadView('exportPDF', $info);
-//     //     return $pdf->download('reg.pdf');
-//     // })->name('exportPDF');
-// });
+        $path = Storage::put('public/storage/uploads/'.  $request->query('id') . '.pdf', $pdf->output());
+        Storage::put($path, $pdf->output());
+
+        Mail::to($email)->send(new ApprovedEmail($name, $id));
+
+        Registration::where('psa_id', $id)->update(['status' => 'Approved']);
+
+        notify()->success( $name . ' has been approved and barcode was already sent!', 'Approval Success!');
+        return redirect()->back();
+        
+        // return $pdf->download('testing.pdf');
+
+    })->name('sending');
+
+    Route::get('/admin/dashboard', [DashboardController::class, 'dashboard'])->name('admin');
+    Route::get('/dashboard', [DashboardController::class, 'dashboard'])->name('dashboard');
+
+    Route::get('/admin/pendingReg', function () {
+        // notify()->success('Laravel Notify is awesome!');
+        return view('user_account.pendingReg');
+    })->name('pendingReg');
+
+    Route::get('/admin/approvedReg', function () {
+        return view('user_account.approvedReg');
+    })->name('approvedReg');
+
+    Route::get('/admin/viewMemReg', function () {
+        return view('user_account.viewMemReg');
+    })->name('viewMemReg');
+
+    Route::get('/admin/viewMemReg/download/trainee/{trainee_cert}', function ($trainee_cert){
+        // dd($trainee_cert);
+        $pathToFile = public_path('storage/photos/trainee cert/'. $trainee_cert);
+        return response()->download($pathToFile);
+    });
+
+    Route::get('/admin/viewMemReg/download/senior/{senior_citizen}', function ($senior_citizen){
+        // dd($trainee_cert);
+        $pathToFile = public_path('storage/photos/senior ids/'. $senior_citizen);
+        return response()->download($pathToFile);
+    });
+
+    Route::get('/admin/dashboard/export-excel', function () {
+        return Excel::download(new ExcelExport, 'regs.xlsx');
+    })->name('exportExcel');
+
+    // Route::get('/admin/dashboard/export-pdf', function (Request $request) {
+    //     $info = $request->query('info');
+    //     // dd($info);
+    //     $pdf = PDF::loadView('exportPDF', $info);
+    //     return $pdf->download('reg.pdf');
+    // })->name('exportPDF');
+});
 
 

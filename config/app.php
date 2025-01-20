@@ -171,10 +171,12 @@ return [
         App\Providers\FortifyServiceProvider::class,
         App\Providers\JetstreamServiceProvider::class,
 
+        // Milon\Barcode\BarcodeServiceProvider::class,
+
         Maatwebsite\Excel\ExcelServiceProvider::class,
         // Barryvdh\DomPDF\ServiceProvider::class,
     ])->toArray(),
-
+// 
     /*
     |--------------------------------------------------------------------------
     | Class Aliases
@@ -189,6 +191,9 @@ return [
     'aliases' => Facade::defaultAliases()->merge([
         // 'Example' => App\Facades\Example::class,
         'Excel' => Maatwebsite\Excel\Facades\Excel::class,
+
+        // 'DNS1D' => Milon\Barcode\Facades\DNS1DFacade::class,
+        // 'DNS2D' => Milon\Barcode\Facades\DNS2DFacade::class,
         // 'PDF' => Barryvdh\DomPDF\Facade::class,
     ])->toArray(),
 

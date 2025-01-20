@@ -16,7 +16,13 @@
                         {{ __('Dashboard') }}
                     </x-nav-link>
                     <x-nav-link href="{{ route('viewMemReg') }}" :active="request()->routeIs('viewMemReg')">
-                        {{ __('Membership Registration') }}
+                        {{ __('All Registration') }}
+                    </x-nav-link>
+                    <x-nav-link href="{{ route('approvedReg') }}" :active="request()->routeIs('approvedReg')">
+                        {{ __('Approved Registration') }}
+                    </x-nav-link>
+                    <x-nav-link href="{{ route('pendingReg') }}" :active="request()->routeIs('pendingReg')">
+                        {{ __('Pending Registration') }}
                     </x-nav-link>
                 </div>
 

@@ -9,14 +9,14 @@ use Illuminate\Mail\Mailables\Content;
 use Illuminate\Mail\Mailables\Envelope;
 use Illuminate\Queue\SerializesModels;
 
-class MyTestEmail extends Mailable
+class ApprovedEmail extends Mailable
 {
     use Queueable, SerializesModels;
 
     /**
      * Create a new message instance.
      */
-    public function __construct(private string $name)
+    public function __construct(private string $name, private string $id)
     {
         // dd($this->id);
     }
@@ -27,7 +27,7 @@ class MyTestEmail extends Mailable
     public function envelope(): Envelope
     {
         return new Envelope(
-            subject: 'Registration for ASEAN Congress of Anesthesiologists 2025',
+            subject: 'Confirmed Registration for ACA 2025',
         );
     }
 
@@ -50,6 +50,7 @@ class MyTestEmail extends Mailable
     public function attachments(): array
     {
         return [
+            storage_path('app/public/storage/uploads/' . $this->id . '.pdf'),
         ];
         
     }

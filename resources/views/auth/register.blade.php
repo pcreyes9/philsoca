@@ -1,3 +1,5 @@
-<livewire:i-d-confirmation/>
+UNAUTHORIZED PAGE
+
+{{-- <livewire:i-d-confirmation/> --}}
 {{-- <livewire:test-livewire/> --}}
 

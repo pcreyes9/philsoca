@@ -23,7 +23,7 @@ class MemReg extends Component
     public $contactNumber, $email, $hospitalName, $hospitalAddress, $middle_initial, $paymentProof, $imgName, $imgSenior, $imgCert;
     public $imgNamePayment, $imgNameSenior = "", $imgNameCert = "Not available";
 
-    public $err = "";
+    public $err = "", $prcNumber;
     public $name, $res, $list, $x, $show = false;
     
     public function render()
@@ -173,7 +173,8 @@ class MemReg extends Component
                 else{
                     $imgNameCert = "Not available";
                     Registration::create([
-                        'psa_id' => $this->PSAid,
+                        'psa_id' => $this->PSAid,  
+                        'prc_number' => $this->prcNumber,
                         'last_name' => $this->last_name,
                         'first_name' => $this->first_name,
                         'middle_name' => $this->middle_initial,

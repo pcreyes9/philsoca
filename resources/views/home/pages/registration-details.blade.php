@@ -10,7 +10,7 @@
     <div class="container">
         <div class="row justify-content-center mb-5" data-animation-in="slideInLeft" data-duration-in="1.2">
             <div class="col-lg-12" >
-                <h3 class="into-sub-title" >The 24<sup class="text-lowercase">th</sup> ASEAN Congress of Anesthesiologists (ACA 2024)</h3>
+                <h3 class="into-sub-title" >The 24<sup class="text-lowercase">th</sup> ASEAN Congress of Anesthesiologists (ACA 2025)</h3>
             </div>
             <div class="col-lg-11 mb-3">
                 <h3 class="section-header">23<sup class="text-lowercase">rd</sup> - 25<sup class="text-lowercase">th</sup> October 2025 | MARRIOTT GRAND BALLROOM <br> Pasay City | Philippines</h3>
@@ -74,7 +74,7 @@
                                 <td>₱20,000</td>
                             </tr>
                             <tr> 
-                                <th class="text-left" scope="row">Residents/Trainees</th>
+                                <th class="text-left" scope="row">Resident/Trainee Members</th>
                                 <td>₱14,000</td>
                                 <td>₱15,000</td>
                                 <td>₱18,000</td>
@@ -118,13 +118,17 @@
                 <br> --}}
                 <p class="para-head fd mb-2">Bank Details</p>
                 <p class="hotel-p fd">
-                    Security Bank Account Number:<strong> 0039-8075-39</strong> <br> Account name: <strong>Philippine Society of Anesthesiologists, inc.</strong>
+                    Security Bank Account Number:<strong> 0039-8075-39</strong> <br> Account name: <strong>Philippine Society of Anesthesiologists, Inc.</strong>
                 </p>
+                <br>
+                <p class="hotel-p fd">
+                    BPI Dollar Account Number:<strong> 004434-0395-47</strong> <br> Account name: <strong>Philippine Society of Anesthesiologists, Inc.</strong>
+                </p>
+
 
                 <div class="d-grid gap-2 mt-5">
                     <a href="{{ route('memReg') }}" target="_blank" class="btn btn-primary mb-1" style="font-size: 20px">Local Registration</a>
                     <a href="{{ route('nonMemReg') }}"  target="_blank" class="btn btn-dark mb-1" style="font-size: 20px">International Registration</a>
-
                 </div>
             </div>
             

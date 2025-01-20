@@ -146,6 +146,7 @@
                                             </td>
                                         @endif
                                         <td class="px-6 py-4 text-center">
+                                            <a href="{{ url('storage/photos/proof of payments/' . $regs->proof_payment) }}">
                                             {{ $regs->created_at }}    
                                         </td>
                                         @if ($regs->status == 'Pending')

@@ -17,6 +17,7 @@ class ExcelExport implements FromCollection, WithHeadings, ShouldAutoSize
         return [
             'id',
             'psa_id',
+            'prc_number',
             'last_name',
             'first_name',
             'middle_name',
@@ -25,12 +26,14 @@ class ExcelExport implements FromCollection, WithHeadings, ShouldAutoSize
             'email',
             'contact_number',
             'gender',
+            'country',
             'membership',
             'senior_citizen',
             'proof_payment',
             'trainee_cert',
             'created_at',
             'updated_at',
+            'status'
         ];
     }
 

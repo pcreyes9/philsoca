@@ -68,11 +68,18 @@
             </div>
         </div>
         <div class="col-md-4">
-            <div class="form-group">
-            <label style=" font-weight: 750; font-size: medium; color: black">Contact Number</label>
-            <input style="box-shadow: 2px 2px 3px gray; background-color: #000066; color: white; font-weight: bold;s" class="form-control form-control-subject" type="number" name="subject" id="subject" wire:model="contactNumber" placeholder="" required>
+        <div class="form-group">
+                <label style=" font-weight: 750; font-size: medium; color: black">Contact Number</label>
+                <input style="box-shadow: 2px 2px 3px gray; background-color: #000066; color: white; font-weight: bold;s" class="form-control form-control-subject" type="number" name="subject" id="subject" wire:model="contactNumber" placeholder="" required>
             </div>
         </div>
+        <div class="col-md-4">
+            <div class="form-group">
+                <label style=" font-weight: 750; font-size: medium; color: black">PRC Number</label>
+                <input style="box-shadow: 2px 2px 3px gray; background-color: #000066; color: white; font-weight: bold;s" class="form-control form-control-subject" type="number" name="subject" id="subject" wire:model="prcNumber" placeholder="" required>
+            </div>
+        </div>
+        
             <div class="col-md-4">
                 <label style=" font-weight: 750; font-size: medium; color: black">Membership Type</label><br>
                 {{-- <div class="pl-5 ml-5 text-left"> --}}

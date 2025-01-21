@@ -378,9 +378,8 @@
         </div> --}}
         <p class="para-head fd mb-2">Bank Details</p>
         <p class="hotel-p fd">
-            <strong>Dollar Account</strong> <br> <br>
-            <strong>Bank of the Philippine Islands (BPI)</strong>  <br>
-            SM North Branch Brgy. Pag-asa, Quezon City <br> Account Number:<strong> 004434-0395-47</strong> <br> 
+            Bank Name: <strong>Bank of the Philippine Islands (BPI)</strong>  <br>
+            Bank Address: <strong>SM North Branch Brgy. Pag-asa, Quezon City; 1105 </strong> <br> Account Number:<strong> 004434-0395-47</strong> <br> 
             Account name: <strong>Philippine Society of Anesthesiologists, Inc.</strong> <br> SWIFT CODE: <strong>BOPIPHMM</strong>
         </p>
 

@@ -3138,9 +3138,12 @@ img.testimonial-thumb {
   }
 }
 
-@media (max-width: 575px) {
+@media (max-width: 390px) {
   .ts-team-wrapper .ts-team-content {
     text-align: center;
+  }
+  .ts-name{
+    font-size: 30px;
   }
 }
 

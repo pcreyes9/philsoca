@@ -65,7 +65,7 @@
 
             <div class="row text-center mt-5">
               <div class="col-lg-12">
-                  <h3 class="orgcom-title text-center mb-4">Registration Committee</h3>
+                  <h3 class="orgcom-title text-center mb-4">Registration</h3>
               </div>
             </div>
             
@@ -76,7 +76,7 @@
                             <img loading="lazy" src="images/placeholder_img.png" class="img-fluid" alt="team-img">
                         </div>
                         <div class="ts-team-content-classic text-center ">
-                            <h3 class="ts-name">Dr. Ma. Janetth B. Serrano</h3>
+                            <h3 class="ts-name" style="font-size: 15px;">Dr. Ma. Janetth B. Serrano</h3>
                         {{-- <p class="ts-designation">Chief Operating Officer</p>
                         <p class="ts-description">Nats Stenman began his career in construction with boots on the ground</p> --}}
                         <!--/ social-icons-->
@@ -90,43 +90,41 @@
 
             <div class="row text-center mt-5">
               <div class="col-lg-12">
-                  <h3 class="orgcom-title text-center mb-4">Finance Committee</h3>
+                  <h3 class="orgcom-title text-center mb-4">Finance</h3>
               </div>
             </div>
-            
-            <div class="row justify-content-center">
-                <div class="col-lg-3 col-sm-6 mb-5">
-                    <div class="ts-team-wrapper">
-                        <div class="team-img-wrapper">
-                            <img loading="lazy" src="images/placeholder_img.png" class="img-fluid" alt="team-img">
-                        </div>
-                        <div class="ts-team-content-classic text-center ">
-                            <h3 class="ts-name">Dr. Carmelita S. Lunas</h3>
-                        {{-- <p class="ts-designation">Chief Operating Officer</p>
-                        <p class="ts-description">Nats Stenman began his career in construction with boots on the ground</p> --}}
-                        <!--/ social-icons-->
-                        </div>
-                    </div>
-                  <!--/ Team wrapper 1 end -->
-                </div><!-- Col end -->
-            </div><!-- Content row 1 end -->
 
-            <div class="row justify-content-center">
-              <div class="col-lg-3 col-sm-6 mb-5">
+              <div class="row justify-content-center">
+                <div class="col-lg-3 col-md-4 col-sm-6 mb-5">
                   <div class="ts-team-wrapper">
                       <div class="team-img-wrapper">
                           <img loading="lazy" src="images/placeholder_img.png" class="img-fluid" alt="team-img">
                       </div>
-                      <div class="ts-team-content-classic text-center ">
-                          <h3 class="ts-name">Dr. Zenaida M. Mariano</h3>
-                      {{-- <p class="ts-designation">Chief Operating Officer</p>
-                      <p class="ts-description">Nats Stenman began his career in construction with boots on the ground</p> --}}
+                      <div class="ts-team-content-classic">
+                          <h3 class="ts-name">Dr. Carmelita S. Lunas </h3>
+                          {{-- <p class="ts-designation">Chair</p> --}}
+                          {{-- <p class="ts-description">Nats Stenman began his career in construction with boots on the ground</p> --}}
                       <!--/ social-icons-->
                       </div>
                   </div>
                 <!--/ Team wrapper 1 end -->
               </div><!-- Col end -->
-          </div><!-- Content row 1 end -->
+      
+            <div class="col-lg-3 col-md-4 col-sm-6 mb-5">
+                <div class="ts-team-wrapper">
+                    <div class="team-img-wrapper">
+                        <img loading="lazy" src="images/placeholder_img.png" class="img-fluid" alt="team-img">
+                    </div>
+                    <div class="ts-team-content-classic">
+                        <h3 class="ts-name">Dr. Zenaida M. Mariano</h3>
+                        {{-- <p class="ts-designation">Member</p> --}}
+                        {{-- <p class="ts-description">Nats Stenman began his career in construction with boots on the ground</p> --}}
+                    <!--/ social-icons-->
+                    </div>
+                </div>
+              <!--/ Team wrapper 1 end -->
+            </div><!-- Col end -->
+           </div><!-- Content row end -->
           
             <hr class="solid">
 
@@ -160,6 +158,7 @@
                   <h3 class="orgcom-title text-center mb-4">Physical Arrangement</h3>
               </div>
             </div>
+
               <div class="row justify-content-center">
                 <div class="col-lg-3 col-md-4 col-sm-6 mb-5">
                   <div class="ts-team-wrapper">
@@ -168,7 +167,7 @@
                       </div>
                       <div class="ts-team-content-classic">
                           <h3 class="ts-name">Dr. Salvador J. Brodit</h3>
-                          <p class="ts-designation">Chair</p>
+                          {{-- <p class="ts-designation">Chair</p> --}}
                           {{-- <p class="ts-description">Nats Stenman began his career in construction with boots on the ground</p> --}}
                       <!--/ social-icons-->
                       </div>
@@ -183,14 +182,14 @@
                     </div>
                     <div class="ts-team-content-classic">
                         <h3 class="ts-name">Dr. Godfrey G. Agcon</h3>
-                        <p class="ts-designation">Member</p>
+                        {{-- <p class="ts-designation">Member</p> --}}
                         {{-- <p class="ts-description">Nats Stenman began his career in construction with boots on the ground</p> --}}
                     <!--/ social-icons-->
                     </div>
                 </div>
               <!--/ Team wrapper 1 end -->
             </div><!-- Col end -->
-              </div><!-- Content row end -->
+           </div><!-- Content row end -->
 
               <hr class="solid">
 
@@ -224,21 +223,26 @@
                   <h3 class="orgcom-title text-center mb-4">Research</h3>
               </div>
             </div>
-              <div class="row  justify-content-center">
-                <div class="col-lg-3 col-md-4 col-sm-6 mb-5">
+
+            <div class="row justify-content-center">
+              <div class="col-lg-3 col-sm-6 mb-5">
                   <div class="ts-team-wrapper">
                       <div class="team-img-wrapper">
                           <img loading="lazy" src="images/placeholder_img.png" class="img-fluid" alt="team-img">
                       </div>
                       <div class="ts-team-content-classic">
-                          <h3 class="ts-name">Dr. Julie B. Balacuit</h3>
-                      <p class="ts-designation">Chair</p>
-                      {{-- <p class="ts-description">Nats Stenman began his career in construction with boots on the ground</p> --}}
+                        <h3 class="ts-name">Dr. Julie B. Balacuit</h3>
+                        <p class="ts-designation">Chair</p>
+                      {{-- <p class="ts-designation">Chief Operating Officer</p>
+                      <p class="ts-description">Nats Stenman began his career in construction with boots on the ground</p> --}}
                       <!--/ social-icons-->
                       </div>
                   </div>
                 <!--/ Team wrapper 1 end -->
               </div><!-- Col end -->
+          </div><!-- Content row 1 end -->
+
+              <div class="row justify-content-center">
         
               <div class="col-lg-3 col-md-4 col-sm-6 mb-5">
                   <div class="ts-team-wrapper">
@@ -260,7 +264,7 @@
                         <img loading="lazy" src="images/placeholder_img.png" class="img-fluid" alt="team-img">
                     </div>
                     <div class="ts-team-content-classic">
-                        <h3 class="ts-name">Dr. Emmanuel S. Prudente</h3>
+                        <h3 class="ts-name" style="font-size: 15px;">Dr. Emmanuel S. Prudente</h3>
                     <p class="ts-designation">Member</p>
                     {{-- <p class="ts-description">Nats Stenman began his career in construction with boots on the ground</p> --}}
                     <!--/ social-icons-->
@@ -292,22 +296,26 @@
                   <h3 class="orgcom-title text-center mb-4">Social Events</h3>
               </div>
             </div>
-              <div class="row  justify-content-center">
-                <div class="col-lg-3 col-md-4 col-sm-6 mb-5">
+
+            <div class="row justify-content-center">
+              <div class="col-lg-3 col-sm-6 mb-5">
                   <div class="ts-team-wrapper">
                       <div class="team-img-wrapper">
                           <img loading="lazy" src="images/placeholder_img.png" class="img-fluid" alt="team-img">
                       </div>
                       <div class="ts-team-content-classic">
-                          <h3 class="ts-name">Dr. Carmelita S. Lunas</h3>
-                      <p class="ts-designation">Chair</p>
-                      {{-- <p class="ts-description">Nats Stenman began his career in construction with boots on the ground</p> --}}
+                        <h3 class="ts-name">Dr. Carmelita S. Lunas</h3>
+                        <p class="ts-designation">Chair</p>
+                      {{-- <p class="ts-designation">Chief Operating Officer</p>
+                      <p class="ts-description">Nats Stenman began his career in construction with boots on the ground</p> --}}
                       <!--/ social-icons-->
                       </div>
                   </div>
                 <!--/ Team wrapper 1 end -->
               </div><!-- Col end -->
-        
+          </div><!-- Content row 1 end -->
+
+              <div class="row  justify-content-center">
               <div class="col-lg-3 col-md-4 col-sm-6 mb-5">
                   <div class="ts-team-wrapper">
                       <div class="team-img-wrapper">
@@ -328,7 +336,7 @@
                         <img loading="lazy" src="images/placeholder_img.png" class="img-fluid" alt="team-img">
                     </div>
                     <div class="ts-team-content-classic">
-                        <h3 class="ts-name">Dr. Cherynne Inso-De Guzman</h3>
+                        <h3 class="ts-name" style="font-size: 13px;">Dr. Cherynne Inso-De Guzman</h3>
                     <p class="ts-designation">Member</p>
                     {{-- <p class="ts-description">Nats Stenman began his career in construction with boots on the ground</p> --}}
                     <!--/ social-icons-->
@@ -379,7 +387,7 @@
                       </div>
                       <div class="ts-team-content-classic">
                           <h3 class="ts-name">Dr. Jonnel L. Lim</h3>
-                      <p class="ts-designation">Chair</p>
+                      {{-- <p class="ts-designation">Chair</p> --}}
                       {{-- <p class="ts-description">Nats Stenman began his career in construction with boots on the ground</p> --}}
                       <!--/ social-icons-->
                       </div>
@@ -394,7 +402,7 @@
                       </div>
                       <div class="ts-team-content-classic">
                           <h3 class="ts-name">Dr. Cristina Mayo Milo</h3>
-                      <p class="ts-designation">Member</p>
+                      {{-- <p class="ts-designation">Member</p> --}}
                       {{-- <p class="ts-description">Nats Stenman began his career in construction with boots on the ground</p> --}}
                       <!--/ social-icons-->
                       </div>
@@ -418,7 +426,7 @@
                       </div>
                       <div class="ts-team-content-classic">
                           <h3 class="ts-name">Dr. Florian R. Nuevo</h3>
-                      <p class="ts-designation">Chair</p>
+                      {{-- <p class="ts-designation">Chair</p> --}}
                       {{-- <p class="ts-description">Nats Stenman began his career in construction with boots on the ground</p> --}}
                       <!--/ social-icons-->
                       </div>
@@ -433,7 +441,7 @@
                       </div>
                       <div class="ts-team-content-classic">
                           <h3 class="ts-name">Dr. Eric V. Nagtalon</h3>
-                      <p class="ts-designation">Member</p>
+                      {{-- <p class="ts-designation">Member</p> --}}
                       {{-- <p class="ts-description">Nats Stenman began his career in construction with boots on the ground</p> --}}
                       <!--/ social-icons-->
                       </div>

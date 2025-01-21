@@ -39,6 +39,13 @@ use App\Http\Controllers\DashboardController;
 //     return $sitemap->toResponse(request());
 // });
 
+
+//SPEAKERS MY PAGE
+// Route::get('/speakers-mypage', function () {
+//     return view('speakers/auth/login');
+// })->name('speaker_login');
+
+
 Route::get('/', function () {
     Artisan::call('cache:clear');
     Artisan::call('route:clear');

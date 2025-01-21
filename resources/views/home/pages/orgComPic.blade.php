@@ -130,7 +130,7 @@
 
             <div class="row text-center mt-5">
               <div class="col-lg-12">
-                  <h3 class="orgcom-title text-center mb-4">Wasy & Means</h3>
+                  <h3 class="orgcom-title text-center mb-4">Ways & Means</h3>
               </div>
             </div>
             

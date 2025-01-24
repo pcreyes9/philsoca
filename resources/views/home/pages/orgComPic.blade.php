@@ -73,7 +73,7 @@
                 <div class="col-lg-3 col-sm-6 mb-5">
                     <div class="ts-team-wrapper">
                         <div class="team-img-wrapper">
-                            <img loading="lazy" src="images/orgcom/Dr Celina Zaldivar-Ancheta.jpg" class="img-fluid" alt="team-img">
+                            <img loading="lazy" src="images/orgcom/Dr Celine Zaldivar-Ancheta NEW.jpg" class="img-fluid" alt="team-img">
                         </div>
                         <div class="ts-team-content-classic">
                             <h3 class="ts-name">Dr. Celina Z. Ancheta</h3>
@@ -344,7 +344,7 @@
               <div class="col-lg-3 col-md-4 col-sm-6 mb-5">
                   <div class="ts-team-wrapper">
                       <div class="team-img-wrapper">
-                          <img loading="lazy" src="images/placeholder_img.png" class="img-fluid" alt="team-img">
+                          <img loading="lazy" src="images/orgcom/Dr Arnel Asiño.jpg" class="img-fluid" alt="team-img">
                       </div>
                       <div class="ts-team-content-classic">
                           <h3 class="ts-name">Dr. Arnel M. Asino</h3>
@@ -447,7 +447,7 @@
                 <div class="col-lg-3 col-md-4 col-sm-6 mb-5">
                   <div class="ts-team-wrapper">
                       <div class="team-img-wrapper">
-                          <img loading="lazy" src="images/placeholder_img.png" class="img-fluid" alt="team-img">
+                          <img loading="lazy" src="images/orgcom/Dr Florian Nuevo.jpg" class="img-fluid" alt="team-img">
                       </div>
                       <div class="ts-team-content-classic">
                           <h3 class="ts-name">Dr. Florian R. Nuevo</h3>
@@ -462,7 +462,7 @@
               <div class="col-lg-3 col-md-4 col-sm-6 mb-5">
                   <div class="ts-team-wrapper">
                       <div class="team-img-wrapper">
-                          <img loading="lazy" src="images/placeholder_img.png" class="img-fluid" alt="team-img">
+                          <img loading="lazy" src="images/orgcom/Dr Eric Nagtalon.jpg" class="img-fluid" alt="team-img">
                       </div>
                       <div class="ts-team-content-classic">
                           <h3 class="ts-name">Dr. Eric V. Nagtalon</h3>

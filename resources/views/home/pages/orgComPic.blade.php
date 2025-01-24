@@ -48,7 +48,7 @@
                 <div class="col-lg-3 col-sm-6 mb-5">
                     <div class="ts-team-wrapper">
                         <div class="team-img-wrapper">
-                            <img loading="lazy" src="images/placeholder_img.png" class="img-fluid" alt="team-img">
+                            <img loading="lazy" src="images/orgcom/Dr Melissa Caranto.jpg" class="img-fluid" alt="team-img">
                         </div>
                         <div class="ts-team-content-classic">
                             <h3 class="ts-name">Dr. Melissa M. Caranto</h3>
@@ -188,7 +188,7 @@
                 <div class="col-lg-3 col-md-4 col-sm-6 mb-5">
                   <div class="ts-team-wrapper">
                       <div class="team-img-wrapper">
-                          <img loading="lazy" src="images/orgcom/Dr Salvador J Brodit.jpg" class="img-fluid" alt="team-img">
+                          <img loading="lazy" src="images/orgcom/Dr Salvador J Brodit NEW.jpg" class="img-fluid" alt="team-img">
                       </div>
                       <div class="ts-team-content-classic">
                           <h3 class="ts-name">Dr. Salvador J. Brodit</h3>
@@ -253,7 +253,7 @@
               <div class="col-lg-3 col-sm-6 mb-5">
                   <div class="ts-team-wrapper">
                       <div class="team-img-wrapper">
-                          <img loading="lazy" src="images/placeholder_img.png" class="img-fluid" alt="team-img">
+                          <img loading="lazy" src="images/orgcom/Dr Julie Balacuit.jpg" class="img-fluid" alt="team-img">
                       </div>
                       <div class="ts-team-content-classic">
                         <h3 class="ts-name">Dr. Julie B. Balacuit</h3>
@@ -272,7 +272,7 @@
               <div class="col-lg-3 col-md-4 col-sm-6 mb-5">
                   <div class="ts-team-wrapper">
                       <div class="team-img-wrapper">
-                          <img loading="lazy" src="images/placeholder_img.png" class="img-fluid" alt="team-img">
+                          <img loading="lazy" src="images/orgcom/Dr Melissa Caranto.jpg" class="img-fluid" alt="team-img">
                       </div>
                       <div class="ts-team-content-classic">
                           <h3 class="ts-name">Dr. Melissa M. Caranto</h3>
@@ -286,7 +286,7 @@
               <div class="col-lg-3 col-md-4 col-sm-6 mb-5">
                 <div class="ts-team-wrapper">
                     <div class="team-img-wrapper">
-                        <img loading="lazy" src="images/placeholder_img.png" class="img-fluid" alt="team-img">
+                        <img loading="lazy" src="images/orgcom/Dr Emmanuel Prudente.jpg" class="img-fluid" alt="team-img">
                     </div>
                     <div class="ts-team-content-classic">
                         <h3 class="ts-name" style="font-size: 15px;">Dr. Emmanuel S. Prudente</h3>
@@ -358,7 +358,7 @@
               <div class="col-lg-3 col-md-4 col-sm-6 mb-5">
                 <div class="ts-team-wrapper">
                     <div class="team-img-wrapper">
-                        <img loading="lazy" src="images/placeholder_img.png" class="img-fluid" alt="team-img">
+                        <img loading="lazy" src="images/orgcom/Dr Inso-De Guzman.jpg" class="img-fluid" alt="team-img">
                     </div>
                     <div class="ts-team-content-classic">
                         <h3 class="ts-name" style="font-size: 13px;">Dr. Cherynne Inso-De Guzman</h3>

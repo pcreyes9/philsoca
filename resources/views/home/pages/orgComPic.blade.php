@@ -23,7 +23,7 @@
                 <div class="col-lg-3 col-sm-6 mb-5">
                     <div class="ts-team-wrapper">
                         <div class="team-img-wrapper">
-                            <img loading="lazy" src="images/orgcom/Dr Peñafrancia C Cano.jpg" class="img-fluid" alt="team-img">
+                            <img loading="lazy" src="images/orgcom/Dr Peñafrancia C Cano (1).jpg" class="img-fluid" alt="team-img">
                         </div>
                         <div class="ts-team-content-classic">
                             <h3 class="ts-name">Dr. Peñafrancia C. Cano</h3>
@@ -98,7 +98,7 @@
                 <div class="col-lg-3 col-sm-6 mb-5">
                     <div class="ts-team-wrapper">
                         <div class="team-img-wrapper">
-                            <img loading="lazy" src="images/orgcom/Dr Ma Janetth B Serrano (NEW).jpg" class="img-fluid" alt="team-img">
+                            <img loading="lazy" src="images/orgcom/Dr Serrano NEW (final).jpg" class="img-fluid" alt="team-img">
                         </div>
                         <div class="ts-team-content-classic text-center ">
                             <h3 class="ts-name" style="font-size: 15px;">Dr. Ma. Janetth B. Serrano</h3>
@@ -462,7 +462,7 @@
               <div class="col-lg-3 col-md-4 col-sm-6 mb-5">
                   <div class="ts-team-wrapper">
                       <div class="team-img-wrapper">
-                          <img loading="lazy" src="images/orgcom/Dr Eric Nagtalon.jpg" class="img-fluid" alt="team-img">
+                          <img loading="lazy" src="images/orgcom/Dr Eric Nagtalon NEW.jpg" class="img-fluid" alt="team-img">
                       </div>
                       <div class="ts-team-content-classic">
                           <h3 class="ts-name">Dr. Eric V. Nagtalon</h3>

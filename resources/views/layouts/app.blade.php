@@ -17,8 +17,9 @@
         
 
         <!-- Styles -->
-        @livewireStyles
         @notifyCss
+        @livewireStyles
+       
     </head>
     
     <body class="font-sans antialiased">
@@ -45,7 +46,8 @@
 
         @stack('modals')
 
-        @livewireScripts
         @notifyJs
+        @livewireScripts
+        
     </body>
 </html>

@@ -38,6 +38,31 @@
           
             <hr class="solid">
 
+            <div class="row text-center mt-5">
+              <div class="col-lg-12">
+                  <h3 class="orgcom-title text-center mb-4">Honorary Chair of Organizing Committee </h3>
+              </div>
+            </div>
+            
+            <div class="row justify-content-center">
+                <div class="col-lg-3 col-sm-6 mb-5">
+                    <div class="ts-team-wrapper">
+                        <div class="team-img-wrapper">
+                            <img loading="lazy" src="images/orgcom/Dr Francis Mayuga.jpg" class="img-fluid" alt="team-img">
+                        </div>
+                        <div class="ts-team-content-classic text-center ">
+                            <h3 class="ts-name">Dr. Francis B. Mayuga</h3>
+                        {{-- <p class="ts-designation">Chief Operating Officer</p>
+                        <p class="ts-description">Nats Stenman began his career in construction with boots on the ground</p> --}}
+                        <!--/ social-icons-->
+                        </div>
+                    </div>
+                  <!--/ Team wrapper 1 end -->
+                </div><!-- Col end -->
+            </div><!-- Content row 1 end -->
+
+            <hr class="solid">
+
             <div class="row text-center">
               <div class="col-lg-12">
                   <h3 class="orgcom-title text-center mb-4 mt-5">Assistant Chair of Organizing Committee</h3>
@@ -123,7 +148,7 @@
                 <div class="col-lg-3 col-md-4 col-sm-6 mb-5">
                   <div class="ts-team-wrapper">
                       <div class="team-img-wrapper">
-                          <img loading="lazy" src="images/orgcom/Dr Carmelita S Lunas (NEW).jpg" class="img-fluid" alt="team-img">
+                          <img loading="lazy" src="images/orgcom/Dr Carmelita S Lunas (FINAL).jpg" class="img-fluid" alt="team-img">
                       </div>
                       <div class="ts-team-content-classic">
                           <h3 class="ts-name">Dr. Carmelita S. Lunas </h3>
@@ -138,7 +163,7 @@
             <div class="col-lg-3 col-md-4 col-sm-6 mb-5">
                 <div class="ts-team-wrapper">
                     <div class="team-img-wrapper">
-                        <img loading="lazy" src="images/orgcom/Dr Zenaida M Mariano New.jpg" class="img-fluid" alt="team-img">
+                        <img loading="lazy" src="images/orgcom/Dr Zenaida M Mariano Final.jpg" class="img-fluid" alt="team-img">
                     </div>
                     <div class="ts-team-content-classic">
                         <h3 class="ts-name">Dr. Zenaida M. Mariano</h3>
@@ -301,7 +326,7 @@
             <div class="col-lg-3 col-md-4 col-sm-6 mb-5">
                 <div class="ts-team-wrapper">
                     <div class="team-img-wrapper">
-                        <img loading="lazy" src="images/placeholder_img.png" class="img-fluid" alt="team-img">
+                        <img loading="lazy" src="images/orgcom/Dr Aileen Rosales.jpg" class="img-fluid" alt="team-img">
                     </div>
                     <div class="ts-team-content-classic">
                         <h3 class="ts-name">Dr. Aileen L. Rosales</h3>
@@ -408,7 +433,7 @@
                 <div class="col-lg-3 col-md-4 col-sm-6 mb-5">
                   <div class="ts-team-wrapper">
                       <div class="team-img-wrapper">
-                          <img loading="lazy" src="images/orgcom/Dr Jonnel L Lim.jpg" class="img-fluid" alt="team-img">
+                          <img loading="lazy" src="images/orgcom/Dr Jonnel L Lim NEW_1.jpg" class="img-fluid" alt="team-img">
                       </div>
                       <div class="ts-team-content-classic">
                           <h3 class="ts-name">Dr. Jonnel L. Lim</h3>

@@ -351,7 +351,7 @@
               <div class="col-lg-3 col-sm-6 mb-5">
                   <div class="ts-team-wrapper">
                       <div class="team-img-wrapper">
-                          <img loading="lazy" src="images/orgcom/Dr Carmelita S Lunas (NEW).jpg" class="img-fluid" alt="team-img">
+                          <img loading="lazy" src="images/orgcom/Dr Carmelita S Lunas (FINAL).jpg" class="img-fluid" alt="team-img">
                       </div>
                       <div class="ts-team-content-classic">
                         <h3 class="ts-name">Dr. Carmelita S. Lunas</h3>

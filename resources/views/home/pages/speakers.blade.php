@@ -51,7 +51,10 @@
                                         <th scope="row"><strong>Xavier Falieres, MD - Netherlands</strong></th>
                                         {{-- <td><br> Dr. Julie B. Balacuit <br> Dr. Melissa M. Caranto <br> Dr. Emmanuel S. Prudente <br> Dr. Aileen L. Rosales</td> --}}
                                     </tr>
-                                    
+                                    <tr>
+                                        <th scope="row"><strong>Shahdridan Fathil, MD - Malaysia</strong></th>
+                                        {{-- <td><br> Dr. Julie B. Balacuit <br> Dr. Melissa M. Caranto <br> Dr. Emmanuel S. Prudente <br> Dr. Aileen L. Rosales</td> --}}
+                                    </tr>
                                     <tr>
                                         <th scope="row"><strong>Rodney Gabriel, MD - USA</strong></th>
                                         {{-- <td>Dr. Joselito T. Morete</td> --}}
@@ -119,6 +122,10 @@
                                     <tr>
                                         <th scope="row"><strong>Biswas Pradhan, MD - Nepal</strong></th>
                                         {{-- <td>Dr. Florian R. Nuevo <br> Dr. Eric V. Nagtalon</td> --}}
+                                    </tr>
+                                    <tr>
+                                        <th scope="row"><strong>Raveenthiran Rasiah, MD - Malaysia</strong></th>
+                                        {{-- <td><br> Dr. Julie B. Balacuit <br> Dr. Melissa M. Caranto <br> Dr. Emmanuel S. Prudente <br> Dr. Aileen L. Rosales</td> --}}
                                     </tr>
                                     <tr>
                                         <th scope="row"><strong>Alex Sia, MD - Singapore</strong></th>

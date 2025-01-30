@@ -12,9 +12,10 @@ class SpeakerPage extends Component
 {
     use WithFileUploads;
     
-    public $name, $country, $email, $affiliation, $bio, $photo, $ext, $photoName;
+    public $name, $country, $email, $affiliation, $bio, $ext;
     public $status = "", $opacity = "", $hide = "";
     public $words;
+    public  $photo, $photoName, $photoDisplay;
 
     public function mount()
     {
@@ -28,7 +29,7 @@ class SpeakerPage extends Component
         $this->affiliation = Auth()->user()->affiliation;
 
         $this->bio = Auth()->user()->bio;
-        $this->photo = Auth()->user()->photo;
+        $this->photoDisplay = Auth()->user()->photo;
 
     }
     
@@ -78,14 +79,30 @@ class SpeakerPage extends Component
         }
     }
 
+    public function photoUpd(){
+        // dd("photo update");
+    }
+
     public function update(){
         // dd("asd");
         $this->status = "readonly";
         $this->opacity = "0.0";
 
-        // $ext = $this->photo->extension();
-        $photoName = $this->name . ' '.$this->country . '.' . $this->photo->extension();
-        $this->photo->storeAs('photos/speakersIMG', $photoName);
+        // dd($this->photo);
+
+        if($this->photo != null){
+            $ext = $this->photo->extension();
+        
+            $photoName = $this->name . ' '.$this->country . '.' . $this->photo->extension();
+            $this->photo->storeAs('photos/speakersIMG', $photoName);
+            User::where('id', Auth()->user()->id)->update([
+                'photo' => $photoName
+            ]);
+            return redirect(request()->header('Referer'));
+
+        }
+
+        
 
         // dd(Auth()->user()->id);
         User::where('id', Auth()->user()->id)->update([
@@ -94,10 +111,9 @@ class SpeakerPage extends Component
             'email' => $this->email,
             'affiliation' => $this->affiliation,
             'bio' => $this->bio,
-            'photo' => $photoName
+            // 'photo' => $photoName
         ]);
         return redirect(request()->header('Referer'));
-
     }
 
 

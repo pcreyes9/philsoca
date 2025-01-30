@@ -9,7 +9,6 @@
         <div class="container" >
             <div class="row justify-content-center">
                 <div class="" >
-
                     <h3 class="org-title" style="color: #000066;">Invited Speakers</h3>
                     <div class="row justify-content-center mt-5">
                         <div class="col-auto">

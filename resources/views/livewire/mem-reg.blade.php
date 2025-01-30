@@ -8,7 +8,7 @@
                 <div class="col-md-4">
                     <div class="form-group">
                         <label style=" font-weight: 750; font-size: medium; color:black;">Enter Last Name:</label>
-                        <input style="box-shadow: 2px 2px 3px gray; background-color: #000066; color: white; font-weight: bold" class="form-control form-control-subject" placeholder="" wire:model.live='name'>
+                        <input style="box-shadow: 2pAx 2px 3px gray; background-color: #000066; color: white; font-weight: bold" class="form-control form-control-subject" placeholder="" wire:model.live='name'>
                     </div>
                     <button type="button" class="btn btn-primary solid blank mb-3" wire:click="checker" style="background: #d6cb00; color: #000066">Check</button>
                 </div>

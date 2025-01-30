@@ -688,6 +688,7 @@ ul.list-check li:before {
 .nav-tabs > li.active > a:hover,
 .nav-tabs > li > a:hover,
 .nav-tabs > li > a {
+  
   border: 0;
   
   
@@ -706,6 +707,7 @@ a[href^=tel] {
 
 /* Button */
 .btn:active, .btn:focus {
+  
   box-shadow: none !important;
 }
 
@@ -758,6 +760,7 @@ a[href^=tel] {
 .btn-white.btn-primary:hover:focus {
   color: #fff;
   background-color: #000066 !important;
+  
 }
 
 .general-btn {
@@ -1119,6 +1122,7 @@ ul.navbar-nav > li.active > a {
 
 ul.navbar-nav > li:hover > a,
 ul.navbar-nav > li.active > a {
+  
   color: #ac071a !important;
   font-size: 16px;
   position: relative;
@@ -1212,6 +1216,12 @@ ul.navbar-nav > li > a {
   line-height: 40px;
   padding: 30px 0;
   transition: 350ms;
+}
+
+.nav-speaker{
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700 !important;
+  /* color: #000066 !important; */
 }
 
 .navbar-light ul.navbar-nav > li > a {

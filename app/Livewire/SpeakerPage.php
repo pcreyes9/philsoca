@@ -125,7 +125,12 @@ class SpeakerPage extends Component
 
     public function render()
     {
+
+        $this->bio = Str::words($this->bio, 5, '');
         $this->words = Str::of($this->bio )->wordCount();
+        // if($this->words > 300){
+        // }
+
 
         return view('livewire.speaker-page');
     }

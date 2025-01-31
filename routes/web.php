@@ -59,13 +59,13 @@ Route::get('/venue', function () {
     return view('home/venue');
 })->name('venue');
 
-// Route::get('/organizing-committee', function () {
-//     return view('home/pages/organizing-committee');
-// })->name('orgCom');
-
 Route::get('/organizing-committee', function () {
-    return view('home/pages/orgComPic');
+    return view('home/pages/organizing-committee');
 })->name('orgCom');
+
+// Route::get('/organizing-committee', function () {
+//     return view('home/pages/orgComPic');
+// })->name('orgCom');
 
 Route::get('/speakers', function () {
     return view('home/pages/speakers');

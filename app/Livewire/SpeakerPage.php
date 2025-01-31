@@ -52,7 +52,7 @@ class SpeakerPage extends Component
             }
         }
         else{
-            return view('home/landing');
+            return view('auth/login');
         }
     }
 

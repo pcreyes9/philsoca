@@ -2,21 +2,24 @@
 
 use App\Livewire\MemReg;
 
+use App\Models\Speakers;
 use App\Mail\MyTestEmail;
+
+
+
 use App\Mail\ApprovedEmail;
-
-
-
 use Spatie\Sitemap\Sitemap;
 use App\Exports\ExcelExport;
 use App\Livewire\ViewMemReg;
 use App\Models\Registration;
 use Illuminate\Http\Request;
 use Spatie\Sitemap\Tags\Url;
+use App\Livewire\SpeakerPage;
 use Barryvdh\DomPDF\Facade\Pdf;
 use Illuminate\Support\Facades\Route;
 use Illuminate\Support\Facades\Artisan;
 use App\Http\Controllers\GalleryController;
+use App\Http\Controllers\SpeakerController;
 use App\Http\Controllers\DashboardController;
 
 
@@ -41,9 +44,7 @@ use App\Http\Controllers\DashboardController;
 
 
 //SPEAKERS MY PAGE
-// Route::get('/speakers-mypage', function () {
-//     return view('speakers/auth/login');
-// })->name('speaker_login');
+
 
 
 Route::get('/', function () {
@@ -58,13 +59,13 @@ Route::get('/venue', function () {
     return view('home/venue');
 })->name('venue');
 
-// Route::get('/organizing-committee', function () {
-//     return view('home/pages/organizing-committee');
-// })->name('orgCom');
-
 Route::get('/organizing-committee', function () {
-    return view('home/pages/orgComPic');
+    return view('home/pages/organizing-committee');
 })->name('orgCom');
+
+// Route::get('/organizing-committee', function () {
+//     return view('home/pages/orgComPic');
+// })->name('orgCom');
 
 Route::get('/speakers', function () {
     return view('home/pages/speakers');
@@ -113,7 +114,70 @@ Route::get('/emailsend', function (Request $request){
     
 })->name('emailsend');
 
+
+//SPEAKER SIDE
+Route::get('/checker', [SpeakerPage::class, 'index'])->name('checker');
+
 //ADMIN SIDE
+
+Route::get('/admin/dashboard/sending', function (Request $request) {
+    $info = Registration::where('psa_id', $request->query('id'))->get();
+
+    $email = $request->query('email');
+    $name = $request->query('name');
+    $id = $request->query('id');
+
+    $pdf = PDF::loadView('barcodePDF', [
+        'info' => $info
+    ])->setPaper('a5', 'landscape');
+
+    $path = Storage::put('public/storage/uploads/'.  $request->query('id') . '.pdf', $pdf->output());
+    Storage::put($path, $pdf->output());
+
+    Mail::to($email)->send(new ApprovedEmail($name, $id));
+
+    Registration::where('psa_id', $id)->update(['status' => 'Approved']);
+
+    notify()->success( $name . ' has been approved and barcode was already sent!', 'Approval Success!');
+    return redirect()->back();
+    
+    // return $pdf->download('testing.pdf');
+
+})->name('sending');
+
+Route::get('/admin/dashboard', [DashboardController::class, 'dashboard'])->name('admin');
+Route::get('/dashboard', [DashboardController::class, 'dashboard'])->name('dashboard');
+
+Route::get('/admin/pendingReg', function () {
+    // notify()->success('Laravel Notify is awesome!');
+    return view('user_account.pendingReg');
+})->name('pendingReg');
+
+Route::get('/admin/approvedReg', function () {
+    return view('user_account.approvedReg');
+})->name('approvedReg');
+
+Route::get('/admin/viewMemReg', function () {
+    return view('user_account.viewMemReg');
+})->name('viewMemReg');
+
+Route::get('/admin/viewMemReg/download/trainee/{trainee_cert}', function ($trainee_cert){
+    // dd($trainee_cert);
+    $pathToFile = public_path('storage/photos/trainee cert/'. $trainee_cert);
+    return response()->download($pathToFile);
+});
+
+Route::get('/admin/viewMemReg/download/senior/{senior_citizen}', function ($senior_citizen){
+    // dd($trainee_cert);
+    $pathToFile = public_path('storage/photos/senior ids/'. $senior_citizen);
+    return response()->download($pathToFile);
+});
+
+Route::get('/admin/dashboard/export-excel', function () {
+    return Excel::download(new ExcelExport, 'regs.xlsx');
+})->name('exportExcel');
+
+
 
 Route::middleware([
     'auth:sanctum',
@@ -121,62 +185,7 @@ Route::middleware([
     'verified',
 ])->group(function () {
 
-Route::get('/admin/dashboard/sending', function (Request $request) {
-        $info = Registration::where('psa_id', $request->query('id'))->get();
-
-        $email = $request->query('email');
-        $name = $request->query('name');
-        $id = $request->query('id');
-
-        $pdf = PDF::loadView('barcodePDF', [
-            'info' => $info
-        ])->setPaper('a5', 'landscape');
-
-        $path = Storage::put('public/storage/uploads/'.  $request->query('id') . '.pdf', $pdf->output());
-        Storage::put($path, $pdf->output());
-
-        Mail::to($email)->send(new ApprovedEmail($name, $id));
-
-        Registration::where('psa_id', $id)->update(['status' => 'Approved']);
-
-        notify()->success( $name . ' has been approved and barcode was already sent!', 'Approval Success!');
-        return redirect()->back();
-        
-        // return $pdf->download('testing.pdf');
-
-    })->name('sending');
-
-    Route::get('/admin/dashboard', [DashboardController::class, 'dashboard'])->name('admin');
-    Route::get('/dashboard', [DashboardController::class, 'dashboard'])->name('dashboard');
-
-    Route::get('/admin/pendingReg', function () {
-        // notify()->success('Laravel Notify is awesome!');
-        return view('user_account.pendingReg');
-    })->name('pendingReg');
-
-    Route::get('/admin/approvedReg', function () {
-        return view('user_account.approvedReg');
-    })->name('approvedReg');
-
-    Route::get('/admin/viewMemReg', function () {
-        return view('user_account.viewMemReg');
-    })->name('viewMemReg');
-
-    Route::get('/admin/viewMemReg/download/trainee/{trainee_cert}', function ($trainee_cert){
-        // dd($trainee_cert);
-        $pathToFile = public_path('storage/photos/trainee cert/'. $trainee_cert);
-        return response()->download($pathToFile);
-    });
-
-    Route::get('/admin/viewMemReg/download/senior/{senior_citizen}', function ($senior_citizen){
-        // dd($trainee_cert);
-        $pathToFile = public_path('storage/photos/senior ids/'. $senior_citizen);
-        return response()->download($pathToFile);
-    });
-
-    Route::get('/admin/dashboard/export-excel', function () {
-        return Excel::download(new ExcelExport, 'regs.xlsx');
-    })->name('exportExcel');
+    
 
     // Route::get('/admin/dashboard/export-pdf', function (Request $request) {
     //     $info = $request->query('info');
@@ -185,5 +194,17 @@ Route::get('/admin/dashboard/sending', function (Request $request) {
     //     return $pdf->download('reg.pdf');
     // })->name('exportPDF');
 });
+// Route::prefix('speaker')->middleware('guest:speaker')->group(function(){
+//     Route::get('register', [SpeakerController::class, 'regCreate'])->name('speaker_register');
+//     Route::post('register', [SpeakerController::class, 'regStore']);
 
+
+//     Route::get('login', [SpeakerController::class, 'logCreate'])->name('speaker_login');
+//     Route::get('login', [SpeakerController::class, 'logStore']);
+// });
+
+// Route::prefix('speaker')->middleware('auth:speaker')->group(function(){
+//     // Route::get('login', [SpeakerController::class, 'login'])->name('speaker_login');
+//     // Route::post('login', [SpeakerController::class, 'store']);
+// });
 

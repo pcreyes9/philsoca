@@ -21,16 +21,24 @@
                                         <td>Dr. Peñafrancia C. Cano</td>
                                     </tr>
                                     <tr>
+                                        <th scope="row"><strong>Honorary Chair of Organizing Committee: </strong></th>
+                                        <td>Dr. Francis B. Mayuga</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row"><strong>Assistant Chair of Organizing Committee: </strong></th>
+                                        <td>Dr. Melissa M. Caranto</td>
+                                    </tr>
+                                    <tr>
                                         <th scope="row"><strong>Scientific Committee Chair: </strong></th>
                                         <td>Dr. Celina Z. Ancheta</td>
                                     </tr>
                                     <tr >
-                                        <th scope="row" ><strong>Registration Committee: </strong></th>
+                                        <th scope="row" ><strong>Registration: </strong></th>
                                         <td>Dr. Ma. Janetth B. Serrano</td>
                                     </tr>
                                     <tr>
-                                        <th scope="row"><strong>Finance Committee: </strong></th>
-                                        <td>Dr. Zenaida M. Mariano</td>
+                                        <th scope="row"><strong>Finance: </strong></th>
+                                        <td>Dr. Carmelita S. Lunas <br> Dr. Zenaida M. Mariano</td>
                                     </tr>
                                     <tr>
                                         <th scope="row"><strong>Ways & Means: </strong></th>

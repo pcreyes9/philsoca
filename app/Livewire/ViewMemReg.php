@@ -18,29 +18,28 @@ class ViewMemReg extends Component
 
     public function render()
     {
-        
         if($this->sort == 'regNew'){
-            $reg = Registration::orderBy('id', 'DESC')->paginate(10);
+            $reg = Registration::orderBy('id', 'DESC')->simplePaginate(10);
             $this->sortName="Registration ID (newest)";
         }
         else if($this->sort == 'regOld'){
-            $reg = Registration::orderBy('id', 'ASC')->paginate(10);
+            $reg = Registration::orderBy('id', 'ASC')->simplePaginate(10);
             $this->sortName="Registration ID (oldest)";
         }
         else if($this->sort == 'psaIDNew'){
-            $reg = Registration::orderBy('psa_id', 'DESC')->paginate(10);
+            $reg = Registration::orderBy('psa_id', 'DESC')->simplePaginate(10);
             $this->sortName="PSA ID (newest)";
         }
         else if($this->sort == 'psaIDOld'){
-            $reg = Registration::orderBy('psa_id', 'ASC')->paginate(10);
+            $reg = Registration::orderBy('psa_id', 'ASC')->simplePaginate(10);
             $this->sortName="PSA ID (oldest)";
         }
         else if ($this->sort == 'dateNew'){
-            $reg = Registration::orderBy('created_at', 'DESC')->paginate(10);
+            $reg = Registration::orderBy('created_at', 'DESC')->simplePaginate(10);
             $this->sortName="Date of Registration (newest)";
         }
         else if ($this->sort == 'dateOld'){
-            $reg = Registration::orderBy('created_at', 'ASC')->paginate(10);
+            $reg = Registration::orderBy('created_at', 'ASC')->simplePaginate(10);
             $this->sortName="Date of Registration (oldest)";
         }
 
@@ -96,5 +95,4 @@ class ViewMemReg extends Component
         Registration::where('psa_id', $id)->update(['status' => 'Pending']);
         return redirect(request()->header('Referer'));
     }
-
 }

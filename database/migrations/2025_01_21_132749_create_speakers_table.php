@@ -11,15 +11,20 @@ return new class extends Migration
      */
     public function up(): void
     {
-        Schema::create('users', function (Blueprint $table) {
+        Schema::create('speakers', function (Blueprint $table) {
             $table->id();
-            $table->string('username')->unique();
+            $table->string('last_name');
+            $table->string('first_name');
+            $table->string('contact_number');
             $table->string('email')->unique();
-            $table->timestamp('email_verified_at')->nullable();
+            
+            $table->string('affiliation');
+            $table->string('country');
+            
+            $table->string('photo')->nullable();
+            $table->string('bio')->nullable();
+
             $table->string('password');
-            $table->rememberToken();
-            $table->foreignId('current_team_id')->nullable();
-            $table->string('profile_photo_path', 2048)->nullable();
             $table->timestamps();
         });
     }
@@ -29,6 +34,6 @@ return new class extends Migration
      */
     public function down(): void
     {
-        Schema::dropIfExists('users');
+        Schema::dropIfExists('speakers');
     }
 };

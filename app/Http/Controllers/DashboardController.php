@@ -17,7 +17,7 @@ class DashboardController extends Controller
 
     public function dashboard(){
         
-        $id = Auth::user()->psa_id;
+        // $id = Auth::user()->psa_id;
         // $info = Members::where('PSA_ID', Auth::user()->psa_id)->get();
 
         // dd($info->toArray());

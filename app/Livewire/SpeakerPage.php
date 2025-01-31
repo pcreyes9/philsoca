@@ -7,6 +7,7 @@ use Livewire\Component;
 use Illuminate\Support\Str;
 use Livewire\WithFileUploads;
 use Illuminate\Support\Facades\Auth;
+use Illuminate\Support\Facades\Storage;
 
 class SpeakerPage extends Component
 {
@@ -92,9 +93,14 @@ class SpeakerPage extends Component
 
         if($this->photo != null){
             $ext = $this->photo->extension();
-        
             $photoName = $this->name . ' '.$this->country . '.' . $this->photo->extension();
             $this->photo->storeAs('photos/speakersIMG', $photoName);
+
+            // $path = Storage::put('public/storage/'.  $photoName, $this->photo);
+            // Storage::put($path, $this->photo);
+        
+
+
             User::where('id', Auth()->user()->id)->update([
                 'photo' => $photoName
             ]);

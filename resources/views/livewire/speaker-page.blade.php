@@ -67,7 +67,14 @@
                         <td class="align-middle" scope="row">
                             <input {{ $hide }} {{ $status }} style="background: rgba(76, 175, 80, {{ $opacity }}); color: black; font-weight: bold; font-size: 15px; padding-top: 10px" class="form-control form-control-subject align-middle w-50" type="file" wire:model="photo"  required>
                             {{-- {{ $photo }} --}}
-                            <img loading="lazy" style="width: 20%;" class="logo img-fluid align-middle mt-3 align-middle" src='storage/photos/speakersIMG/{{ $photoDisplay }} ' alt="">
+
+                            <img loading="lazy" style="width: 20%;" class="logo img-fluid align-middle mt-3 align-middle" src="{{ asset('storage/photos/speakersIMG/'. $photoDisplay) }} " alt="">
+
+                            {{-- WORKING IN LOCAL --}}
+                            {{-- <img loading="lazy" style="width: 20%;" class="logo img-fluid align-middle mt-3 align-middle" src='storage/photos/speakersIMG/{{ $photoDisplay }} ' alt=""> --}}
+                            
+                            {{-- WORKING IN HOSTINGER --}}
+                            {{-- <img loading="lazy" style="width: 20%;" class="logo img-fluid align-middle mt-3 align-middle" src='storage/{{ $photoDisplay }} ' alt=""> --}}
                         </td>
                     </tr>
                 </tbody>

@@ -20,31 +20,31 @@ class DatabaseSeeder extends Seeder
         //     'name' => 'Test User',
         //     'email' => 'test@example.com',
         // ]);
-        User::create(
-            [
-                "username" => "admin",
-                "userType" => "admin",
-                "email" => "psa.acacongress2025@gmail.com",
-                "password" => "$2y$12"."$". "EjSTD.i6uK8i1zOjwNLX.uBnDIpIKSWwqNvO3Q8W3aYNKIi3rdwe2"
-                // ACA2025manila!
+        // User::create(
+        //     [
+        //         "username" => "admin",
+        //         "userType" => "admin",
+        //         "email" => "psa.acacongress2025@gmail.com",
+        //         "password" => "$2y$12"."$". "EjSTD.i6uK8i1zOjwNLX.uBnDIpIKSWwqNvO3Q8W3aYNKIi3rdwe2"
+        //         // ACA2025manila!
                 
-            ]
-        );
+        //     ]
+        // );
 
-        User::create(
-            [
-                "username" => "Paul Reyes",
-                "name" => "Paul Reyes",
-                "country" => "Philippines",
-                "affiliation" => "Philippine General Hospital",
-                "contact_number" => "09214048218",
-                "userType" => "speaker",
-                "email" => "pcreyes09@gmail.com",
-                "password" => "$2y$12"."$"."O0U9GmdP3BXrUUqNgKOCFOWiSxc9ufhJKIklQv66RqPWOqmkVOBqC"
-                // ACAspeakers2025*
+        // User::create(
+        //     [
+        //         "username" => "Paul Reyes",
+        //         "name" => "Paul Reyes",
+        //         "country" => "Philippines",
+        //         "affiliation" => "Philippine General Hospital",
+        //         "contact_number" => "09214048218",
+        //         "userType" => "speaker",
+        //         "email" => "pcreyes09@gmail.com",
+        //         "password" => "$2y$12"."$"."O0U9GmdP3BXrUUqNgKOCFOWiSxc9ufhJKIklQv66RqPWOqmkVOBqC"
+        //         // ACAspeakers2025*
                 
-            ]
-        );
+        //     ]
+        // );
         User::create(
             [
                 "username" => "Peñafrancia C. Cano",

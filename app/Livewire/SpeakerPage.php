@@ -126,7 +126,7 @@ class SpeakerPage extends Component
     public function render()
     {
 
-        $this->bio = Str::words($this->bio, 5, '');
+        $this->bio = Str::words($this->bio, 300, '');
         $this->words = Str::of($this->bio )->wordCount();
         // if($this->words > 300){
         // }

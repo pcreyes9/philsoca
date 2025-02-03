@@ -74,7 +74,9 @@
                             {{-- <img loading="lazy" style="width: 20%;" class="logo img-fluid align-middle mt-3 align-middle" src='storage/photos/speakersIMG/{{ $photoDisplay }} ' alt=""> --}}
                             
                             {{-- WORKING IN HOSTINGER --}}
-                            <img loading="lazy" style="width: 20%;" class="logo img-fluid align-middle mt-3 align-middle" src='storage/{{ $photoDisplay }} ' alt="Image is still in process.">
+                            @if ( $photoDisplay != null || $photoDisplay != "")
+                                <img loading="lazy" style="width: 20%;" class="logo img-fluid align-middle mt-3 align-middle" src='storage/{{ $photoDisplay }} ' alt="Image is still in process.">
+                            @endif
                         </td>
                     </tr>
                 </tbody>

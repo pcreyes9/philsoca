@@ -16,7 +16,7 @@ class SpeakerPage extends Component
     public $name, $country, $email, $affiliation, $bio, $ext;
     public $status = "", $opacity = "", $hide = "";
     public $words;
-    public  $photo, $photoName, $photoDisplay;
+    public  $photo, $photoName, $photoDisplay, $show;
 
     public function mount()
     {
@@ -99,8 +99,6 @@ class SpeakerPage extends Component
             // $path = Storage::put('public/storage/'.  $photoName, $this->photo);
             // Storage::put($path, $this->photo);
         
-
-
             User::where('id', Auth()->user()->id)->update([
                 'photo' => $photoName
             ]);
@@ -128,9 +126,6 @@ class SpeakerPage extends Component
 
         $this->bio = Str::words($this->bio, 300, '');
         $this->words = Str::of($this->bio )->wordCount();
-        // if($this->words > 300){
-        // }
-
 
         return view('livewire.speaker-page');
     }

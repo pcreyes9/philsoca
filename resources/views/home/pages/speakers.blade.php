@@ -93,7 +93,7 @@
                                     <tr>
                                         <th scope="row"><strong>Suraphong Lorsomradee, MD - Thailand</strong></th>
                                         {{-- <td><br> Dr. Jonnel L. Lim <br> Dr. Cristina Mayo Milo</td> --}}
-                                    </tr>ANNERY GARCIA-MARCINKIEWICZ
+                                    </tr>
                                     <tr>
                                         <th scope="row"><strong>Annery Garcia-Marcinkiewicz, MD - USA</strong></th>
                                         {{-- <td>Dr. Florian R. Nuevo <br> Dr. Eric V. Nagtalon</td> --}}

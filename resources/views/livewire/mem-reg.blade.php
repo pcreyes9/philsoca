@@ -201,6 +201,12 @@
             <label>Message</label>
             <textarea class="form-control form-control-message" name="message" id="message" placeholder="" rows="10" required></textarea>
         </div> --}}
+
+        <p class="para-head fd mb-2">Bank Details</p>
+        <p class="hotel-p fd">
+            {{-- <strong>Peso Account</strong> <br> --}}
+            Security Bank Account Number:<strong> 0000039-8075-39</strong> <br> Account name: <strong>Philippine Society of Anesthesiologists, Inc.</strong>
+        </p>
         
         <div class="text-right"><br>
             <button wire:loading.attr="disabled" type="submit" class="btn btn-primary solid blank" style="background: #000066; color: white">

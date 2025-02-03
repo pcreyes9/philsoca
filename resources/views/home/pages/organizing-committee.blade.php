@@ -11,7 +11,7 @@
                 <div class="col-lg-12" >
                     {{-- <h3 class="into-sub-title .d-md-none .d-lg-block" style="color: #000066">The 24th ASEAN Congress of Anesthesiologists (ACA 2024) Organizing Committee</h3> --}}
                     {{-- font-size: 2.1vmax;  --}}
-                    <h3 class="org-title" style="color: #000066;">The 24<sup style="text-transform: lowercase">th</sup> ASEAN Congress of Anesthesiologists <br> (ACA 2025) Organizing Committee</h3>
+                    <h3 class="org-title" style="color: #000066;">The 24<sup style="text-transform: lowercase">th</sup> ASEAN Congress of Anesthesiologists (ACA 2025) <br> Organizing Committee</h3>
                     <div class="row justify-content-center mt-5">
                         <div class="col-auto">
                             <table class="table borderless text-left table-responsive" >
@@ -21,11 +21,11 @@
                                         <td>Dr. Peñafrancia C. Cano</td>
                                     </tr>
                                     <tr>
-                                        <th scope="row"><strong>Honorary Chair of Organizing Committee: </strong></th>
+                                        <th scope="row"><strong>Honorary Chair: </strong></th>
                                         <td>Dr. Francis B. Mayuga</td>
                                     </tr>
                                     <tr>
-                                        <th scope="row"><strong>Assistant Chair of Organizing Committee: </strong></th>
+                                        <th scope="row"><strong>Assistant Chair: </strong></th>
                                         <td>Dr. Melissa M. Caranto</td>
                                     </tr>
                                     <tr>

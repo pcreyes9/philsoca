@@ -20,35 +20,49 @@ class DatabaseSeeder extends Seeder
         //     'name' => 'Test User',
         //     'email' => 'test@example.com',
         // ]);
-        User::create(
-            [
-                "username" => "admin",
-                "userType" => "admin",
-                "email" => "psa.acacongress2025@gmail.com",
-                "password" => "$2y$12"."$". "EjSTD.i6uK8i1zOjwNLX.uBnDIpIKSWwqNvO3Q8W3aYNKIi3rdwe2"
-                // Aca2025manila!
+        // User::create(
+        //     [
+        //         "username" => "admin",
+        //         "userType" => "admin",
+        //         "email" => "psa.acacongress2025@gmail.com",
+        //         "password" => "$2y$12"."$". "EjSTD.i6uK8i1zOjwNLX.uBnDIpIKSWwqNvO3Q8W3aYNKIi3rdwe2"
+        //         // ACA2025manila!
                 
-            ]
-        );
+        //     ]
+        // );
 
+        // User::create(
+        //     [
+        //         "username" => "Paul Reyes",
+        //         "name" => "Paul Reyes",
+        //         "country" => "Philippines",
+        //         "affiliation" => "Philippine General Hospital",
+        //         "contact_number" => "09214048218",
+        //         "userType" => "speaker",
+        //         "email" => "pcreyes09@gmail.com",
+        //         "password" => "$2y$12"."$"."O0U9GmdP3BXrUUqNgKOCFOWiSxc9ufhJKIklQv66RqPWOqmkVOBqC"
+        //         // ACAspeakers2025*
+                
+        //     ]
+        // );
         User::create(
             [
-                "username" => "Paul Reyes",
-                "name" => "Paul Reyes",
+                "username" => "Peñafrancia C. Cano",
+                "name" => "Peñafrancia C. Cano",
                 "country" => "Philippines",
-                "affiliation" => "Philippine General Hospital",
-                "contact_number" => "09214048218",
+                // "affiliation" => "",
+                // "contact_number" => "",
                 "userType" => "speaker",
-                "email" => "pcreyes09@gmail.com",
+                "email" => "pencano@yahoo.com",
                 "password" => "$2y$12"."$"."O0U9GmdP3BXrUUqNgKOCFOWiSxc9ufhJKIklQv66RqPWOqmkVOBqC"
-                // acaspeakers2025!
+                // ACAspeakers2025*
                 
             ]
         );
-        DB::table('teams')->insert([
-            'user_id' => "1",
-            'name' => "'s Team",
-            'personal_team' => "1",
-        ]);
+        // DB::table('teams')->insert([
+        //     'user_id' => "1",
+        //     'name' => "'s Team",
+        //     'personal_team' => "1",
+        // ]);
     }
 }

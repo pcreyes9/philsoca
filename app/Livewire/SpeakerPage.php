@@ -7,6 +7,7 @@ use Livewire\Component;
 use Illuminate\Support\Str;
 use Livewire\WithFileUploads;
 use Illuminate\Support\Facades\Auth;
+use Illuminate\Support\Facades\Storage;
 
 class SpeakerPage extends Component
 {
@@ -15,7 +16,7 @@ class SpeakerPage extends Component
     public $name, $country, $email, $affiliation, $bio, $ext;
     public $status = "", $opacity = "", $hide = "";
     public $words;
-    public  $photo, $photoName, $photoDisplay;
+    public  $photo, $photoName, $photoDisplay, $show;
 
     public function mount()
     {
@@ -92,9 +93,12 @@ class SpeakerPage extends Component
 
         if($this->photo != null){
             $ext = $this->photo->extension();
-        
             $photoName = $this->name . ' '.$this->country . '.' . $this->photo->extension();
             $this->photo->storeAs('photos/speakersIMG', $photoName);
+
+            // $path = Storage::put('public/storage/'.  $photoName, $this->photo);
+            // Storage::put($path, $this->photo);
+        
             User::where('id', Auth()->user()->id)->update([
                 'photo' => $photoName
             ]);
@@ -119,6 +123,8 @@ class SpeakerPage extends Component
 
     public function render()
     {
+
+        $this->bio = Str::words($this->bio, 300, '');
         $this->words = Str::of($this->bio )->wordCount();
 
         return view('livewire.speaker-page');

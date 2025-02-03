@@ -67,6 +67,10 @@
                                         {{-- <td><br> Dr. Jonnel L. Lim <br> Dr. Cristina Mayo Milo</td> --}}
                                     </tr>
                                     <tr>
+                                        <th scope="row"><strong>Azarinah Izaham, MD - Malaysia</strong></th>
+                                        {{-- <td><br> Dr. Julie B. Balacuit <br> Dr. Melissa M. Caranto <br> Dr. Emmanuel S. Prudente <br> Dr. Aileen L. Rosales</td> --}}
+                                    </tr>
+                                    <tr>
                                         <th scope="row"><strong>Jin Tae Kim, MD -  Korea</strong></th>
                                         {{-- <td>Dr. Florian R. Nuevo <br> Dr. Eric V. Nagtalon</td> --}}
                                     </tr>
@@ -89,6 +93,10 @@
                                     <tr>
                                         <th scope="row"><strong>Suraphong Lorsomradee, MD - Thailand</strong></th>
                                         {{-- <td><br> Dr. Jonnel L. Lim <br> Dr. Cristina Mayo Milo</td> --}}
+                                    </tr>
+                                    <tr>
+                                        <th scope="row"><strong>Annery Garcia-Marcinkiewicz, MD - USA</strong></th>
+                                        {{-- <td>Dr. Florian R. Nuevo <br> Dr. Eric V. Nagtalon</td> --}}
                                     </tr>
                                     <tr>
                                         <th scope="row"><strong>Hasmizy Muhammad, MD - Malaysia</strong></th>
@@ -127,11 +135,11 @@
                                         {{-- <td><br> Dr. Julie B. Balacuit <br> Dr. Melissa M. Caranto <br> Dr. Emmanuel S. Prudente <br> Dr. Aileen L. Rosales</td> --}}
                                     </tr>
                                     <tr>
-                                        <th scope="row"><strong>Alex Sia, MD - Singapore</strong></th>
+                                        <th scope="row"><strong>Ina Ismiarty Shariffuddin, MD - Malaysia</strong></th>
                                         {{-- <td><br> Dr. Jonnel L. Lim <br> Dr. Cristina Mayo Milo</td> --}}
                                     </tr>
                                     <tr>
-                                        <th scope="row"><strong>Jina Sinskey, MD - USA</strong></th>
+                                        <th scope="row"><strong>Alex Sia, MD - Singapore</strong></th>
                                         {{-- <td><br> Dr. Jonnel L. Lim <br> Dr. Cristina Mayo Milo</td> --}}
                                     </tr>
                                     <tr>
@@ -143,7 +151,7 @@
                                         {{-- <td>Dr. Florian R. Nuevo <br> Dr. Eric V. Nagtalon</td> --}}
                                     </tr>
                                     <tr >
-                                        <th scope="row" ><strong>Yong Chow Yen, MD - Malaysia</strong></th>
+                                        <th scope="row" ><strong>Dato' Yong Chow Yen, MD - Malaysia</strong></th>
                                         {{-- <td>Dr. Salvador J. Brodit <br> Dr. Godfrey G. Agcon</td> --}}
                                     </tr>
                                 </tbody>

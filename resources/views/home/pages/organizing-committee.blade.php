@@ -21,11 +21,11 @@
                                         <td>Dr. Peñafrancia C. Cano</td>
                                     </tr>
                                     <tr>
-                                        <th scope="row"><strong>Honorary Chair of Organizing Committee: </strong></th>
+                                        <th scope="row"><strong>Honorary Chair: </strong></th>
                                         <td>Dr. Francis B. Mayuga</td>
                                     </tr>
                                     <tr>
-                                        <th scope="row"><strong>Assistant Chair of Organizing Committee: </strong></th>
+                                        <th scope="row"><strong>Assistant Chair: </strong></th>
                                         <td>Dr. Melissa M. Caranto</td>
                                     </tr>
                                     <tr>

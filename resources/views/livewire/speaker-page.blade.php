@@ -59,7 +59,7 @@
                     <tr>
                         <th class="align-middle">Bio <br> <span style="font-weight: normal;"><i>{{ $words }} of 300</i></span> </th>
                         <td class="text-left" scope="row">
-                            <textarea rows="6" {{ $status }} style="background: rgba(76, 175, 80, {{ $opacity }}); color: black; font-weight: bold; font-size: 15px;" class="form-control form-control-subject" type="text" name="subject" id="subject" wire:model.live="bio" placeholder="" required></textarea>
+                            <textarea rows="12" {{ $status }} style="background: rgba(76, 175, 80, {{ $opacity }}); color: black; font-weight: bold; font-size: 15px;" class="form-control form-control-subject" type="text" name="subject" id="subject" wire:model.live="bio" placeholder="" required></textarea>
                         </td>
                     </tr>
                     <tr>
@@ -95,7 +95,7 @@
             </div>
             <div class="table-responsive mb-3 mt-5">
                 <h3 class="into-sub-title mb-4">My Session Schedule</h3>
-                <table class="table fd table-bordered table-striped">
+                {{-- <table class="table fd table-bordered table-striped">
                     
                     <tbody>
                         <tr>
@@ -108,7 +108,7 @@
                             <td class="text-left" scope="row">{{ $email }}</td>
                         </tr>
                     </tbody>
-                </table>
+                </table> --}}
             </div>
         </div>
       <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">...</div>

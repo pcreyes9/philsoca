@@ -63,10 +63,6 @@
                                         {{-- <td>Dr. Joselito T. Morete</td> --}}
                                     </tr>
                                     <tr>
-                                        <th scope="row"><strong>Samuel Ern Hung Tsan, MD - Malaysia</strong></th>
-                                        {{-- <td><br> Dr. Jonnel L. Lim <br> Dr. Cristina Mayo Milo</td> --}}
-                                    </tr>
-                                    <tr>
                                         <th scope="row"><strong>Azarinah Izaham, MD - Malaysia</strong></th>
                                         {{-- <td><br> Dr. Julie B. Balacuit <br> Dr. Melissa M. Caranto <br> Dr. Emmanuel S. Prudente <br> Dr. Aileen L. Rosales</td> --}}
                                     </tr>
@@ -145,6 +141,10 @@
                                     <tr>
                                         <th scope="row"><strong>Athmaja Thottungal, MD - United Kingdom</strong></th>
                                         {{-- <td>Dr. Florian R. Nuevo <br> Dr. Eric V. Nagtalon</td> --}}
+                                    </tr>
+                                    <tr>
+                                        <th scope="row"><strong>Samuel Ern Hung Tsan, MD - Malaysia</strong></th>
+                                        {{-- <td><br> Dr. Jonnel L. Lim <br> Dr. Cristina Mayo Milo</td> --}}
                                     </tr>
                                     <tr>
                                         <th scope="row"><strong>Shigeki Yamaguchi, MD - Japan</strong></th>

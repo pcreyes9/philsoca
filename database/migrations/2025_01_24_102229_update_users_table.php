@@ -17,6 +17,7 @@ return new class extends Migration
             $table->string('name')->nullable();
             $table->string('country')->nullable();
             $table->string('affiliation')->nullable();
+            $table->string('hospiAddress')->nullable();
             $table->longtext('bio')->nullable();
             $table->string('photo')->nullable();
             $table->string('contact_number')->nullable();

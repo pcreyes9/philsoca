@@ -13,7 +13,7 @@ class SpeakerPage extends Component
 {
     use WithFileUploads;
     
-    public $name, $country, $email, $affiliation, $bio, $ext;
+    public $name, $country, $email, $affiliation, $bio, $ext, $phone, $hospiAddress;
     public $status = "", $opacity = "", $hide = "";
     public $words;
     public  $photo, $photoName, $photoDisplay, $show;
@@ -26,8 +26,10 @@ class SpeakerPage extends Component
 
         $this->name = Auth()->user()->name;
         $this->email = Auth()->user()->email;
+        $this->phone = Auth()->user()->contact_number;
         $this->country = Auth()->user()->country;
         $this->affiliation = Auth()->user()->affiliation;
+        $this->hospiAddress = Auth()->user()->hospiAddress;
 
         $this->bio = Auth()->user()->bio;
         $this->photoDisplay = Auth()->user()->photo;
@@ -68,8 +70,10 @@ class SpeakerPage extends Component
         else{
             $this->name = Auth()->user()->name;
             $this->email = Auth()->user()->email;
+            $this->phone = Auth()->user()->contact_number;
             $this->country = Auth()->user()->country;
             $this->affiliation = Auth()->user()->affiliation;
+            $this->hospiAddress = Auth()->user()->hospiAddress;
 
             $this->bio = Auth()->user()->bio;
             $this->photo = Auth()->user()->photo;
@@ -106,14 +110,14 @@ class SpeakerPage extends Component
 
         }
 
-        
-
         // dd(Auth()->user()->id);
         User::where('id', Auth()->user()->id)->update([
             'name' => $this->name,
             'country' => $this->country,
             'email' => $this->email,
+            'contact_number' => $this->phone,
             'affiliation' => $this->affiliation,
+            'hospiAddress' => $this->hospiAddress,
             'bio' => $this->bio,
             // 'photo' => $photoName
         ]);

@@ -51,7 +51,7 @@
                                         {{-- <td><br> Dr. Julie B. Balacuit <br> Dr. Melissa M. Caranto <br> Dr. Emmanuel S. Prudente <br> Dr. Aileen L. Rosales</td> --}}
                                     </tr>
                                     <tr>
-                                        <th scope="row"><strong>Shahdridan Fathil, MD - Malaysia</strong></th>
+                                        <th scope="row"><strong>Shahridan Fathil, MD - Malaysia</strong></th>
                                         {{-- <td><br> Dr. Julie B. Balacuit <br> Dr. Melissa M. Caranto <br> Dr. Emmanuel S. Prudente <br> Dr. Aileen L. Rosales</td> --}}
                                     </tr>
                                     <tr>
@@ -61,10 +61,6 @@
                                     <tr>
                                         <th scope="row"><strong>Jean Louis Horn, MD - USA</strong></th>
                                         {{-- <td>Dr. Joselito T. Morete</td> --}}
-                                    </tr>
-                                    <tr>
-                                        <th scope="row"><strong>Samuel Ern Hung Tsan, MD - Malaysia</strong></th>
-                                        {{-- <td><br> Dr. Jonnel L. Lim <br> Dr. Cristina Mayo Milo</td> --}}
                                     </tr>
                                     <tr>
                                         <th scope="row"><strong>Azarinah Izaham, MD - Malaysia</strong></th>
@@ -145,6 +141,10 @@
                                     <tr>
                                         <th scope="row"><strong>Athmaja Thottungal, MD - United Kingdom</strong></th>
                                         {{-- <td>Dr. Florian R. Nuevo <br> Dr. Eric V. Nagtalon</td> --}}
+                                    </tr>
+                                    <tr>
+                                        <th scope="row"><strong>Samuel Ern Hung Tsan, MD - Malaysia</strong></th>
+                                        {{-- <td><br> Dr. Jonnel L. Lim <br> Dr. Cristina Mayo Milo</td> --}}
                                     </tr>
                                     <tr>
                                         <th scope="row"><strong>Shigeki Yamaguchi, MD - Japan</strong></th>

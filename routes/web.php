@@ -68,14 +68,14 @@ Route::get('/organizing-committee', function () {
 // })->name('orgCom');
 
 Route::get('/speakers', function () {
-    return view('home/pages/speakers');
+    return view('home/pages/speakersPic');
 })->name('speakers');
 
 Route::get('/contact', function () {
     return view('home/pages/contact');
 })->name('contact');
 
-// Route::get('/abstract', function () {
+// Route::get('/abstract-submission', function () {
 //     return view('home/pages/abstract');
 // })->name('abstract');
 

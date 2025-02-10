@@ -1,4 +1,4 @@
 <a href="">
 
-    <img width="120" src="{{asset('/logo/PSA Logo.png')}}" alt="">
+    <img width="120" src="{{asset('/logo/ACA_LOGO.png')}}" alt="">
 </a>

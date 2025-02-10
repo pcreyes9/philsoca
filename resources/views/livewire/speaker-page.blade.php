@@ -1,5 +1,3 @@
-
-
 <div class="container">
     
     <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
@@ -20,7 +18,7 @@
 
     <div class="tab-content" id="pills-tabContent">
       <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
-        <div class="table-responsive mb-3">
+        <div class="table-responsive mb-3 ">
             <table class="table table-bordered table-striped">
                 {{-- <thead class="bg-primary text-white">
                     <tr>
@@ -32,16 +30,9 @@
                 </thead> --}}
                 <tbody>
                     <tr>
-                        <th class="align-middle">Country</th>
+                        <th class="align-middle" width="30%">Country</th>
                         <td class="text-left" scope="row">
                             <input {{ $status }} style="background: rgba(76, 175, 80, {{ $opacity }}); color: black; font-weight: bold; font-size: 15px;" class="form-control form-control-subject" type="text" name="subject" id="subject" wire:model="country" placeholder="" required>
-                        </td>
-                        
-                    </tr>
-                    <tr>
-                        <th class="align-middle">Email</th>
-                        <td class="text-left" scope="row">
-                            <input {{ $status }} style="background: rgba(76, 175, 80, {{ $opacity }}); color: black; font-weight: bold; font-size: 15px;" class="form-control form-control-subject" type="email" name="subject" id="subject" wire:model="email" placeholder="" required>
                         </td>
                     </tr>
                     <tr>
@@ -51,15 +42,35 @@
                         </td>
                     </tr>
                     <tr>
-                        <th class="align-middle">Affiliation</th>
+                        <th class="align-middle">Email</th>
+                        <td class="text-left" scope="row">
+                            <input {{ $status }} style="background: rgba(76, 175, 80, {{ $opacity }}); color: black; font-weight: bold; font-size: 15px;" class="form-control form-control-subject" type="email" name="subject" id="subject" wire:model="email" placeholder="" required>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th class="align-middle">Cellphone/Whatsapp #</th>
+                        <td class="text-left" scope="row">
+                            <input {{ $phone }} style="background: rgba(76, 175, 80, {{ $opacity }}); color: black; font-weight: bold; font-size: 15px;" class="form-control form-control-subject" type="email" name="subject" id="subject" wire:model="phone" placeholder="" required>
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <th class="align-middle">Hospital Affiliation</th>
                         <td class="text-left" scope="row">
                             <input {{ $status }} style="background: rgba(76, 175, 80, {{ $opacity }}); color: black; font-weight: bold; font-size: 17px;" class="form-control form-control-subject" type="text" name="subject" id="subject" wire:model="affiliation" placeholder="" required>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <th class="align-middle">Hospital Address</th>
+                        <td class="text-left" scope="row">
+                            <input {{ $status }} style="background: rgba(76, 175, 80, {{ $opacity }}); color: black; font-weight: bold; font-size: 17px;" class="form-control form-control-subject" type="text" name="subject" id="subject" wire:model="hospiAddress" placeholder="" required>
                         </td>
                     </tr>
                     <tr>
                         <th class="align-middle">Bio <br> <span style="font-weight: normal;"><i>{{ $words }} of 300</i></span> </th>
                         <td class="text-left" scope="row">
-                            <textarea rows="6" {{ $status }} style="background: rgba(76, 175, 80, {{ $opacity }}); color: black; font-weight: bold; font-size: 15px;" class="form-control form-control-subject" type="text" name="subject" id="subject" wire:model.live="bio" placeholder="" required></textarea>
+                            <textarea rows="12" {{ $status }} style="background: rgba(76, 175, 80, {{ $opacity }}); color: black; font-weight: bold; font-size: 15px;" class="form-control form-control-subject" type="text" name="subject" id="subject" wire:model.live="bio" placeholder="" required></textarea>
                         </td>
                     </tr>
                     <tr>
@@ -82,8 +93,8 @@
                 </tbody>
             </table>
             <div>
-                <a href="#" wire:click.prevent="modify" class="btn btn-primary mb-1" style="font-size: 15px">Modify Information</a>
-                <a href="#" {{ $hide }} wire:click.prevent="update" class="btn btn-dark mb-1" style="font-size: 15px">Update Information</a>
+                <a href="#" wire:click.prevent="modify" class="btn btn-primary mb-1" style="font-size: 15px">Update Information</a>
+                <a href="#" {{ $hide }} wire:click.prevent="update" class="btn btn-dark mb-1" style="font-size: 15px">Submit</a>
             </div>
             
             
@@ -95,7 +106,7 @@
             </div>
             <div class="table-responsive mb-3 mt-5">
                 <h3 class="into-sub-title mb-4">My Session Schedule</h3>
-                <table class="table fd table-bordered table-striped">
+                {{-- <table class="table fd table-bordered table-striped">
                     
                     <tbody>
                         <tr>
@@ -108,7 +119,7 @@
                             <td class="text-left" scope="row">{{ $email }}</td>
                         </tr>
                     </tbody>
-                </table>
+                </table> --}}
             </div>
         </div>
       <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">...</div>

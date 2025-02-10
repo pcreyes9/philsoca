@@ -81,6 +81,4 @@
             </div><!-- Row end -->
           </div><!-- Container end -->
     </section><!-- Main container end -->
-
-
 @endsection

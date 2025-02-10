@@ -30,14 +30,29 @@
   <div class="modal-dialog modal-lg" role="document">
     <div class="modal-content">
       <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLongTitle">{{ $nameModal }}</h5>
+        <h5 class="modal-title" id="exampleModalLongTitle">Speaker Information</h5><br>
+
         <button type="button" class="close" data-dismiss="modal" aria-label="Close" >
           <span aria-hidden="true">&times;</span>
         </button>
       </div>
+      <h1>{{ $nameModal }}</h1>
+      <h1>{{ $affiModal }}</h1>
+      <h1>{{ $countryModal }}</h1>
       <div class="modal-body text-left">
-        {{ $bioModal }}
+        <textarea style="width: 100%; resize: none;" rows="10" disabled>{{ $bioModal }}</textarea>
+        
       </div>
+      <script>
+        const textArea = document.querySelector('textarea')
+       
+        textArea.addEventListener("mousemove", e =>{
+          textArea.style.height = "auto";
+          let scHeight = e.target.scrollHeight;
+          textArea.style.height = `${scHeight}px`;
+        })
+  
+      </script>
       <div class="modal-footer">
         <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
         <button type="button" class="btn btn-primary">Save changes</button>

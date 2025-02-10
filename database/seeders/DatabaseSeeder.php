@@ -32,34 +32,35 @@ class DatabaseSeeder extends Seeder
         //     ]
         // );
 
-        // User::create(
-        //     [
-        //         "username" => "Paul Reyes",
-        //         "name" => "Paul Reyes",
-        //         "country" => "Philippines",
-        //         "affiliation" => "Philippine General Hospital",
-        //         "contact_number" => "09214048218",
-        //         "userType" => "speaker",
-        //         "email" => "pcreyes09@gmail.com",
-        //         "password" => "$2y$12"."$"."O0U9GmdP3BXrUUqNgKOCFOWiSxc9ufhJKIklQv66RqPWOqmkVOBqC"
-        //         // ACAspeakers2025*
+        User::create(
+            [
+                "username" => "Paul Reyes",
+                "name" => "Paul Reyes",
+                "country" => "Philippines",
+                "affiliation" => "Philippine General Hospital",
+                "contact_number" => "09214048218",
+                "userType" => "speaker",
+                "email" => "pcreyes09@gmail.com",
+                "password" => "$2y$12"."$"."O0U9GmdP3BXrUUqNgKOCFOWiSxc9ufhJKIklQv66RqPWOqmkVOBqC"
+                // ACAspeakers2025*
                 
-        //     ]
-        // );
-        // User::create(
-        //     [
-        //         "username" => "Peñafrancia C. Cano",
-        //         "name" => "Peñafrancia C. Cano",
-        //         "country" => "Philippines",
-        //         // "affiliation" => "",
-        //         // "contact_number" => "",
-        //         "userType" => "speaker",
-        //         "email" => "pencano@yahoo.com",
-        //         "password" => "$2y$12"."$"."O0U9GmdP3BXrUUqNgKOCFOWiSxc9ufhJKIklQv66RqPWOqmkVOBqC"
-        //         // ACAspeakers2025*
+            ]
+        );
+
+        User::create(
+            [
+                "username" => "Peñafrancia C. Cano",
+                "name" => "Peñafrancia C. Cano",
+                "country" => "Philippines",
+                // "affiliation" => "",
+                // "contact_number" => "",
+                "userType" => "speaker",
+                "email" => "pencano@yahoo.com",
+                "password" => "$2y$12"."$"."O0U9GmdP3BXrUUqNgKOCFOWiSxc9ufhJKIklQv66RqPWOqmkVOBqC"
+                // ACAspeakers2025*
                 
-        //     ]
-        // );Z
+            ]
+        );
 
         User::create(
             [

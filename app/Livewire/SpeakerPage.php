@@ -6,6 +6,7 @@ use App\Models\User;
 use Livewire\Component;
 use Illuminate\Support\Str;
 use Livewire\WithFileUploads;
+use Carbon\Carbon;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Storage;
 
@@ -13,7 +14,7 @@ class SpeakerPage extends Component
 {
     use WithFileUploads;
     
-    public $name, $country, $email, $affiliation, $bio, $ext, $phone, $hospiAddress;
+    public $name, $country, $email, $affiliation, $bio, $ext, $phone, $hospiAddress, $affi;
     public $status = "", $opacity = "", $hide = "";
     public $words;
     public  $photo, $photoName, $photoDisplay, $show;
@@ -32,6 +33,10 @@ class SpeakerPage extends Component
         $this->hospiAddress = Auth()->user()->hospiAddress;
 
         $this->bio = Auth()->user()->bio;
+        $this->affi = Auth()->user()->affiliation;
+        $this->country = Auth()->user()->country;
+
+
         $this->photoDisplay = Auth()->user()->photo;
 
     }
@@ -60,6 +65,8 @@ class SpeakerPage extends Component
     }
 
     public function modify(){
+        
+        // dd($date);
         // dd("asd");
 
         if($this->status == "readonly"){
@@ -89,6 +96,7 @@ class SpeakerPage extends Component
     }
 
     public function update(){
+        
         // dd("asd");
         $this->status = "readonly";
         $this->opacity = "0.0";
@@ -97,7 +105,7 @@ class SpeakerPage extends Component
 
         if($this->photo != null){
             $ext = $this->photo->extension();
-            $photoName = $this->name . ' '.$this->country . '.' . $this->photo->extension();
+            $photoName = $this->name . ' '.$this->country .' ' . Carbon::now()->format('mdy') . '.' . $this->photo->extension();
             $this->photo->storeAs('photos/speakersIMG', $photoName);
 
             // $path = Storage::put('public/storage/'.  $photoName, $this->photo);

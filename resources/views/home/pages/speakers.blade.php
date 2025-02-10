@@ -51,7 +51,7 @@
                                         {{-- <td><br> Dr. Julie B. Balacuit <br> Dr. Melissa M. Caranto <br> Dr. Emmanuel S. Prudente <br> Dr. Aileen L. Rosales</td> --}}
                                     </tr>
                                     <tr>
-                                        <th scope="row"><strong>Shahdridan Fathil, MD - Malaysia</strong></th>
+                                        <th scope="row"><strong>Shahridan Fathil, MD - Malaysia</strong></th>
                                         {{-- <td><br> Dr. Julie B. Balacuit <br> Dr. Melissa M. Caranto <br> Dr. Emmanuel S. Prudente <br> Dr. Aileen L. Rosales</td> --}}
                                     </tr>
                                     <tr>

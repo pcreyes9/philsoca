@@ -601,5 +601,20 @@ class DatabaseSeeder extends Seeder
             ]
         );
 
+        User::create(
+            [
+                "username" => "Vesna Jevtovic-Todorovic",
+                "name" => "Vesna Jevtovic-Todorovic",
+                // "country" => "",
+                // "affiliation" => "",
+                // "contact_number" => "",
+                "userType" => "speaker",
+                "email" => "vesna.jevtovic-todorovic@cuanschutz.edu",
+                "password" => "$2y$12"."$"."O0U9GmdP3BXrUUqNgKOCFOWiSxc9ufhJKIklQv66RqPWOqmkVOBqC"
+                // ACAspeakers2025*
+                
+            ]
+        );
+
     }
 }

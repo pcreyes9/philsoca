@@ -142,7 +142,7 @@
                                         <th scope="row"><strong>Athmaja Thottungal, MD - United Kingdom</strong></th>
                                         {{-- <td>Dr. Florian R. Nuevo <br> Dr. Eric V. Nagtalon</td> --}}
                                     </tr>
-                                    <tr>VESNA JEVTOVIC-TODOROVIC
+                                    <tr>
                                         <th scope="row"><strong>Vesna Jevtovic-Todorovic, MD - USA</strong></th>
                                         {{-- <td>Dr. Florian R. Nuevo <br> Dr. Eric V. Nagtalon</td> --}}
                                     </tr>

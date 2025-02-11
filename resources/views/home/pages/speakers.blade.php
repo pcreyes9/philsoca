@@ -142,6 +142,10 @@
                                         <th scope="row"><strong>Athmaja Thottungal, MD - United Kingdom</strong></th>
                                         {{-- <td>Dr. Florian R. Nuevo <br> Dr. Eric V. Nagtalon</td> --}}
                                     </tr>
+                                    <tr>VESNA JEVTOVIC-TODOROVIC
+                                        <th scope="row"><strong>Vesna Jevtovic-Todorovic, MD - USA</strong></th>
+                                        {{-- <td>Dr. Florian R. Nuevo <br> Dr. Eric V. Nagtalon</td> --}}
+                                    </tr>
                                     <tr>
                                         <th scope="row"><strong>Samuel Ern Hung Tsan, MD - Malaysia</strong></th>
                                         {{-- <td><br> Dr. Jonnel L. Lim <br> Dr. Cristina Mayo Milo</td> --}}

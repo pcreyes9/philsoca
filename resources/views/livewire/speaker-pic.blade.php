@@ -6,8 +6,12 @@
       @foreach ($speaker as $speakers)
         <div class="col-lg-3 col-md-6 shuffle-item mb-4 px-2" data-bs-toggle="modal" data-bs-target="#exampleModalCenter" wire:click="modalShow('{{ $speakers->name }}')">
           <div class="project-img-container">
-            <a class="gallery-popup" href="images/speaker_placeholder.png">
-              <img class="img-fluid" style="width: 100%;" src="images/speaker_placeholder.png" alt="project-image">
+            <a class="gallery-popup" >
+              @if ($speakers->photo == null || $speakers->photo == "")
+              <img loading="lazy" style="width: 100%;" class="logo img-fluid align-middle mt-3 align-middle" src="images/speaker_placeholder.png" alt="Image is still in process.">
+            @else
+              <img loading="lazy" style="width: 100%;" class="logo img-fluid align-middle mt-3 align-middle" src='storage/{{ $speakers->photo }} ' alt="Image is still in process.">
+            @endif
             </a>
           </div>
           <div style="background: #f2de02; width: 100%;" class="py-1">
@@ -29,18 +33,33 @@
 <div wire:ignore.self class="modal fade bd-example-modal-lg" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
   <div class="modal-dialog modal-lg" role="document">
     <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLongTitle">Speaker Information</h5><br>
+      <div class="modal-header " style="background-color: #ac071a">
+        <h5 class="modal-title font-weight-bold" id="exampleModalLongTitle" style="color: #fff">Speaker Information</h5><br>
 
         <button type="button" class="close" data-dismiss="modal" aria-label="Close" >
           <span aria-hidden="true">&times;</span>
         </button>
       </div>
-      <h1>{{ $nameModal }}</h1>
-      <h1>{{ $affiModal }}</h1>
-      <h1>{{ $countryModal }}</h1>
-      <div class="modal-body text-left">
-        <textarea style="width: 100%; resize: none;" rows="10" disabled>{{ $bioModal }}</textarea>
+      <div class="modal-body text-left mx-3">
+
+        <div class="row mb-4">
+          <div class="col-md-2">
+            @if ($photoModal == null || $photoModal == "")
+              <img loading="lazy" style="width: 100%;" class="logo img-fluid align-middle mt-3 align-middle" src="images/speaker_placeholder.png" alt="Image is still in process.">
+            @else
+              <img loading="lazy" style="width: 100%;" class="logo img-fluid align-middle mt-3 align-middle" src='storage/{{ $photoModal }} ' alt="Image is still in process.">
+            @endif
+          </div>
+          <div class="col-md-8 ">
+            <div class="mb-5">
+              <h1 class="mb-n4 font-weight-bold" style="font-size: 23px">{{ $nameModal }}</h1>
+              <h1 class="mb-n4 mt-2">{{ $affiModal }}</h1>
+              <h1 >{{ $countryModal }}</h1>
+            </div>
+          </div>
+        </div>
+        
+        <textarea class="text-justify" style="width: 100%; resize: none;" rows="10" disabled>{{ $bioModal }}</textarea>
         
       </div>
       <script>

@@ -1995,8 +1995,15 @@ ul.navbar-nav > li.header-get-a-quote:hover > a:after {
 
 .ts-facts .ts-facts-content .ts-facts-title {
   font-size: 16px;
-  color: #ac071a;
+  color: #fff;
   margin: 0;
+}
+.ts-date{
+  font-weight: 700;
+  font-size: 30px;
+  color: #fff200;
+  margin: 0;
+  text-transform: uppercase;
 }
 
 /* Services
@@ -2338,6 +2345,7 @@ ul.navbar-nav > li.header-get-a-quote:hover > a:after {
 
 .general-btn .btn-primary:hover {
   background: #000066;
+  /* blue */
 }
 
 /* Project owl */
@@ -2536,6 +2544,7 @@ ul.navbar-nav > li.header-get-a-quote:hover > a:after {
   top: 0;
   font-weight: 700;
   color: #ffc009;
+  /* yellow */
 }
 
 .testimonial-slide .slick-dots {
@@ -2754,10 +2763,10 @@ img.testimonial-thumb {
   font-weight: 700;
   position: relative;
   margin: 0 0 30px;
-  padding-left: 15px;
+  /* padding-left: 15px; */
   text-transform: uppercase;
-  color: #fff;
-  border-left: 3px solid #ac071a;
+  color: #fff200;
+  /* border-left: 3px solid #000066; */
 }
 
 /* Footer about us */
@@ -2816,7 +2825,7 @@ img.testimonial-thumb {
 
 .footer-widget ul.list-arrow li:hover a,
 .footer-widget ul.list-arrow li:hover {
-  color: #ac071a;
+  color: #000066;
 }
 
 .working-hours {
@@ -2838,8 +2847,14 @@ img.testimonial-thumb {
   font-size: 12px;
 }
 
+.footer-menu h1{
+  color: #fff200;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 18px;
+}
 
 .footer-menu ul li {
+  font-size: large;
   display: inline-block;
   line-height: 12px;
   padding-left: 15px;

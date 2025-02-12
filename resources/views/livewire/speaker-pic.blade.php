@@ -15,7 +15,7 @@
             </a>
           </div>
           <div style="background: #f2de02; width: 100%;" class="py-1">
-            <h3 class="ts-name" style="font-size: 20px;">{{ $speakers->name }}</h3>
+            <h3 class="ts-name" style="font-size: 15px;">{{ $speakers->name }}</h3>
           </div>
         </div><!-- shuffle item 1 end -->
         
@@ -25,9 +25,9 @@
   </div><!-- Content row end -->
 
   <!-- Button trigger modal -->
-<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter">
+{{-- <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter">
   Launch demo modal
-</button>
+</button> --}}
 
 <!-- Modal -->
 <div wire:ignore.self class="modal fade bd-example-modal-lg" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
@@ -80,4 +80,3 @@
   </div>
 </div>
 </div><!-- Conatiner end -->
-

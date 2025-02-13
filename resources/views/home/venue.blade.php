@@ -32,7 +32,7 @@
     </div>
     
 </section>
-<section id="news" class="project-area" style="background: #000066; color: white !important">
+<section id="news" class="project-area" style="background: #ac071a; color: white !important">
     <div class="container" >
         <div class="text-left">
             <div class="text-center">

@@ -20,15 +20,17 @@
       <div class="col-md-4">
         <div class="text-left footer-menu">
           <h1 class="mb-n2 widget-title">Secratariat of ACA 2025 Manila</h1>
-          <p class="mb-n2">Tel: 89295852</p>
-          <p>Email: ACAsecretariat2025@gmail.com</p>
+          <div style="color: #ffffffbe">
+            <p class="mb-n2" >Tel: 89295852</p>
+            <p>Email: ACAsecretariat2025@gmail.com</p>
+          </div>
         </div>
       </div>
 
       <div class="col-md-5">
         <div class="text-left footer-menu">
           <h1 class="mb-n2 widget-title">Philippine Society of Anesthesiologists, Inc</h1>
-          <p class="mb-n2" style="line-height: 17px">Room 102, PMA Building, 1100 North Ave, Diliman, Quezon City, 1100 Metro Manila</p>
+          <p class="mb-n2" style="line-height: 17px; color: #ffffffbe">Room 102, PMA Building, 1100 North Ave, Diliman, Quezon City, 1100 Metro Manila</p>
           {{-- <p>Email: ACAsecretariat2025@gmail.com</p> --}}
         </div>
       </div>

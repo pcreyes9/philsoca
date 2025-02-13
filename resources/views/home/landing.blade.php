@@ -9,46 +9,46 @@
       <img class="imgSlide w-100 w-lg-75 " src="images/slider-main/ACA POSTER V8.png" alt="ASEAN CONGRESS OF ANESTHESIOLOGISTS">
     </div>
   </div>
-  
-  <section id="facts" class="facts-area mt-n4" style="background-color: #000066">
+  {{-- style="background-color: #000066" --}}
+  <section id="facts" class="facts-area mt-n4" >
     <div class="container">
       <div class="facts-wrapper">
-        <h3 class="section-sub-title mt-n4" style="color: white">Important Dates</h3>
-          <div class="row">
-            <div class="col-md-3 col-sm-6 ts-facts">
+        <h3 class="section-sub-title mt-n4 text-center">Important Dates</h3>
+          <div class="row ">
+            <div class="col-md-3 col-sm-6 ts-facts" >
                 <div class="ts-facts-img">
                 </div>
-                <div class="ts-facts-content">
+                <div class="ts-facts-content rounded-3 p-2" style="background-color: #0b6e4f">
                   <h1 class="ts-date mb-n4">Jan</h1>
                   <h2 class="ts-facts-num"><span class="counterUp" data-count="20">0</span></h2>
-                  <h3 class="ts-facts-title">Early Bird Registration Open</h3>
+                  <h3 class="ts-facts-title" style="color: #fff">Early Bird Registration Open</h3>
                 </div>
             </div><!-- Col end -->
   
-            <div class="col-md-3 col-sm-6 ts-facts mt-5 mt-sm-0">
+            <div class="col-md-3 col-sm-6 ts-facts mt-5 mt-sm-0 ">
                 <div class="ts-facts-img">
                 </div>
-                <div class="ts-facts-content">
+                <div class="ts-facts-content rounded-3 p-2" style="background-color: #0b6e4f">
                   <h1 class="ts-date mb-n4">Apr</h1>
                   <h2 class="ts-facts-num"><span class="counterUp" data-count="30">0</span></h2>
                   <h3 class="ts-facts-title">Early Bird Registration Deadline</h3>
                 </div>
             </div><!-- Col end -->
   
-            <div class="col-md-3 col-sm-6 ts-facts mt-5 mt-md-0">
+            <div class="col-md-3 col-sm-6 ts-facts mt-5 mt-md-0 ">
                 <div class="ts-facts-img">
                 </div>
-                <div class="ts-facts-content">
-                  <h1 class="ts-date mb-n4">Sept</h1>
-                  <h2 class="ts-facts-num"><span class="counterUp" data-count="30">0</span></h2>
-                  <h3 class="ts-facts-title">Registration Deadline</h3>
+                <div class="ts-facts-content rounded-3 p-2 " style="background-color: #0b6e4f">
+                  <h1 class="ts-date mb-n4">Oct</h1>
+                  <h2 class="ts-facts-num"><span class="counterUp" data-count="10">0</span></h2>
+                  <h3 class="ts-facts-title">Regular Registration Deadline</h3>
                 </div>
             </div><!-- Col end -->
   
-            <div class="col-md-3 col-sm-6 ts-facts mt-5 mt-md-0">
+            <div class="col-md-3 col-sm-6 ts-facts mt-5 mt-md-0 ">
                 <div class="ts-facts-img">
                 </div>
-                <div class="ts-facts-content">
+                <div class="ts-facts-content rounded-3 p-2 pb-4" style="background-color: #0b6e4f">
                   <h1 class="ts-date mb-n4">Oct</h1>
                   <h2 class="ts-facts-num"><span class="counterUp" data-count="23">0</span>-<span class="counterUp" data-count="25">0</span></h2>
                   <h3 class="ts-facts-title">ACA 2025 MANILA</h3>

@@ -14,7 +14,7 @@
                 <h1>{{$id}}</h1> --}}
 
                 <div class="mt-4">
-                    <x-label for="first_name" value="{{ __('Username') }}" />
+                    <x-label for="first_name" value="{{ __('Name') }}" />
                     <x-input id="first_name" class="block mt-1 w-full" type="text" name="username"  required autocomplete="username" />
                 </div>
 
@@ -33,7 +33,7 @@
                     <x-input id="password_confirmation" class="block mt-1 w-full" type="password" name="password_confirmation" required autocomplete="new-password" />
                 </div>
 
-                @if (Laravel\Jetstream\Jetstream::hasTermsAndPrivacyPolicyFeature())
+                {{-- @if (Laravel\Jetstream\Jetstream::hasTermsAndPrivacyPolicyFeature())
                     <div class="mt-4">
                         <x-label for="terms">
                             <div class="flex items-center">
@@ -48,7 +48,7 @@
                             </div>
                         </x-label>
                     </div>
-                @endif
+                @endif --}}
 
                 <div class="flex items-center justify-end mt-4">
                     <a class="underline text-sm text-gray-600 hover:text-gray-900 rounded-md focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500" href="{{ route('login') }}">

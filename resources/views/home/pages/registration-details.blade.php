@@ -41,8 +41,8 @@
                             <tr>
                                 <th class="text-left align-middle" scope="col">Registration Type</th>
                                 <th scope="col">Early Bird <br> <span style="font-weight: normal;"><i>(Jan 20 - Apr 30, 2025)</i></span></th>
-                                <th scope="col">Registration Period <br> <span style="font-weight: normal;"><i>(May 01 - Sept 30, 2025)</i></span></th>
-                                <th scope="col">Onsite Registration <br> <span style="font-weight: normal;"><i>(Oct 22 - Oct 25, 2025)</i></span></th>
+                                <th scope="col">Registration Period <br> <span style="font-weight: normal;"><i>(May 01 - Oct 10, 2025)</i></span></th>
+                                <th scope="col">Onsite Registration <br> <span style="font-weight: normal;"><i>(Oct 23 - Oct 25, 2025)</i></span></th>
                             </tr>
                         </thead>
                         <tbody>
@@ -70,8 +70,8 @@
                             <tr>
                                 <th class="text-left align-middle" scope="col">Registration Type</th>
                                 <th scope="col">Early Bird <br> <span style="font-weight: normal;"><i>(Jan 20 - Apr 30, 2025)</i></span></th>
-                                <th scope="col">Registration Period <br> <span style="font-weight: normal;"><i>(May 01 - Sept 30, 2025)</i></span></th>
-                                <th scope="col">Onsite Registration <br> <span style="font-weight: normal;"><i>(Oct 22 - Oct 25, 2025)</i></span></th>
+                                <th scope="col">Registration Period <br> <span style="font-weight: normal;"><i>(May 01 - Oct 10, 2025)</i></span></th>
+                                <th scope="col">Onsite Registration <br> <span style="font-weight: normal;"><i>(Oct 23 - Oct 25, 2025)</i></span></th>
                             </tr>
                         </thead>
                         <tbody>

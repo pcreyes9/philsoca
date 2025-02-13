@@ -499,7 +499,7 @@ a:focus {
 
 .section-sub-title {
   font-weight: 900;
-  font-size: 36px;
+  font-size: 45px;
   line-height: 46px;
   letter-spacing: 2px;
   margin: 0 0 60px;
@@ -1124,7 +1124,7 @@ ul.navbar-nav > li:hover > a,
 ul.navbar-nav > li.active > a {
   
   color: #ac071a !important;
-  font-size: 16px;
+  font-size: 18px;
   position: relative;
 }
 
@@ -1211,7 +1211,7 @@ ul.navbar-nav > li > a {
   font-weight: 700 !important;
   text-transform: uppercase;
   letter-spacing: -.2px;
-  font-size: 14px;
+  font-size: 17px;
   margin: 0;
   line-height: 40px;
   padding: 30px 0;
@@ -1995,8 +1995,15 @@ ul.navbar-nav > li.header-get-a-quote:hover > a:after {
 
 .ts-facts .ts-facts-content .ts-facts-title {
   font-size: 16px;
-  color: #ac071a;
+  color: #fff;
   margin: 0;
+}
+.ts-date{
+  font-weight: 700;
+  font-size: 30px;
+  color: #fff;
+  margin: 0;
+  text-transform: uppercase;
 }
 
 /* Services
@@ -2338,6 +2345,7 @@ ul.navbar-nav > li.header-get-a-quote:hover > a:after {
 
 .general-btn .btn-primary:hover {
   background: #000066;
+  /* blue */
 }
 
 /* Project owl */
@@ -2536,6 +2544,7 @@ ul.navbar-nav > li.header-get-a-quote:hover > a:after {
   top: 0;
   font-weight: 700;
   color: #ffc009;
+  /* yellow */
 }
 
 .testimonial-slide .slick-dots {
@@ -2754,10 +2763,10 @@ img.testimonial-thumb {
   font-weight: 700;
   position: relative;
   margin: 0 0 30px;
-  padding-left: 15px;
+  /* padding-left: 15px; */
   text-transform: uppercase;
   color: #fff;
-  border-left: 3px solid #ac071a;
+  /* border-left: 3px solid #000066; */
 }
 
 /* Footer about us */
@@ -2816,7 +2825,7 @@ img.testimonial-thumb {
 
 .footer-widget ul.list-arrow li:hover a,
 .footer-widget ul.list-arrow li:hover {
-  color: #ac071a;
+  color: #000066;
 }
 
 .working-hours {
@@ -2829,7 +2838,7 @@ img.testimonial-thumb {
 
 /*-- Copyright --*/
 .copyright {
-  background: #ac071a;
+  background: #1649a8;
   color: #ffffff;
   padding: 25px 0;
   position: relative;
@@ -2838,8 +2847,14 @@ img.testimonial-thumb {
   font-size: 12px;
 }
 
+.footer-menu h1{
+  color: #fff200;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 18px;
+}
 
 .footer-menu ul li {
+  font-size: large;
   display: inline-block;
   line-height: 12px;
   padding-left: 15px;

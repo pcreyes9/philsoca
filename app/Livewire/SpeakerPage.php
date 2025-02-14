@@ -17,7 +17,7 @@ class SpeakerPage extends Component
     public $name, $country, $email, $affiliation, $bio, $ext, $phone, $hospiAddress, $affi;
     public $status = "", $opacity = "", $hide = "";
     public $words;
-    public  $photo, $photoName, $photoDisplay, $show;
+    public  $photo, $photoName, $photoDisplay, $show, $updHide;
 
     public function mount()
     {
@@ -73,6 +73,7 @@ class SpeakerPage extends Component
             $this->status = "";
             $this->opacity = "0.5";
             $this->hide = "";
+            $this->updHide = "hidden";
         }
         else{
             $this->name = Auth()->user()->name;
@@ -88,6 +89,7 @@ class SpeakerPage extends Component
             $this->status = "readonly";
             $this->opacity = "0.0";
             $this->hide = "hidden";
+            $this->updHide = "";
         }
     }
 

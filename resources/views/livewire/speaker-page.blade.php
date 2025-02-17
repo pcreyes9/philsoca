@@ -50,7 +50,7 @@
                     <tr>
                         <th class="align-middle">Cellphone/Whatsapp #</th>
                         <td class="text-left" scope="row">
-                            <input {{ $phone }} style="background: rgba(76, 175, 80, {{ $opacity }}); color: black; font-weight: bold; font-size: 15px;" class="form-control form-control-subject" type="email" name="subject" id="subject" wire:model="phone" placeholder="" required>
+                            <input {{ $status }} style="background: rgba(76, 175, 80, {{ $opacity }}); color: black; font-weight: bold; font-size: 15px;" class="form-control form-control-subject" type="email" name="subject" id="subject" wire:model="phone" placeholder="" required>
                         </td>
                     </tr>
                     
@@ -68,7 +68,7 @@
                         </td>
                     </tr>
                     <tr>
-                        <th class="align-middle">Bio <br> <span style="font-weight: normal;"><i>{{ $words }} of 250</i></span> </th>
+                        <th class="align-middle">Autobiography <br> <span style="font-weight: normal;"><i>{{ $words }} of 250</i> <br> (Upload File)</span> <br></th>
                         <td class="text-left" scope="row">
                             <textarea rows="12" {{ $status }} style="background: rgba(76, 175, 80, {{ $opacity }}); color: black; font-weight: bold; font-size: 15px;" class="form-control form-control-subject" type="text" name="subject" id="subject" wire:model.live="bio" placeholder="" required></textarea>
                         </td>
@@ -93,7 +93,7 @@
                 </tbody>
             </table>
             <div>
-                <a href="#" wire:click.prevent="modify" class="btn btn-primary mb-1" style="font-size: 15px">Update Information</a>
+                <a href="#" {{ $updHide }} wire:click.prevent="modify" class="btn btn-primary mb-1" style="font-size: 15px">Update Information</a>
                 <a href="#" {{ $hide }} wire:click.prevent="update" class="btn btn-dark mb-1" style="font-size: 15px">Submit</a>
             </div>
             

@@ -58,7 +58,7 @@
                                         <td><br> Dr. Julie B. Balacuit <br> Dr. Melissa M. Caranto <br> Dr. Emmanuel S. Prudente <br> Dr. Aileen L. Rosales</td>
                                     </tr>
                                     <tr>
-                                        <th scope="row"><strong>Socials Events:</strong> <br> &nbsp &nbsp Chair <br> &nbsp &nbsp Members</th>
+                                        <th scope="row"><strong>Social Events:</strong> <br> &nbsp &nbsp Chair <br> &nbsp &nbsp Members</th>
                                         <td><br> Dr. Carmelita S. Lunas <br> Dr. Arnel M. Asino <br> Dr. Cherynne Inso-De Guzman</td>
                                     </tr>
                                     <tr>
@@ -66,8 +66,8 @@
                                         <td>Dr. Joselito T. Morete</td>
                                     </tr>
                                     <tr>
-                                        <th scope="row"><strong>Souvenir Program: </strong> <br> &nbsp &nbsp Chair <br> &nbsp &nbsp Member</th>
-                                        <td><br> Dr. Jonnel L. Lim <br> Dr. Cristina Mayo Milo</td>
+                                        <th scope="row"><strong>Souvenir Program: </strong></th>
+                                        <td>Dr. Jonnel L. Lim <br> Dr. Cristina Mayo Milo</td>
                                     </tr>
                                     <tr>
                                         <th scope="row"><strong>Advisory Board: </strong></th>

@@ -31,7 +31,7 @@
                     <span class="text-sm text-gray-600 ms-2">{{ __('Remember me') }}</span>
                 </label>
             </div>
-            <x-button class="place-content-center  w-full mt-4">
+            <x-button class="place-content-center w-full mt-4">
                 {{ __('LOG IN') }}
             </x-button>
             <p class="text-lg place-content-center mt-4 text-center">Don't have an account? Please sign up now!</p>

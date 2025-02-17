@@ -14,7 +14,7 @@
                 <h1>{{$id}}</h1> --}}
 
                 <div class="mt-4">
-                    <x-label for="first_name" value="{{ __('Name') }}" />
+                    <x-label for="first_name" value="{{ __('Full Name') }}" />
                     <x-input id="first_name" class="block mt-1 w-full" type="text" name="username"  required autocomplete="username" />
                 </div>
 

@@ -137,6 +137,13 @@ class SpeakerPage extends Component
 
     public function render()
     {
+        if($this->country == ""){
+            $this->status = "";
+            $this->opacity = "0.5";
+            $this->hide = "";
+            $this->updHide = "hidden";
+
+        }
 
         $this->bio = Str::words($this->bio, 250, '');
         $this->words = Str::of($this->bio )->wordCount();

@@ -93,8 +93,14 @@ class SpeakerPage extends Component
         }
     }
 
-    public function photoUpd(){
-        // dd("photo update");
+    public function moveFile($move){
+        $currentPath = 'public/storage/photos/speakersIMG/' . $move;
+        $newPath = 'public/storage/' . $move;
+        dd(Storage::exists($currentPath));
+        if (Storage::exists($currentPath)) {
+            Storage::move($currentPath, $newPath);
+            dd("moved");
+        }
     }
 
     public function update(){
@@ -108,14 +114,16 @@ class SpeakerPage extends Component
         if($this->photo != null){
             $ext = $this->photo->extension();
             $photoName = $this->name . ' '.$this->country .' ' . Carbon::now()->format('mdy') . '.' . $this->photo->extension();
-            $this->photo->storeAs('photos/speakersIMG', $photoName);
-
+            $this->photo->storeAs('/', $photoName);            
+            
             // $path = Storage::put('public/storage/'.  $photoName, $this->photo);
             // Storage::put($path, $this->photo);
         
             User::where('id', Auth()->user()->id)->update([
                 'photo' => $photoName
             ]);
+
+            // $this->moveFile($photoName);
             return redirect(request()->header('Referer'));
 
         }
@@ -145,7 +153,7 @@ class SpeakerPage extends Component
 
         }
 
-        $this->bio = Str::words($this->bio, 250, '');
+        $this->bio = Str::words($this->bio, 270, '');
         $this->words = Str::of($this->bio )->wordCount();
 
         return view('livewire.speaker-page');

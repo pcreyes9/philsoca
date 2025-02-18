@@ -20,7 +20,7 @@
                 </div>
                 <div class="ts-facts-content rounded-3 p-2" style="background-color: #0b6e4f">
                   <h1 class="ts-date mb-n4">Jan</h1>
-                  <h2 class="ts-facts-num"><span class="counterUp" data-count="20">0</span></h2>
+                  <h2 class="ts-facts-num"><span class="counterUp" data-count="20">20</span></h2>
                   <h3 class="ts-facts-title" style="color: #fff">Early Bird Registration Open</h3>
                 </div>
             </div><!-- Col end -->
@@ -30,7 +30,7 @@
                 </div>
                 <div class="ts-facts-content rounded-3 p-2" style="background-color: #0b6e4f">
                   <h1 class="ts-date mb-n4">Apr</h1>
-                  <h2 class="ts-facts-num"><span class="counterUp" data-count="30">0</span></h2>
+                  <h2 class="ts-facts-num"><span class="counterUp" data-count="30">30</span></h2>
                   <h3 class="ts-facts-title">Early Bird Registration Deadline</h3>
                 </div>
             </div><!-- Col end -->
@@ -40,7 +40,7 @@
                 </div>
                 <div class="ts-facts-content rounded-3 p-2 " style="background-color: #0b6e4f">
                   <h1 class="ts-date mb-n4">Oct</h1>
-                  <h2 class="ts-facts-num"><span class="counterUp" data-count="10">0</span></h2>
+                  <h2 class="ts-facts-num"><span class="counterUp" data-count="10">10</span></h2>
                   <h3 class="ts-facts-title">Regular Registration Deadline</h3>
                 </div>
             </div><!-- Col end -->
@@ -50,7 +50,7 @@
                 </div>
                 <div class="ts-facts-content rounded-3 p-2 pb-4" style="background-color: #0b6e4f">
                   <h1 class="ts-date mb-n4">Oct</h1>
-                  <h2 class="ts-facts-num"><span class="counterUp" data-count="23">0</span>-<span class="counterUp" data-count="25">0</span></h2>
+                  <h2 class="ts-facts-num"><span class="counterUp" data-count="23">23</span>-<span class="counterUp" data-count="25">25</span></h2>
                   <h3 class="ts-facts-title">ACA 2025 MANILA</h3>
                 </div>
             </div><!-- Col end -->

@@ -43,6 +43,10 @@
                                         {{-- <td>Dr. Edgard M. Simon</td> --}}
                                     </tr>
                                     <tr>
+                                        <th scope="row"><strong>Suneel Desai, MD -  Singapore</strong></th>
+                                        {{-- <td>Dr. Edgard M. Simon</td> --}}
+                                    </tr>
+                                    <tr>
                                         <th scope="row"><strong>Nabil Elkassabany, MD -  USA</strong></th>
                                         {{-- <td>Dr. Francis B. Mayuga</td> --}}
                                     </tr>
@@ -115,6 +119,10 @@
                                         {{-- <td>Dr. Joselito T. Morete</td> --}}
                                     </tr>
                                     <tr>
+                                        <th scope="row"><strong>Suresh Paranjothy, MD - Singapore</strong></th>
+                                        {{-- <td><br> Dr. Jonnel L. Lim <br> Dr. Cristina Mayo Milo</td> --}}
+                                    </tr>
+                                    <tr>
                                         <th scope="row"><strong>Jeffrey Pasternak, MD - USA</strong></th>
                                         {{-- <td><br> Dr. Jonnel L. Lim <br> Dr. Cristina Mayo Milo</td> --}}
                                     </tr>
@@ -148,6 +156,10 @@
                                     </tr>
                                     <tr>
                                         <th scope="row"><strong>Samuel Ern Hung Tsan, MD - Malaysia</strong></th>
+                                        {{-- <td><br> Dr. Jonnel L. Lim <br> Dr. Cristina Mayo Milo</td> --}}
+                                    </tr>
+                                    <tr>
+                                        <th scope="row"><strong>Hugo Vereecke, MD - Netherlands</strong></th>
                                         {{-- <td><br> Dr. Jonnel L. Lim <br> Dr. Cristina Mayo Milo</td> --}}
                                     </tr>
                                     <tr>

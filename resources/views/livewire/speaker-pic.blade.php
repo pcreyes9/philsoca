@@ -8,10 +8,10 @@
           <div class="project-img-container">
             <a class="gallery-popup" >
               @if ($speakers->photo == null || $speakers->photo == "")
-              <img loading="lazy" style="width: 100%;" class="logo img-fluid align-middle mt-3 align-middle" src="images/speaker_placeholder.png" alt="Image is still in process.">
-            @else
-              <img loading="lazy" style="width: 100%;" class="logo img-fluid align-middle mt-3 align-middle" src='storage/resized/{{ $speakers->photo }} ' alt="Image is still in process.">
-            @endif
+                <img loading="lazy" style="width: 100%;" class="logo img-fluid align-middle mt-3 align-middle" src="images/speaker_placeholder.png" alt="Image is still in process.">
+              @else
+                <img onerror="this.src='{{ asset('storage/speaker_placeholder.png') }}';" loading="lazy" style="width: 100%;" class="logo img-fluid align-middle mt-3 align-middle" src='storage/resized/{{ $speakers->photo }} ' alt="Image is still in process.">
+              @endif
             </a>
           </div>
           <div style="background: #f2de02; width: 100%;" class="py-1">
@@ -48,7 +48,7 @@
             @if ($photoModal == null || $photoModal == "")
               <img loading="lazy" style="width: 100%;" class="logo img-fluid align-middle mt-3 align-middle" src="images/speaker_placeholder.png" alt="Image is still in process.">
             @else
-              <img loading="lazy" style="width: 100%;" class="logo img-fluid align-middle mt-3 align-middle" src='storage/resized/{{ $photoModal }} ' alt="Image is still in process.">
+              <img onerror="this.src='{{ asset('storage/speaker_placeholder.png') }}';" loading="lazy" style="width: 100%;" class="logo img-fluid align-middle mt-3 align-middle" src='storage/resized/{{ $photoModal }} ' alt="Image is still in process.">
             @endif
           </div>
           <div class="col-md-8 ">

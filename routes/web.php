@@ -68,7 +68,7 @@ Route::get('/organizing-committee', function () {
 // })->name('orgCom');
 
 Route::get('/speakers', function () {
-    return view('home/pages/speakers');
+    return view('home/pages/speakersPic');
 })->name('speakers');
 
 Route::get('/contact', function () {

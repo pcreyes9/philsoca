@@ -50,7 +50,7 @@
                     <tr>
                         <th class="align-middle">Cellphone/Whatsapp #</th>
                         <td class="text-left" scope="row">
-                            <input {{ $status }} style="background: rgba(76, 175, 80, {{ $opacity }}); color: black; font-weight: bold; font-size: 15px;" class="form-control form-control-subject" type="email" name="subject" id="subject" wire:model="phone" placeholder="" required>
+                            <input {{ $status }} style="background: rgba(76, 175, 80, {{ $opacity }}); color: black; font-weight: bold; font-size: 15px;" class="form-control form-control-subject" type="text" name="subject" id="subject" wire:model="phone" placeholder="" required>
                         </td>
                     </tr>
                     

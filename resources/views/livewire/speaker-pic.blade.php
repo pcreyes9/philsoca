@@ -8,10 +8,10 @@
           <div class="project-img-container">
             <a class="gallery-popup" >
               @if ($speakers->photo == null || $speakers->photo == "")
-                <img loading="lazy" style="width: 100%;" class="logo img-fluid align-middle mt-3 align-middle" src="images/speaker_placeholder.png" alt="Image is still in process.">
-              @else
-                <img onerror="this.src='{{ asset('storage/speaker_placeholder.png') }}';" loading="lazy" style="width: 100%;" class="logo img-fluid align-middle mt-3 align-middle" src='storage/resized/{{ $speakers->photo }} ' alt="Image is still in process.">
-              @endif
+              <img loading="lazy" style="width: 100%;" class="logo img-fluid align-middle mt-3 align-middle" src="images/speaker_placeholder.png" alt="Image is still in process.">
+            @else
+              <img onerror="this.src='{{ asset('storage/speaker_placeholder.png') }}';" loading="lazy" style="width: 100%;" class="logo img-fluid align-middle mt-3 align-middle" src='storage/resized/{{ $speakers->photo }} ' alt="Image is still in process.">
+            @endif
             </a>
           </div>
           <div style="background: #f2de02; width: 100%;" class="py-1">
@@ -51,7 +51,7 @@
               <img onerror="this.src='{{ asset('storage/speaker_placeholder.png') }}';" loading="lazy" style="width: 100%;" class="logo img-fluid align-middle mt-3 align-middle" src='storage/resized/{{ $photoModal }} ' alt="Image is still in process.">
             @endif
           </div>
-          <div class="col-md-8 ">
+          <div class="col-md-10">
             <div class="mb-5">
               <h1 class="mb-n4 font-weight-bold" style="font-size: 23px">{{ $nameModal }}</h1>
               <h1 class="mb-n4 mt-2">{{ $affiModal }}</h1>
@@ -60,7 +60,7 @@
           </div>
         </div>
         
-        <textarea class="text-justify" style="width: 100%; resize: none; background-color: white" rows="10" disabled>{{ $bioModal }}</textarea>
+        <textarea class="text-justify" style="width: 100%; resize: none; background-color: white" rows="17" disabled>{{ $bioModal }}</textarea>
         
       </div>
       <script>

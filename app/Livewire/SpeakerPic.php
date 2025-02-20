@@ -21,7 +21,9 @@ class SpeakerPic extends Component
     }
     public function render()
     {
-        $speaker = User::where('userType', 'speaker')->orderBy('name')->get();
+        // $results = User::selectRaw('SUBSTRING_INDEX(name, " ", -1) as last_word')->get();
+        // dd($results->toArray());
+        $speaker = User::where('userType', 'speaker')->orderByRaw('SUBSTRING_INDEX(name, " ", -1) ASC')->get();
         // dd($speaker->toArray());
         return view('livewire.speaker-pic', ['speaker' => $speaker]);
     }

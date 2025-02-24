@@ -34,6 +34,10 @@ Description: Constra - Construction Html5 Template
   }
 } */
 
+.speak-con{
+  margin: 20px, 50px, 20px, 50px;
+}
+
 hr.solid {
   border-top: 3px solid #f2de02;
 }
@@ -887,7 +891,7 @@ ul.top-info li p.info-text {
 .header-one,
 .header-one .site-navigation {
   background: #f2de02;
-  z-index: 1100;
+  z-index: 2;
 
 }
 

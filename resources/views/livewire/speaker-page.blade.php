@@ -68,13 +68,13 @@
                         </td>
                     </tr>
                     <tr>
-                        <th class="align-middle">Autobiography <br> <span style="font-weight: normal;"><i>{{ $words }} of 270</i> <br> (Upload File)</span> <br></th>
+                        <th class="align-middle">Autobiography <br> <span style="font-weight: normal;"><i>{{ $words }} of 270</i> <br> (Upload File)</span></th>
                         <td class="text-left" scope="row">
                             <textarea rows="12" {{ $status }} style="background: rgba(76, 175, 80, {{ $opacity }}); color: black; font-weight: bold; font-size: 15px;" class="form-control form-control-subject" type="text" name="subject" id="subject" wire:model.live="bio" placeholder="" required></textarea>
                         </td>
                     </tr>
                     <tr>
-                        <th class="align-middle">Photo</th>
+                        <th class="align-middle">Photo <br> <span style="font-weight: normal;"><i>jpeg or png file only</i></span></th>
                         <td class="align-middle" scope="row">
                             <input {{ $hide }} {{ $status }} style="background: rgba(76, 175, 80, {{ $opacity }}); color: black; font-weight: bold; font-size: 15px; padding-top: 10px" class="form-control form-control-subject align-middle w-50" type="file" wire:model="photo"  required>
                             {{-- {{ $photo }} --}}

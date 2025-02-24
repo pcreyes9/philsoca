@@ -104,7 +104,7 @@ class SpeakerPage extends Component
     }
 
     public function update(){
-        
+
         // dd("asd");
         $this->status = "readonly";
         $this->opacity = "0.0";
@@ -120,6 +120,13 @@ class SpeakerPage extends Component
             // Storage::put($path, $this->photo);
         
             User::where('id', Auth()->user()->id)->update([
+                'name' => $this->name,
+                'country' => $this->country,
+                'email' => $this->email,
+                'contact_number' => $this->phone,
+                'affiliation' => $this->affiliation,
+                'hospiAddress' => $this->hospiAddress,
+                'bio' => $this->bio,
                 'photo' => $photoName
             ]);
 
@@ -127,19 +134,20 @@ class SpeakerPage extends Component
             return redirect(request()->header('Referer'));
 
         }
-
-        // dd(Auth()->user()->id);
-        User::where('id', Auth()->user()->id)->update([
-            'name' => $this->name,
-            'country' => $this->country,
-            'email' => $this->email,
-            'contact_number' => $this->phone,
-            'affiliation' => $this->affiliation,
-            'hospiAddress' => $this->hospiAddress,
-            'bio' => $this->bio,
-            // 'photo' => $photoName
-        ]);
-        return redirect(request()->header('Referer'));
+        else{
+            // dd(Auth()->user()->id);
+            User::where('id', Auth()->user()->id)->update([
+                'name' => $this->name,
+                'country' => $this->country,
+                'email' => $this->email,
+                'contact_number' => $this->phone,
+                'affiliation' => $this->affiliation,
+                'hospiAddress' => $this->hospiAddress,
+                'bio' => $this->bio,
+                // 'photo' => $photoName
+            ]);
+            return redirect(request()->header('Referer'));
+        }
     }
 
 

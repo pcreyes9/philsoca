@@ -1,23 +1,36 @@
-<div class="container">
-  <div class="row">
-    <div class="col-12">
-      <div class="row shuffle-wrapper">
+<div class="container-fluid px-5">
+  <div class="row px-lg-5 px-md-5">
+    <div class="col-12 px-lg-5">
+      <div class="row px-lg-5">
 
       @foreach ($speaker as $speakers)
-        <div class="col-lg-3 col-md-6 shuffle-item mb-4 px-2" data-bs-toggle="modal" data-bs-target="#exampleModalCenter" wire:click="modalShow('{{ $speakers->name }}')">
-          <div class="project-img-container">
+        <div class="col-sm-6 col-md-6 col-xl-3 shuffle-item mb-4 px-3 " data-toggle="modal" data-target="#exampleModalCenter" wire:click="modalShow('{{ $speakers->name }}')">
+          <div class="project-img-container" style="position: relative;">
             <a class="gallery-popup" >
               @if ($speakers->photo == null || $speakers->photo == "")
-              <img loading="lazy" style="width: 100%;" class="logo img-fluid align-middle mt-3 align-middle" src="images/speaker_placeholder.png" alt="Image is still in process.">
-            @else
-              <img onerror="this.src='{{ asset('storage/speaker_placeholder.png') }}';" loading="lazy" style="width: 100%;" class="logo img-fluid align-middle mt-3 align-middle" src='storage/resized/{{ $speakers->photo }} ' alt="Image is still in process.">
-            @endif
+                <img onerror="this.src='{{ asset('storage/speaker_placeholder.png') }}';" style="width: 100%;" class="align-middle mt-3 align-middle" src="images/speaker_placeholder.png" alt="Image is still in process.">
+              @else
+                <img onerror="this.src='{{ asset('storage/speaker_placeholder.png') }}';" style="width: 100%;" class="align-middle mt-3 align-middle" src='storage/resized/{{ $speakers->photo }} ' alt="Image is still in process.">
+              @endif
             </a>
+            <div style="background: rgba(73, 73, 73, 0.6); width: 100%; position: absolute;
+                        top: 95%; 
+                        left: 50%; 
+                        transform: translate(-50%, -70%); 
+                        color: #fff; 
+                        padding: 10px 20px;   
+                        font-size: 20px; 
+                        text-align: left;">
+                
+                  <div class="mb-2">
+                    <h3 class="ts-name" style="font-size: 17px;  font-weight: 600; color: white; text-transform: capitalize;">{{ $speakers->name }}</h3>
+                    <h3 class="ts-name" style="font-size: 14px;  font-weight: 500;  color: white; text-transform: capitalize;">{{ $speakers->affiliation }}</h3>
+                  </div>
+                 
+              {{-- <h3 class="ts-name" style="font-size: 15px;">{{ $speakers->affiliation }}</h3> --}}
+            </div>
           </div>
-          <div style="background: #f2de02; width: 100%;" class="py-1">
-            <h3 class="ts-name" style="font-size: 15px;">{{ $speakers->name }}</h3>
-            {{-- <h3 class="ts-name" style="font-size: 15px;">{{ $speakers->affiliation }}</h3> --}}
-          </div>
+          
         </div><!-- shuffle item 1 end -->
         
         @endforeach
@@ -31,36 +44,36 @@
 </button> --}}
 
 <!-- Modal -->
-<div wire:ignore.self class="modal fade bd-example-modal-lg" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+<div wire:ignore.self class="modal fade bd-example-modal-lg" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true" class="z-3">
   <div class="modal-dialog modal-lg" role="document">
     <div class="modal-content">
       <div class="modal-header " style="background-color: #ac071a">
         <h5 class="modal-title font-weight-bold" id="exampleModalLongTitle" style="color: #fff">Speaker Information</h5><br>
 
-        {{-- <button type="button" class="close" data-dismiss="modal" aria-label="Close" >
+        <button type="button" class="close" style="color: white; opacity: 1;" data-dismiss="modal" aria-label="Close" >
           <span aria-hidden="true">&times;</span>
-        </button> --}}
+        </button>
       </div>
       <div class="modal-body text-left mx-3">
 
         <div class="row mb-4">
           <div class="col-md-2">
             @if ($photoModal == null || $photoModal == "")
-              <img loading="lazy" style="width: 100%;" class="logo img-fluid align-middle mt-3 align-middle" src="images/speaker_placeholder.png" alt="Image is still in process.">
-            @else
-              <img onerror="this.src='{{ asset('storage/speaker_placeholder.png') }}';" loading="lazy" style="width: 100%;" class="logo img-fluid align-middle mt-3 align-middle" src='storage/resized/{{ $photoModal }} ' alt="Image is still in process.">
+              <img onerror="this.src='{{ asset('storage/speaker_placeholder.png') }}';" style="width: 100%;" class="fixed-size-img align-middle mt-3 align-middle" src="images/speaker_placeholder.png" alt="Image is still in process.">
+            @else 
+              <img onerror="this.src='{{ asset('storage/speaker_placeholder.png') }}';" style="width: 100%;" class="fixed-size-img align-middle mt-3 align-middle" src='storage/resized/{{ $photoModal }} ' alt="Image is still in process.">
             @endif
           </div>
           <div class="col-md-10">
             <div class="mb-5">
-              <h1 class="mb-n4 font-weight-bold" style="font-size: 23px">{{ $nameModal }}</h1>
-              <h1 class="mb-n4 mt-2">{{ $affiModal }}</h1>
-              <h1 >{{ $countryModal }}</h1>
+              <h1 class="mb-n4 font-weight-bold" style="font-size: 24px">{{ $nameModal }}</h1>
+              <h1 class="mb-n4 mt-2" style="font-size: 20px">{{ $affiModal }}</h1>
+              <h1 style="font-size: 20px">{{ $countryModal }}</h1>
             </div>
           </div>
         </div>
         
-        <textarea class="text-justify" style="width: 100%; resize: none; background-color: white" rows="17" disabled>{{ $bioModal }}</textarea>
+        <textarea class="text-left" style="font-size: 20px; width: 100%; resize: none; background-color: white" rows="17" disabled>{{ $bioModal }}</textarea>
         
       </div>
       <script>

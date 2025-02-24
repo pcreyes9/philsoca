@@ -66,14 +66,14 @@
           </div>
           <div class="col-md-10">
             <div class="mb-5">
-              <h1 class="mb-n4 font-weight-bold" style="font-size: 23px">{{ $nameModal }}</h1>
-              <h1 class="mb-n4 mt-2" style="font-size: 19px">{{ $affiModal }}</h1>
-              <h1 style="font-size: 19px">{{ $countryModal }}</h1>
+              <h1 class="mb-n4 font-weight-bold" style="font-size: 24px">{{ $nameModal }}</h1>
+              <h1 class="mb-n4 mt-2" style="font-size: 20px">{{ $affiModal }}</h1>
+              <h1 style="font-size: 20px">{{ $countryModal }}</h1>
             </div>
           </div>
         </div>
         
-        <textarea class="text-left" style="font-size: 19px; width: 100%; resize: none; background-color: white" rows="17" disabled>{{ $bioModal }}</textarea>
+        <textarea class="text-left" style="font-size: 20px; width: 100%; resize: none; background-color: white" rows="17" disabled>{{ $bioModal }}</textarea>
         
       </div>
       <script>

@@ -115,6 +115,7 @@
                         </a>
                     </div>
                 </div>
+                <h3 class="py-2 text-left" style="font-weight: 700; font-size: 25px; text-transform: none">For bookings, get in touch with the PSA Meet and Greet for the Reduced Conference Room Rates <br> <br><span style="font-style: italic; font-size: 20px;">Email Address: aca2025hotelreservations@gmail.com</span></h3>
             </div>
         </div>
     </section>

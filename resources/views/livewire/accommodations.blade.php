@@ -10,6 +10,8 @@
             </div> --}}
             <div class="container ">
                 <div class="row justify-content-center ">
+
+                    <h1 class="section-sub-title text-center">Accredited Hotels</h1>
                     <div class="col-sm-5 text-left py-4">
                         <h3 class="hotel-title pb-2" style="fonnt-size 10px !important">Manila Marriott Hotel <span style="font-size: 20px; font-style: italic;">(Conference hotel)</span></h3>
                         

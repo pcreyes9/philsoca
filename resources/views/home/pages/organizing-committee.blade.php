@@ -38,7 +38,7 @@
                                     </tr>
                                     <tr>
                                         <th scope="row"><strong>Finance: </strong></th>
-                                        <td>Dr. Carmelita S. Lunas <br> Dr. Zenaida M. Mariano</td>
+                                        <td>Dr. Carmelita S. Lunas </td>
                                     </tr>
                                     <tr>
                                         <th scope="row"><strong>Ways & Means: </strong></th>

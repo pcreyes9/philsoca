@@ -198,17 +198,7 @@ p {
   line-height: 26px;
   font-size: 15px;
 }
-.hotel-p {
-  font-family: "Open Sans", sans-serif;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased !important;
-  line-height: 26px;
-  font-size: 19px;
-  text-align: left;
-  letter-spacing: 1px;
-  /* font-weight: 700; */
-  /* color: black; */
-}
+
 
 .para-head{
   font-family: "Open Sans", sans-serif;
@@ -322,7 +312,7 @@ a {
 
 a:hover {
   text-decoration: none;
-  color: #f2de02;
+  color: #ac071a;
 }
 
 a.read-more {
@@ -510,8 +500,30 @@ a:focus {
   color: #212121;
 }
 
+.hotel-title {
+  font-weight: 900;
+  font-size: 30px;
+  /* line-height: px; */
+  /* letter-spacing: 2px; */
+  /* margin: 0 0 60px; */
+  color: #212121;
+}
+
+.hotel-p {
+  font-family: "Open Sans", sans-serif;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased !important;
+  line-height: 30px;
+  font-size: 20px;
+  text-align: left;
+  letter-spacing: 1px;
+  /* font-weight: 700; */
+  /* color: black; */
+}
+
 @media (max-width: 575px) {
-  .section-sub-title, .orgcom-title{
+  /* .section-sub-title, */
+   .orgcom-title{
     font-size: 28px;
   }
 }

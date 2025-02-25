@@ -10,10 +10,17 @@
             </div> --}}
             <div class="container ">
                 <div class="row justify-content-center ">
-                    <div class="col-sm-5 text-left ">
-                        <h3>Executive Suite Amenities</h3>
+                    <div class="col-sm-5 text-left py-4">
+                        <h3 class="hotel-title pb-2" style="fonnt-size 10px !important">Manila Marriott Hotel <span style="font-size: 20px; font-style: italic;">(Conference hotel)</span></h3>
                         
-                        <p class="hotel-p" >By staying in one of our executive suites, you can enjoy exclusive additional amenities at no extra cost. Some things to look forward to include Executive Lounge access 7-days a week, added privacy with an exclusive access floor, complimentary breakfasts, afternoon tea, hors d'oeuvres, and desserts daily, free access to our business services, and complimentary garment pressing for 2 items during your stay with us.
+                        <p class="hotel-p" >
+                            <strong>Address: </strong>2 Resorts Drive, Newport World Resorts, NCR - Fourth District, Barangay 183, Pasay City
+                            Metro Manila, Philippines, 1309
+                            {{-- <br><strong>Tel: </strong>+6 328-988-9999
+                            <br><strong>Email: </strong>mnlmarriotthotel@gmail.com --}}
+                            <br><strong>Inclusion: </strong>Breakfast
+                            <br>
+                            <br><a target="_blank" href="https://www.marriott.com/en-us/hotels/mnlap-manila-marriott-hotel/overview/"><strong style=" text-decoration: underline;">Click here to visit website</strong> </a>
                         </p>
                     </div>
                     
@@ -24,18 +31,88 @@
                     </div>
                     
                 </div>
-                <div class="row justify-content-center mt-5 pt-5">
 
+                <div class="row justify-content-center my-5">
+                    <div class="col-sm-5 text-left py-4">
+                        <h3 class="hotel-title pb-2" style="fonnt-size 10px !important">Belmont Hotel Manila <span style="font-size: 20px; font-style: italic;">(Conference hotel)</span></h3>
+                        
+                        <p class="hotel-p" >
+                            <strong>Address: </strong>Newport Boulevard, Newport City Pasay City 1309, Metro Manila, Philippines
+                            {{-- <br><strong>Tel: </strong>02 5318 8888
+                            <br><strong>Email: </strong>info@belmontmanila.com --}}
+                            <br><strong>Inclusion: </strong>Breakfast
+                            <br>
+                            <br><a target="_blank" href="https://www.belmonthotelmanila.com/"><strong style=" text-decoration: underline;">Click here to visit website</strong> </a>
+                        </p>
+                    </div>
+                    
                     <div class="col-sm-7  text-sm-center">
-                        <a class="gallery-popup" href="images/Manila Marriott Hotel.jpg">
-                            <img loading="lazy" class="img-fluid w-100 rounded imgSlide" src="images/Manila Marriott Hotel.jpg" alt="img">
+                        <a class="gallery-popup" href="images/BelmontHotel.jpg">
+                            <img loading="lazy" class="img-fluid w-100 rounded imgSlide" src="images/BelmontHotel.jpg" alt="img">
                         </a>
                     </div>
-                    <div class="col-sm-5 text-left mt-sm-0 mt-3">
-                        <h3>Executive Suite Amenities</h3>
+                </div>
+
+                <div class="row justify-content-center my-5">
+                    <div class="col-sm-5 text-left py-4">
+                        <h3 class="hotel-title pb-2" style="fonnt-size 10px !important">Hilton Manila </h3>
                         
-                        <p class="hotel-p" >By staying in one of our executive suites, you can enjoy exclusive additional amenities at no extra cost. Some things to look forward to include Executive Lounge access 7-days a week, added privacy with an exclusive access floor, complimentary breakfasts, afternoon tea, hors d'oeuvres, and desserts daily, free access to our business services, and complimentary garment pressing for 2 items during your stay with us.
+                        <p class="hotel-p" >
+                            <strong>Address: </strong>1 Newport Blvd, Pasay, 1309 Metro Manila
+                            {{-- <br><strong>Tel: </strong>02 5318 8888
+                            <br><strong>Email: </strong>info@belmontmanila.com --}}
+                            <br><strong>Travel Time: </strong>5 minutes walk
+                            <br>
+                            <br><a target="_blank" href="https://www.hilton.com/en/hotels/mnlphhi-hilton-manila//"><strong style=" text-decoration: underline;">Click here to visit website</strong> </a>
                         </p>
+                    </div>
+                    
+                    <div class="col-sm-7  text-sm-center">
+                        <a class="gallery-popup" href="images/hiltonhotel.jpg">
+                            <img loading="lazy" class="img-fluid w-100 rounded imgSlide" src="images/hiltonhotel.jpg" alt="img">
+                        </a>
+                    </div>
+                </div>
+
+                <div class="row justify-content-center my-5">
+                    <div class="col-sm-5 text-left py-4">
+                        <h3 class="hotel-title pb-2" style="fonnt-size 10px !important">Holiday Inn Express Manila </h3>
+                        
+                        <p class="hotel-p" >
+                            <strong>Address: </strong>1 Jasmine Dr, Pasay, 1309 Metro Manila
+                            {{-- <br><strong>Tel: </strong>02 5318 8888
+                            <br><strong>Email: </strong>info@belmontmanila.com --}}
+                            <br><strong>Travel Time: </strong>12 minutes walk
+                            <br>
+                            <br><a target="_blank" href="https://www.ihg.com/holidayinnexpress/hotels/us/en/pasay/mnlrm/hoteldetail"><strong style=" text-decoration: underline;">Click here to visit website</strong> </a>
+                        </p>
+                    </div>
+                    
+                    <div class="col-sm-7  text-sm-center">
+                        <a class="gallery-popup" href="images/HolidayHotel.jpg">
+                            <img loading="lazy" class="img-fluid w-100 rounded imgSlide" src="images/HolidayHotel.jpg" alt="img">
+                        </a>
+                    </div>
+                </div>
+
+                <div class="row justify-content-center my-5">
+                    <div class="col-sm-5 text-left py-4">
+                        <h3 class="hotel-title pb-2" style="fonnt-size 10px !important">SAVOY HOTEL MANILA </h3>
+                        
+                        <p class="hotel-p" >
+                            <strong>Address: </strong>101 Andrews Avenue, Newport City, Pasay City 1300, Metro Manila, Philippines
+                            {{-- <br><strong>Tel: </strong>02 5318 8888
+                            <br><strong>Email: </strong>info@belmontmanila.com --}}
+                            <br><strong>Travel Time: </strong>12 minutes walk
+                            <br>
+                            <br><a target="_blank" href="https://www.savoyhotelmanila.com.ph/en"><strong style=" text-decoration: underline;">Click here to visit website</strong> </a>
+                        </p>
+                    </div>
+                    
+                    <div class="col-sm-7  text-sm-center">
+                        <a class="gallery-popup" href="images/SavoyHotel.jpg">
+                            <img loading="lazy" class="img-fluid w-100 rounded imgSlide" src="images/SavoyHotel.jpg" alt="img">
+                        </a>
                     </div>
                 </div>
             </div>

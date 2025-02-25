@@ -80,9 +80,9 @@ Route::get('/contact', function () {
 // })->name('abstract');
 
 
-// Route::get('/accommodations', function () {
-//     return view('home/pages/accommodations');
-// })->name('accommodations');
+Route::get('/accommodations', function () {
+    return view('home/pages/accommodations');
+})->name('accommodations');
 
 Route::get('/registration', function () {
     return view('home/pages/registration-details');

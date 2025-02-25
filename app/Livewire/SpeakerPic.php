@@ -23,7 +23,7 @@ class SpeakerPic extends Component
     {
         // $results = User::selectRaw('SUBSTRING_INDEX(name, " ", -1) as last_word')->get();
         // dd($results->toArray());
-        $speaker = User::where('userType', 'speaker')->orderBy('profile_photo_path', 'ASC')->orderByRaw('SUBSTRING_INDEX(name, " ", -1) ASC')->get();
+        $speaker = User::where('userType', 'speaker')->orderBy('profile_photo_path')->orderByRaw('SUBSTRING_INDEX(name, " ", -1) ASC')->get();
         // dd($speaker->toArray());
         return view('livewire.speaker-pic', ['speaker' => $speaker]);
     }

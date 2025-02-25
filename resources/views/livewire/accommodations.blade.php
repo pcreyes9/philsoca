@@ -20,7 +20,7 @@
                             <br><strong>Email: </strong>mnlmarriotthotel@gmail.com --}}
                             <br><strong>Inclusion: </strong>Breakfast
                             <br>
-                            <br><a target="_blank" href="https://www.marriott.com/en-us/hotels/mnlap-manila-marriott-hotel/overview/"><strong style=" text-decoration: underline;">Click here to visit website</strong> </a>
+                            {{-- <br><a target="_blank" href="https://www.marriott.com/en-us/hotels/mnlap-manila-marriott-hotel/overview/"><strong style=" text-decoration: underline;">Click here to visit website</strong> </a> --}}
                         </p>
                     </div>
                     
@@ -42,7 +42,6 @@
                             <br><strong>Email: </strong>info@belmontmanila.com --}}
                             <br><strong>Inclusion: </strong>Breakfast
                             <br>
-                            <br><a target="_blank" href="https://www.belmonthotelmanila.com/"><strong style=" text-decoration: underline;">Click here to visit website</strong> </a>
                         </p>
                     </div>
                     
@@ -63,7 +62,6 @@
                             <br><strong>Email: </strong>info@belmontmanila.com --}}
                             <br><strong>Travel Time: </strong>5 minutes walk
                             <br>
-                            <br><a target="_blank" href="https://www.hilton.com/en/hotels/mnlphhi-hilton-manila//"><strong style=" text-decoration: underline;">Click here to visit website</strong> </a>
                         </p>
                     </div>
                     
@@ -84,7 +82,6 @@
                             <br><strong>Email: </strong>info@belmontmanila.com --}}
                             <br><strong>Travel Time: </strong>12 minutes walk
                             <br>
-                            <br><a target="_blank" href="https://www.ihg.com/holidayinnexpress/hotels/us/en/pasay/mnlrm/hoteldetail"><strong style=" text-decoration: underline;">Click here to visit website</strong> </a>
                         </p>
                     </div>
                     
@@ -105,7 +102,6 @@
                             <br><strong>Email: </strong>info@belmontmanila.com --}}
                             <br><strong>Travel Time: </strong>12 minutes walk
                             <br>
-                            <br><a target="_blank" href="https://www.savoyhotelmanila.com.ph/en"><strong style=" text-decoration: underline;">Click here to visit website</strong> </a>
                         </p>
                     </div>
                     

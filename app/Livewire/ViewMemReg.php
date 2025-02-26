@@ -9,6 +9,11 @@ use App\Models\Registration;
 use Livewire\WithPagination;
 use Barryvdh\DomPDF\Facade\Pdf;
 use Illuminate\Support\Facades\DB;
+use App\Mail\ApprovedEmail;
+
+use Illuminate\Support\Facades\Storage;
+use Illuminate\Support\Facades\Mail;
+
 
 
 class ViewMemReg extends Component
@@ -94,5 +99,28 @@ class ViewMemReg extends Component
     public function recoverReg($id){
         Registration::where('psa_id', $id)->update(['status' => 'Pending']);
         return redirect(request()->header('Referer'));
+    }
+
+    public function emailSend ($id){
+        $info = Registration::where('psa_id', $id)->first();
+        // dd($info->psa_id); 
+
+
+        $pdf = PDF::loadView('barcodePDF', [
+            'info' => $info
+        ])->setPaper('a5', 'landscape');
+    
+        $path = Storage::put('public/storage/uploads/'.  $info->psa_id . '.pdf', $pdf->output());
+        Storage::put($path, $pdf->output());
+        
+        Mail::to($info->email)->send(new ApprovedEmail($info->last_name, $info->psa_id));
+    
+        Registration::where('psa_id', $info->psa_id)->update(['status' => 'Approved']);
+    
+
+        notify()->success( $info->name . ' has been approved and barcode was already sent!', 'Approval Success!');
+        // return redirect()->back();
+
+        // $this->emit('notifySuccess', 'User has been approved and barcode sent!');
     }
 }

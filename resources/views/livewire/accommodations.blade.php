@@ -62,7 +62,7 @@
                             <strong>Address: </strong>1 Newport Blvd, Pasay, 1309 Metro Manila
                             {{-- <br><strong>Tel: </strong>02 5318 8888
                             <br><strong>Email: </strong>info@belmontmanila.com --}}
-                            <br><strong>Travel Time: </strong>5 minutes walk
+                            <br><strong>Travel Time: </strong>5 minute walk
                             <br>
                         </p>
                     </div>
@@ -82,7 +82,7 @@
                             <strong>Address: </strong>1 Jasmine Dr, Pasay, 1309 Metro Manila
                             {{-- <br><strong>Tel: </strong>02 5318 8888
                             <br><strong>Email: </strong>info@belmontmanila.com --}}
-                            <br><strong>Travel Time: </strong>12 minutes walk
+                            <br><strong>Travel Time: </strong>12 minute walk
                             <br>
                         </p>
                     </div>
@@ -102,7 +102,7 @@
                             <strong>Address: </strong>101 Andrews Avenue, Newport City, Pasay City 1300, Metro Manila, Philippines
                             {{-- <br><strong>Tel: </strong>02 5318 8888
                             <br><strong>Email: </strong>info@belmontmanila.com --}}
-                            <br><strong>Travel Time: </strong>12 minutes walk
+                            <br><strong>Travel Time: </strong>12 minute walk
                             <br>
                         </p>
                     </div>

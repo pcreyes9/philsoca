@@ -19,27 +19,27 @@ class ApprovedReg extends Component
     public function render()
     {
         if($this->sort == 'regNew'){
-            $reg = Registration::where('status', 'Approved')->orderBy('id', 'DESC')->paginate(10);
+            $reg = Registration::where('status', 'Approved')->orderBy('id', 'DESC')->paginate(30);
             $this->sortName="Registration ID (newest)";
         }
         else if($this->sort == 'regOld'){
-            $reg = Registration::where('status', 'Approved')->orderBy('id', 'ASC')->paginate(10);
+            $reg = Registration::where('status', 'Approved')->orderBy('id', 'ASC')->paginate(30);
             $this->sortName="Registration ID (oldest)";
         }
         else if($this->sort == 'psaIDNew'){
-            $reg = Registration::where('status', 'Approved')->orderBy('psa_id', 'DESC')->paginate(10);
+            $reg = Registration::where('status', 'Approved')->orderBy('psa_id', 'DESC')->paginate(30);
             $this->sortName="PSA ID (newest)";
         }
         else if($this->sort == 'psaIDOld'){
-            $reg = Registration::where('status', 'Approved')->orderBy('psa_id', 'ASC')->paginate(10);
+            $reg = Registration::where('status', 'Approved')->orderBy('psa_id', 'ASC')->paginate(30);
             $this->sortName="PSA ID (oldest)";
         }
         else if ($this->sort == 'dateNew'){
-            $reg = Registration::where('status', 'Approved')->orderBy('created_at', 'DESC')->paginate(10);
+            $reg = Registration::where('status', 'Approved')->orderBy('created_at', 'DESC')->paginate(30);
             $this->sortName="Date of Registration (newest)";
         }
         else if ($this->sort == 'dateOld'){
-            $reg = Registration::where('status', 'Approved')->orderBy('created_at', 'ASC')->paginate(10);
+            $reg = Registration::where('status', 'Approved')->orderBy('created_at', 'ASC')->paginate(30);
             $this->sortName="Date of Registration (oldest)";
         }
 

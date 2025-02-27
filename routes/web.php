@@ -120,30 +120,30 @@ Route::get('/checker', [SpeakerPage::class, 'index'])->name('checker');
 
 //ADMIN SIDE
 
-Route::get('/admin/dashboard/sending', function (Request $request) {
-    $info = Registration::where('psa_id', $request->query('id'))->get();
+// Route::get('/admin/dashboard/sending', function (Request $request) {
+//     $info = Registration::where('psa_id', $request->query('id'))->get();
 
-    $email = $request->query('email');
-    $name = $request->query('name');
-    $id = $request->query('id');
+//     $email = $request->query('email');
+//     $name = $request->query('name');
+//     $id = $request->query('id');
 
-    $pdf = PDF::loadView('barcodePDF', [
-        'info' => $info
-    ])->setPaper('a5', 'landscape');
+//     $pdf = PDF::loadView('barcodePDF', [
+//         'info' => $info
+//     ])->setPaper('a5', 'landscape');
 
-    $path = Storage::put('public/storage/uploads/'.  $request->query('id') . '.pdf', $pdf->output());
-    Storage::put($path, $pdf->output());
+//     $path = Storage::put('public/storage/uploads/'.  $request->query('id') . '.pdf', $pdf->output());
+//     Storage::put($path, $pdf->output());
 
-    Mail::to($email)->send(new ApprovedEmail($name, $id));
+//     Mail::to($email)->send(new ApprovedEmail($name, $id));
 
-    Registration::where('psa_id', $id)->update(['status' => 'Approved']);
+//     Registration::where('psa_id', $id)->update(['status' => 'Approved']);
 
-    notify()->success( $name . ' has been approved and barcode was already sent!', 'Approval Success!');
-    return redirect()->back();
+//     notify()->success( $name . ' has been approved and barcode was already sent!', 'Approval Success!');
+//     return redirect()->back();
     
-    // return $pdf->download('testing.pdf');
+//     // return $pdf->download('testing.pdf');
 
-})->name('sending');
+// })->name('sending');
 
 Route::get('/admin/dashboard', [DashboardController::class, 'dashboard'])->name('admin');
 Route::get('/dashboard', [DashboardController::class, 'dashboard'])->name('dashboard');

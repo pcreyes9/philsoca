@@ -12,7 +12,7 @@
                     {{-- <x-application-logo class="block h-12 w-auto" />    --}}
                 
                     <h1 class="mb-8 text-2xl font-medium text-gray-900">
-                        Personal Information
+                        To be constructed...
                     </h1>
                     
                     {{-- <form>

@@ -52,7 +52,7 @@
     </div><!-- Row end -->
 
     <div id="back-to-top" data-spy="affix" data-offset-top="10" class="back-to-top position-fixed">
-      <button class="btn btn-primary" title="Back to Top">
+      <button class="btn btn-danger" title="Back to Top">
         <i class="fa fa-angle-double-up"></i>
       </button>
     </div>

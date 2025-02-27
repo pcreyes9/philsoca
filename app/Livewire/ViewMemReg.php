@@ -24,27 +24,27 @@ class ViewMemReg extends Component
     public function render()
     {
         if($this->sort == 'regNew'){
-            $reg = Registration::orderBy('id', 'DESC')->simplePaginate(10);
+            $reg = Registration::orderBy('id', 'DESC')->Paginate(30);
             $this->sortName="Registration ID (newest)";
         }
         else if($this->sort == 'regOld'){
-            $reg = Registration::orderBy('id', 'ASC')->simplePaginate(10);
+            $reg = Registration::orderBy('id', 'ASC')->Paginate(30);
             $this->sortName="Registration ID (oldest)";
         }
         else if($this->sort == 'psaIDNew'){
-            $reg = Registration::orderBy('psa_id', 'DESC')->simplePaginate(10);
+            $reg = Registration::orderBy('psa_id', 'DESC')->Paginate(30);
             $this->sortName="PSA ID (newest)";
         }
         else if($this->sort == 'psaIDOld'){
-            $reg = Registration::orderBy('psa_id', 'ASC')->simplePaginate(10);
+            $reg = Registration::orderBy('psa_id', 'ASC')->Paginate(30);
             $this->sortName="PSA ID (oldest)";
         }
         else if ($this->sort == 'dateNew'){
-            $reg = Registration::orderBy('created_at', 'DESC')->simplePaginate(10);
+            $reg = Registration::orderBy('created_at', 'DESC')->Paginate(30);
             $this->sortName="Date of Registration (newest)";
         }
         else if ($this->sort == 'dateOld'){
-            $reg = Registration::orderBy('created_at', 'ASC')->simplePaginate(10);
+            $reg = Registration::orderBy('created_at', 'ASC')->Paginate(30);
             $this->sortName="Date of Registration (oldest)";
         }
 

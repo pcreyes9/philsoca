@@ -63,6 +63,11 @@
                                             </li>
                                         </ul>
                                     </div>
+                                    <div style="width: 50%">
+                                        <div class="m-2 pb-4 flex-grow">
+                                            {{ $reg->onEachSide(0)->links() }}
+                                        </div>
+                                    </div>
                                 </caption>
                                 
                                 <thead class="text-sm text-gray-700 uppercase bg-gray-100  ">

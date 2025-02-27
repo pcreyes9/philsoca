@@ -18,12 +18,12 @@
                     <x-nav-link href="{{ route('viewMemReg') }}" :active="request()->routeIs('viewMemReg')">
                         {{ __('All Registration') }}
                     </x-nav-link>
-                    {{-- <x-nav-link href="{{ route('approvedReg') }}" :active="request()->routeIs('approvedReg')">
+                    <x-nav-link href="{{ route('approvedReg') }}" :active="request()->routeIs('approvedReg')">
                         {{ __('Approved Registration') }}
                     </x-nav-link>
                     <x-nav-link href="{{ route('pendingReg') }}" :active="request()->routeIs('pendingReg')">
                         {{ __('Pending Registration') }}
-                    </x-nav-link> --}}
+                    </x-nav-link>
                 </div>
 
             </div>

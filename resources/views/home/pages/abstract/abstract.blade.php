@@ -11,11 +11,43 @@
     <div class="container" >
         {{-- style="background: rgba(255, 255, 255, 0.5); border-radius: 25px" --}}
         <div class="row">
-            <div class="col-12">
+            <div class="col-12 text-center">
                 {{-- <h2 class="section-title">Metro Manila | Philippines</h2> --}}
-                <h3 class="section-sub-title">Presentation Guidelines</h3>
-                <p class="para-head fd">~ Important Dates</p>
-                <table class="table table-striped-columns text-center table-bordered ">
+                <h3 class="section-sub-title">Important Dates</h3>
+                <div class="row text-center justify-content-center">
+                    <div class="col-md-3 col-sm-6 ts-facts" >
+                        <div class="ts-facts-img">
+                        </div>
+                        <div class="ts-facts-content rounded-3 p-2" style="background-color: #0b6e4f">
+                          <h1 class="ts-date mb-n4">Jul</h1>
+                          <h2 class="ts-facts-num"><span class="counterUp" data-count="30">30</span></h2>
+                          <h3 class="ts-facts-title" style="color: #fff">Abstract submission deadline</h3>
+                        </div>
+                    </div><!-- Col end -->
+          
+                    <div class="col-md-3 col-sm-6 ts-facts mt-5 mt-sm-0 ">
+                        <div class="ts-facts-img">
+                        </div>
+                        <div class="ts-facts-content rounded-3 p-2" style="background-color: #0b6e4f">
+                          <h1 class="ts-date mb-n4">Aug</h1>
+                          <h2 class="ts-facts-num"><span class="counterUp" data-count="22">22</span></h2>
+                          <h3 class="ts-facts-title">Notification of acceptance</h3>
+                        </div>
+                    </div><!-- Col end -->
+          
+                    <div class="col-md-3 col-sm-6 ts-facts mt-5 mt-md-0 ">
+                        <div class="ts-facts-img">
+                        </div>
+                        <div class="ts-facts-content rounded-3 p-2 " style="background-color: #0b6e4f">
+                          <h1 class="ts-date mb-n4">Sept</h1>
+                          <h2 class="ts-facts-num"><span class="counterUp" data-count="30">30</span></h2>
+                          <h3 class="ts-facts-title">Registration deadline for presenting authors</h3>
+                        </div>
+                    </div><!-- Col end -->
+          
+                  </div> <!-- row end -->
+                {{-- <p class="para-head fd">~ Important Dates</p> --}}
+                {{-- <table class="table table-striped-columns text-center table-bordered ">
                     <tbody>
                       <tr>
                         <th scope="col" style="background: rgba(242, 222, 2, .7); ">Abstract presenter registration</th>
@@ -26,15 +58,14 @@
                         <th scope="row">Oct 20(Sun), 2024 11:59:59 pm in KST (GMT+9)</th>
                       </tr>
                     </tbody>
-                </table>
+                </table> --}}
 
-                <p class="para-head fd mt-5">~ General Information</p>
+                <h3 class="para-head fd mt-5 mb-3">RESEARCH FORUM</h3>
+                {{-- <h3 class="section-sub-title mt-5 pt-5">RESEARCH FORUM</h3> --}}
                 <p class="hotel-p fd">
-                    1. All presenters must present their abstract onsite. (NO online presentation) <br>
-                    2. All presentations must be delivered in English. <br>
-                    3. You could resubmit your presentation materials if you want to make any revisions before Oct 20(Sun). However, no changes will be accepted after the file submission deadline.
-                </p>
-                <p class="para-head fd mt-5">~  Presentation Type</p>
+                    The 24th ASEAN Congress of Anesthesiologists (ACA) and the 57th Philippine Society of Anesthesiologists (PSA) Annual Convention will be held under the theme “Shaping the future of Anesthesia in Perioperative care.” An integral part of the convention will be the 2025 ACA Research Forum, featuring an Exhibit Hall Poster Presentation and Oral Presentation sessions. These sessions will showcase research and case reports from residents and subspecialty fellows in various categories.                </p>
+                
+                {{-- <p class="para-head fd mt-5">~  Presentation Type</p>
                 <table class="table table-striped-columns text-center table-bordered ">
                     <thead>
                         <tr style="background: rgba(242, 222, 2, .7); ">
@@ -130,42 +161,12 @@
                             <td scope="row" class="text-left"> <br> *Keynote file(Mac), *.key cannot be supported.</td>
                         </tr>
                     </tbody>
-                </table>
+                </table> --}}
             </div>
         </div>
 
         
     </div>
     
-</section>
-<section id="news" class="project-area" style="background: #000066; color: white !important">
-    <div class="container" >
-        <div class="text-left">
-            <div class="text-center">
-                {{-- <h2 class="section-title">REACHING OUR Venue</h2>
-                <h3 class="section-sub-title">Manila Marriott Hotel</h3>     --}}
-
-                <p class="hotel-p pb-4" style="color: #dbdbdb;">
-                    <strong>Marriott Grand Ballroom</strong><br>
-                    2 Resorts Drive, Newport World Resorts, NCR - Fourth District, Barangay 183, Pasay City, Metro Manila, Philippines, 1309 <br><br>
-                    <strong>Email: </strong> mnlmarriotthotel@gmail.com<br>
-                    <strong>Tel: </strong> +63 2-89889999<br>
-                    <a target="_blank" href="https://www.marriott.com/en-us/hotels/mnlap-manila-marriott-hotel/overview/"><strong style=" text-decoration: underline;">Visit Website</strong> <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-up-right" viewBox="0 0 16 16">
-                        <path fill-rule="evenodd" d="M14 2.5a.5.5 0 0 0-.5-.5h-6a.5.5 0 0 0 0 1h4.793L2.146 13.146a.5.5 0 0 0 .708.708L13 3.707V8.5a.5.5 0 0 0 1 0z"/>
-                        </svg></a><br>
-                </p>
-            </div>
-            {{-- <div class="col-12 col-md-7 text-center">
-                <div class="maps text-center rounded-5">
-                <iframe class="responsive-iframe" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3862.3633535007502!2d121.0145836757402!3d14.521196879014486!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397cf2a572a7d8d%3A0x55a7edf4c7773bda!2sMarriott%20Grand%20Ballroom!5e0!3m2!1sen!2sph!4v1728444732486!5m2!1sen!2sph" width="1000" height="800" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-            </div>    --}}
-            <div class="rounded">
-                <iframe class="rounded w-100" 
-                style="height: 500px;" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3862.3633535007502!2d121.0145836757402!3d14.521196879014486!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397cf2a572a7d8d%3A0x55a7edf4c7773bda!2sMarriott%20Grand%20Ballroom!5e0!3m2!1sen!2sph!4v1728444732486!5m2!1sen!2sph" 
-                loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-            </div>
-            </div>        
-        </div>
-    </div>
 </section>
 @endsection

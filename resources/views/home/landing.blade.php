@@ -55,7 +55,7 @@
                 </div>
             </div><!-- Col end -->
   
-          </div> <!-- Facts end -->
+          </div> <!-- row end -->
       </div>
       <!--/ Content row end -->
     </div>

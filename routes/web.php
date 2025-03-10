@@ -75,9 +75,17 @@ Route::get('/contact', function () {
     return view('home/pages/contact');
 })->name('contact');
 
-// Route::get('/abstract-submission', function () {
-//     return view('home/pages/abstract');
+// Route::get('/abstract-important-dates', function () {
+//     return view('home/pages/abstract/abstract');
 // })->name('abstract');
+
+// Route::get('/abstract-rules-regulations', function () {
+//     return view('home/pages/abstract/rules');
+// })->name('rules');
+
+// Route::get('/abstract-instructions', function () {
+//     return view('home/pages/abstract/instruction');
+// })->name('instruction');
 
 
 Route::get('/accommodations', function () {

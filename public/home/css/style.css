@@ -199,18 +199,46 @@ p {
   font-size: 15px;
 }
 
-
 .para-head{
   font-family: "Open Sans", sans-serif;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased !important;
-  line-height: 26px;
-  font-size: 21px;
+  line-height: 35px;
+  font-size: 30px;
+  text-align: left;
+  letter-spacing: 1px;
+  font-weight: 550;
+  /* color: black; */
+}
+
+.list-p {
+  font-size: 24px;  
+  color: black;
+  letter-spacing: 1px;
+  line-height: 35px;
+}
+
+.hotel-p {
+  font-family: "Open Sans", sans-serif;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased !important;
+  line-height: 35px;
+  font-size: 24px;
   text-align: justify;
   letter-spacing: 1px;
-   font-weight: 700;
+  font-weight: 500;
   color: black;
+  
 }
+
+@media (max-width: 430) {
+  /* .section-sub-title, */
+   /* .hotel-p{
+    font-size: 5px;
+  } */
+}
+
+
 .hotel-col {
   font-family: 'Montserrat', sans-serif;
   text-rendering: optimizeLegibility;
@@ -493,7 +521,7 @@ a:focus {
 
 .section-sub-title {
   font-weight: 900;
-  font-size: 45px;
+  font-size: 42px;
   line-height: 46px;
   letter-spacing: 2px;
   margin: 0 0 60px;
@@ -509,17 +537,6 @@ a:focus {
   color: #212121;
 }
 
-.hotel-p {
-  font-family: "Open Sans", sans-serif;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased !important;
-  line-height: 30px;
-  font-size: 20px;
-  text-align: left;
-  letter-spacing: 1px;
-  /* font-weight: 700; */
-  /* color: black; */
-}
 
 @media (max-width: 575px) {
   /* .section-sub-title, */

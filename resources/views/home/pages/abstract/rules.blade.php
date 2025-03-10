@@ -65,8 +65,16 @@
                     <br><br>
                     Indicate the name of the primary author, all the other authors, the institution/s of affiliation, and the title of the research abstract.
                     <br><br>
-                    The attachments should include: 1) the Portable Document Format (PDF) copy of an anonymized, 11-point Arial font, double spaced, A4 sized, and with 1” margin on all borders; 2) the IRB/ERC approval if the research involves human participants; 3) Disclosure of Conflict of Interest, if applicable; 
-                    <br><br>
+                    The attachments should include:  
+                    <ul class="list-p list-group list-group-numbered list-group-flush text-left pl-5" >
+                        <li class="">the Portable Document Format (PDF) copy of an anonymized, 11-point Arial font, double spaced, A4 sized, and with 1” margin on all borders;</li>
+                        <li class="">the IRB/ERC approval if the research involves human participants;</li>
+                        <li class="">Disclosure of Conflict of Interest, if applicable.</li>
+                    </ul>
+                    
+                </p>
+                <p class="hotel-p fd">
+                    <br>
                     Structure:
                     <ul class="list-p list-group-numbered text-left pl-5" style="text-align: justify !important; list-style-position: outside !important;">
                         <li class="mb-2"><strong>Title: </strong> <span style="font-weight: 500;"> The title must be brief and accurately reflect the content of the Abstract and must be typed in boldface type and in title case.</span> </li>

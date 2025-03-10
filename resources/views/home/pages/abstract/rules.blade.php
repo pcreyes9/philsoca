@@ -16,7 +16,7 @@
                 <h3 class="section-sub-title" >Rules & Regulations</h3>
                 <div class="row text-center justify-content-center">
 
-                <h3 class="para-head fd mt-5 mb-3" style="text-transform: none !important;"><span style="font-weight: 700 !important;">A. &nbsp;</span> Exhibit Hall Poster Presentation </h3>
+                <h3 class="para-head fd mb-3" style="text-transform: none !important;"><span style="font-weight: 700 !important;">A. &nbsp;</span> Exhibit Hall Poster Presentation </h3>
                 <p class="hotel-p fd">
                     The Research forum is open to all delegates who are registered to attend the 24th ASEAN Congress of Anesthesiologists.  <br><br>
                     Competition categories are open to:

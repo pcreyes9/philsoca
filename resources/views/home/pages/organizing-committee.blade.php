@@ -28,9 +28,13 @@
                                         <th scope="row"><strong>Assistant Chair: </strong></th>
                                         <td>Dr. Melissa M. Caranto</td>
                                     </tr>
-                                    <tr>
+                                    {{-- <tr>
                                         <th scope="row"><strong>Scientific Committee Chair: </strong></th>
                                         <td>Dr. Celina Z. Ancheta</td>
+                                    </tr> --}}
+                                    <tr>
+                                        <th scope="row"><strong>Scientific Committee: </strong> <br> &nbsp &nbsp Chair <br> &nbsp &nbsp Members</th>
+                                        <td><br>Dr. Celina Z. Ancheta<br>Dr. Peñafrancia C. Cano<br>Dr. Melissa M. Caranto</td>
                                     </tr>
                                     <tr >
                                         <th scope="row" ><strong>Registration: </strong></th>

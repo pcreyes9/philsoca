@@ -24,8 +24,8 @@
                     </li>
                     <li class="nav-item"><a class="nav-link" href="{{ route('orgCom') }}">ORGANIZING COMMITTEE</a></li>
                     <li class="nav-item"><a class="nav-link" href="{{ route('reg') }}">REGISTRATION</a></li>
-                    {{-- <li class="nav-item"><a class="nav-link" href="{{route('abstract')}}">ABSTRACT SUBMISSION</a></li> --}}
-                    <li class="nav-item dropdown">
+                    <li class="nav-item"><a class="nav-link" href="#">ABSTRACT SUBMISSION</a></li>
+                    {{-- <li class="nav-item dropdown">
                       <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">ABSTRACT SUBMISSION </a>
                       <ul class="dropdown-menu" role="menu">
                         <li><a href="{{route('abstract')}}" style="font-size: 14px;">Important Dates</a></li>
@@ -34,7 +34,7 @@
                         <li><a href="#" style="font-size: 14px;">competition prizes </a></li>
 
                       </ul>
-                    </li>
+                    </li> --}}
                     <li class="nav-item"><a class="nav-link" href="#">SPONSORSHIP & EXHIBITION</a></li>
                     <li class="nav-item"><a class="nav-link" href="{{route('venue')}}">VENUE</a></li>
                     <li class="nav-item"><a class="nav-link" href="{{route('accommodations')}}">ACCOMMODATIONS</a></li>

@@ -65,7 +65,7 @@
                 <p class="hotel-p fd">
                     The 24th ASEAN Congress of Anesthesiologists (ACA) and the 57th Philippine Society of Anesthesiologists (PSA) Annual Convention will be held under the theme “Shaping the future of Anesthesia in Perioperative care.” An integral part of the convention will be the 2025 ACA Research Forum, featuring an Exhibit Hall Poster Presentation and Oral Presentation sessions. These sessions will showcase research and case reports from residents and subspecialty fellows in various categories.                </p>
                 
-                {{-- <p class="para-head fd mt-5">~  Presentation Type</p>
+                <p class="para-head fd mt-5">~  Presentation Type</p>
                 <table class="table table-striped-columns text-center table-bordered ">
                     <thead>
                         <tr style="background: rgba(242, 222, 2, .7); ">
@@ -161,7 +161,7 @@
                             <td scope="row" class="text-left"> <br> *Keynote file(Mac), *.key cannot be supported.</td>
                         </tr>
                     </tbody>
-                </table> --}}
+                </table>
             </div>
         </div>
 

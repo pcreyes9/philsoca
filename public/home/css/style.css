@@ -224,10 +224,18 @@ p {
   -webkit-font-smoothing: antialiased !important;
   line-height: 35px;
   font-size: 24px;
-  text-align: left;
+  text-align: justify;
   letter-spacing: 1px;
   font-weight: 500;
   color: black;
+  
+}
+
+@media (max-width: 430) {
+  /* .section-sub-title, */
+   /* .hotel-p{
+    font-size: 5px;
+  } */
 }
 
 
@@ -513,7 +521,7 @@ a:focus {
 
 .section-sub-title {
   font-weight: 900;
-  font-size: 45px;
+  font-size: 42px;
   line-height: 46px;
   letter-spacing: 2px;
   margin: 0 0 60px;

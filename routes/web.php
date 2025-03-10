@@ -75,17 +75,17 @@ Route::get('/contact', function () {
     return view('home/pages/contact');
 })->name('contact');
 
-// Route::get('/abstract-important-dates', function () {
-//     return view('home/pages/abstract/abstract');
-// })->name('abstract');
+Route::get('/abstract-important-dates', function () {
+    return view('home/pages/abstract/abstract');
+})->name('abstract');
 
-// Route::get('/abstract-rules-regulations', function () {
-//     return view('home/pages/abstract/rules');
-// })->name('rules');
+Route::get('/abstract-rules-regulations', function () {
+    return view('home/pages/abstract/rules');
+})->name('rules');
 
-// Route::get('/abstract-instructions', function () {
-//     return view('home/pages/abstract/instruction');
-// })->name('instruction');
+Route::get('/abstract-instructions', function () {
+    return view('home/pages/abstract/instruction');
+})->name('instruction');
 
 
 Route::get('/accommodations', function () {
@@ -116,8 +116,8 @@ Route::get('/emailsend', function (Request $request){
     $email = $request->query('email');
     $name = $request->query('name');
     
-    Mail::to($email)->send(new MyTestEmail($name));
-    
+    Mail::mailer('smtp')->to($email)->send(new MyTestEmail($name));
+    // Mail::mailer('info')->to($email)->send(new MyTestEmail($name));
     return redirect()->route('reg')->with('success', 'Your registration is on process, Dr. ' . $name . '. We will update you in this email, ' . $email . '. Thank you and we hope to see you soon!');
     
 })->name('emailsend');

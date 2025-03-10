@@ -216,6 +216,8 @@ p {
   color: black;
   letter-spacing: 1px;
   line-height: 35px;
+  text-align: justify;
+  list-style-position: outside !important;
 }
 
 .hotel-p {
@@ -227,8 +229,7 @@ p {
   text-align: justify;
   letter-spacing: 1px;
   font-weight: 500;
-  color: black;
-  
+  color: black; 
 }
 
 @media (max-width: 430) {

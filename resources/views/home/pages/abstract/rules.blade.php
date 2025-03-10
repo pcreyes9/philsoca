@@ -21,7 +21,7 @@
                     The Research forum is open to all delegates who are registered to attend the 24th ASEAN Congress of Anesthesiologists.  <br><br>
                     Competition categories are open to:
                     
-                    <ul class="list-p list-group list-group-numbered list-group-flush text-left ml-5" >
+                    <ul class="list-p list-group list-group-numbered list-group-flush text-left pl-5" >
                         <li class="">Residents in training or have graduated within 2 years prior to this convention (2023) with original research or case report.</li>
                         <li class="">Subspecialty Fellows in training with original research or case report.</li>
                         <li class="">Must not have been presented in any national or international scientific meeting prior to this ACA conference.</li>
@@ -68,15 +68,15 @@
                     The attachments should include: 1) the Portable Document Format (PDF) copy of an anonymized, 11-point Arial font, double spaced, A4 sized, and with 1” margin on all borders; 2) the IRB/ERC approval if the research involves human participants; 3) Disclosure of Conflict of Interest, if applicable; 
                     <br><br>
                     Structure:
-                    <ul class="list-p list-group-numbered text-left ml-5" style="text-align: justify !important; list-style-position: outside !important;">
+                    <ul class="list-p list-group-numbered text-left pl-5" style="text-align: justify !important; list-style-position: outside !important;">
                         <li class="mb-2"><strong>Title: </strong> <span style="font-weight: 500;"> The title must be brief and accurately reflect the content of the Abstract and must be typed in boldface type and in title case.</span> </li>
                         <li class="mb-2"><strong>Introduction:</strong> <span style="font-weight: 500;">State the hypothesis or objective of the research in a simple manner; questions should be concrete and testable. </span></li>
                         <li class="mb-2"><strong>Methods:</strong> <span style="font-weight: 500;">Describe the study design and the stepwise approach to what was done. Identify the research participants, primary and secondary measurements and outcomes, and the existing instruments or procedures. </span></li>  
-                        <ul class="list-p list-group list-group-numbered list-group-flush text-left ml-5">
+                        <ul class="list-p list-group list-group-numbered list-group-flush text-left pl-5">
                             <li class="mb-2" > <span style="font-weight: 500;">For case reports, the <strong>Description of the Case</strong> replaces the Methods section. </span><br></li>
                         </ul>
                         <li><strong>Results:</strong> <span style="font-weight: 500;">Use design-appropriate raw data to characterize the primary and secondary outcomes and include design-appropriate inferential or descriptive statistical indices. Tabulated or graphical representation of the result is encouraged. However, only one table or figure can be included per abstract and must be incorporated in the PDF submitted. The image must have a resolution of at least 300x300 pixels per inch. Submission of abstracts without data is not acceptable.</span>
-                            <ul class="list-p list-group list-group-numbered list-group-flush text-left ml-5">
+                            <ul class="list-p list-group list-group-numbered list-group-flush text-left pl-5">
                                 <li class="mb-2"  class="mb-2" > <span style="font-weight: 500;">For case reports, a short <strong>Discussion</strong> replaces the Results section.</span><br></li>
                             </ul>
                         </li>  

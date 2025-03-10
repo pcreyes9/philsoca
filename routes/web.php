@@ -116,8 +116,8 @@ Route::get('/emailsend', function (Request $request){
     $email = $request->query('email');
     $name = $request->query('name');
     
-    Mail::mailer('smtp')->to($email)->send(new MyTestEmail($name));
-    // Mail::mailer('info')->to($email)->send(new MyTestEmail($name));
+    // Mail::mailer('smtp')->to($email)->send(new MyTestEmail($name));
+    Mail::mailer('info')->to($email)->send(new MyTestEmail($name));
     return redirect()->route('reg')->with('success', 'Your registration is on process, Dr. ' . $name . '. We will update you in this email, ' . $email . '. Thank you and we hope to see you soon!');
     
 })->name('emailsend');

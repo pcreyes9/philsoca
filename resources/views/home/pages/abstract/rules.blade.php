@@ -110,6 +110,10 @@
                     An email notification will be sent by <strong>July 30, 2025</strong> if you were accepted and to what category and format you have been invited for (Poster or Oral). It is the responsibility of the presenting author to share the notifications with their co-authors. 
                 </p> 
             </div>
+            <div class="d-grid gap-2 mt-5">
+                <a href="#" target="_blank" class="btn btn-primary mb-1" style="font-size: 20px">Download Abstract Template</a>
+                <a href="{{ route('regabs') }}"  target="_blank" class="btn btn-dark mb-1" style="font-size: 20px">Submit Now!</a>
+            </div>
         </div>
 </div>
 </section>

@@ -79,13 +79,19 @@ Route::get('/abstract-important-dates', function () {
     return view('home/pages/abstract/abstract');
 })->name('abstract');
 
-Route::get('/abstract-rules-regulations', function () {
+Route::get('/abstract-submission-guidelines', function () {
     return view('home/pages/abstract/rules');
 })->name('rules');
 
 Route::get('/abstract-instructions', function () {
     return view('home/pages/abstract/instruction');
 })->name('instruction');
+
+Route::get('/abstract-submit', function () {
+    return view('home/pages/abstract/regAbs');
+})->name('regabs');
+
+
 
 
 Route::get('/accommodations', function () {
@@ -99,6 +105,7 @@ Route::get('/registration', function () {
 Route::get('/local-registration', function () {
     return view('registration.mem-registration');
 })->name('memReg');
+
 
 Route::get('/international-registration', function () {
     // dd("asd");
@@ -116,8 +123,8 @@ Route::get('/emailsend', function (Request $request){
     $email = $request->query('email');
     $name = $request->query('name');
     
-    // Mail::mailer('smtp')->to($email)->send(new MyTestEmail($name));
-    Mail::mailer('info')->to($email)->send(new MyTestEmail($name));
+    Mail::mailer('smtp')->to($email)->send(new MyTestEmail($name));
+    // Mail::mailer('info')->to($email)->send(new MyTestEmail($name));
     return redirect()->route('reg')->with('success', 'Your registration is on process, Dr. ' . $name . '. We will update you in this email, ' . $email . '. Thank you and we hope to see you soon!');
     
 })->name('emailsend');

@@ -9,6 +9,11 @@
 
 <section id="news" class="project-area">
     <div class="container" >
+        @if (session('success'))
+            <div class="alert alert-success">
+                {{ session('success') }}
+            </div>
+        @endif
         {{-- style="background: rgba(255, 255, 255, 0.5); border-radius: 25px" --}}
         <div class="row">
             <div class="col-12 text-center">

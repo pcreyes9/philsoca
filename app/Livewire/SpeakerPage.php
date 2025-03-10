@@ -55,6 +55,9 @@ class SpeakerPage extends Component
                 // $this->affiliation = Auth()->user()->email;
                 return view('home.speakers.speakerPage');
             }
+            else if($userType == 'abstract'){
+                return view('user_account.abstractPortal');
+            }
             else{
                 return view('home/landing');
             }

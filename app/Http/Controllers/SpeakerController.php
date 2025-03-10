@@ -21,10 +21,6 @@ class SpeakerController extends Controller
                 // dd("speaker");
                 return view('home.speakers.speakerPage');
             }
-            else if($userType == 'abstract'){
-                // dd("speaker");
-                return view('home.speakers.speakerPage');
-            }
             else{
                 return view('home/landing');
             }

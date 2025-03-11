@@ -1,8 +1,8 @@
 <?php $page='venue'; ?>
 @extends('home.master')
 
-@section('title', 'Abstract')
-@section('banner-name', 'Abstract')
+@section('title', '2025 ACA Research Forum')
+@section('banner-name', '2025 ACA Research Forum')
 
 @section('content')
 @include('home.banner')

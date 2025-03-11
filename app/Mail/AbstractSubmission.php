@@ -27,7 +27,7 @@ class AbstractSubmission extends Mailable
     public function envelope(): Envelope
     {
         return new Envelope(
-            subject: 'Abstract Submission for ACA 2025',
+            subject: 'Acknowledgement of Abstract Submission for the 2025 ACA Research Forum Competition',
         );
     }
 

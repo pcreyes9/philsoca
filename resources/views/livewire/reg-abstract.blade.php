@@ -6,7 +6,7 @@
         <div class="row">
             <div class="col-md-12">
                 <div class="form-group">
-                    <label style="font-weight: 750; font-size: medium; color: black">Title </label>
+                    <label style="font-weight: 750; font-size: medium; color: black">Brief Title <br> <span class="font-italic font-weight-normal">[Do not include special characters (/, :, -, etc.)]</span></label>
                     <input style="box-shadow: 2px 2px 3px gray; background-color: #000066; color: white; font-weight: bold; text-transform:uppercase" class="form-control form-control-name" name="name" id="name" placeholder="" type="text" wire:model="title" required>
                 </div>
             </div>

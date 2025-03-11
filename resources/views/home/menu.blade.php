@@ -31,7 +31,7 @@
                         <li><a href="{{route('abstract')}}" style="font-size: 14px;">Important Dates</a></li>
                         <li><a href="{{route('rules')}}" style="font-size: 14px;">Submission Guidelines </a></li>
                         {{-- <li><a href="{{route('instruction')}}" style="font-size: 14px;">Presentation Guidelines </a></li> --}}
-                        <li><a href="#" style="font-size: 14px;">competition prizes </a></li>
+                        <li><a href="{{route('prizes')}}" style="font-size: 14px;">competition prizes </a></li>
                         <li><a href="{{route('regabs')}}" style="font-size: 14px;">Submit Now! </a></li>
 
                       </ul>

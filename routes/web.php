@@ -87,6 +87,10 @@ Route::get('/abstract-instructions', function () {
     return view('home/pages/abstract/instruction');
 })->name('instruction');
 
+Route::get('/abstract-prizes', function () {
+    return view('home/pages/abstract/prizes');
+})->name('prizes');
+
 Route::get('/abstract-submit', function () {
     return view('home/pages/abstract/regAbs');
 })->name('regabs');

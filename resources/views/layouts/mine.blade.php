@@ -6,7 +6,7 @@
         <meta name="csrf-token" content="{{ csrf_token() }}">
         {{-- {{asset('/logo/PSA Logo.png')}} --}}
         <link rel="icon" type="image/png" href="images/PSA_Logo.png">
-        <title>ADMIN ACA</title>
+        <title>ABSTRACT ACA</title>
 
         <!-- Fonts -->
         <link rel="preconnect" href="https://fonts.bunny.net">

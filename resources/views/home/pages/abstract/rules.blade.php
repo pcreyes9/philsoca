@@ -119,7 +119,7 @@
                 </p> 
             </div>
             <div class="d-grid gap-2 mt-5">
-                <a href="#" target="_blank" class="btn btn-primary mb-1" style="font-size: 20px">Download Abstract Template</a>
+                <a href="{{route('dlabs')}}" class="btn btn-primary mb-1" style="font-size: 20px">Download Abstract Template</a>
                 <a href="{{ route('regabs') }}"  target="_blank" class="btn btn-dark mb-1" style="font-size: 20px">Submit Now!</a>
             </div>
         </div>

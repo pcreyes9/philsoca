@@ -192,6 +192,13 @@ Route::get('/admin/viewMemReg/download/senior/{senior_citizen}', function ($seni
     return response()->download($pathToFile);
 });
 
+Route::get('/download-abstract', function (){
+    // dd("hello");
+    $pathToFile = public_path('images/Template for Abstract Submission.pptx');
+    return response()->download($pathToFile);
+})->name('dlabs');
+
+
 Route::get('/admin/dashboard/export-excel', function () {
     return Excel::download(new ExcelExport, 'regs.xlsx');
 })->name('exportExcel');

@@ -19,11 +19,11 @@ class RegAbstract extends Component
         // dd($this->file);
         if($this->category == "resident"){
             $fileName = $this->country .' - '. $this->title. '.' . $this->file->extension();
-            $this->file->storeAs('abstract/resident', $fileName);
+            $this->file->storeAs('abstract/Resident', $fileName);
         }
         else if($this->category == "fellow"){
             $fileName = $this->country .' - '. $this->title. '.' . $this->file->extension();
-            $this->file->storeAs('abstract/fellow', $fileName);
+            $this->file->storeAs('abstract/Fellow', $fileName);
         }
         // dd($fileName);
         DB::table('abstract')->insert([

@@ -99,7 +99,7 @@
                                                     <span class="text-lg"><strong> {{ $regs->title }}</strong></span>
                                                 </div>
                                                 <div class="mt-3">
-                                                    <span class="text-base">{{ $regs->author }} | {{ $regs->email }} | {{ $regs->country }} | {{ $regs->hospital }}</span>
+                                                    <span class="text-base">{{ $regs->author }} | {{ $regs->email }} | {{ $regs->contact }} | {{ $regs->country }} | {{ $regs->hospital }}</span>
                                                 </div>
                                             </td>
                                             <td class="px-6 py-4 uppercase">
@@ -123,15 +123,14 @@
                                     {{ $reg->onEachSide(0)->links() }}
                                 </div>
                                 <div class="text-right mb-5 ml-auto">
-                                    <button class="mt-2 bg-gray-200 hover:bg-gray-300 text-gray-800 font-bold py-2 px-4 ml-3 rounded inline-flex items-center" wire:click="export">
-                                        {{-- <svg class="fill-current w-4 h-4 mr-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M13 8V2H7v6H2l8 8 8-8h-5zM0 18h20v2H0v-2z"/></svg> --}}
+                                    {{-- <button class="mt-2 bg-gray-200 hover:bg-gray-300 text-gray-800 font-bold py-2 px-4 ml-3 rounded inline-flex items-center" wire:click="export">
                                         <svg wire:loading.remove class="mr-1 w-[19px] h-[19px] text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 24 24">
                                             <path fill-rule="evenodd" d="M13 11.15V4a1 1 0 1 0-2 0v7.15L8.78 8.374a1 1 0 1 0-1.56 1.25l4 5a1 1 0 0 0 1.56 0l4-5a1 1 0 1 0-1.56-1.25L13 11.15Z" clip-rule="evenodd"/>
                                             <path fill-rule="evenodd" d="M9.657 15.874 7.358 13H5a2 2 0 0 0-2 2v4a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-4a2 2 0 0 0-2-2h-2.358l-2.3 2.874a3 3 0 0 1-4.685 0ZM17 16a1 1 0 1 0 0 2h.01a1 1 0 1 0 0-2H17Z" clip-rule="evenodd"/>
                                         </svg>
                                         <svg wire:loading class="mr-1" xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 24 24"><path fill="currentColor" d="M12,1A11,11,0,1,0,23,12,11,11,0,0,0,12,1Zm0,19a8,8,0,1,1,8-8A8,8,0,0,1,12,20Z" opacity="0.25"/><path fill="currentColor" d="M10.14,1.16a11,11,0,0,0-9,8.92A1.59,1.59,0,0,0,2.46,12,1.52,1.52,0,0,0,4.11,10.7a8,8,0,0,1,6.66-6.61A1.42,1.42,0,0,0,12,2.69h0A1.57,1.57,0,0,0,10.14,1.16Z"><animateTransform attributeName="transform" dur="0.75s" repeatCount="indefinite" type="rotate" values="0 12 12;360 12 12"/></path></svg>
                                         <span>Export Excel</span>
-                                    </button>
+                                    </button> --}}
                                     {{-- onclick="location.href='{{ url('admin/dashboard/export-pdf') }}'" --}}
                                 </div>
                             </div>

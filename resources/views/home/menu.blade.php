@@ -18,7 +18,7 @@
                         <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Program </a>
                         <ul class="dropdown-menu" role="menu" >
                           <li><a href="#" style="font-size: 14px;">Program at a Glance</a></li>
-                          <li><a href="#" style="font-size: 14px;">Full Scientific Program</a></li>
+                          <li><a href="{{route('prelim')}}" style="font-size: 14px;">Preliminary Scientific Program</a></li>
                           <li ><a href="{{ route('speakers') }}" style="font-size: 14px;">Speakers</a></li>
                         </ul>
                     </li>

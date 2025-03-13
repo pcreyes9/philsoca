@@ -29,7 +29,7 @@
                 </p>   
                 <p class="hotel-p fd">
                     <br>
-                    The <strong>presenting author</strong> (person who submits the abstract and presenting at the conference) must have been involved in the completion of the research work. Presenters should be registered to attend the ACA convention by <strong>September 30, 2025</strong>.
+                    The <strong>presenting author</strong> (person who submits the abstract and presenting at the conference) must not have been involved in the completion of the research work. Presenters should be registered to attend the ACA convention by <strong>September 30, 2025</strong>.
                     <br>
                     <br>
                     The online submission system should be used to submit all papers.
@@ -47,7 +47,7 @@
                     In case an author submitted multiple abstracts and has more than one paper qualifying for the oral presentation, a secondary investigator that has authorship eligibility must be assigned to present the other research. 
                     <br>
                     <br>
-                    Final instructions and complete mechanics will be sent to the qualified presenters during the notification deadline on July 30, 2025.
+                    Final instructions and complete mechanics will be sent to the qualified presenters during the notification deadline on August 22, 2025.
                     <br>
                     <br>
                     All other abstracts that will not be selected to present in the oral contest would be considered for poster exhibition. An email will be sent for notification.
@@ -107,7 +107,7 @@
                
                 <h3 class="para-head fd mb-3" style="text-transform: none !important;"><span style="font-weight: 700 !important;">Notification of abstract acceptance:</h3>
                 <p class="hotel-p fd">
-                    Upon successful submission, authors will receive an acknowledgment via email within one week. Lack of acknowledgment will indicate that the abstract was not received. Please get in touch with the PSA Secretariat for confirmation or any questions.
+                    Upon successful submission, authors will receive an acknowledgment via email by August 22, 2025. Lack of acknowledgment will indicate that the abstract was not received. Please get in touch with the PSA Secretariat for confirmation or any questions.
                     <br><br>
                     Plagiarism will be checked and will not be tolerated.
                     <br><br>

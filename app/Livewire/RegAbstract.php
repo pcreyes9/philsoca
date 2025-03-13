@@ -22,7 +22,9 @@ class RegAbstract extends Component
             $this->file->storeAs('abstract/Resident', $fileName);
         }
         else if($this->category == "fellow"){
+            // dd($this->file);
             $fileName = strtoupper($this->country) .' - '. $this->title. '.' . $this->file->extension();
+            
             $this->file->storeAs('abstract/Fellow', $fileName);
         }
         // dd($fileName);

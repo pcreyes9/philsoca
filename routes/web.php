@@ -63,6 +63,10 @@ Route::get('/organizing-committee', function () {
     return view('home/pages/organizing-committee');
 })->name('orgCom');
 
+Route::get('/prelim-program', function () {
+    return view('home/pages/prelimProgram');
+})->name('prelim');
+
 // Route::get('/organizing-committee', function () {
 //     return view('home/pages/orgComPic');
 // })->name('orgCom');

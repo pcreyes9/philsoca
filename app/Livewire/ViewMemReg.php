@@ -23,6 +23,11 @@ class ViewMemReg extends Component
 
     public function render()
     {
+        // $userType = Auth()->user()->userType;
+        // if($userType != 'admin'){
+        //     return view('user_account.viewMemReg');
+        // }
+
         if($this->sort == 'regNew'){
             $reg = Registration::orderBy('id', 'DESC')->Paginate(30);
             $this->sortName="Registration ID (newest)";

@@ -190,6 +190,10 @@ table{
   font-size: large;
 }
 
+.table-program {
+  font-size: 15px;
+}
+
 body,
 p {
   font-family: "Open Sans", sans-serif;
@@ -216,6 +220,8 @@ p {
   color: black;
   letter-spacing: 1px;
   line-height: 35px;
+  text-align: justify;
+  list-style-position: outside !important;
 }
 
 .hotel-p {
@@ -227,8 +233,7 @@ p {
   text-align: justify;
   letter-spacing: 1px;
   font-weight: 500;
-  color: black;
-  
+  color: black; 
 }
 
 @media (max-width: 430) {
@@ -1292,7 +1297,7 @@ ul.navbar-nav > li > a {
   text-align: left;
   background: #fff;
   z-index: 1100;
-  min-width: 200px;
+  min-width: 240px;
   border-radius: 0;
   border: 0;
   border-top: 2px solid #ac071a;

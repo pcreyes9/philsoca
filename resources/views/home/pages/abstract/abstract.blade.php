@@ -1,14 +1,19 @@
 <?php $page='venue'; ?>
 @extends('home.master')
 
-@section('title', 'Abstract')
-@section('banner-name', 'Abstract')
+@section('title', '2025 ACA Research Forum')
+@section('banner-name', '2025 ACA Research Forum')
 
 @section('content')
 @include('home.banner')
 
 <section id="news" class="project-area">
     <div class="container" >
+        @if (session('success'))
+            <div class="alert alert-success">
+                {{ session('success') }}
+            </div>
+        @endif
         {{-- style="background: rgba(255, 255, 255, 0.5); border-radius: 25px" --}}
         <div class="row">
             <div class="col-12 text-center">
@@ -63,9 +68,8 @@
                 <h3 class="para-head fd mt-5 mb-3">RESEARCH FORUM</h3>
                 {{-- <h3 class="section-sub-title mt-5 pt-5">RESEARCH FORUM</h3> --}}
                 <p class="hotel-p fd">
-                    The 24th ASEAN Congress of Anesthesiologists (ACA) and the 57th Philippine Society of Anesthesiologists (PSA) Annual Convention will be held under the theme “Shaping the future of Anesthesia in Perioperative care.” An integral part of the convention will be the 2025 ACA Research Forum, featuring an Exhibit Hall Poster Presentation and Oral Presentation sessions. These sessions will showcase research and case reports from residents and subspecialty fellows in various categories.                </p>
-                
-                <p class="para-head fd mt-5">~  Presentation Type</p>
+                    The 2025 ACA Research Forum will be composed of an Exhibit Hall Poster Presentation featured throughout the 3-day Convention, as well as Oral Presentation in separate Moderated Sessions for the Residents’ Research and for the subspecialty Fellows’ Research. For the Poster Presentation, entries will be categorized to one of the following: 1) Fellows’ Research, 2) Residents’ Research, 3) Fellows’ Case Reports, and 4) Residents’ Case Reports.                
+                {{-- <p class="para-head fd mt-5">~  Presentation Type</p>
                 <table class="table table-striped-columns text-center table-bordered ">
                     <thead>
                         <tr style="background: rgba(242, 222, 2, .7); ">
@@ -161,7 +165,7 @@
                             <td scope="row" class="text-left"> <br> *Keynote file(Mac), *.key cannot be supported.</td>
                         </tr>
                     </tbody>
-                </table>
+                </table> --}}
             </div>
         </div>
 

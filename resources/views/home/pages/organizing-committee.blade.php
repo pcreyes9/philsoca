@@ -25,7 +25,7 @@
                                         <td>Dr. Francis B. Mayuga</td>
                                     </tr>
                                     <tr>
-                                        <th scope="row"><strong>Assistant Chair: </strong></th>
+                                        <th scope="row"><strong>Assistant Chair of Organizing Committee: </strong></th>
                                         <td>Dr. Melissa M. Caranto</td>
                                     </tr>
                                     {{-- <tr>
@@ -40,10 +40,10 @@
                                         <th scope="row" ><strong>Registration: </strong></th>
                                         <td>Dr. Ma. Janetth B. Serrano</td>
                                     </tr>
-                                    <tr>
+                                    {{-- <tr>
                                         <th scope="row"><strong>Finance: </strong></th>
                                         <td>Dr. Carmelita S. Lunas </td>
-                                    </tr>
+                                    </tr> --}}
                                     <tr>
                                         <th scope="row"><strong>Ways & Means: </strong></th>
                                         <td>Dr. Edgard M. Simon</td>

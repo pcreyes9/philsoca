@@ -63,6 +63,10 @@ Route::get('/organizing-committee', function () {
     return view('home/pages/organizing-committee');
 })->name('orgCom');
 
+Route::get('/prelim-program', function () {
+    return view('home/pages/prelimProgram');
+})->name('prelim');
+
 // Route::get('/organizing-committee', function () {
 //     return view('home/pages/orgComPic');
 // })->name('orgCom');
@@ -75,17 +79,27 @@ Route::get('/contact', function () {
     return view('home/pages/contact');
 })->name('contact');
 
-// Route::get('/abstract-important-dates', function () {
-//     return view('home/pages/abstract/abstract');
-// })->name('abstract');
+Route::get('/abstract-important-dates', function () {
+    return view('home/pages/abstract/abstract');
+})->name('abstract');
 
-// Route::get('/abstract-rules-regulations', function () {
-//     return view('home/pages/abstract/rules');
-// })->name('rules');
+Route::get('/abstract-submission-guidelines', function () {
+    return view('home/pages/abstract/rules');
+})->name('rules');
 
-// Route::get('/abstract-instructions', function () {
-//     return view('home/pages/abstract/instruction');
-// })->name('instruction');
+Route::get('/abstract-instructions', function () {
+    return view('home/pages/abstract/instruction');
+})->name('instruction');
+
+Route::get('/abstract-prizes', function () {
+    return view('home/pages/abstract/prizes');
+})->name('prizes');
+
+Route::get('/abstract-submit', function () {
+    return view('home/pages/abstract/regAbs');
+})->name('regabs');
+
+
 
 
 Route::get('/accommodations', function () {
@@ -99,6 +113,7 @@ Route::get('/registration', function () {
 Route::get('/local-registration', function () {
     return view('registration.mem-registration');
 })->name('memReg');
+
 
 Route::get('/international-registration', function () {
     // dd("asd");
@@ -116,8 +131,8 @@ Route::get('/emailsend', function (Request $request){
     $email = $request->query('email');
     $name = $request->query('name');
     
-    Mail::to($email)->send(new MyTestEmail($name));
-    
+    Mail::mailer('smtp')->to($email)->send(new MyTestEmail($name));
+    // Mail::mailer('info')->to($email)->send(new MyTestEmail($name));
     return redirect()->route('reg')->with('success', 'Your registration is on process, Dr. ' . $name . '. We will update you in this email, ' . $email . '. Thank you and we hope to see you soon!');
     
 })->name('emailsend');
@@ -180,6 +195,13 @@ Route::get('/admin/viewMemReg/download/senior/{senior_citizen}', function ($seni
     $pathToFile = public_path('storage/photos/senior ids/'. $senior_citizen);
     return response()->download($pathToFile);
 });
+
+Route::get('/download-abstract', function (){
+    // dd("hello");
+    $pathToFile = public_path('images/Template for Abstract Submission.pptx');
+    return response()->download($pathToFile);
+})->name('dlabs');
+
 
 Route::get('/admin/dashboard/export-excel', function () {
     return Excel::download(new ExcelExport, 'regs.xlsx');

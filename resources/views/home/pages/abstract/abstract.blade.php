@@ -68,7 +68,7 @@
                 <h3 class="para-head fd mt-5 mb-3">RESEARCH FORUM</h3>
                 {{-- <h3 class="section-sub-title mt-5 pt-5">RESEARCH FORUM</h3> --}}
                 <p class="hotel-p fd">
-                    The 2025 ACA Research Forum will be composed of an Exhibit Hall Poster Presentation featured throughout the 3-day Convention, as well as Oral Presentation in separate Moderated Sessions for the Residents’ Research and for the subspecialty Fellows’ Research. For the Poster Presentation, entries will be categorized to one of the following: 1) Fellows’ Research, 2) Residents’ Research, 3) Fellows’ Case Reports, and 4) Residents’ Case Reports.                
+                    The 2025 ACA Research Forum will be composed of an Exhibit Hall Poster Presentation featured throughout the 3-day Convention, as well as Oral Presentation in separate Moderated Sessions for the Residents’ and subspecialty Fellows’ Research. For the Poster Presentation, entries will be categorized to one of the following: 1) Fellows’ Research, 2) Residents’ Research, 3) Fellows’ Case Reports, and 4) Residents’ Case Reports.                
                 {{-- <p class="para-head fd mt-5">~  Presentation Type</p>
                 <table class="table table-striped-columns text-center table-bordered ">
                     <thead>

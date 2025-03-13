@@ -24,16 +24,16 @@
                     </li>
                     <li class="nav-item"><a class="nav-link" href="{{ route('orgCom') }}">ORGANIZING COMMITTEE</a></li>
                     <li class="nav-item"><a class="nav-link" href="{{ route('reg') }}">REGISTRATION</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#">ABSTRACT SUBMISSION</a></li>
+                    {{-- <li class="nav-item"><a class="nav-link" href="#">ABSTRACT SUBMISSION</a></li> --}}
                     <li class="nav-item dropdown">
-                      {{-- <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">ABSTRACT SUBMISSION </a>
-                      <ul class="dropdown-menu" role="menu">
-                        <li><a href="{{route('abstract')}}" style="font-size: 14px;">Important Dates</a></li>
-                        <li><a href="{{route('rules')}}" style="font-size: 14px;">Submission Guidelines </a></li>
-                        <li><a href="{{route('instruction')}}" style="font-size: 14px;">Presentation Guidelines </a></li>
-                        <li><a href="{{route('prizes')}}" style="font-size: 14px;">competition prizes </a></li>
-                        <li><a href="{{route('regabs')}}" style="font-size: 14px;">Submit Now! </a></li>
-                      </ul> --}}
+                    <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">ABSTRACT SUBMISSION </a>
+                    <ul class="dropdown-menu" role="menu">
+                      <li><a href="{{route('abstract')}}" style="font-size: 14px;">Important Dates</a></li>
+                      <li><a href="{{route('rules')}}" style="font-size: 14px;">Submission Guidelines </a></li>
+                      {{-- <li><a href="{{route('instruction')}}" style="font-size: 14px;">Presentation Guidelines </a></li> --}}
+                      <li><a href="{{route('prizes')}}" style="font-size: 14px;">competition prizes </a></li>
+                      <li><a href="{{route('regabs')}}" style="font-size: 14px;">Submit Now! </a></li>
+                    </ul>
                     </li>
                     <li class="nav-item"><a class="nav-link" href="#">SPONSORSHIP & EXHIBITION</a></li>
                     <li class="nav-item"><a class="nav-link" href="{{route('venue')}}">VENUE</a></li>

@@ -35,7 +35,7 @@
                     The online submission system should be used to submit all papers.
                     <br>
                     <br>
-                    A research or case report abstract that has been submitted must not have been published as a full manuscript in any peer-reviewed journal, domestically or internationally, before the ACA conference. Please give us the courtesy of notification if your work will be accepted for publication after the submission deadline. 
+                    The research or case report abstract that has been submitted must not have been published as a full manuscript in any peer-reviewed journal, domestically or internationally, before the ACA conference. Please give us the courtesy of notification if your work will be accepted for publication after the submission deadline. 
                     <br>
                     <br>
                     There is no limit to the number of abstracts an author may submit. Each abstract must be submitted separately.

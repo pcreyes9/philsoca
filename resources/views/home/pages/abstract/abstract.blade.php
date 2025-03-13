@@ -18,8 +18,8 @@
         <div class="row">
             <div class="col-12 text-center">
                 {{-- <h2 class="section-title">Metro Manila | Philippines</h2> --}}
-                <h3 class="section-sub-title">Important Dates</h3>
-                <div class="row">
+                <h3 class="section-sub-title ">Important Dates</h3>
+                <div class="row d-flex justify-content-center">
                     <div class="col-md-3 col-sm-6 ts-facts" >
                         <div class="ts-facts-img">
                         </div>

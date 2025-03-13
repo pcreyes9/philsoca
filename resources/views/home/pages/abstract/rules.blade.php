@@ -32,7 +32,7 @@
                     The <strong>presenting author</strong> (person who submits the abstract and presenting at the conference) must not have been involved in the completion of the research work. Presenters should be registered to attend the ACA convention by <strong>September 30, 2025</strong>.
                     <br>
                     <br>
-                    The online submission system should be used to submit all papers.
+                    The online submission system should be used to submit all papers. Abstracts must be submitted by <strong>July 30, 2025</strong>.
                     <br>
                     <br>
                     The research or case report abstract must not have been published as a full manuscript in any peer-reviewed journal, domestically or internationally, before the ACA conference. Please give us the courtesy of notification if your work will be accepted for publication after the submission deadline. 

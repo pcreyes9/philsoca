@@ -29,7 +29,7 @@
                 </p>   
                 <p class="hotel-p fd">
                     <br>
-                    The <strong>presenting author</strong> (person who submits the abstract and presenting at the conference) must not have been involved in the completion of the research work. Presenters should be registered to attend the ACA convention by <strong>September 30, 2025</strong>.
+                    The <strong>presenting author</strong> (person who submits the abstract and presenting at the conference) must have been involved in the completion of the research work. Presenters should be registered to attend the ACA convention by <strong>September 30, 2025</strong>.
                     <br>
                     <br>
                     The online submission system should be used to submit all papers. Abstracts must be submitted by <strong>July 30, 2025</strong>.

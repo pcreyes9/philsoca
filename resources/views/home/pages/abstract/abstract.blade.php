@@ -19,7 +19,7 @@
             <div class="col-12 text-center">
                 {{-- <h2 class="section-title">Metro Manila | Philippines</h2> --}}
                 <h3 class="section-sub-title">Important Dates</h3>
-                <div class="row text-center justify-content-center">
+                <div class="row">
                     <div class="col-md-3 col-sm-6 ts-facts" >
                         <div class="ts-facts-img">
                         </div>

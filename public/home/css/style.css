@@ -190,6 +190,10 @@ table{
   font-size: large;
 }
 
+.table-program {
+  font-size: 15px;
+}
+
 body,
 p {
   font-family: "Open Sans", sans-serif;

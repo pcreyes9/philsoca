@@ -22,17 +22,17 @@
                     Competition categories are open to:
                     
                     <ul class="list-p list-group list-group-numbered list-group-flush text-left pl-5" >
-                        <li class="">Residents in training or have graduated within 2 years prior to this convention (2023) with original research or case report.</li>
+                        <li class="">Residents in training or those who have graduated within 2 years prior to this convention (2023) with original research or case report.</li>
                         <li class="">Subspecialty Fellows in training with original research or case report.</li>
-                        <li class="">Must not have been presented in any national or international scientific meeting prior to this ACA conference.</li>
+                        <li class="">Papers must not have been presented in any national or international scientific meeting prior to this ACA conference.</li>
                     </ul>
                 </p>   
                 <p class="hotel-p fd">
                     <br>
-                    The <strong>presenting author</strong> (person who submits the abstract and presenting at the conference) must have been involved in the completion of the research work. Presenters should be registered to attend the ACA convention by <strong>September 30, 2025</strong>.
+                    The <strong>presenting author</strong> (person who submits the abstract and who will present at the conference) must be involved in the completion of the research work. Presenters should be registered to attend the ACA convention by <strong>September 30, 2025</strong>.
                     <br>
                     <br>
-                    The online submission system should be used to submit all papers. Abstracts must be submitted by <strong>July 30, 2025</strong>.
+                    The online submission system will be used to submit all papers. Abstracts must be submitted by <strong>July 30, 2025</strong>.
                     <br>
                     <br>
                     The research or case report abstract must not have been published as a full manuscript in any peer-reviewed journal, domestically or internationally, before the ACA conference. Please give us the courtesy of notification if your work will be accepted for publication after the submission deadline. 

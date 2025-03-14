@@ -44,7 +44,7 @@ class RegAbstract extends Component
         ]);
  
         Mail::mailer('info')->to($this->email)->send(new AbstractSubmission($this->author));
-        return redirect()->route('abstract')->with('success', 'You just have submitted your abstract, Dr. ' . $this->author . '. We will update you in this email, ' . $this->email . '. Thank you and we hope to see you soon!');
+        return redirect()->route('rules')->with('success', 'You just have submitted your abstract, Dr. ' . $this->author . '. We will update you in this email, ' . $this->email . '. Thank you and we hope to see you soon!');
     }
 
     public function render()

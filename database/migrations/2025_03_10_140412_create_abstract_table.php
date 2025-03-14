@@ -22,6 +22,7 @@ return new class extends Migration
             $table->string('email');
             $table->string('category');
             $table->string('fileName');
+            $table->string('status');
 
             $table->timestamps();
 

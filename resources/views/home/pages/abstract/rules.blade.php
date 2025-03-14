@@ -13,7 +13,12 @@
         <div class="row">
             <div class="col-12 text-center">
                 {{-- <h2 class="section-title">Metro Manila | Philippines</h2> --}}
-                <h3 class="section-sub-title" >Submission Guidelines</h3>
+                <h3 class="para-head fd mb-3" style="text-transform: none !important;"><span style="font-weight: 700 !important;">Research Forum</h3>
+                <p class="hotel-p fd">
+                    The 2025 ACA Research Forum will be composed of an Exhibit Hall Poster Presentation featured throughout the 3-day Convention, as well as Oral Presentation in separate Moderated Sessions for the Residents’ and subspecialty Fellows’ Research. For the Poster Presentation, entries will be categorized to one of the following: 1) Fellows’ Research, 2) Residents’ Research, 3) Fellows’ Case Reports, and 4) Residents’ Case Reports.                
+                </p>  
+
+                <h3 class="section-sub-title mt-5" >Submission Guidelines</h3>
                 <div class="row text-center justify-content-center">
 
                 <h3 class="para-head fd mb-3" style="text-transform: none !important;"><span style="font-weight: 700 !important;">General Information</h3>

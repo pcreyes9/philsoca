@@ -79,9 +79,9 @@ Route::get('/contact', function () {
     return view('home/pages/contact');
 })->name('contact');
 
-Route::get('/abstract-important-dates', function () {
-    return view('home/pages/abstract/abstract');
-})->name('abstract');
+// Route::get('/abstract-important-dates', function () {
+//     return view('home/pages/abstract/abstract');
+// })->name('abstract');
 
 Route::get('/abstract-submission-guidelines', function () {
     return view('home/pages/abstract/rules');

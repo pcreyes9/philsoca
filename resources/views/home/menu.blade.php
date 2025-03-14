@@ -28,7 +28,7 @@
                     <li class="nav-item dropdown">
                       <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">ABSTRACT SUBMISSION </a>
                       <ul class="dropdown-menu" role="menu">
-                        <li><a href="{{route('abstract')}}" style="font-size: 14px;">Important Dates</a></li>
+                        {{-- <li><a href="{{route('abstract')}}" style="font-size: 14px;">Important Dates</a></li> --}}
                         <li><a href="{{route('rules')}}" style="font-size: 14px;">Submission Guidelines </a></li>
                         {{-- <li><a href="{{route('instruction')}}" style="font-size: 14px;">Presentation Guidelines </a></li> --}}
                         <li><a href="{{route('prizes')}}" style="font-size: 14px;">competition prizes </a></li>

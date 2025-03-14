@@ -99,7 +99,9 @@ Route::get('/abstract-submit', function () {
     return view('home/pages/abstract/regAbs');
 })->name('regabs');
 
-
+Route::get('/sponsors', function () {
+    return view('home/sponsors');
+})->name('sponsors');
 
 
 Route::get('/accommodations', function () {
@@ -198,7 +200,7 @@ Route::get('/admin/viewMemReg/download/senior/{senior_citizen}', function ($seni
 
 Route::get('/download-abstract', function (){
     // dd("hello");
-    $pathToFile = public_path('images/Template for Abstract Submission.pptx');
+    $pathToFile = public_path('images/abstract/ACA Abstract Submission Template.pptx');
     return response()->download($pathToFile);
 })->name('dlabs');
 

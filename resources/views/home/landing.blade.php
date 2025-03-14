@@ -13,9 +13,9 @@
   <section id="facts" class="facts-area mt-n4" >
     <div class="container">
       <div class="facts-wrapper">
-        <h3 class="section-sub-title mt-n4 text-center">Important Dates</h3>
-          <div class="row ">
-            <div class="col-md-3 col-sm-6 ts-facts" >
+        <h3 class="section-sub-title mt-n4 text-center mt-3">Important Dates</h3>
+          <div class="row d-flex justify-content-center">
+            {{-- <div class="col-md-4 col-lg-3 col-sm-6 ts-facts mt-3" >
                 <div class="ts-facts-img">
                 </div>
                 <div class="ts-facts-content rounded-3 p-2" style="background-color: #0b6e4f">
@@ -23,9 +23,9 @@
                   <h2 class="ts-facts-num"><span class="counterUp" data-count="20">20</span></h2>
                   <h3 class="ts-facts-title" style="color: #fff">Early Bird Registration Open</h3>
                 </div>
-            </div><!-- Col end -->
+            </div><!-- Col end --> --}}
   
-            <div class="col-md-3 col-sm-6 ts-facts mt-5 mt-sm-0 ">
+            <div class="col-md-4 col-sm-6 col-lg-3 ts-facts mt-3">
                 <div class="ts-facts-img">
                 </div>
                 <div class="ts-facts-content rounded-3 p-2" style="background-color: #0b6e4f">
@@ -34,8 +34,38 @@
                   <h3 class="ts-facts-title">Early Bird Registration Deadline</h3>
                 </div>
             </div><!-- Col end -->
+
+            <div class="col-md-4 col-lg-3 col-sm-6 ts-facts mt-3" >
+                <div class="ts-facts-img">
+                </div>
+                <div class="ts-facts-content rounded-3 p-2" style="background-color: #0b6e4f">
+                  <h1 class="ts-date mb-n4">Jul</h1>
+                  <h2 class="ts-facts-num"><span class="counterUp" data-count="30">30</span></h2>
+                  <h3 class="ts-facts-title" style="color: #fff">Abstract submission deadline</h3>
+                </div>
+            </div><!-- Col end -->
+
+            <div class="col-md-4 col-lg-3 col-sm-6 ts-facts mt-3">
+                <div class="ts-facts-img">
+                </div>
+                <div class="ts-facts-content rounded-3 p-2" style="background-color: #0b6e4f">
+                  <h1 class="ts-date mb-n4">Aug</h1>
+                  <h2 class="ts-facts-num"><span class="counterUp" data-count="22">22</span></h2>
+                  <h3 class="ts-facts-title">Notification of acceptance</h3>
+                </div>
+            </div><!-- Col end -->
+
+            <div class="col-md-4 col-lg-3 col-sm-6 ts-facts mt-3">
+              <div class="ts-facts-img">
+              </div>
+              <div class="ts-facts-content rounded-3 p-2 " style="background-color: #0b6e4f">
+                <h1 class="ts-date mb-n4">Sept</h1>
+                <h2 class="ts-facts-num"><span class="counterUp" data-count="30">30</span></h2>
+                <h3 class="ts-facts-title" style="font-size: 14px;">Registration deadline for abstract presenting authors</h3>
+              </div>
+          </div><!-- Col end -->
   
-            <div class="col-md-3 col-sm-6 ts-facts mt-5 mt-md-0 ">
+            <div class="col-md-4 col-lg-3 col-sm-6 ts-facts mt-3">
                 <div class="ts-facts-img">
                 </div>
                 <div class="ts-facts-content rounded-3 p-2 " style="background-color: #0b6e4f">
@@ -45,7 +75,7 @@
                 </div>
             </div><!-- Col end -->
   
-            <div class="col-md-3 col-sm-6 ts-facts mt-5 mt-md-0 ">
+            <div class="col-md-4 col-lg-3 col-sm-6 ts-facts mt-3">
                 <div class="ts-facts-img">
                 </div>
                 <div class="ts-facts-content rounded-3 p-2 pb-4" style="background-color: #0b6e4f">
@@ -88,7 +118,7 @@
   {{-- <section id="news" class="project-area solid-bg">
     <div class="container">
       <div class="row ">
-        <div  class="col-lg-4 text-center"  >
+        <div  class="col-lg-3 text-center"  >
           <a class="gallery-popup wrapper" href="images/PSA President 2024.jpg">
             <img id="slide" class="img-fluid w-75 zoom fade-img" src="images/PSA President 2024.jpg" alt="img" style="box-shadow: 3px 3px 5px;"> 
           </a>

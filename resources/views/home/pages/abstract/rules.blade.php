@@ -13,7 +13,12 @@
         <div class="row">
             <div class="col-12 text-center">
                 {{-- <h2 class="section-title">Metro Manila | Philippines</h2> --}}
-                <h3 class="section-sub-title" >Submission Guidelines</h3>
+                <h3 class="para-head fd mb-3" style="text-transform: none !important;"><span style="font-weight: 700 !important;">Research Forum</h3>
+                <p class="hotel-p fd">
+                    The 2025 ACA Research Forum will be composed of an Exhibit Hall Poster Presentation featured throughout the 3-day Convention, as well as Oral Presentation in separate Moderated Sessions for the Residents’ and subspecialty Fellows’ Research. For the Poster Presentation, entries will be categorized to one of the following: 1) Fellows’ Research, 2) Residents’ Research, 3) Fellows’ Case Reports, and 4) Residents’ Case Reports.                
+                </p>  
+
+                <h3 class="section-sub-title mt-5" >Submission Guidelines</h3>
                 <div class="row text-center justify-content-center">
 
                 <h3 class="para-head fd mb-3" style="text-transform: none !important;"><span style="font-weight: 700 !important;">General Information</h3>
@@ -22,20 +27,20 @@
                     Competition categories are open to:
                     
                     <ul class="list-p list-group list-group-numbered list-group-flush text-left pl-5" >
-                        <li class="">Residents in training or have graduated within 2 years prior to this convention (2023) with original research or case report.</li>
+                        <li class="">Residents in training or those who have graduated within 2 years prior to this convention (2023) with original research or case report.</li>
                         <li class="">Subspecialty Fellows in training with original research or case report.</li>
-                        <li class="">Must not have been presented in any national or international scientific meeting prior to this ACA conference.</li>
+                        <li class="">Papers must not have been presented in any national or international scientific meeting prior to this ACA conference.</li>
                     </ul>
                 </p>   
                 <p class="hotel-p fd">
                     <br>
-                    The <strong>presenting author</strong> (person who submits the abstract and presenting at the conference) must not have been involved in the completion of the research work. Presenters should be registered to attend the ACA convention by <strong>September 30, 2025</strong>.
+                    The <strong>presenting author</strong> (person who submits the abstract and who will present at the conference) must be involved in the completion of the research work. Presenters should be registered to attend the ACA convention by <strong>September 30, 2025</strong>.
                     <br>
                     <br>
-                    The online submission system should be used to submit all papers.
+                    The online submission system will be used to submit all papers. Abstracts must be submitted by <strong>July 30, 2025</strong>.
                     <br>
                     <br>
-                    A research or case report abstract that has been submitted cannot have been published as a full manuscript in any peer-reviewed journal, domestically or internationally, before the ACA conference. Please give us the courtesy of notification if your work will be accepted for publication after the submission deadline. 
+                    The research or case report abstract must not have been published as a full manuscript in any peer-reviewed journal, domestically or internationally, before the ACA conference. Please give us the courtesy of notification if your work will be accepted for publication after the submission deadline. 
                     <br>
                     <br>
                     There is no limit to the number of abstracts an author may submit. Each abstract must be submitted separately.
@@ -50,13 +55,13 @@
                     Final instructions and complete mechanics will be sent to the qualified presenters during the notification deadline on August 22, 2025.
                     <br>
                     <br>
-                    All other abstracts that will not be selected to present in the oral contest would be considered for poster exhibition. An email will be sent for notification.
+                    All other abstracts that will not be selected to present in the oral contest will be considered for poster exhibition. An email will be sent for notification.
                     <br>
                     <br>
                     Case reports will only be presented as a poster.
                     <br>
                     <br>
-                    The organizing committee has the authority to decide whether to withdraw the abstract.
+                    The organizing committee has the authority to decide if the abstract needs to be withdrawn.
                     <br><br><br>
                 </p>
                 <h3 class="para-head fd mb-3" style="text-transform: none !important;"><span style="font-weight: 700 !important;">Instruction</h3>
@@ -67,8 +72,8 @@
                     <br><br>
                     The attachments should include:  
                     <ul class="list-p list-group list-group-numbered list-group-flush text-left pl-5" >
-                        <li class="">the Portable Document Format (PDF) copy of an anonymized, 11-point Arial font, double spaced, A4 sized, and with 1” margin on all borders;</li>
-                        <li class="">the IRB/ERC approval if the research involves human participants;</li>
+                        <li class="">The Portable Document Format (PDF) copy of an anonymized, 11-point Arial font, double spaced, A4 sized, and with 1” margin on all borders;</li>
+                        <li class="">The IRB/ERC approval if the research involves human participants;</li>
                         <li class="">Disclosure of Conflict of Interest, if applicable.</li>
                     </ul>
                     

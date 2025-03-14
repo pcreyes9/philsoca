@@ -37,6 +37,7 @@ class RegAbstract extends Component
             'contact' => $this->contact,
             'fileName' => $fileName,
             'category' => ucwords($this->category),
+            'status' => '1',
 
             'created_at' => Carbon::now(),  // Use Carbon to get the current timestamp
             'updated_at' => Carbon::now(),  // Same for updated_at

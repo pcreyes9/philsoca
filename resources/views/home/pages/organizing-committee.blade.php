@@ -46,7 +46,7 @@
                                     </tr> --}}
                                     <tr>
                                         <th scope="row"><strong>Ways & Means: </strong></th>
-                                        <td>Dr. Edgard M. Simon</td>
+                                        <td>Dr. Edgard M. Simon <br> Dr. Zenaida M. Mariano</td>
                                     </tr>
                                     <tr >
                                         <th scope="row" ><strong>Physical Arrangement: </strong></th>

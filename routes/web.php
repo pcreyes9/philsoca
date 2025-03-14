@@ -200,7 +200,7 @@ Route::get('/admin/viewMemReg/download/senior/{senior_citizen}', function ($seni
 
 Route::get('/download-abstract', function (){
     // dd("hello");
-    $pathToFile = public_path('images/ACA Abstract Submission Template.pptx?v={{ time() }}');
+    $pathToFile = public_path('images/abstract/ACA Abstract Submission Template.pptx?v={{ time() }}');
     return response()->download($pathToFile);
 })->name('dlabs');
 

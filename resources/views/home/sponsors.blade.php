@@ -5,7 +5,7 @@
 @section('banner-name', 'Venue')
 
 @section('content')
-@include('home.banner')
+{{-- @include('home.banner') --}}
 
 <section id="news" class="project-area">
     <div class="container" >

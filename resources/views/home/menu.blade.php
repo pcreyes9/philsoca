@@ -35,7 +35,7 @@
                       <li><a href="{{route('regabs')}}" style="font-size: 14px;">Submit Now! </a></li>
                     </ul>
                     </li>
-                    <li class="nav-item"><a class="nav-link" href="#">SPONSORSHIP & EXHIBITION</a></li>
+                    <li class="nav-item"><a class="nav-link" href="{{route('sponsors')}}">SPONSORSHIP & EXHIBITION</a></li>
                     <li class="nav-item"><a class="nav-link" href="{{route('venue')}}">VENUE</a></li>
                     <li class="nav-item"><a class="nav-link" href="{{route('accommodations')}}">ACCOMMODATIONS</a></li>
                     <li class="nav-item"><a class="nav-link" href="{{ route('contact') }}">CONTACT</a></li>

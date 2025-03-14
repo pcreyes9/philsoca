@@ -61,7 +61,7 @@
               <div class="ts-facts-content rounded-3 p-2 " style="background-color: #0b6e4f">
                 <h1 class="ts-date mb-n4">Sept</h1>
                 <h2 class="ts-facts-num"><span class="counterUp" data-count="30">30</span></h2>
-                <h3 class="ts-facts-title">Registration deadline for presenting authors</h3>
+                <h3 class="ts-facts-title" style="font-size: 14px;">Registration deadline for abstract presenting authors</h3>
               </div>
           </div><!-- Col end -->
   

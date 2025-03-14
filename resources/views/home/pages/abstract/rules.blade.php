@@ -50,13 +50,13 @@
                     Final instructions and complete mechanics will be sent to the qualified presenters during the notification deadline on August 22, 2025.
                     <br>
                     <br>
-                    All other abstracts that will not be selected to present in the oral contest would be considered for poster exhibition. An email will be sent for notification.
+                    All other abstracts that will not be selected to present in the oral contest will be considered for poster exhibition. An email will be sent for notification.
                     <br>
                     <br>
                     Case reports will only be presented as a poster.
                     <br>
                     <br>
-                    The organizing committee has the authority to decide whether to withdraw the abstract.
+                    The organizing committee has the authority to decide if the abstract needs to be withdrawn.
                     <br><br><br>
                 </p>
                 <h3 class="para-head fd mb-3" style="text-transform: none !important;"><span style="font-weight: 700 !important;">Instruction</h3>
@@ -67,8 +67,8 @@
                     <br><br>
                     The attachments should include:  
                     <ul class="list-p list-group list-group-numbered list-group-flush text-left pl-5" >
-                        <li class="">the Portable Document Format (PDF) copy of an anonymized, 11-point Arial font, double spaced, A4 sized, and with 1” margin on all borders;</li>
-                        <li class="">the IRB/ERC approval if the research involves human participants;</li>
+                        <li class="">The Portable Document Format (PDF) copy of an anonymized, 11-point Arial font, double spaced, A4 sized, and with 1” margin on all borders;</li>
+                        <li class="">The IRB/ERC approval if the research involves human participants;</li>
                         <li class="">Disclosure of Conflict of Interest, if applicable.</li>
                     </ul>
                     

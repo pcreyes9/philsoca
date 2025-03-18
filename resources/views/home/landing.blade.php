@@ -6,10 +6,26 @@
 @section('content')
   <div class="banner-carousel banner-carousel-1">
     <div class="">
-      <img class="imgSlide w-100 w-lg-75 " src="images/slider-main/ACA POSTER V8.png" alt="ASEAN CONGRESS OF ANESTHESIOLOGISTS">
+      <img class="imgSlide w-100 w-lg-75 " src="images/slider-main/ACA POSTER V9.png" alt="ASEAN CONGRESS OF ANESTHESIOLOGISTS">
     </div>
   </div>
   {{-- style="background-color: #000066" --}}
+
+  {{-- <div class="row d-flex justify-content-center align-middle">
+    <div class="col-md-6 col-12 col-lg-6 mt-3">
+      <img loading="lazy" class="img-fluid w-100 rounded imgSlide" src="images/ACA_LOGO_non.png" alt="img">
+    </div>
+    <div class="col-md-6 col-12 col-lg-6 mt-3 d-flex align-items-center justify-content-center">
+      <img loading="lazy" class="img-fluid w-100 rounded imgSlide" src="images/ACA_LOGO_non.png" alt="img">
+      <div class="text-center">
+        <h3 class="master-title">The 24th ASEAN Congress of Anesthesiologists</h3> 
+        <h3 class="master-sub-text mt-n4">in association with</h3>
+        <h3 class="master-title">The 57th Annual Convention and Postgraduate Course of the Philippine Society of Anesthesiologists</h3> 
+        <h3 class="section-sub-title">Shaping the Future of Anesthesia in Peroperative Care</h3>
+      </div>
+      
+    </div>
+  </div> --}}
   <section id="facts" class="facts-area mt-n4" >
     <div class="container">
       <div class="facts-wrapper">
@@ -115,42 +131,57 @@
     </div>
   </section> --}}
 
-  {{-- <section id="news" class="project-area solid-bg">
+  <section id="news" class="project-area">
     <div class="container">
       <div class="row ">
-        <div  class="col-lg-3 text-center"  >
-          <a class="gallery-popup wrapper" href="images/PSA President 2024.jpg">
-            <img id="slide" class="img-fluid w-75 zoom fade-img" src="images/PSA President 2024.jpg" alt="img" style="box-shadow: 3px 3px 5px;"> 
+        <div  class="col-lg-4 text-center d-flex justify-content-center"  >
+          <a class="gallery-popup wrapper" href="images/PSA President 2024 1.jpg">
+            <img id="slide" class="img-fluid w-100 zoom fade-img" src="images/PSA President 2024 1.jpg" alt="img" style="box-shadow: 3px 3px 5px;"> 
           </a>
         </div>
         
         <div class="col-lg-8 mt-4 mt-lg-0">
-          <p class="hotel-p">Dear All,
+          <p class="hotel-p">Dear Esteemed Colleagues,  
             <br>
             <br>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas semper nunc nec ornare ornare. Nam sagittis elit ac ligula bibendum condimentum. In sodales, neque et tincidunt congue, lorem dui interdum arcu, id lobortis tortor nibh quis magna. Pellentesque sit amet semper turpis, non feugiat tellus. Duis malesuada nibh nec suscipit volutpat. 
+            On behalf of the organizing committee, it is my great pleasure to welcome you to the 24th ASEAN Congress 
+            of Anesthesiologists (ACA) which will be held in association with the 57th Annual Convention and Post 
+            Graduate Course of the Philippine Society of Anesthesiologists (PSA). This event will take place at the 
+            Newport City, an upscale and vibrant complex in Metro Manila.
             <br>
             <br>
-            Phasellus ut enim id turpis euismod fermentum quis eu eros. Vestibulum rhoncus ante tellus, a iaculis turpis placerat eget. Fusce vel libero id est ullamcorper sagittis. Integer ullamcorper lacus non justo tincidunt porttitor. Duis ornare sollicitudin mi quis dignissim. Duis imperdiet justo nec tellus pellentesque, vel porta eros sodales. Etiam et convallis odio. Mauris interdum tortor augue, in dictum leo congue eu. Morbi a mauris consectetur ipsum finibus ultricies.
+            The ACA is a biennial event which unites anesthesiologists from all 10 ASEAN member nations. It is a 
+            momentous occasion for sharing knowledge, exchanging ideas, and fostering collaboration and friendship 
+            across the region. 
             <br>
             <br>
-            Nam ultricies est ac enim condimentum, id euismod ante porttitor. Nam bibendum cursus urna ac imperdiet. Cras semper, dolor fringilla molestie scelerisque, urna nulla consectetur justo, eu egestas urna ipsum quis purus. Pellentesque elementum in tellus eu volutpat. In sollicitudin est ex, eget pharetra risus scelerisque vitae. Sed dictum dolor nec mauris scelerisque efficitur sit amet vel quam. Nunc et rutrum est. Nunc tempor placerat diam, sit amet mattis eros semper nec.
+            This year's Congress with the theme “Shaping the Future of Anesthesia in Perioperative Care” reflects the 
+            growing importance of perioperative medicine and the integral role of Anesthesiologists in optimizing 
+            patient outcomes before, during, and after surgery. From advancements in anesthetic techniques to enhanced 
+            patient monitoring and personalized care strategies, there is so much to learn and discuss. Participants will 
+            have the chance to engage with international speakers who are all experts in the field, as well as with Asian 
+            colleagues and take part in cutting-edge discussions.  The comprehensive scientific program that spans the 
+            latest research, clinical application, and future trends will further deepen one’s understanding and knowledge 
+            of the practice of Anesthesiology. 
             <br>
             <br>              
-            Best wishes and kind regards,
+            We look forward to welcoming you in Manila! 
             <br>
             <br>
             <strong>
-              Peñafrancia C. Cano
+              PENAFRANCIA C. CANO, MD, DPBA, FPSA, EDRA 
+            </strong>   
               <br>
-              President, Philippine Society of Anesthesiologists
-            </strong>    
+              President, Confederation of ASEAN Societies of Anesthesiologists (CASA) 
+              <br>
+              Chair, 24th ASEAN Congress of Anesthesiologists Organizing Committee
+            
             
           </p>
         </div>
       </div>
     </div>
-  </section> --}}
+  </section>
   {{-- <hr class="solid" style="border-top: 2px solid #bbb;"> --}}
 
   {{-- <div class = "d-none d-sm-block">

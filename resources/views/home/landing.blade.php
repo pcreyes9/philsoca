@@ -139,7 +139,7 @@
       <div class="row ">
         <div  class="col-lg-4 text-center d-flex justify-content-center"  >
           <a class="gallery-popup wrapper" href="images/PSA President 2024 1.jpg">
-            <img id="slide" class="img-fluid w-100 zoom fade-img" src="images/PSA President 2024 1.jpg" alt="img" style="box-shadow: 3px 3px 5px;"> 
+            <img id="slide" class=" w-100 zoom fade-img" src="images/PSA President 2024 1.jpg" alt="img" style="box-shadow: 3px 3px 5px;"> 
           </a>
         </div>
         
@@ -172,7 +172,7 @@
             <br>
             <br>
             <strong>
-              PENAFRANCIA C. CANO, MD, DPBA, FPSA, EDRA 
+              Peñafrancia C. Cano, MD, DPBA, FPSA, EDRA 
             </strong>   
               <br>
               President, Confederation of ASEAN Societies of Anesthesiologists (CASA) 
@@ -188,12 +188,12 @@
 
   <section id="news" class="project-area">
     <div class="container">
-        <h3 style="font-size: 29px;" class="section-sub-title mt-n4 text-center mt-3">Welcome Message from the President of the Philippine Society of Anesthesiologists
+        <h3 style="font-size: 29px;" class="section-sub-title mt-n4 text-center mt-3">Welcome Message from the President of the <br>  Philippine Society of Anesthesiologists
         </h3>
       <div class="row ">
         <div  class="col-lg-4 text-center d-flex justify-content-center"  >
           <a class="gallery-popup wrapper" href="images/Dr Francis B Mayuga_PSA President.png">
-            <img id="slide" class="img-fluid w-100 zoom fade-img" src="images/Dr Francis B Mayuga_PSA President.png" alt="img" style="box-shadow: 3px 3px 5px;"> 
+            <img id="slide" class=" w-100 zoom fade-img" src="images/Dr Francis B Mayuga_PSA President.png" alt="img" style="box-shadow: 3px 3px 5px;"> 
           </a>
         </div>
         

@@ -6,7 +6,7 @@
 @section('content')
   <div class="banner-carousel banner-carousel-1">
     <div class="">
-      <img class="imgSlide w-100 w-lg-75 " src="images/slider-main/ACA POSTER V9.png" alt="ASEAN CONGRESS OF ANESTHESIOLOGISTS">
+      <img class="imgSlide w-100 w-lg-75 " src="images/slider-main/ACA POSTER V8.png" alt="ASEAN CONGRESS OF ANESTHESIOLOGISTS">
     </div>
   </div>
   {{-- style="background-color: #000066" --}}
@@ -134,8 +134,8 @@
   <section id="news" class="project-area">
     <div class="container">
         <h3 style="font-size: 25px;" class="section-sub-title mt-n4 text-center mt-3">MESSAGE FROM THE PRESIDENT OF CONFEDERATION OF ASEAN SOCIETIES OF
-ANESTHESIOLOGISTS (CASA) and CHAIR OF THE ORGANIZING COMMITTEE
-</h3>
+          ANESTHESIOLOGISTS (CASA) and CHAIR OF THE ORGANIZING COMMITTEE
+        </h3>
       <div class="row ">
         <div  class="col-lg-4 text-center d-flex justify-content-center"  >
           <a class="gallery-popup wrapper" href="images/PSA President 2024 1.jpg">
@@ -180,6 +180,61 @@ ANESTHESIOLOGISTS (CASA) and CHAIR OF THE ORGANIZING COMMITTEE
               Chair, 24th ASEAN Congress of Anesthesiologists Organizing Committee
             
             
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="news" class="project-area">
+    <div class="container">
+        <h3 style="font-size: 25px;" class="section-sub-title mt-n4 text-center mt-3">Welcome Message from the President of the Philippine Society of Anesthesiologists
+        </h3>
+      <div class="row ">
+        <div  class="col-lg-4 text-center d-flex justify-content-center"  >
+          <a class="gallery-popup wrapper" href="images/Dr Francis B Mayuga_PSA President.png">
+            <img id="slide" class="img-fluid w-100 zoom fade-img" src="images/Dr Francis B Mayuga_PSA President.png" alt="img" style="box-shadow: 3px 3px 5px;"> 
+          </a>
+        </div>
+        
+        <div class="col-lg-8 mt-4 mt-lg-0">
+          <p class="hotel-p">Dear Distinguished Delegates,  
+            <br>
+            <br>
+            It is with immense pride and joy that I welcome you to the 24th ASEAN Congress of Anesthesiologists, held in conjunction with the 57th Annual Convention and Postgraduate Course of the Philippine Society of Anesthesiologists. We are thrilled to host you in the beautiful Philippines from October 23-25, as we gather under the inspiring theme: "Shaping the Future of Anesthesia in Perioperative Care."
+            <br>
+            <br>
+            This congress marks a significant occasion for us all, as it brings together anesthesiologists, clinicians, researchers, and educators from across the ASEAN region and beyond. The exchange of knowledge and ideas is vital in our ever-evolving field, and I am confident that the discussions and interactions over the next few days will ignite new insights and collaborations that will propel us forward. 
+            <br>
+            <br>
+            Our theme this year, "Shaping the Future of Anesthesia in Perioperative Care," underscores our commitment to enhancing patient safety and outcomes throughout the surgical journey. As we know, the perioperative period is critical, not only for the surgical procedure itself but also for ensuring comprehensive care before and after the operation. Our goal is to explore innovative practices, integrate the latest research findings, and share experiences that will enable us to elevate our standards of care.
+            <br>
+            <br>  
+            The program we have curated for you is robust and diverse, featuring renowned speakers who are leaders in their fields. You can look forward to keynote presentations that will challenge our perspectives, insightful panel discussions that will delve into pressing issues, and hands-on workshops that will enhance your practical skills. Each session is designed to provide you with valuable knowledge and tools that you can apply in your practice.
+            <br>
+            <br> 
+            Moreover, we have dedicated time for networking and collaboration, recognizing that the relationships we build during this congress are just as important as the knowledge we gain. I encourage you to engage with fellow delegates, share your experiences, and forge connections that will last well beyond this event. Together, we can support each other in our common mission to improve the quality of anesthesia care across our region.
+            <br>
+            <br> 
+            The Philippines, with its rich culture, diverse landscapes, and warm hospitality, offers a perfect setting for this congress. I invite you to take some time to explore our beautiful country, indulge in our local cuisine, and experience the warmth of our people. We are not just here to learn; we are also here to create lasting memories.
+            <br>
+            <br>
+            As we embark on this journey together, I want to express my heartfelt gratitude to each of you for your commitment to the field of anesthesiology. Your dedication to patient care, education, and continuous improvement is what drives our profession forward. Let us seize this opportunity to inspire one another, share our knowledge, and shape the future of anesthesia in perioperative care.
+            <br>
+            <br>
+            Once again, welcome to the Philippines! Let us make this congress a remarkable and transformative experience.
+            <br>
+            <br>
+            Warmest regards,
+            <br>
+            <br>
+            <strong>
+              Francis B. Mayuga MD, MHA, DPBA, FPSA
+            </strong>   
+              <br>
+              President
+              <br>
+              Philippine Society of Anesthesiologists Inc.
           </p>
         </div>
       </div>

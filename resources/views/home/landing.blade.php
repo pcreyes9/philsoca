@@ -234,7 +234,7 @@
               <br>
               President
               <br>
-              Philippine Society of Anesthesiologists Inc.
+              Philippine Society of Anesthesiologists, Inc.
           </p>
         </div>
       </div>

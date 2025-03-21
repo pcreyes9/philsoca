@@ -6,7 +6,7 @@
 @section('content')
   <div class="banner-carousel banner-carousel-1">
     <div class="">
-      <img class="imgSlide w-100 w-lg-75 " src="images/slider-main/ACA POSTER V8.png" alt="ASEAN CONGRESS OF ANESTHESIOLOGISTS">
+      <img class="imgSlide w-100 w-lg-75 " src="images/slider-main/ACA POSTER V9.png" alt="ASEAN CONGRESS OF ANESTHESIOLOGISTS">
     </div>
   </div>
   {{-- style="background-color: #000066" --}}

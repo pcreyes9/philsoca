@@ -133,7 +133,7 @@
 
   <section id="news" class="project-area">
     <div class="container">
-        <h3 class="section-sub-title mt-n4 text-center mt-3">MESSAGE FROM THE PRESIDENT OF CONFEDERATION OF ASEAN SOCIEITIES OF
+        <h3 class="section-sub-title mt-n4 text-center mt-3">MESSAGE FROM THE PRESIDENT OF CONFEDERATION OF ASEAN SOCIETIES OF
 ANESTHESIOLOGISTS (CASA) and CHAIR OF THE ORGANIZING COMMITTEE
 </h3>
       <div class="row ">

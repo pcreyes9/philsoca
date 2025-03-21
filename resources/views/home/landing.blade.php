@@ -133,7 +133,7 @@
 
   <section id="news" class="project-area">
     <div class="container">
-        <h3 style="font-size: 25px;" class="section-sub-title mt-n4 text-center mt-3">MESSAGE FROM THE PRESIDENT OF CONFEDERATION OF ASEAN SOCIETIES OF
+        <h3 style="font-size: 29px;" class="section-sub-title mt-n4 text-center mt-3">MESSAGE FROM THE PRESIDENT OF CONFEDERATION OF ASEAN SOCIETIES OF
           ANESTHESIOLOGISTS (CASA) and CHAIR OF THE ORGANIZING COMMITTEE
         </h3>
       <div class="row ">
@@ -147,8 +147,8 @@
           <p class="hotel-p">Dear Esteemed Colleagues,  
             <br>
             <br>
-            On behalf of the organizing committee, it is my great pleasure to welcome you to the 24th ASEAN Congress 
-            of Anesthesiologists (ACA) which will be held in association with the 57th Annual Convention and Post 
+            On behalf of the organizing committee, it is my great pleasure to welcome you to the 24<sup>th</sup> <strong>ASEAN Congress 
+              of Anesthesiologists (ACA)</strong> which will be held in association with the 57<sup>th</sup> Annual Convention and Post 
             Graduate Course of the Philippine Society of Anesthesiologists (PSA). This event will take place at the 
             Newport City, an upscale and vibrant complex in Metro Manila.
             <br>
@@ -177,7 +177,7 @@
               <br>
               President, Confederation of ASEAN Societies of Anesthesiologists (CASA) 
               <br>
-              Chair, 24th ASEAN Congress of Anesthesiologists Organizing Committee
+              Chair, 24<sup>th</sup> ASEAN Congress of Anesthesiologists Organizing Committee
             
             
           </p>
@@ -188,7 +188,7 @@
 
   <section id="news" class="project-area">
     <div class="container">
-        <h3 style="font-size: 25px;" class="section-sub-title mt-n4 text-center mt-3">Welcome Message from the President of the Philippine Society of Anesthesiologists
+        <h3 style="font-size: 29px;" class="section-sub-title mt-n4 text-center mt-3">Welcome Message from the President of the Philippine Society of Anesthesiologists
         </h3>
       <div class="row ">
         <div  class="col-lg-4 text-center d-flex justify-content-center"  >
@@ -201,7 +201,7 @@
           <p class="hotel-p">Dear Distinguished Delegates,  
             <br>
             <br>
-            It is with immense pride and joy that I welcome you to the 24th ASEAN Congress of Anesthesiologists, held in conjunction with the 57th Annual Convention and Postgraduate Course of the Philippine Society of Anesthesiologists. We are thrilled to host you in the beautiful Philippines from October 23-25, as we gather under the inspiring theme: "Shaping the Future of Anesthesia in Perioperative Care."
+            It is with immense pride and joy that I welcome you to the 24<sup>th</sup> ASEAN Congress of Anesthesiologists, held in conjunction with the 57<sup>th</sup> Annual Convention and Postgraduate Course of the Philippine Society of Anesthesiologists. We are thrilled to host you in the beautiful Philippines from October 23-25, as we gather under the inspiring theme: "Shaping the Future of Anesthesia in Perioperative Care."
             <br>
             <br>
             This congress marks a significant occasion for us all, as it brings together anesthesiologists, clinicians, researchers, and educators from across the ASEAN region and beyond. The exchange of knowledge and ideas is vital in our ever-evolving field, and I am confident that the discussions and interactions over the next few days will ignite new insights and collaborations that will propel us forward. 

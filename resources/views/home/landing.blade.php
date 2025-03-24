@@ -173,10 +173,10 @@
             <strong>
               Peñafrancia C. Cano, MD, DPBA, FPSA 
             </strong>   
-              <br>
-              President, Confederation of ASEAN Societies of Anesthesiologists (CASA) 
-              <br>
-              Chair of Organizing Committee, 24th ASEAN Congress of Anesthesiologists
+            <br>
+            President, Confederation of ASEAN Societies of Anesthesiologists (CASA) 
+            <br>
+            Chair of Organizing Committee, 24th ASEAN Congress of Anesthesiologists
             
             
           </p>

@@ -160,7 +160,10 @@
             This year's Congress with the theme “Shaping the Future of Anesthesia in Perioperative Care” reflects the 
             growing importance of perioperative medicine and the integral role of Anesthesiologists in optimizing 
             patient outcomes before, during, and after surgery. From advancements in anesthetic techniques to enhanced 
-            patient monitoring and personalized care strategies, there is so much to learn and discuss. Participants will 
+            patient monitoring and personalized care strategies, there is so much to learn and discuss. 
+            <br>
+            <br>
+            Participants will 
             have the chance to engage with international speakers who are all experts in the field, as well as with Asian 
             colleagues and take part in cutting-edge discussions.  The comprehensive scientific program that spans the 
             latest research, clinical application, and future trends will further deepen one’s understanding and knowledge 

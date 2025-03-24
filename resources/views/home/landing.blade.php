@@ -6,7 +6,7 @@
 @section('content')
   <div class="banner-carousel banner-carousel-1">
     <div class="">
-      <img class="imgSlide w-100 w-lg-75 " src="images/slider-main/ACA POSTER V9.png" alt="ASEAN CONGRESS OF ANESTHESIOLOGISTS">
+      <img class="imgSlide w-100 w-lg-75 " src="images/slider-main/ACA POSTER V10.png" alt="ASEAN CONGRESS OF ANESTHESIOLOGISTS">
     </div>
   </div>
   {{-- style="background-color: #000066" --}}
@@ -131,7 +131,7 @@
     </div>
   </section> --}}
 
-  <section id="news" class="project-area">
+  {{-- <section id="news" class="project-area">
     <div class="container">
         <h3 style="font-size: 29px;" class="section-sub-title mt-n4 text-center mt-3">MESSAGE FROM THE PRESIDENT OF CONFEDERATION OF ASEAN SOCIETIES OF
           ANESTHESIOLOGISTS (CASA) and CHAIR OF THE ORGANIZING COMMITTEE
@@ -184,9 +184,9 @@
         </div>
       </div>
     </div>
-  </section>
+  </section> --}}
 
-  <section id="news" class="project-area">
+  {{-- <section id="news" class="project-area">
     <div class="container">
         <h3 style="font-size: 29px;" class="section-sub-title mt-n4 text-center mt-3">Welcome Message from the President of the <br>  Philippine Society of Anesthesiologists
         </h3>
@@ -239,7 +239,7 @@
         </div>
       </div>
     </div>
-  </section>
+  </section> --}}
   {{-- <hr class="solid" style="border-top: 2px solid #bbb;"> --}}
 
   {{-- <div class = "d-none d-sm-block">

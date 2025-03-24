@@ -6,7 +6,7 @@
 @section('content')
   <div class="banner-carousel banner-carousel-1">
     <div class="">
-      <img class="imgSlide w-100 w-lg-75 " src="images/slider-main/ACA POSTER V10.png" alt="ASEAN CONGRESS OF ANESTHESIOLOGISTS">
+      <img class="imgSlide w-100 w-lg-75 " src="images/slider-main/ACA POSTER V10.png?v={{ time() }}" alt="ASEAN CONGRESS OF ANESTHESIOLOGISTS">
     </div>
   </div>
   {{-- style="background-color: #000066" --}}
@@ -131,10 +131,9 @@
     </div>
   </section> --}}
 
-  {{-- <section id="news" class="project-area">
+  <section id="news" class="project-area">
     <div class="container">
-        <h3 style="font-size: 29px;" class="section-sub-title mt-n4 text-center mt-3">MESSAGE FROM THE PRESIDENT OF CONFEDERATION OF ASEAN SOCIETIES OF
-          ANESTHESIOLOGISTS (CASA) and CHAIR OF THE ORGANIZING COMMITTEE
+        <h3 style="font-size: 29px;" class="section-sub-title mt-n4 text-center mt-3">MESSAGE FROM THE PRESIDENT OF CONFEDERATION OF ASEAN SOCIETIES OF ANESTHESIOLOGISTS (CASA) and CHAIR OF THE ORGANIZING COMMITTEE
         </h3>
       <div class="row ">
         <div  class="col-lg-4 text-center d-flex justify-content-center"  >
@@ -161,7 +160,10 @@
             This year's Congress with the theme “Shaping the Future of Anesthesia in Perioperative Care” reflects the 
             growing importance of perioperative medicine and the integral role of Anesthesiologists in optimizing 
             patient outcomes before, during, and after surgery. From advancements in anesthetic techniques to enhanced 
-            patient monitoring and personalized care strategies, there is so much to learn and discuss. Participants will 
+            patient monitoring and personalized care strategies, there is so much to learn and discuss. 
+            <br>
+            <br>
+            Participants will 
             have the chance to engage with international speakers who are all experts in the field, as well as with Asian 
             colleagues and take part in cutting-edge discussions.  The comprehensive scientific program that spans the 
             latest research, clinical application, and future trends will further deepen one’s understanding and knowledge 
@@ -172,21 +174,26 @@
             <br>
             <br>
             <strong>
-              Peñafrancia C. Cano, MD, DPBA, FPSA, EDRA 
+              Peñafrancia C. Cano, MD, DPBA, FPSA 
             </strong>   
-              <br>
-              President, Confederation of ASEAN Societies of Anesthesiologists (CASA) 
-              <br>
-              Chair, 24<sup>th</sup> ASEAN Congress of Anesthesiologists Organizing Committee
+            <br>
+            President
+            <br>
+            <span style="letter-spacing: 0.5px; text-align: left;">Confederation of ASEAN Societies of Anesthesiologists (CASA) </span>
+            
+            <br>
+            Chair of Organizing Committee
+            <br>
+            24th ASEAN Congress of Anesthesiologists
             
             
           </p>
         </div>
       </div>
     </div>
-  </section> --}}
+  </section>
 
-  {{-- <section id="news" class="project-area">
+  <section id="news" class="project-area">
     <div class="container">
         <h3 style="font-size: 29px;" class="section-sub-title mt-n4 text-center mt-3">Welcome Message from the President of the <br>  Philippine Society of Anesthesiologists
         </h3>
@@ -229,7 +236,7 @@
             <br>
             <br>
             <strong>
-              Francis B. Mayuga MD, MHA, DPBA, FPSA
+              Francis B. Mayuga MD, DPBA, FPSA
             </strong>   
               <br>
               President
@@ -239,8 +246,8 @@
         </div>
       </div>
     </div>
-  </section> --}}
-  {{-- <hr class="solid" style="border-top: 2px solid #bbb;"> --}}
+  </section> 
+  {{-- <hr class="solid" style="border-top: 2px solid #bbb;">
 
   {{-- <div class = "d-none d-sm-block">
     @include('home.maps')

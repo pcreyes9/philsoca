@@ -6,7 +6,7 @@
 @section('content')
   <div class="banner-carousel banner-carousel-1">
     <div class="">
-      <img class="imgSlide w-100 w-lg-75 " src="images/slider-main/ACA POSTER V10.png" alt="ASEAN CONGRESS OF ANESTHESIOLOGISTS">
+      <img class="imgSlide w-100 w-lg-75 " src="images/slider-main/ACA POSTER V10.png?v={{ time() }}" alt="ASEAN CONGRESS OF ANESTHESIOLOGISTS">
     </div>
   </div>
   {{-- style="background-color: #000066" --}}
@@ -133,8 +133,7 @@
 
   <section id="news" class="project-area">
     <div class="container">
-        <h3 style="font-size: 29px;" class="section-sub-title mt-n4 text-center mt-3">MESSAGE FROM THE PRESIDENT OF CONFEDERATION OF ASEAN SOCIETIES OF
-          ANESTHESIOLOGISTS (CASA) and CHAIR OF THE ORGANIZING COMMITTEE
+        <h3 style="font-size: 29px;" class="section-sub-title mt-n4 text-center mt-3">MESSAGE FROM THE PRESIDENT OF CONFEDERATION OF ASEAN SOCIETIES OF ANESTHESIOLOGISTS (CASA) and CHAIR OF THE ORGANIZING COMMITTEE
         </h3>
       <div class="row ">
         <div  class="col-lg-4 text-center d-flex justify-content-center"  >
@@ -172,12 +171,12 @@
             <br>
             <br>
             <strong>
-              Peñafrancia C. Cano, MD, DPBA, FPSA, EDRA 
+              Peñafrancia C. Cano, MD, DPBA, FPSA 
             </strong>   
               <br>
               President, Confederation of ASEAN Societies of Anesthesiologists (CASA) 
               <br>
-              Chair, 24<sup>th</sup> ASEAN Congress of Anesthesiologists Organizing Committee
+              Chair of Organizing Committee, 24th ASEAN Congress of Anesthesiologists
             
             
           </p>
@@ -229,7 +228,7 @@
             <br>
             <br>
             <strong>
-              Francis B. Mayuga MD, MHA, DPBA, FPSA
+              Francis B. Mayuga MD, DPBA, FPSA
             </strong>   
               <br>
               President
@@ -239,7 +238,7 @@
         </div>
       </div>
     </div>
-  </section> --}}
+  </section> 
   {{-- <hr class="solid" style="border-top: 2px solid #bbb;">
 
   {{-- <div class = "d-none d-sm-block">

@@ -236,7 +236,7 @@
             <br>
             <br>
             <strong>
-              Francis B. Mayuga MD, DPBA, FPSA
+              Francis B. Mayuga MD, MHA, DPBA, FPSA
             </strong>   
               <br>
               President

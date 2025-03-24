@@ -1,7 +1,7 @@
 <?php $page='venue'; ?>
 @extends('home.master')
 
-@section('title', 'Venue')
+@section('title', 'Sponsorship & Exhibition')
 @section('banner-name', 'Venue')
 
 @section('content')

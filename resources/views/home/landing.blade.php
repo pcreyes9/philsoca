@@ -132,9 +132,10 @@
   </section> --}}
 
   <section id="news" class="project-area">
+    <h3 style="font-size: 29px;" class="section-sub-title mt-n4 text-center mt-3">MESSAGE FROM THE PRESIDENT OF THE <br> CONFEDERATION OF ASEAN SOCIETIES OF ANESTHESIOLOGISTS (CASA) <br> and CHAIR OF THE ORGANIZING COMMITTEE
+    </h3>
     <div class="container">
-        <h3 style="font-size: 29px;" class="section-sub-title mt-n4 text-center mt-3">MESSAGE FROM THE PRESIDENT OF CONFEDERATION OF ASEAN SOCIETIES OF ANESTHESIOLOGISTS (CASA) and CHAIR OF THE ORGANIZING COMMITTEE
-        </h3>
+        
       <div class="row ">
         <div  class="col-lg-4 text-center d-flex justify-content-center"  >
           <a class="gallery-popup wrapper" href="images/PSA President 2024 1.jpg">

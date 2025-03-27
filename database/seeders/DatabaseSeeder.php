@@ -23,16 +23,16 @@ class DatabaseSeeder extends Seeder
         //     'name' => 'Test User',
         //     'email' => 'test@example.com',
         // ]);
-        // User::create(
-        //     [
-        //         "username" => "admin",
-        //         "userType" => "admin",
-        //         "email" => "psa.acacongress2025@gmail.com",
-        //         "password" => "$2y$12"."$". "EjSTD.i6uK8i1zOjwNLX.uBnDIpIKSWwqNvO3Q8W3aYNKIi3rdwe2"
-        //         // ACA2025manila!
+        User::create(
+            [
+                "username" => "admin",
+                "userType" => "admin",
+                "email" => "psa.acacongress2025@gmail.com",
+                "password" => "$2y$12"."$". "EjSTD.i6uK8i1zOjwNLX.uBnDIpIKSWwqNvO3Q8W3aYNKIi3rdwe2"
+                // ACA2025manila!
                 
-        //     ]
-        // );
+            ]
+        );
 
         // User::create(
         //     [

@@ -30,7 +30,7 @@ class AbstractSubmission extends Mailable
             subject: 'Acknowledgement of Abstract Submission for the 2025 ACA Research Forum Competition',
         );
     }
-
+ 
     /**
      * Get the message content definition.
      */

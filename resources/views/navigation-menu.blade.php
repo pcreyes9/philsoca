@@ -16,7 +16,13 @@
                         {{ __('Dashboard') }}
                     </x-nav-link>
                     <x-nav-link href="{{ route('viewMemReg') }}" :active="request()->routeIs('viewMemReg')">
-                        {{ __('Membership Registration') }}
+                        {{ __('All Registration') }}
+                    </x-nav-link>
+                    <x-nav-link href="{{ route('approvedReg') }}" :active="request()->routeIs('approvedReg')">
+                        {{ __('Approved Registration') }}
+                    </x-nav-link>
+                    <x-nav-link href="{{ route('pendingReg') }}" :active="request()->routeIs('pendingReg')">
+                        {{ __('Pending Registration') }}
                     </x-nav-link>
                 </div>
 
@@ -47,18 +53,18 @@
                                     </div>
 
                                     <!-- Team Settings -->
-                                    <x-dropdown-link href="{{ route('teams.show', Auth::user()->currentTeam->id) }}">
+                                    {{-- <x-dropdown-link href="{{ route('teams.show', Auth::user()->currentTeam->id) }}">
                                         {{ __('Team Settings') }}
-                                    </x-dropdown-link>
+                                    </x-dropdown-link> --}}
 
-                                    @can('create', Laravel\Jetstream\Jetstream::newTeamModel())
+                                    {{-- @can('create', Laravel\Jetstream\Jetstream::newTeamModel())
                                         <x-dropdown-link href="{{ route('teams.create') }}">
                                             {{ __('Create New Team') }}
                                         </x-dropdown-link>
-                                    @endcan
+                                    @endcan --}}
 
                                     <!-- Team Switcher -->
-                                    @if (Auth::user()->allTeams()->count() > 1)
+                                    {{-- @if (Auth::user()->allTeams()->count() > 1)
                                         <div class="border-t border-gray-200"></div>
 
                                         <div class="block px-4 py-2 text-xs text-gray-400">
@@ -68,7 +74,7 @@
                                         @foreach (Auth::user()->allTeams() as $team)
                                             <x-switchable-team :team="$team" />
                                         @endforeach
-                                    @endif
+                                    @endif --}}
                                 </div>
                             </x-slot>
                         </x-dropdown>

@@ -14,6 +14,13 @@
                 text-align:center;
             }
         </style>
+        <script>
+            n =  new Date();
+            y = n.getFullYear();
+            m = n.getMonth() + 1;
+            d = n.getDate();
+            document.getElementById("date").innerHTML = m + "/" + d + "/" + y;
+        </script>
     </head>
     <body>
 
@@ -24,21 +31,28 @@
             <hr style="clear:both;"/>
             <h2 >PSA ID: {{ $infos->psa_id }}</h2>
             @if ($infos->membership == 'RM' && $infos->senior_citizen != 'Not available')
-                <h2>Membership: {{ $infos->membership }} | with Senior</h2>
+                <h2>Membership: {{ $infos->membership }} | with Senior/PWD</h2>
+            @elseif ($infos->membership == 'TM' && $infos->senior_citizen != 'Not available')
+                <h2>Membership: {{ $infos->membership }} | with PWD</h2>
             @else
-            <h2>
-                Membership: {{ $infos->membership }}
-            </h2>
+                <h2>
+                    Membership: {{ $infos->membership }}
+                </h2>
             @endif
             
             <h3>
-                Email: {{ $infos->email }}
+                Contact: {{ $infos->email }} | {{ $infos->contact_number }} 
+            </h3>
+            <h3>
+                Reg Date: {{ $infos->created_at }} | Status: {{ $infos->status }}
             </h3>
             <br>
             <div class="text-center">
-                <img class="img" src='storage/photos/proof of payments/{{ $infos->proof_payment }}'   alt="">
+                <img class="img" style="height: 600px; width: auto" src='storage/photos/proof of payments/{{ $infos->proof_payment }}'   alt="">
             </div>
             <div class="page-break"></div>
         @endforeach
     </body>
 </html>
+
+

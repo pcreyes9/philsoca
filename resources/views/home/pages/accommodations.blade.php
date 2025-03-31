@@ -1,6 +1,6 @@
 @extends('home.master')
 
-@section('title', 'Venue')
+@section('title', 'Accommodations')
 
 @section('content')
 <div class="">

@@ -1,10 +1,11 @@
-<div id="banner-area" class="banner-area" style="background-image:url(images/banner/banner23.jpg)">
+<div id="banner-area" class="banner-area" style="background-color: #000066;  ">
+  {{-- background-image:url(images/banner/banner23.jpg); --}}
   <div class="banner-text">
     <div class="container">
         <div class="row">
-          <div class="col-lg-12">
+          <div class="ml-3 col-lg-16 col-sm-16">
               <div class="banner-heading">
-                <h1 class="banner-title">@yield('banner-name')</h1>
+                <h1 class="banner-title text-left">@yield('banner-name')</h1>
                 {{-- <nav aria-label="breadcrumb">
                     <ol class="breadcrumb justify-content-center">
                       <li class="breadcrumb-item"><a href="#">Home</a></li>

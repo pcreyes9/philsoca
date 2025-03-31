@@ -6,7 +6,7 @@
         <meta name="csrf-token" content="{{ csrf_token() }}">
 
         {{-- <title>{{ config('app.name', 'PSA-INC') }}</title> --}}
-        <title>ADMIN ACA</title>
+        <title>ACA 2025 Manila</title>
 
         <!-- Fonts -->
         <link rel="preconnect" href="https://fonts.bunny.net">
@@ -16,13 +16,21 @@
         @vite(['resources/css/app.css', 'resources/js/app.js'])
 
         <!-- Styles -->
+
         @livewireStyles
+
+        
     </head>
     <body>
-        <div class="font-sans antialiased text-gray-900">
-            {{ $slot }}
-        </div>
+        {{-- <img  class="master-bg" src="images/bg/master.jpg" alt="ASEAN CONGRESS OF ANESTHESIOLOGISTS IN MANILA 2025"> --}}
 
+        <div class="w-full h-full bg-no-repeat bg-cover" style="background-image: url('https://gratisography.com/wp-content/uploads/2024/11/gratisography-augmented-reality-800x525.jpg');">
+            <div class="font-sans antialiased text-gray-900" >
+            
+                {{ $slot }}
+            </div>
+        </div>
+        
         @livewireScripts
     </body>
 </html>

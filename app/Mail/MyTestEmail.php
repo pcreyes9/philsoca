@@ -18,7 +18,7 @@ class MyTestEmail extends Mailable
      */
     public function __construct(private string $name)
     {
-        //
+        // dd($this->id);
     }
 
     /**
@@ -27,7 +27,7 @@ class MyTestEmail extends Mailable
     public function envelope(): Envelope
     {
         return new Envelope(
-            subject: 'Registration for Annual Convention 2024',
+            subject: 'Registration for ASEAN Congress of Anesthesiologists 2025',
         );
     }
 
@@ -49,7 +49,8 @@ class MyTestEmail extends Mailable
      */
     public function attachments(): array
     {
-        return [];
+        return [
+        ];
         
     }
 }

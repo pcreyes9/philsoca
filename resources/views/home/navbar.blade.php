@@ -1,5 +1,5 @@
 <nav class="navbar sticky-top fixed-top navbar-expand-lg navbar-light bg-light">
-    <img loading="lazy" style="width: 10%; object-fit: scale;" class="logo img-fluid" src="images/ACA_LOGO.png" alt="">
+    <img loading="lazy" style="width: 10%; object-fit: scale;" class="logo img-fluid" src="images/ACA_LOGO.png?v={{ time() }}" alt="">
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>

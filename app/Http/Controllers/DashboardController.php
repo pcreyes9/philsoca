@@ -17,10 +17,10 @@ class DashboardController extends Controller
 
     public function dashboard(){
         
-        $id = Auth::user()->psa_id;
-        // $info = Members::where('PSA_ID', Auth::user()->psa_id)->get();
-
-        // dd($info->toArray());
+        // $userType = Auth()->user()->userType;
+        // if($userType != 'admin'){
+        //     return view('user_account.viewMemReg');
+        // }
         return view("user_account.dashboard");
     }
     public function viewMemReg (){

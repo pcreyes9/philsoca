@@ -8,7 +8,7 @@
 {{-- @include('home.banner') --}}
 
 <section id="news" class="project-area">
-    <div class="container" >
+    <div class="" >
         @if (session('success'))
             <div class="alert alert-success">
                 {{ session('success') }}

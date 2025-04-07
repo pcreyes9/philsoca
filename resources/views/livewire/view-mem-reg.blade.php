@@ -1,5 +1,5 @@
 <div>
-    <x-loading-indicator/>
+    {{-- <x-loading-indicator/> --}}
     <script>
         window.livewire.on('notifySuccess', message => {
             notify().success(message, 'Approval Success!');

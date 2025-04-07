@@ -30,7 +30,7 @@ class ViewMemReg extends Component
 
         if($this->search != "" || $this->search != null){
             // dd("asd");
-            $reg = Registration::where('last_name', 'like', $this->search)->Paginate(30);
+            $reg = Registration::where('last_name', 'like', '%'.$this->search)->Paginate(30);
         }
 
         else if($this->sort == 'regNew'){

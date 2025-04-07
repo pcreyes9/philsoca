@@ -19,7 +19,7 @@ use Illuminate\Support\Facades\Mail;
 class ViewMemReg extends Component
 {
     use WithPagination;
-    public $barcode, $from, $to, $sort ="regNew", $sortName="Registration ID";
+    public $search, $barcode, $from, $to, $sort ="regNew", $sortName="Registration ID";
 
     public function render()
     {
@@ -28,7 +28,12 @@ class ViewMemReg extends Component
         //     return view('user_account.viewMemReg');
         // }
 
-        if($this->sort == 'regNew'){
+        if($this->search != "" || $this->search != null){
+            // dd("asd");
+            $reg = Registration::where('last_name', 'like', $this->search.'%')->Paginate(30);
+        }
+
+        else if($this->sort == 'regNew'){
             $reg = Registration::orderBy('id', 'DESC')->Paginate(30);
             $this->sortName="Registration ID (newest)";
         }

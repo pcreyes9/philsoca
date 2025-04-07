@@ -1,5 +1,5 @@
 <div>
-    <x-loading-indicator/>
+    {{-- <x-loading-indicator/> --}}
     <script>
         window.livewire.on('notifySuccess', message => {
             notify().success(message, 'Approval Success!');
@@ -62,6 +62,10 @@
                                                 </div>
                                             </li>
                                         </ul>
+                                    </div>
+
+                                    <div>
+                                        <input type="text" wire:model.live='search' class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="Search last name" required />
                                     </div>
                                 </caption>
                                 

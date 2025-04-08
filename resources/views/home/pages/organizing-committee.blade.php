@@ -7,6 +7,5 @@
     {{-- @include('home.banner') --}}
     <div id="" class="">
         <img style="width: 100%;" class="align-middle "src="images/ACA Scientific Committee Design 03082025.png?v={{ time() }}" alt="Image is still in process.">
-
     </div><!-- Main container end -->
 @endsection

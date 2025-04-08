@@ -74,7 +74,6 @@ class ViewMemReg extends Component
             'info' => $info
         ]);
         return response()->streamDownload(function () use ($pdf) { echo $pdf->stream(); }, 'Registration ID ' . $this->from . ' - ' . $this->to .'.pdf');
-        return redirect()->back();
     }
 
     public function barcodePDF(){

@@ -197,7 +197,6 @@ class MemReg extends Component
                     
                     return redirect()->route('emailsend', ['email' => $this->email, 'name' => $this->last_name]);
                     // sleep(seconds: 3);
-                    return $this->cleanvars();
                     
                 }
             }

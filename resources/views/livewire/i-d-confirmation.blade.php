@@ -58,6 +58,10 @@
                     <x-button class="ms-4">
                         {{ __('Register') }}
                     </x-button>
+
+                    {!! NoCaptcha::renderJs() !!}
+                    {!! NoCaptcha::display() !!}
+
                 </div>
             </form>
         </x-authentication-card>

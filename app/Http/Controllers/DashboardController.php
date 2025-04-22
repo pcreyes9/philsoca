@@ -21,7 +21,25 @@ class DashboardController extends Controller
         // if($userType != 'admin'){
         //     return view('user_account.viewMemReg');
         // }
-        return view("user_account.dashboard");
+        $data = DB::table('registrations')
+            ->select('membership', DB::raw('COUNT(*) as total_count'))
+            ->groupBy('membership')
+            ->get();
+        
+        // Convert to array of just the counts
+        $series = $data->pluck('total_count')->toArray();
+        
+        $monthly = DB::table('registrations')
+            ->select(
+                DB::raw("DATE_FORMAT(created_at, '%b %Y') as x"),
+                DB::raw("COUNT(*) as y")
+            )
+            ->groupBy(DB::raw("DATE_FORMAT(created_at, '%b %Y')"))
+            ->orderBy(DB::raw("MIN(created_at)"))
+            ->get();
+            
+
+        return view("user_account.dashboard", compact('series', 'monthly'));
     }
     public function viewMemReg (){
         // $reg = Registration::all()->orderBy('id');
@@ -35,6 +53,4 @@ class DashboardController extends Controller
         // dd("working");
         return Excel::download(new ExcelExport, 'export-excel.xlsx');
     }
-
-    
 }

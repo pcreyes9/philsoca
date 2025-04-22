@@ -11,129 +11,217 @@
                 <div class="p-6 lg:p-8 bg-white border-b border-gray-200">
                     {{-- <x-application-logo class="block h-12 w-auto" />    --}}
                 
-                <h1 class="mb-8 text-2xl font-medium text-gray-900">
-                        To be constructed...
+                    <h1 class="mb-8 text-2xl font-medium text-gray-900">
+                    Report
                     </h1>
-                    
-                    <div class="p-6 lg:p-8 bg-white border-b border-gray-200">
-                        <table class="w-full text-sm text-left rtl:text-right  ">
-                            {{-- {{ $sort }} --}}
-                            <caption class="p-5 text-lg font-semibold text-left rtl:text-right text-gray-900 bg-white ">
-                                Registration Summary
-                            </caption>
-                            
-                            <thead class="text-sm text-gray-700 uppercase bg-gray-100  ">
-                                <tr>
-                                    <th scope="col" class="px-6 py-3  ">
-                                        Membership
-                                    </th>
-                                    <th scope="col" class="px-6 py-3 text-center ">
-                                        Online
-                                    </th>
-                                    <th scope="col" class="px-6 py-3 text-center">
-                                        Face to Face
-                                    </th>
-                                    <th scope="col" class="px-6 py-3 text-right">
-                                        Total
-                                    </th>
-                                </tr>
-                            </thead>
-                            
-                            <tbody>
-    
-                                <tr class="bg-white border-b hover:bg-gray-50 dark:hover:bg-gray-100">
-                                    <th scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap ">
-                                        Regular Member
-                                    </th>
-                                    <td class="px-6 py-4 text-center">
-                                        {{ $onlineRM }}   
-                                    </td>
-                                    <td class="px-6 py-4 text-center">
-                                        {{ $faceRM }}  
-                                    </td>
-                                    <td class="px-6 py-4 text-right">
-                                        {{ $totRM }}  
-                                    </td>
-                                </tr>
-                                <tr class="bg-white border-b hover:bg-gray-50 dark:hover:bg-gray-100">
-                                    <th scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap  ">
-                                        Life Member
-                                    </th>
-                                    <td class="px-6 py-4 text-center">
-                                        {{ $onlineLM }}   
-                                    </td>
-                                    <td class="px-6 py-4 text-center">
-                                        {{ $faceLM }}  
-                                    </td>
-                                    <td class="px-6 py-4 text-right">
-                                        {{ $totLM }}  
-                                    </td>
-                                </tr>
-                                <tr class="bg-white border-b hover:bg-gray-50 dark:hover:bg-gray-100">
-                                    <th scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap  ">
-                                        Trainee Member
-                                    </th>
-                                    <td class="px-6 py-4 text-center">
-                                        {{ $onlineTM }}   
-                                    </td>
-                                    <td class="px-6 py-4 text-center">
-                                        {{ $faceTM }}  
-                                    </td>
-                                    <td class="px-6 py-4 text-right">
-                                        {{ $totTM }}  
-                                    </td>
-                                </tr>
-                                <thead class="text-sm text-gray-700 uppercase bg-gray-100  ">
-                                    <tr>
-                                        <th scope="col" class="px-6 py-3  ">
-                                            Total PSA Members
-                                        </th>
-                                        <th scope="col" class="px-6 py-3 text-center ">
-                                            {{ $onlineTM + $onlineRM + $onlineLM}}
-                                        </th>
-                                        <th scope="col" class="px-6 py-3 text-center">
-                                            {{ $faceTM + $faceRM + $faceLM}}
-                                        </th>
-                                        <th scope="col" class="px-6 py-3 text-right">
-                                            {{ $totTM + $totLM + $totRM}}
-                                        </th>
-                                    </tr>
-                                </thead>
-                                <tr class="bg-white border-b hover:bg-gray-50 dark:hover:bg-gray-100">
-                                    <th scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap  ">
-                                        Non-Member
-                                    </th>
-                                    <td class="px-6 py-4 text-center">
-                                        {{ $onlineNM }}   
-                                    </td>
-                                    <td class="px-6 py-4 text-center">
-                                        {{ $faceNM }}  
-                                    </td>
-                                    <td class="px-6 py-4 text-right">
-                                        {{ $totNM }}  
-                                    </td>
-                                </tr>
-                                <thead class="text-sm text-gray-700 uppercase bg-gray-100  ">
-                                    <tr>
-                                        <th scope="col" class="px-6 py-3  ">
-                                            Total Registrants
-                                        </th>
-                                        <th scope="col" class="px-6 py-3 text-center ">
-                                            {{ $onlineTM + $onlineRM + $onlineLM + $onlineNM}}
-                                        </th>
-                                        <th scope="col" class="px-6 py-3 text-center">
-                                            {{ $faceTM + $faceRM + $faceLM + $faceNM}}
-                                        </th>
-                                        <th scope="col" class="px-6 py-3 text-right">
-                                            {{ $totTM + $totLM + $totRM + $totNM}}
-                                        </th>
-                                    </tr>
-                                </thead>
-                            </tbody>
-                        </table>
+                    <div class="columns-3">
+                        <div class=" bg-white rounded-lg shadow-sm dark:bg-gray-800 p-4 md:p-6 aspect-square">
+                            <div class="flex justify-between mb-3">
+                                <div class="flex justify-center items-center">
+                                    <h5 class="text-xl font-bold leading-none text-gray-900 dark:text-white pe-1">Total Registrants</h5>
+                                </div>
+                            </div>
+                            <!-- Donut Chart -->
+                            <div class="py-6" id="donut-chart"></div>
+                        </div>
+                        
+                        <div class=" bg-white rounded-lg shadow-sm dark:bg-gray-800 p-4 md:p-6">
+                            <div class="flex justify-between mb-3">
+                                <div class="flex justify-center items-center">
+                                    <h5 class="text-xl font-bold leading-none text-gray-900 dark:text-white pe-1">Monthly Registrants</h5>
+                                </div>
+                            </div>
+                          <div id="column-chart"></div>
+                        </div>
+
                     </div>
                 </div>
             </div>
         </div>
     </div>
+    <script>
+        const seriesData = @json($series);
+        const getChartOptions = () => {
+          return {
+            series: seriesData,
+            colors: [ "#FDBA8C", "#E74694", "#1C64F2","#16BDCA",],
+            chart: {
+              height: 320,
+              width: "100%",
+              type: "donut",
+            },
+            stroke: {
+              colors: ["transparent"],
+              lineCap: "",
+            },
+            plotOptions: {
+              pie: {
+                donut: {
+                  labels: {
+                    show: true,
+                    name: {
+                      show: true,
+                      fontFamily: "Inter, sans-serif",
+                      offsetY: 20,
+                    },
+                    total: {
+                      showAlways: true,
+                      show: true,
+                      label: "ACA Registrants",
+                      fontFamily: "Inter, sans-serif",
+                      formatter: function (w) {
+                        const sum = w.globals.seriesTotals.reduce((a, b) => {
+                          return a + b
+                        }, 0)
+                        return sum
+                      },
+                    },
+                    value: {
+                      show: true,
+                      fontFamily: "Inter, sans-serif",
+                      offsetY: -20,
+                      formatter: function (value) {
+                        return value 
+                      },
+                    },
+                  },
+                  size: "80%",
+                },
+              },
+            },
+            grid: {
+              padding: {
+                top: -2,
+              },
+            },
+            labels: ["Foreign Delegates", "Life Member", "Regular Member", "Trainee Member"],
+            dataLabels: {
+              enabled: false,
+            },
+            legend: {
+              position: "bottom",
+              fontFamily: "Inter, sans-serif",
+            },
+            yaxis: {
+              labels: {
+                formatter: function (value) {
+                  return value
+                },
+              },
+            },
+            xaxis: {
+              labels: {
+                formatter: function (value) {
+                  return value
+                },
+              },
+              axisTicks: {
+                show: false,
+              },
+              axisBorder: {
+                show: false,
+              },
+            },
+          }
+        }
+        
+        if (document.getElementById("donut-chart") && typeof ApexCharts !== 'undefined') {
+          const chart = new ApexCharts(document.getElementById("donut-chart"), getChartOptions());
+          chart.render();
+ 
+        }
+</script>
+
+<script>
+    const chartData = @json($monthly);
+    const options = {
+      colors: ["#1A56DB", "#FDBA8C"],
+      series: [
+        {
+          name: "Registrants",
+          color: "#1A56DB", 
+          data: chartData
+        },
+      ],
+      chart: {
+        type: "bar",
+        height: "320px",
+        fontFamily: "Inter, sans-serif",
+        toolbar: {
+          show: false,
+        },
+      },
+      plotOptions: {
+        bar: {
+          horizontal: false,
+          columnWidth: "70%",
+          borderRadiusApplication: "end",
+          borderRadius: 8,
+          distributed: true,
+        },
+      },
+      tooltip: {
+        shared: true,
+        intersect: false,
+        style: {
+          fontFamily: "Inter, sans-serif",
+        },
+      },
+      states: {
+        hover: {
+          filter: {
+            type: "darken",
+            value: 1,
+          },
+        },
+      },
+      stroke: {
+        show: true,
+        width: 0,
+        colors: ["transparent"],
+      },
+      grid: {
+        show: false,
+        strokeDashArray: 4,
+        padding: {
+          left: 2,
+          right: 2,
+          top: -14
+        },
+      },
+      dataLabels: {
+        enabled: false,
+      },
+      legend: {
+        show: false,
+      },
+      xaxis: {
+        floating: false,
+        labels: {
+          show: true,
+          style: {
+            fontFamily: "Inter, sans-serif",
+            cssClass: 'text-xs font-normal fill-gray-500 dark:fill-gray-400'
+          }
+        },
+        axisBorder: {
+          show: false,
+        },
+        axisTicks: {
+          show: false,
+        },
+      },
+      yaxis: {
+        show: false,
+      },
+      fill: {
+        opacity: 1,
+      },
+    }
+    
+    if(document.getElementById("column-chart") && typeof ApexCharts !== 'undefined') {
+      const chart = new ApexCharts(document.getElementById("column-chart"), options);
+      chart.render();
+    }
+</script>
 </x-app-layout>

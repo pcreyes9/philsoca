@@ -210,7 +210,6 @@ class MemReg extends Component
     }
 
     public function cleanvars(){
-        
         $imgName = "";
         $this->imgCert = "";
         $this->paymentProof = "";

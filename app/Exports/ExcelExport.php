@@ -30,10 +30,10 @@ class ExcelExport implements FromCollection, WithHeadings, ShouldAutoSize
             'senior_citizen',
             'proof_payment',
             'trainee_cert',
+            'status',
             'country',
             'created_at',
             'updated_at',
-            'status'
         ];
     }
 

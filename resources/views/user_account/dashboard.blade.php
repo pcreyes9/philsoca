@@ -31,6 +31,7 @@
                                   <h5 class="text-xl font-bold leading-none text-gray-900 dark:text-white pe-1">Monthly Registrants</h5>
                               </div>
                           </div>
+                          <!-- bar Chart -->
                         <div id="column-chart"></div>
                       </div>
 
@@ -179,7 +180,7 @@
     plotOptions: {
       bar: {
         horizontal: false,
-        columnWidth: "100%",
+        columnWidth: "85%",
         borderRadiusApplication: "end",
         borderRadius: 8,
         

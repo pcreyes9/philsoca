@@ -206,7 +206,8 @@ Route::get('/download-abstract', function (){
 
 
 Route::get('/admin/dashboard/export-excel', function () {
-    return Excel::download(new ExcelExport, 'regs.xlsx');
+    $fileName = 'ACA Registration as of ' . now()->format('m-d-Y_H-i-s') . '.xlsx';
+    return Excel::download(new ExcelExport, $fileName);
 })->name('exportExcel');
 
 

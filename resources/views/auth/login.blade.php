@@ -2,6 +2,7 @@
     <x-authentication-card>
         <x-slot name="logo">
             <x-authentication-card-logo />
+            <h2><i>(This page is for speakers only)</i></h2>
         </x-slot>
 
         <x-validation-errors class="mb-4" />

@@ -22,7 +22,7 @@ class DashboardController extends Controller
         //     return view('user_account.viewMemReg');
         // }
         $startDate = '2025-01-01';  // Adjust the start date as needed
-        $endDate = '2025-04-01';  // Current date
+        $endDate = '2025-05-01';  // Current date
         
         $data = DB::table('registrations')
             ->select('membership', DB::raw('COUNT(*) as total_count'))

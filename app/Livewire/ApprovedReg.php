@@ -14,7 +14,7 @@ use Illuminate\Support\Facades\DB;
 class ApprovedReg extends Component
 {
     use WithPagination;
-    public $barcode, $from, $to, $sort ="regNew", $sortName="Approved Date (latest)";
+    public $barcode, $from, $to, $sort ="dateNew", $sortName="Approved Date (latest)";
 
     public function render()
     {

@@ -22,6 +22,18 @@
                                         <ul class="p-3 space-y-3 text-sm text-gray-700 dark:text-gray-200" aria-labelledby="dropdownRadioButton" >
                                             <li>
                                                 <div class="flex items-center">
+                                                    <input wire:model.live='sort' id="dateNew" type="radio" value="dateNew" name="default-radio" class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-700 dark:focus:ring-offset-gray-700 focus:ring-2 dark:bg-gray-600 dark:border-gray-500">
+                                                    <label for="dateNew" class="ms-2 text-sm font-medium text-gray-900 dark:text-gray-300">Approved Date (latest)</label>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div class="flex items-center">
+                                                    <input wire:model.live='sort' id="dateOld" type="radio" value="dateOld" name="default-radio" class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-700 dark:focus:ring-offset-gray-700 focus:ring-2 dark:bg-gray-600 dark:border-gray-500">
+                                                    <label for="dateOld" class="ms-2 text-sm font-medium text-gray-900 dark:text-gray-300">Approved Date (oldest)</label>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div class="flex items-center">
                                                     <input wire:model.live='sort' id="regNew" type="radio" value="regNew" name="default-radio" class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-700 dark:focus:ring-offset-gray-700 focus:ring-2 dark:bg-gray-600 dark:border-gray-500">
                                                     <label for="regNew" class="ms-2 text-sm font-medium text-gray-900 dark:text-gray-300">Registration ID (newest)</label>
                                                 </div>
@@ -42,18 +54,6 @@
                                                 <div class="flex items-center">
                                                     <input wire:model.live='sort' checked id="psaIDOld" type="radio" value="psaIDOld" name="default-radio" class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-700 dark:focus:ring-offset-gray-700 focus:ring-2 dark:bg-gray-600 dark:border-gray-500">
                                                     <label for="psaIDOld" class="ms-2 text-sm font-medium text-gray-900 dark:text-gray-300">PSA ID (oldest)</label>
-                                                </div>
-                                            </li>
-                                            <li>
-                                                <div class="flex items-center">
-                                                    <input wire:model.live='sort' id="dateNew" type="radio" value="dateNew" name="default-radio" class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-700 dark:focus:ring-offset-gray-700 focus:ring-2 dark:bg-gray-600 dark:border-gray-500">
-                                                    <label for="dateNew" class="ms-2 text-sm font-medium text-gray-900 dark:text-gray-300">Date (newest)</label>
-                                                </div>
-                                            </li>
-                                            <li>
-                                                <div class="flex items-center">
-                                                    <input wire:model.live='sort' id="dateOld" type="radio" value="dateOld" name="default-radio" class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-700 dark:focus:ring-offset-gray-700 focus:ring-2 dark:bg-gray-600 dark:border-gray-500">
-                                                    <label for="dateOld" class="ms-2 text-sm font-medium text-gray-900 dark:text-gray-300">Date (oldest)</label>
                                                 </div>
                                             </li>
                                         </ul>

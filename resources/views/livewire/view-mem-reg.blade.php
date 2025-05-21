@@ -121,6 +121,9 @@
                                             Registration Date
                                         </th>
                                         <th scope="col" class="px-6 py-3 text-center">
+                                            Approved Date
+                                        </th>
+                                        <th scope="col" class="px-6 py-3 text-center">
                                             Status
                                         </th>
                                         <th scope="col" class="px-6 py-3 text-center">
@@ -178,6 +181,14 @@
                                             <td class="px-6 py-4 text-center">
                                                 <a href="{{ url('storage/photos/proof of payments/' . $regs->proof_payment) }}">
                                                 {{ $regs->created_at }}    
+                                            </td>
+                                            <td class="px-6 py-4 text-center">
+                                                <a href="{{ url('storage/photos/proof of payments/' . $regs->proof_payment) }}">
+                                                @if ($regs->updated_at == $regs->created_at)
+                                                    - 
+                                                @else
+                                                    {{ $regs->updated_at }}  
+                                                @endif
                                             </td>
                                             @if ($regs->status == 'Approved')
                                                 <td class="px-6 py-4 text-center leading-5 font-semibold text-green-500">

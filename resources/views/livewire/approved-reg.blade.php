@@ -93,11 +93,14 @@
                                             Registration Date
                                         </th>
                                         <th scope="col" class="px-6 py-3 text-center">
-                                            Status
+                                            Approved Date
                                         </th>
                                         <th scope="col" class="px-6 py-3 text-center">
-                                            Action
+                                            Status
                                         </th>
+                                        {{-- <th scope="col" class="px-6 py-3 text-center">
+                                            Action
+                                        </th> --}}
                                     </tr>
                                 </thead>
                                 
@@ -151,13 +154,21 @@
                                                 <a href="{{ url('storage/photos/proof of payments/' . $regs->proof_payment) }}">
                                                 {{ $regs->created_at }}    
                                             </td>
+                                            <td class="px-6 py-4 text-center">
+                                                <a href="{{ url('storage/photos/proof of payments/' . $regs->proof_payment) }}">
+                                                @if ($regs->updated_at == $regs->created_at)
+                                                    - 
+                                                @else
+                                                    {{ $regs->updated_at }}  
+                                                @endif
+                                            </td>
                                             <td class="px-6 py-4 text-center leading-5 font-semibold text-green-500">
                                                 {{ $regs->status }}    
                                             </td>
-                                            <td class="px-6 py-4 whitespace-nowrap text-sm font-medium">
+                                            {{-- <td class="px-6 py-4 whitespace-nowrap text-sm font-medium">
                                                 <a href="#" wire:confirm="Are you sure you want to HOLD?" wire:click.prevent="statusCheck({{ $regs->psa_id }})" class="text-blue-600 hover:text-blue-900 mb-2 mr-2">Hold</a>
                                                 <a href="#" wire:confirm="Are you sure you want to DELETE?" wire:click.prevent="deleteReg({{ $regs->psa_id }})" class="text-red-700 hover:text-red-900 mb-2 mr-2">Delete</a>
-                                            </td>
+                                            </td> --}}
                                         </tr>
                                     @endforeach
                                 </tbody>

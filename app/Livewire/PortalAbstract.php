@@ -12,9 +12,15 @@ class PortalAbstract extends Component
 {
     public function render()
     {
-        $reg =  DB::table('abstract')->Paginate(30);
-        // dd($reg);
-        return view('livewire.portal-abstract', ['reg' => $reg]);
+        $reg =  DB::table('abstract')->where('status', '1')->orderBy('category')->Paginate(30);
+        $fcounter = DB::table('abstract')->where('status', '1')->where('category', 'FELLOW')->count();
+        $rcounter = DB::table('abstract')->where('status', '1')->where('category', 'RESIDENT')->count();
+        
+        return view('livewire.portal-abstract', [
+            'reg' => $reg,
+            'fcounter' => $fcounter,
+            'rcounter' => $rcounter,
+        ]);
     }
 
     public function export(){

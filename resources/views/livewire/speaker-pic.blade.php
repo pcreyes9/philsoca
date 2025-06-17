@@ -76,6 +76,10 @@
         <textarea class="text-left" style="font-size: 20px; width: 100%; resize: none; background-color: white" rows="17" disabled>{{ $bioModal }}</textarea>
         
       </div>
+      <div class="modal-header " style="background-color: #000066">
+          <h5 class="modal-title font-weight-bold" id="exampleModalLongTitle" style="color: #fff">Speaker Schedule</h5><br>
+      </div>
+      <h1 class="my-3" style="font-size: 20px">Coming soon!</h1>
       <script>
         const textArea = document.querySelector('textarea')
        

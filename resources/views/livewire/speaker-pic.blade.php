@@ -80,6 +80,31 @@
           <h5 class="modal-title font-weight-bold" id="exampleModalLongTitle" style="color: #fff">Speaker Schedule</h5><br>
       </div>
       <h1 class="my-3" style="font-size: 20px">Coming soon!</h1>
+      
+      {{-- <div class="">
+        <table class="table table-bordered">
+          <thead>
+            <tr>
+              <th class="text-left" scope="col">Topic</th>
+              <th scope="col">Time & Date</th>
+              <th scope="col">Venue</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td class="text-left align-middle">Perioperative Process: The Focused Factory Principle</td>
+              <td class="align-middle">October 23, 2025 <br> 1:00 PM - 2:00 PM</td>
+              <td class="align-middle">Ballroom C</td>
+            </tr>
+            <tr>
+              <td>Jacob</td>
+              <td>Thornton</td>
+              <td>@fat</td>
+            </tr>
+          </tbody>
+        </table>
+      </div> --}}
+
       <script>
         const textArea = document.querySelector('textarea')
        

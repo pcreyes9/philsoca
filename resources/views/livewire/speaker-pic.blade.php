@@ -79,9 +79,9 @@
       <div class="modal-header " style="background-color: #000066">
           <h5 class="modal-title font-weight-bold" id="exampleModalLongTitle" style="color: #fff">Speaker Schedule</h5><br>
       </div>
-      {{-- <h1 class="my-3" style="font-size: 20px">Coming soon!</h1> --}}
+      <h1 class="my-3" style="font-size: 20px">Coming soon!</h1>
       
-      <div class="">
+      {{-- <div class="">
         <table class="table table-bordered">
           <thead>
             <tr>
@@ -103,7 +103,7 @@
             </tr>
           </tbody>
         </table>
-      </div>
+      </div> --}}
 
       <script>
         const textArea = document.querySelector('textarea')

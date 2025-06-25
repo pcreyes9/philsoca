@@ -30,7 +30,7 @@
                 <h1 style="padding-left: 237px;">{!! DNS1D::getBarcodeHTML("$info->psa_id", 'C128',4,60, 'black', true) !!}</h1>
             </div>
             
-            <h3> {{ $info->membership }} | {{ str_pad($number, 4, '0', STR_PAD_LEFT) }}</h3>
+            <h3> {{ $info->membership }} | {{ str_pad($info->psa_id, 4, '0', STR_PAD_LEFT) }}</h3>
             {{-- <h3></h3> --}}
         {{-- @endforeach --}}
     </body>

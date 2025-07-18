@@ -85,7 +85,7 @@
         <table class="table table-bordered">
           <thead>
             <tr>
-              <th class="text-left" scope="col">Topic</th>
+              <th class="text-center" scope="col">Topic</th>
               <th scope="col">Time & Date</th>
               <th scope="col">Venue</th>
             </tr>

@@ -4,7 +4,7 @@
       <div class="row px-lg-5">
 
       @foreach ($speaker as $speakers)
-        <div class="col-sm-6 col-md-6 col-xl-3 shuffle-item mb-4 px-3 " data-toggle="modal" data-target="#exampleModalCenter" wire:click="modalShow('{{ $speakers->name }}')">
+        <div class="col-sm-6 col-md-6 col-xl-3 shuffle-item mb-4 px-3 " data-toggle="modal" data-target="#exampleModalCenter" wire:click="modalShow('{{ $speakers->name }}', {{ $speakers->id }})">
           <div class="project-img-container" style="position: relative;">
             <a class="gallery-popup" >
               @if ($speakers->photo == null || $speakers->photo == "")
@@ -69,6 +69,7 @@
               <h1 class="mb-n4 font-weight-bold" style="font-size: 24px">{{ $nameModal }}</h1>
               <h1 class="mb-n4 mt-2" style="font-size: 20px">{{ $affiModal }}</h1>
               <h1 style="font-size: 20px">{{ $countryModal }}</h1>
+              {{-- <h1 style="font-size: 20px">{{ $speakerID }}</h1> --}}
             </div>
           </div>
         </div>
@@ -79,9 +80,9 @@
       <div class="modal-header " style="background-color: #000066">
           <h5 class="modal-title font-weight-bold" id="exampleModalLongTitle" style="color: #fff">Speaker Schedule</h5><br>
       </div>
-      <h1 class="my-3" style="font-size: 20px">Coming soon!</h1>
+      {{-- <h1 class="my-3" style="font-size: 20px">Coming soon!</h1> --}}
       
-      {{-- <div class="">
+      <div class="">
         <table class="table table-bordered">
           <thead>
             <tr>
@@ -91,19 +92,16 @@
             </tr>
           </thead>
           <tbody>
-            <tr>
-              <td class="text-left align-middle">Perioperative Process: The Focused Factory Principle</td>
-              <td class="align-middle">October 23, 2025 <br> 1:00 PM - 2:00 PM</td>
-              <td class="align-middle">Ballroom C</td>
-            </tr>
-            <tr>
-              <td>Jacob</td>
-              <td>Thornton</td>
-              <td>@fat</td>
-            </tr>
+            @foreach ($schedule as $sched)
+              <tr>
+                <td class="text-left align-middle">{{ $sched->topic }}</td>
+                <td class="align-middle">{{ $sched->date }} <br> {{ $sched->time }}</td>
+                <td class="align-middle">{{ $sched->venue }}</td>
+              </tr>
+            @endforeach
           </tbody>
         </table>
-      </div> --}}
+      </div>
 
       <script>
         const textArea = document.querySelector('textarea')

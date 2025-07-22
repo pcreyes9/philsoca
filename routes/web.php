@@ -67,6 +67,10 @@ Route::get('/prelim-program', function () {
     return view('home/pages/prelimProgram');
 })->name('prelim');
 
+Route::get('/glance-program', function () {
+    return view('home/pages/glanceProgram');
+})->name('glance');
+
 // Route::get('/organizing-committee', function () {
 //     return view('home/pages/orgComPic');
 // })->name('orgCom');

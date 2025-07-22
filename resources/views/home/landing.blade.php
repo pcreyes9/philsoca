@@ -26,87 +26,7 @@
       
     </div>
   </div> --}}
-  <section id="facts" class="facts-area mt-n4" >
-    <div class="container">
-      <div class="facts-wrapper">
-        <h3 class="section-sub-title mt-n4 text-center mt-3">Important Dates</h3>
-          <div class="row d-flex justify-content-center">
-            {{-- <div class="col-md-4 col-lg-3 col-sm-6 ts-facts mt-3" >
-                <div class="ts-facts-img">
-                </div>
-                <div class="ts-facts-content rounded-3 p-2" style="background-color: #0b6e4f">
-                  <h1 class="ts-date mb-n4">Jan</h1>
-                  <h2 class="ts-facts-num"><span class="counterUp" data-count="20">20</span></h2>
-                  <h3 class="ts-facts-title" style="color: #fff">Early Bird Registration Open</h3>
-                </div>
-            </div><!-- Col end --> --}}
   
-            <div class="col-md-4 col-sm-6 col-lg-3 ts-facts mt-3">
-                <div class="ts-facts-img">
-                </div>
-                <div class="ts-facts-content rounded-3 p-2" style="background-color: #0b6e4f">
-                  <h1 class="ts-date mb-n4">Apr</h1>
-                  <h2 class="ts-facts-num"><span class="counterUp" data-count="30">30</span></h2>
-                  <h3 class="ts-facts-title">Early Bird Registration Deadline</h3>
-                </div>
-            </div><!-- Col end -->
-
-            <div class="col-md-4 col-lg-3 col-sm-6 ts-facts mt-3" >
-                <div class="ts-facts-img">
-                </div>
-                <div class="ts-facts-content rounded-3 p-2" style="background-color: #0b6e4f">
-                  <h1 class="ts-date mb-n4">Jul</h1>
-                  <h2 class="ts-facts-num"><span class="counterUp" data-count="30">30</span></h2>
-                  <h3 class="ts-facts-title" style="color: #fff">Abstract submission deadline</h3>
-                </div>
-            </div><!-- Col end -->
-
-            <div class="col-md-4 col-lg-3 col-sm-6 ts-facts mt-3">
-                <div class="ts-facts-img">
-                </div>
-                <div class="ts-facts-content rounded-3 p-2" style="background-color: #0b6e4f">
-                  <h1 class="ts-date mb-n4">Aug</h1>
-                  <h2 class="ts-facts-num"><span class="counterUp" data-count="22">22</span></h2>
-                  <h3 class="ts-facts-title">Notification of acceptance</h3>
-                </div>
-            </div><!-- Col end -->
-
-            <div class="col-md-4 col-lg-3 col-sm-6 ts-facts mt-3">
-              <div class="ts-facts-img">
-              </div>
-              <div class="ts-facts-content rounded-3 p-2 " style="background-color: #0b6e4f">
-                <h1 class="ts-date mb-n4">Sept</h1>
-                <h2 class="ts-facts-num"><span class="counterUp" data-count="30">30</span></h2>
-                <h3 class="ts-facts-title" style="font-size: 14px;">Registration deadline for abstract presenting authors</h3>
-              </div>
-          </div><!-- Col end -->
-  
-            <div class="col-md-4 col-lg-3 col-sm-6 ts-facts mt-3">
-                <div class="ts-facts-img">
-                </div>
-                <div class="ts-facts-content rounded-3 p-2 " style="background-color: #0b6e4f">
-                  <h1 class="ts-date mb-n4">Oct</h1>
-                  <h2 class="ts-facts-num"><span class="counterUp" data-count="10">10</span></h2>
-                  <h3 class="ts-facts-title">Regular Registration Deadline</h3>
-                </div>
-            </div><!-- Col end -->
-  
-            <div class="col-md-4 col-lg-3 col-sm-6 ts-facts mt-3">
-                <div class="ts-facts-img">
-                </div>
-                <div class="ts-facts-content rounded-3 p-2 pb-4" style="background-color: #0b6e4f">
-                  <h1 class="ts-date mb-n4">Oct</h1>
-                  <h2 class="ts-facts-num"><span class="counterUp" data-count="23">23</span>-<span class="counterUp" data-count="25">25</span></h2>
-                  <h3 class="ts-facts-title">ACA 2025 MANILA</h3>
-                </div>
-            </div><!-- Col end -->
-  
-          </div> <!-- row end -->
-      </div>
-      <!--/ Content row end -->
-    </div>
-    <!--/ Container end -->
-  </section><!-- Facts end -->
   {{-- <section id="ts-features" class="ts-features">
     <div class="container" >
       <div class="row justify-content-center">
@@ -247,7 +167,88 @@
         </div>
       </div>
     </div>
-  </section> 
+  </section>
+  <section id="facts" class="facts-area mt-n4" >
+    <div class="container">
+      <div class="facts-wrapper">
+        <h3 class="section-sub-title mt-n4 text-center mt-3">Important Dates</h3>
+          <div class="row d-flex justify-content-center">
+            {{-- <div class="col-md-4 col-lg-3 col-sm-6 ts-facts mt-3" >
+                <div class="ts-facts-img">
+                </div>
+                <div class="ts-facts-content rounded-3 p-2" style="background-color: #0b6e4f">
+                  <h1 class="ts-date mb-n4">Jan</h1>
+                  <h2 class="ts-facts-num"><span class="counterUp" data-count="20">20</span></h2>
+                  <h3 class="ts-facts-title" style="color: #fff">Early Bird Registration Open</h3>
+                </div>
+            </div><!-- Col end --> --}}
+  
+            <div class="col-md-4 col-sm-6 col-lg-3 ts-facts mt-3">
+                <div class="ts-facts-img">
+                </div>
+                <div class="ts-facts-content rounded-3 p-2" style="background-color: #0b6e4f">
+                  <h1 class="ts-date mb-n4">Apr</h1>
+                  <h2 class="ts-facts-num"><span class="counterUp" data-count="30">30</span></h2>
+                  <h3 class="ts-facts-title">Early Bird Registration Deadline</h3>
+                </div>
+            </div><!-- Col end -->
+
+            <div class="col-md-4 col-lg-3 col-sm-6 ts-facts mt-3" >
+                <div class="ts-facts-img">
+                </div>
+                <div class="ts-facts-content rounded-3 p-2" style="background-color: #0b6e4f">
+                  <h1 class="ts-date mb-n4">Jul</h1>
+                  <h2 class="ts-facts-num"><span class="counterUp" data-count="30">30</span></h2>
+                  <h3 class="ts-facts-title" style="color: #fff">Abstract submission deadline</h3>
+                </div>
+            </div><!-- Col end -->
+
+            <div class="col-md-4 col-lg-3 col-sm-6 ts-facts mt-3">
+                <div class="ts-facts-img">
+                </div>
+                <div class="ts-facts-content rounded-3 p-2" style="background-color: #0b6e4f">
+                  <h1 class="ts-date mb-n4">Aug</h1>
+                  <h2 class="ts-facts-num"><span class="counterUp" data-count="22">22</span></h2>
+                  <h3 class="ts-facts-title">Notification of acceptance</h3>
+                </div>
+            </div><!-- Col end -->
+
+            <div class="col-md-4 col-lg-3 col-sm-6 ts-facts mt-3">
+              <div class="ts-facts-img">
+              </div>
+              <div class="ts-facts-content rounded-3 p-2 " style="background-color: #0b6e4f">
+                <h1 class="ts-date mb-n4">Sept</h1>
+                <h2 class="ts-facts-num"><span class="counterUp" data-count="30">30</span></h2>
+                <h3 class="ts-facts-title" style="font-size: 14px;">Registration deadline for abstract presenting authors</h3>
+              </div>
+          </div><!-- Col end -->
+  
+            <div class="col-md-4 col-lg-3 col-sm-6 ts-facts mt-3">
+                <div class="ts-facts-img">
+                </div>
+                <div class="ts-facts-content rounded-3 p-2 " style="background-color: #0b6e4f">
+                  <h1 class="ts-date mb-n4">Oct</h1>
+                  <h2 class="ts-facts-num"><span class="counterUp" data-count="10">10</span></h2>
+                  <h3 class="ts-facts-title">Regular Registration Deadline</h3>
+                </div>
+            </div><!-- Col end -->
+  
+            <div class="col-md-4 col-lg-3 col-sm-6 ts-facts mt-3">
+                <div class="ts-facts-img">
+                </div>
+                <div class="ts-facts-content rounded-3 p-2 pb-4" style="background-color: #0b6e4f">
+                  <h1 class="ts-date mb-n4">Oct</h1>
+                  <h2 class="ts-facts-num"><span class="counterUp" data-count="23">23</span>-<span class="counterUp" data-count="25">25</span></h2>
+                  <h3 class="ts-facts-title">ACA 2025 MANILA</h3>
+                </div>
+            </div><!-- Col end -->
+  
+          </div> <!-- row end -->
+      </div>
+      <!--/ Content row end -->
+    </div>
+    <!--/ Container end -->
+  </section><!-- Facts end -->
   {{-- <hr class="solid" style="border-top: 2px solid #bbb;">
 
   {{-- <div class = "d-none d-sm-block">

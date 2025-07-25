@@ -52,7 +52,7 @@
   </section> --}}
 
   <section id="news" class="project-area">
-    <h3 style="font-size: 29px;" class="section-sub-title mt-n4 text-center mt-3">MESSAGE FROM THE PRESIDENT OF THE <br> CONFEDERATION OF ASEAN SOCIETIES OF ANESTHESIOLOGISTS (CASA) <br> and CHAIR OF THE ORGANIZING COMMITTEE
+    <h3 style="font-size: 29px;" class="section-sub-title mt-n4 text-center mt-3">MESSAGE FROM THE PRESIDENT OF THE <br> CONFEDERATION OF ASEAN SOCIETIES OF ANESTHESIOLOGISTS (CASA) <br> and Chair of the 24<sup>th</sup> ASEAN CONGRESS OF ANESTHESIOLOGISTS (ACA)
     </h3>
     <div class="container">
         

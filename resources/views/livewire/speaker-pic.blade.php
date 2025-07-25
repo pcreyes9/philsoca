@@ -44,8 +44,8 @@
 </button> --}}
 
 <!-- Modal -->
-<div wire:ignore.self class="modal fade bd-example-modal-lg" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true" class="z-3">
-  <div class="modal-dialog modal-lg" role="document">
+<div wire:ignore.self class="modal fade bd-example-modal-lg " id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true" class="z-3">
+  <div class="modal-dialog modal-lg " role="document">
     <div class="modal-content">
       <div class="modal-header " style="background-color: #ac071a">
         <h5 class="modal-title font-weight-bold" id="exampleModalLongTitle" style="color: #fff">Speaker Information</h5><br>

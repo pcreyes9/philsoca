@@ -9,8 +9,9 @@
                 </div>
             </div> --}}
             <div class="container ">
+                <h1 class="section-sub-title text-center">ACCREDITED HOTELS</h1>
                 <div class="row justify-content-center ">
-                    <h1 class="section-sub-title text-center">Accredited Hotels</h1>
+                    
                     
                     <div class="col-lg-5 text-left my-3">
                         <h3 class="hotel-title pb-2" style="fonnt-size 10px !important">Manila Marriott Hotel <span style="font-size: 20px; font-style: italic;">(Conference hotel)</span></h3>
@@ -124,6 +125,16 @@
                     </div>
                 </div>
                 <h3 class="py-2 text-left" style="font-weight: 700; font-size: 25px; text-transform: none">For bookings, get in touch with the PSA Meet and Greet for the Reduced Conference Room Rates <br> <br><span style="font-style: italic; font-size: 20px;">Email Address: aca2025hotelreservations@gmail.com</span></h3>
+            
+                <div class="mt-5 pt-5">
+                    <h1 class="section-sub-title text-center ">TRAVEL & TOURS</h1>
+                    
+                    <div class="d-flex justify-content-center">
+                        <img style="width: 100%;" class="align-middle" src="images/DBTravel_Packages.png?v={{ time() }}" alt="Image is still in process.">
+                    </div>
+
+                </div>
+            
             </div>
         </div>
     </section>

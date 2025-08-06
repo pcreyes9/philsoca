@@ -43,7 +43,7 @@
                     </li>
                     {{-- <li class="nav-item"><a class="nav-link" href="{{route('sponsors')}}">SPONSORSHIP & EXHIBITION</a></li> --}}
                     <li class="nav-item"><a class="nav-link" href="{{route('venue')}}">VENUE</a></li>
-                    <li class="nav-item"><a class="nav-link" href="{{route('accommodations')}}">ACCOMMODATIONS</a></li>
+                    <li class="nav-item"><a class="nav-link" href="{{route('accommodations')}}">Accommodation & Tours </a></li>
                     <li class="nav-item"><a class="nav-link" href="{{ route('contact') }}">CONTACT</a></li>
                     <li class="nav-item"><a class="nav-link" href="{{ url('login') }}">MY PAGE</a></li>
                   </ul>

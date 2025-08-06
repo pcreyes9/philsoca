@@ -108,7 +108,7 @@ Route::get('/sponsors', function () {
 })->name('sponsors');
 
 
-Route::get('/accommodations', function () {
+Route::get('/accommodations-tours', function () {
     return view('home/pages/accommodations');
 })->name('accommodations');
 

@@ -126,6 +126,11 @@ Route::get('/international-registration', function () {
     return view('registration.non-mem-registration');
 })->name('nonMemReg');
 
+Route::get('/pbld-registration', function () {
+    // dd("asd");
+    return view('registration.pbld-registration');
+})->name('pbldReg');
+
 // Route::get('/psa-id-checker', function () {
 //     return view('registration.psa-id-checker');
 // })->name('psaID-checker');

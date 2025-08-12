@@ -774,9 +774,22 @@ a[href^=tel] {
   font-size: 14px;
 }
 
+.btn-warning {
+  border: 0;
+  border-radius: 3px;
+  padding: 12px 20px 10px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #000066;
+  font-family: "Montserrat", sans-serif;
+  transition: 350ms;
+  font-size: 14px;
+}
+
 @media (max-width: 767px) {
   .btn-primary,
-  .btn-dark {
+  .btn-dark
+  .btn-warning {
     font-size: 13px;
   }
 }
@@ -792,6 +805,9 @@ a[href^=tel] {
 
 .btn-dark {
   background: #ac071a;
+}
+.btn-warning {
+  background: #ffc009;
 }
 
 .btn-primary:hover{

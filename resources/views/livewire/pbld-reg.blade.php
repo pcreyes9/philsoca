@@ -6,10 +6,10 @@
     @endif
     @csrf
     <div class="error-container"></div>
-        <div class="row mt-5 p-3">
+        <div class="row p-3">
             <div class="col-md-2">
                 <div class="form-group">
-                    <label style=" font-weight: 750; font-size: medium; color: black">PSA ID No.</label>
+                    <label style=" font-weight: 750; font-size: medium; color: black">ENTER PSA ID No.</label>
                     <input style="box-shadow: 2px 2px 3px gray; background-color: #000066; color: white; font-weight: bold" class="form-control form-control-name" name="psa_id" required autofocus autocomplete="psa_id" type="number" required wire:model.live='PSAid' value={{$PSAid}}>
                 </div>
             </div>
@@ -43,81 +43,70 @@
                 <input style="box-shadow: 2px 2px 3px gray; background-color: #000066; color: white; font-weight: bold;s" class="form-control form-control-subject" type="number" name="subject" id="subject" readonly wire:model="contactNumber" placeholder="" required value={{$contactNumber}}>
                 </div>
             </div>
-            <div class="col-md-4">
-            <div class="form-group">
-                <label style=" font-weight: 750; font-size: medium; color: black">PRC Number (7 digits)</label>
-                <input style="box-shadow: 2px 2px 3px gray; background-color: #000066; color: white; font-weight: bold;s" class="form-control form-control-subject" type="number" name="subject" id="subject" wire:model="prcNumber" placeholder="" required>
-            </div>
+            {{-- <div class="col-md-4">
+                <div class="form-group">
+                    <label style=" font-weight: 750; font-size: medium; color: black">PRC Number (7 digits)</label>
+                    <input style="box-shadow: 2px 2px 3px gray; background-color: #000066; color: white; font-weight: bold;s" class="form-control form-control-subject" type="number" name="subject" id="subject" wire:model="prcNumber" placeholder="" required>
+                </div>
+            </div> --}}
         </div>
-            <div class="col-md-4 mt-4 text-left">
-                <label style="font-weight: 750; font-size: medium; color: black">Day 2</label><br>
-                <div class="form-check">
-                    <input style="color: #000066" class="form-check-input" type="radio" readonly name="radioGender" value = "Pediatric Airway Management (Pierre-RobIn)" id="Pediatric Airway Management (Pierre-RobIn)" wire:model="day2" required>
-                    <label style="color: #000066" class="form-check-label" for="Pediatric Airway Management (Pierre-RobIn)">
-                        Pediatric Airway Management (Pierre-RobIn)
-                    </label>
-                </div>
-                <div class="form-check">
-                    <input style="color: #000066" class="form-check-input" type="radio" name="radioGender" value = "Hypotensive Patient for Surgery for EXLAP" id="Hypotensive Patient for Surgery for EXLAP" wire:model="day2" required>
-                    <label style="color: #000066" class="form-check-label" for="Hypotensive Patient for Surgery for EXLAP">
-                        Hypotensive Patient for Surgery for EXLAP
-                    </label>
-                </div>
-                <div class="form-check">
-                    <input style="color: #000066" class="form-check-input" type="radio" readonly name="radioGender" value = "Neonatal TIVA" id="Neonatal TIVA" wire:model="day2" required>
-                    <label style="color: #000066" class="form-check-label" for="Neonatal TIVA">
-                        Neonatal TIVA 
-                    </label>
-                </div>
-                <div class="form-check">
-                    <input style="color: #000066" class="form-check-input" type="radio" name="radioGender" value = "Hip Surgery" id="Hip Surgery" wire:model="day2" required>
-                    <label style="color: #000066" class="form-check-label" for="Hip Surgery">
-                        Hip Surgery
-                    </label>
-                </div>
-                <div class="form-check">
-                    <input style="color: #000066" class="form-check-input" type="radio" readonly name="radioGender" value = "Coagulopathy" id="Coagulopathy" wire:model="day2" required>
-                    <label style="color: #000066" class="form-check-label" for="Coagulopathy">
-                        Coagulopathy  
-                    </label>
-                </div>
-            </div>
-            <div class="col-md-4 mt-4 text-left">
-                <label style="font-weight: 750; font-size: medium; color: black">Day 3</label><br>
-                <div class="form-check">
-                    <input style="color: #000066" class="form-check-input" type="radio" readonly name="radioGender" value = "Hypertension in Pregnancy" id="Hypertension in Pregnancy" wire:model="day2" required>
-                    <label style="color: #000066" class="form-check-label" for="Hypertension in Pregnancy">
-                        Hypertension in Pregnancy
-                    </label>
-                </div>
-                <div class="form-check">
-                    <input style="color: #000066" class="form-check-input" type="radio" name="radioGender" value = "Neonatal Surgical Emergencies" id="Neonatal Surgical Emergencies" wire:model="day2" required>
-                    <label style="color: #000066" class="form-check-label" for="Neonatal Surgical Emergencies">
-                        Neonatal Surgical Emergencies
-                    </label>
-                </div>
-                <div class="form-check">
-                    <input style="color: #000066" class="form-check-input" type="radio" readonly name="radioGender" value = "Anesthesia for Spine Surgery" id="Anesthesia for Spine Surgery" wire:model="day2" required>
-                    <label style="color: #000066" class="form-check-label" for="Anesthesia for Spine Surgery">
-                        Anesthesia for Spine Surgery 
-                    </label>
-                </div>
-                <div class="form-check">
-                    <input style="color: #000066" class="form-check-input" type="radio" name="radioGender" value = "Obstetric Hemorrhage" id="Obstetric Hemorrhage" wire:model="day2" required>
-                    <label style="color: #000066" class="form-check-label" for="Obstetric Hemorrhage">
-                        Obstetric Hemorrhage
-                    </label>
-                </div>
-                <div class="form-check">
-                    <input style="color: #000066" class="form-check-input" type="radio" readonly name="radioGender" value = "VATS" id="VATS" wire:model="day2" required>
-                    <label style="color: #000066" class="form-check-label" for="VATS">
-                        VATS  
-                    </label>
-                </div>
-            </div>
+        <div class="text-left mt-5">
+            <h3 class="into-sub-title" style="color: black">PBLD Sessions</h3>
+            <h4 class="mt-n2" style="color: black; font-style: italic; "><strong>(You can only choose 1 session)</strong></h4>
         </div>
         
-        <br>
+        <div class="row p-3">
+            <div class="col-md-4 mt-2 text-left">
+                <label style="font-weight: 750; font-size: medium; color: black">Day 2</label><br>
+                @foreach ($day_2 as $session)
+                    <div class="form-check">
+                        <input 
+                            style="color: #000066" 
+                            class="form-check-input" 
+                            type="radio" 
+                            readonly 
+                            name="radioGender" 
+                            value="{{ $session->topic }}" 
+                            id="{{ $session->id }}" 
+                            wire:model="topic" 
+                            required
+                            {{ $session->status }}
+                        >
+                        <label 
+                            style="color: #000066" 
+                            class="form-check-label" 
+                            for="{{ $session->id }}">
+                            {{ $session->topic }}
+                        </label>
+                    </div>
+                @endforeach
+            </div>
+            <div class="col-md-4 mt-2 text-left">
+                <label style="font-weight: 750; font-size: medium; color: black">Day 3</label><br>
+                @foreach ($day_3 as $session)
+                    <div class="form-check">
+                        <input 
+                            style="color: #000066" 
+                            class="form-check-input" 
+                            type="radio" 
+                            readonly 
+                            name="radioGender" 
+                            value="{{ $session->topic }}" 
+                            id="{{ $session->id }}" 
+                            wire:model="topic" 
+                            required
+                            {{ $session->status }}
+                        >
+                        <label 
+                            style="color: #000066" 
+                            class="form-check-label" 
+                            for="{{ $session->id }}">
+                            {{ $session->topic }}
+                        </label>
+                    </div>
+                @endforeach
+            </div>
+        </div>
         {{-- <div class="form-group">
             <label>Message</label>
             <textarea class="form-control form-control-message" name="message" id="message" placeholder="" rows="10" required></textarea>
@@ -133,7 +122,6 @@
                     </div>
                 </button>
             @endif
-            
         </div>
     </div>
 </form>

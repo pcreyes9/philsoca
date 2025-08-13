@@ -21,7 +21,7 @@ class PbldReg extends Component
         ->get();
 
         foreach ($cntTopic as $row) {
-            if ($row->total == 12) {
+            if ($row->total == 11) {
                 DB::table('pbld_sessions')
                 ->where('topic', $row->topic)
                 ->update(['status' => 'disabled']);
@@ -77,7 +77,7 @@ class PbldReg extends Component
             $this->topic=DB::table('pbld')->where('psa_id', $this->PSAid)->value('topic');
 
             session()->flash('status', 'success');
-            session()->flash('message', 'You are already registered for one of the PBLD sessions. ' . "(" . $this->topic . ")");
+            session()->flash('message', 'You are already registered for one of the PBLD sessions. ' . "(" . $this->topic . ")" );
         } 
         else 
         {

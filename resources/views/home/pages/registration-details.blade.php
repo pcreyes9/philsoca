@@ -63,6 +63,7 @@
                 </div>
                 
                 <br>
+                
                 <p class="para-head text-center fd mb-4">Local (Philippines) Rates</p>
                 <div class="table-responsive mb-3">
                     <table class="table">
@@ -137,16 +138,13 @@
                     Account name: <strong>Philippine Society of Anesthesiologists, Inc.</strong> <br> SWIFT CODE: <strong>BOPIPHMM</strong>
                 </p>
 
-
                 <div class="d-grid gap-2 mt-5">
                     <a href="{{ route('memReg') }}" target="_blank" class="btn btn-primary mb-1" style="font-size: 20px">Local Registration</a>
                     <a href="{{ route('nonMemReg') }}"  target="_blank" class="btn btn-dark mb-1" style="font-size: 20px">International Registration</a>
-                    <a href="{{ route('pbldReg') }}"  target="_blank" class="btn btn-warning mb-1" style="font-size: 20px">PBLD Registration</a>
+                    {{-- <a href="{{ route('pbldReg') }}"  target="_blank" class="btn btn-warning mb-1" style="font-size: 20px">PBLD Registration</a> --}}
                 </div>
             </div>
-            
         </div>
-        
     </div>
 </section><!-- Main container end -->
 @endsection

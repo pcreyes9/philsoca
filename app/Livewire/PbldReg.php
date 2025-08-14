@@ -70,9 +70,12 @@ class PbldReg extends Component
     }
 
     public function submit(){
-        // dd($this->topic);
-        // dd("submitted!");
-        if (DB::table(table: 'pbld')->where('psa_id', $this->PSAid)->exists()) {
+        if (empty($this->topic)) {
+            session()->flash('status', 'danger');
+            session()->flash('message', 'Please choose a topic. If all topics are grayed out, it means all sessions are full.' );
+        }
+
+        else if (DB::table(table: 'pbld')->where('psa_id', $this->PSAid)->exists()) {
             
             $this->topic=DB::table('pbld')->where('psa_id', $this->PSAid)->value('topic');
 

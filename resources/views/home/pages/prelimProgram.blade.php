@@ -5,7 +5,7 @@
 
 @section('content')
     <section id="news" class="project-area">
-    <div class="container" >
+    <div class="px-2 px-lg-5 mx-lg-5" >
 
         <div class="d-flex justify-content-center">
             <img style="width: 100%;" class="align-middle" src="images/sci program/sci program 1.png?v={{ time() }}" alt="Image is still in process.">

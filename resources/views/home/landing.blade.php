@@ -6,7 +6,7 @@
 @section('content')
   <div class="banner-carousel banner-carousel-1">
     <div class="">
-      <img class="imgSlide w-100 w-lg-75 " src="images/slider-main/ACA POSTER V10.png?v={{ time() }}" alt="ASEAN CONGRESS OF ANESTHESIOLOGISTS">
+      <img class="imgSlide w-100 w-lg-75 " src="images/slider-main/ACA POSTER resized.png?v={{ time() }}" alt="ASEAN CONGRESS OF ANESTHESIOLOGISTS">
     </div>
   </div>
   {{-- style="background-color: #000066" --}}

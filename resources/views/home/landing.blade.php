@@ -52,14 +52,18 @@
   </section> --}}
 
   <section id="news" class="project-area">
-    <h3 style="font-size: 29px;" class="section-sub-title mt-n4 text-center mt-3">MESSAGE FROM THE PRESIDENT OF THE <br> CONFEDERATION OF ASEAN SOCIETIES OF ANESTHESIOLOGISTS (CASA) <br> and Chair of the 24<sup>th</sup> ASEAN CONGRESS OF ANESTHESIOLOGISTS (ACA)
+    <h3 class="section-sub-title text-center">MESSAGE FROM THE PRESIDENT OF THE <br> CONFEDERATION OF ASEAN SOCIETIES OF ANESTHESIOLOGISTS (CASA) <br> and Chair of the 24<sup>th</sup> ASEAN CONGRESS OF ANESTHESIOLOGISTS (ACA)
     </h3>
     <div class="container">
         
       <div class="row ">
-        <div  class="col-lg-4 text-center d-flex justify-content-center"  >
-          <a class="gallery-popup wrapper" href="images/PSA President 2024 1.jpg">
-            <img id="slide" class=" w-100 zoom fade-img" src="images/PSA President 2024 1.jpg" alt="img" style="box-shadow: 3px 3px 5px;"> 
+        <div class="col-lg-4 d-flex justify-content-center align-items-start">
+          <a class="gallery-popup wrapper d-flex justify-content-center" href="images/PSA President 2024 1.jpg">
+            <img id="slide" 
+                class="zoom fade-img img-fluid img-custom-width" 
+                src="images/PSA President 2024 1.jpg?v={{ time() }}" 
+                alt="img" 
+                style="box-shadow: 3px 3px 5px;">
           </a>
         </div>
         
@@ -106,8 +110,6 @@
             Chair of Organizing Committee
             <br>
             24th ASEAN Congress of Anesthesiologists
-            
-            
           </p>
         </div>
       </div>
@@ -116,12 +118,16 @@
 
   <section id="news" class="project-area">
     <div class="container">
-        <h3 style="font-size: 29px;" class="section-sub-title mt-n4 text-center mt-3">Welcome Message from the President of the <br>  Philippine Society of Anesthesiologists
+        <h3 class="section-sub-title text-center">Welcome Message from the President of the <br>  Philippine Society of Anesthesiologists
         </h3>
       <div class="row ">
-        <div  class="col-lg-4 text-center d-flex justify-content-center"  >
-          <a class="gallery-popup wrapper" href="images/Dr Francis B Mayuga_PSA President.png">
-            <img id="slide" class=" w-100 zoom fade-img" src="images/Dr Francis B Mayuga_PSA President.png" alt="img" style="box-shadow: 3px 3px 5px;"> 
+        <div class="col-lg-4 d-flex justify-content-center align-items-start">
+          <a class="gallery-popup wrapper d-flex justify-content-center" href="images/Dr Francis B Mayuga_PSA President.png?v={{ time() }}">
+            <img id="slide" 
+                class="zoom fade-img img-fluid img-custom-width" 
+                src="images/Dr Francis B Mayuga_PSA President.png?v={{ time() }}" 
+                alt="img" 
+                style="box-shadow: 3px 3px 5px;">
           </a>
         </div>
         
@@ -171,9 +177,9 @@
   <section id="facts" class="facts-area mt-n4" >
     <div class="container">
       <div class="facts-wrapper">
-        <h3 class="section-sub-title mt-n4 text-center mt-3">Important Dates</h3>
+        <h3 style="font-size: 35px;" class="section-sub-title mt-n4 text-center mt-3">Important Dates</h3>
           <div class="row d-flex justify-content-center">
-            {{-- <div class="col-md-4 col-lg-3 col-sm-6 ts-facts mt-3" >
+            {{-- <div class="col-md-4 col-lg-3 col-6 ts-facts mt-3" >
                 <div class="ts-facts-img">
                 </div>
                 <div class="ts-facts-content rounded-3 p-2" style="background-color: #0b6e4f">
@@ -183,65 +189,72 @@
                 </div>
             </div><!-- Col end --> --}}
   
-            <div class="col-md-4 col-sm-6 col-lg-3 ts-facts mt-3">
+            <div class="col-md-4 col-lg-3 col-6 ts-facts mt-3">
                 <div class="ts-facts-img">
                 </div>
-                <div class="ts-facts-content rounded-3 p-2" style="background-color: #0b6e4f">
+                <div class="ts-facts-content rounded-3 p-2 d-flex flex-column justify-content-center" 
+                  style="background-color: #0b6e4f; height: 185px;">
                   <h1 class="ts-date mb-n4">Apr</h1>
                   <h2 class="ts-facts-num"><span class="counterUp" data-count="30">30</span></h2>
                   <h3 class="ts-facts-title">Early Bird Registration Deadline</h3>
                 </div>
             </div><!-- Col end -->
 
-            <div class="col-md-4 col-lg-3 col-sm-6 ts-facts mt-3" >
+            <div class="col-md-4 col-lg-3 col-6 ts-facts mt-3">
                 <div class="ts-facts-img">
                 </div>
-                <div class="ts-facts-content rounded-3 p-2" style="background-color: #0b6e4f">
+                <div class="ts-facts-content rounded-3 p-2 d-flex flex-column justify-content-center" 
+                  style="background-color: #0b6e4f; height: 185px;">
                   <h1 class="ts-date mb-n4">Jul</h1>
                   <h2 class="ts-facts-num"><span class="counterUp" data-count="30">30</span></h2>
                   <h3 class="ts-facts-title" style="color: #fff">Abstract submission deadline</h3>
                 </div>
             </div><!-- Col end -->
 
-            <div class="col-md-4 col-lg-3 col-sm-6 ts-facts mt-3">
+            <div class="col-md-4 col-lg-3 col-6 ts-facts mt-3">
                 <div class="ts-facts-img">
                 </div>
-                <div class="ts-facts-content rounded-3 p-2" style="background-color: #0b6e4f">
+                <div class="ts-facts-content rounded-3 p-2 d-flex flex-column justify-content-center" 
+                  style="background-color: #0b6e4f; height: 185px;">
                   <h1 class="ts-date mb-n4">Aug</h1>
                   <h2 class="ts-facts-num"><span class="counterUp" data-count="22">22</span></h2>
                   <h3 class="ts-facts-title">Notification of acceptance</h3>
                 </div>
             </div><!-- Col end -->
 
-            <div class="col-md-4 col-lg-3 col-sm-6 ts-facts mt-3">
+            <div class="col-md-4 col-lg-3 col-6 ts-facts mt-3">
               <div class="ts-facts-img">
               </div>
-              <div class="ts-facts-content rounded-3 p-2 " style="background-color: #0b6e4f">
+              <div class="ts-facts-content rounded-3 p-2 d-flex flex-column justify-content-center" 
+                  style="background-color: #0b6e4f; height: 185px;">
                 <h1 class="ts-date mb-n4">Sept</h1>
                 <h2 class="ts-facts-num"><span class="counterUp" data-count="30">30</span></h2>
                 <h3 class="ts-facts-title" style="font-size: 14px;">Registration deadline for abstract presenting authors</h3>
               </div>
           </div><!-- Col end -->
   
-            <div class="col-md-4 col-lg-3 col-sm-6 ts-facts mt-3">
-                <div class="ts-facts-img">
-                </div>
-                <div class="ts-facts-content rounded-3 p-2 " style="background-color: #0b6e4f">
+            <div class="col-md-4 col-lg-3 col-6 ts-facts mt-3">
+                <div class="ts-facts-img"></div>
+                <div class="ts-facts-content rounded-3 p-2 d-flex flex-column justify-content-center" 
+                  style="background-color: #0b6e4f; height: 185px;">
                   <h1 class="ts-date mb-n4">Oct</h1>
                   <h2 class="ts-facts-num"><span class="counterUp" data-count="10">10</span></h2>
                   <h3 class="ts-facts-title">Regular Registration Deadline</h3>
                 </div>
             </div><!-- Col end -->
   
-            <div class="col-md-4 col-lg-3 col-sm-6 ts-facts mt-3">
-                <div class="ts-facts-img">
-                </div>
-                <div class="ts-facts-content rounded-3 p-2 pb-4" style="background-color: #0b6e4f">
-                  <h1 class="ts-date mb-n4">Oct</h1>
-                  <h2 class="ts-facts-num"><span class="counterUp" data-count="23">23</span>-<span class="counterUp" data-count="25">25</span></h2>
-                  <h3 class="ts-facts-title">ACA 2025 MANILA</h3>
-                </div>
-            </div><!-- Col end -->
+            <div class="col-md-4 col-lg-3 col-6 ts-facts mt-3">
+              <div class="ts-facts-img"></div>
+              <div class="ts-facts-content rounded-3 p-2 d-flex flex-column justify-content-center" 
+                  style="background-color: #0b6e4f; height: 185px;">
+                <h1 class="ts-date mb-n4">Oct</h1>
+                <h2 class="ts-facts-num">
+                  <span class="counterUp" data-count="23">23</span>-
+                  <span class="counterUp" data-count="25">25</span>
+                </h2>
+                <h3 class="ts-facts-title">ACA 2025 MANILA</h3>
+              </div>
+            </div>
   
           </div> <!-- row end -->
       </div>

@@ -132,9 +132,7 @@
                     <div class="d-flex justify-content-center">
                         <img style="width: 100%;" class="align-middle" src="images/DBTravel_Packages.png?v={{ time() }}" alt="Image is still in process.">
                     </div>
-
                 </div>
-            
             </div>
         </div>
     </section>

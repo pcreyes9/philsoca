@@ -8,8 +8,6 @@
 {{-- @include('home.banner') --}}
 
 
-
-
 <section id="news" class="project-area">
     <div class="container" >
 

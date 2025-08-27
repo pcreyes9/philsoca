@@ -14,6 +14,10 @@ use App\Mail\ApprovedEmail;
 use Illuminate\Support\Facades\Storage;
 use Illuminate\Support\Facades\Mail;
 
+use chillerlan\QRCode\QRCode;
+use chillerlan\QRCode\QROptions;
+
+
 
 
 class ViewMemReg extends Component
@@ -85,7 +89,7 @@ class ViewMemReg extends Component
 
         Storage::put('public/storage/uploads/'. $info->psa_id . 'pdf', $pdf->output());
     }
-
+  
     public function approval ($id){
         notify()->success('Laravel Notify is awesome!');
         // dd($id);
@@ -121,11 +125,11 @@ class ViewMemReg extends Component
     
         $path = Storage::put('public/storage/uploads/'.  $info->psa_id . '.pdf', $pdf->output());
         Storage::put($path, $pdf->output());
+        // dd('test reached');j
         
         Mail::to($info->email)->send(new ApprovedEmail($info->last_name, $info->psa_id));
     
         Registration::where('psa_id', $info->psa_id)->update(['status' => 'Approved']);
-    
 
         notify()->success( $info->name . ' has been approved and barcode was already sent!', 'Approval Success!');
         // return redirect()->back();

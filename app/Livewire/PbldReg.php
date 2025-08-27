@@ -96,7 +96,6 @@ class PbldReg extends Component
             session()->flash('status', 'success');
             session()->flash('message', "You have successfully registered for the PBLD session, '" . $this->topic . "', " . ' Dr. '. $this->first_name ." " . $this->last_name);
             
-
             // return redirect()->route('reg')->with('success', "You have successfully registered for the PBLD session, '" . $this->day2 . "', " . ' Dr. '. $this->first_name ." " . $this->last_name);
         }
     }

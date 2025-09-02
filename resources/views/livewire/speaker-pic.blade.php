@@ -74,7 +74,7 @@
           </div>
         </div>
         
-        <textarea class="text-left" style="font-size: 20px; width: 100%; resize: none; background-color: white" rows="17" disabled>{{ $bioModal }}</textarea>
+        <textarea class="text-left" style="font-size: 20px; width: 100%; resize: none; background-color: white" rows="25" disabled>{{ $bioModal }}</textarea>
         
       </div>
       <div class="modal-header " style="background-color: #000066">

@@ -6,50 +6,9 @@
 @section('content')
   <div class="banner-carousel banner-carousel-1">
     <div class="">
-      <img class="imgSlide w-100 w-lg-75 " src="images/slider-main/ACA POSTER resized.png?v={{ time() }}" alt="ASEAN CONGRESS OF ANESTHESIOLOGISTS">
+      <img class="imgSlide w-100 w-lg-75 " src="images/slider-main/ACA POSTER resized.png?v={{ time() }}" alt="ASEAN CONGRESS OF ANESTHESIOLOGISTS 2025">
     </div>
   </div>
-  {{-- style="background-color: #000066" --}}
-
-  {{-- <div class="row d-flex justify-content-center align-middle">
-    <div class="col-md-6 col-12 col-lg-6 mt-3">
-      <img loading="lazy" class="img-fluid w-100 rounded imgSlide" src="images/ACA_LOGO_non.png" alt="img">
-    </div>
-    <div class="col-md-6 col-12 col-lg-6 mt-3 d-flex align-items-center justify-content-center">
-      <img loading="lazy" class="img-fluid w-100 rounded imgSlide" src="images/ACA_LOGO_non.png" alt="img">
-      <div class="text-center">
-        <h3 class="master-title">The 24th ASEAN Congress of Anesthesiologists</h3> 
-        <h3 class="master-sub-text mt-n4">in association with</h3>
-        <h3 class="master-title">The 57th Annual Convention and Postgraduate Course of the Philippine Society of Anesthesiologists</h3> 
-        <h3 class="section-sub-title">Shaping the Future of Anesthesia in Peroperative Care</h3>
-      </div>
-      
-    </div>
-  </div> --}}
-  
-  {{-- <section id="ts-features" class="ts-features">
-    <div class="container" >
-      <div class="row justify-content-center">
-        <div class="col-lg-9 upSlide" >
-          <h3 class=" into-sub-title" >Dear All 24th ACA 2025 Participants,</h3>
-          <p class="hotel-p">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas semper nunc nec ornare ornare. Nam sagittis elit ac ligula bibendum condimentum. In sodales, neque et tincidunt congue, lorem dui interdum arcu, id lobortis tortor nibh quis magna. Pellentesque sit amet semper turpis, non feugiat tellus. Duis malesuada nibh nec suscipit volutpat. 
-            <br>
-            <br>
-            Phasellus ut enim id turpis euismod fermentum quis eu eros. Vestibulum rhoncus ante tellus, a iaculis turpis placerat eget. Fusce vel libero id est ullamcorper sagittis. Integer ullamcorper lacus non justo tincidunt porttitor. Duis ornare sollicitudin mi quis dignissim. Duis imperdiet justo nec tellus pellentesque, vel porta eros sodales. Etiam et convallis odio. Mauris interdum tortor augue, in dictum leo congue eu. Morbi a mauris consectetur ipsum finibus ultricies.
-            <br>
-            <br>
-            Nam ultricies est ac enim condimentum, id euismod ante porttitor. Nam bibendum cursus urna ac imperdiet. Cras semper, dolor fringilla molestie scelerisque, urna nulla consectetur justo, eu egestas urna ipsum quis purus. Pellentesque elementum in tellus eu volutpat. In sollicitudin est ex, eget pharetra risus scelerisque vitae. Sed dictum dolor nec mauris scelerisque efficitur sit amet vel quam. Nunc et rutrum est. Nunc tempor placerat diam, sit amet mattis eros semper nec.
-          </p>
-          <h2>
-            Warm regards,
-            <br>
-            24th ACA 2025 Congress Organizing Committee
-          </h2>
-        </div>
-      </div>
-    </div>
-  </section> --}}
 
   <section id="news" class="project-area">
     <h3 class="section-sub-title text-center">MESSAGE FROM THE PRESIDENT OF THE <br> CONFEDERATION OF ASEAN SOCIETIES OF ANESTHESIOLOGISTS (CASA) <br> and Chair of the 24<sup>th</sup> ASEAN CONGRESS OF ANESTHESIOLOGISTS (ACA)
@@ -179,15 +138,6 @@
       <div class="facts-wrapper">
         <h3 style="font-size: 40px; line-height: 46px;" class="section-sub-title mt-n4 text-center mt-3">Important Dates</h3>
           <div class="row d-flex justify-content-center">
-            {{-- <div class="col-md-4 col-lg-3 col-6 ts-facts mt-3" >
-                <div class="ts-facts-img">
-                </div>
-                <div class="ts-facts-content rounded-3 p-2" style="background-color: #0b6e4f">
-                  <h1 class="ts-date mb-n4">Jan</h1>
-                  <h2 class="ts-facts-num"><span class="counterUp" data-count="20">20</span></h2>
-                  <h3 class="ts-facts-title" style="color: #fff">Early Bird Registration Open</h3>
-                </div>
-            </div><!-- Col end --> --}}
   
             <div class="col-md-4 col-lg-3 col-6 ts-facts mt-3">
                 <div class="ts-facts-img">
@@ -262,16 +212,4 @@
     </div>
     <!--/ Container end -->
   </section><!-- Facts end -->
-  {{-- <hr class="solid" style="border-top: 2px solid #bbb;">
-
-  {{-- <div class = "d-none d-sm-block">
-    @include('home.maps')
-  </div>
-  <script>
-    var w = window.innerWidth;
-    var h = window.innerHeight;
-    
-    var x = document.getElementById("demo");
-    x.innerHTML = "Browser width: " + w + ", height: " + h + ".";
-    </script> --}}
 @endsection

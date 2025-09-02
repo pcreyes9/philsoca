@@ -340,7 +340,7 @@
             @endif --}}
                 
             
-            <div class="col-md-4 mt-4">
+            {{-- <div class="col-md-4 mt-4">
                 <label style="font-weight: 750; font-size: medium; color: black">Rate to be paid:</label><br>
                 @if  ($country  == "Brunei" ||  $country  == "Cambodia" ||  $country  == "Indonesia" ||  $country  == "Laos" ||  $country  == "Malaysia" || 
                      $country  == "Myanmar" ||  $country  == "Singapore" ||  $country  == "Thailand" ||  $country  == "Vietnam")
@@ -350,12 +350,12 @@
                 @else
                     <label style="font-weight: 750; font-size: medium; color: black">NON ASEAN MEMBER: $600</label><br>
                 @endif
-                <label style="font-style: italic; font-weight: 300; font-size: normal; color: black">Early Bird (Jan 20 - Apr 30, 2025)</label><br>
+                <label style="font-style: italic; font-weight: 300; font-size: normal; color: black">Registration Period (May 01 - Oct 10, 2025)</label><br>
 
             
                 <label style="font-weight: 750; font-size: medium; color: black"></label>
                 @error('paymentProof') <span class="error">{{ $message }}</span> @enderror
-            </div>
+            </div> --}}
 
             <div class="col-md-4 mt-4">
                 <label style="font-weight: 750; font-size: medium; color: black">Proof of Payment</label><br>
@@ -389,8 +389,7 @@
                 <svg wire:loading xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 24 24"><path fill="currentColor" d="M12,1A11,11,0,1,0,23,12,11,11,0,0,0,12,1Zm0,19a8,8,0,1,1,8-8A8,8,0,0,1,12,20Z" opacity="0.25"/><path fill="currentColor" d="M10.14,1.16a11,11,0,0,0-9,8.92A1.59,1.59,0,0,0,2.46,12,1.52,1.52,0,0,0,4.11,10.7a8,8,0,0,1,6.66-6.61A1.42,1.42,0,0,0,12,2.69h0A1.57,1.57,0,0,0,10.14,1.16Z"><animateTransform attributeName="transform" dur="0.75s" repeatCount="indefinite" type="rotate" values="0 12 12;360 12 12"/></path></svg>
                 <div wire:loading.remove>
                     Register
-                </div>
-                
+                </div> 
             </button>
         </div>
     </div>

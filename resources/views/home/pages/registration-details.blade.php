@@ -7,8 +7,6 @@
 @include('home.banner')
 
 <section id="main-container" class="pb-4 main-container text-center project-area ">
-
-
     <div class="container">
         @if (session('success'))
             <div class="alert alert-success">
@@ -51,6 +49,12 @@
                                 <td>$450</td>
                                 <td>$550</td>
                                 <td>$750</td>
+                            </tr>
+                            <tr>
+                                <th class="text-left" scope="row">ASEAN Members; Trainee</th>
+                                <td>-</td>
+                                <td>$300</td>
+                                <td>$350</td>
                             </tr>
                             <tr>
                                 <th class="text-left" scope="row">Non-ASEAN Members</th>

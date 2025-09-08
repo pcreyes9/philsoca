@@ -126,10 +126,15 @@ Route::get('/international-registration', function () {
     return view('registration.non-mem-registration');
 })->name('nonMemReg');
 
-Route::get('/pbld-registration', function () {
-    // dd("asd");
-    return view('registration.pbld-registration');
-})->name('pbldReg');
+// Route::get('/pbld-registration', function () {
+//     // dd("asd");
+//     return view('registration.pbld-registration');
+// })->name('pbldReg');
+
+// Route::get('/workshop-registration', function () {
+//     // dd("asd");
+//     return view('registration.workshop-registration');
+// })->name('workshopReg');
 
 // Route::get('/psa-id-checker', function () {
 //     return view('registration.psa-id-checker');

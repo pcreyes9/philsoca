@@ -51,49 +51,43 @@
             </div> --}}
         </div>
         <div class="text-left mt-5">
-            <h3 class="into-sub-title" style="color: black">PBLD Sessions</h3>
+            <h3 class="into-sub-title" style="color: black">ACA 2025 Workshops</h3>
             <h4 class="mt-n2" style="color: black; font-style: italic; "><strong>(You can only choose 1 session)</strong></h4>
         </div>
         
         <div class="row p-3">
             <div class="col-md-4 mt-2 text-left">
-                <label style="font-weight: 750; font-size: medium; color: black">Day 2</label><br>
-                @foreach ($day_2 as $session)
+                <label style="font-weight: 750; font-size: medium; color: black">Workshop</label><br>
+                @foreach ($wrk as $session)
                     <div class="form-check">
                         <input 
-                            style="color: #000066" 
                             class="form-check-input" 
                             type="radio" 
-                            readonly 
-                            name="radioGender" 
-                            value="{{ $session->topic }}" 
-                            id="{{ $session->id }}" 
-                            wire:model="topic" 
-                            required
+                            name="workshop" 
+                            id="workshop-{{ $session->id }}" 
+                            value="{{ $session->workshop }}" 
+                            wire:model.live="workshop"
                             {{ $session->status }}
                         >
-                        <label 
-                            style="color: #000066" 
-                            class="form-check-label" 
-                            for="{{ $session->id }}">
-                            {{ $session->topic }}
+                        <label class="form-check-label" for="workshop-{{ $session->id }}">
+                            {{ $session->workshop }}
                         </label>
                     </div>
                 @endforeach
+
             </div>
             <div class="col-md-4 mt-2 text-left">
-                <label style="font-weight: 750; font-size: medium; color: black">Day 3</label><br>
-                @foreach ($day_3 as $session)
+                <label style="font-weight: 750; font-size: medium; color: black">Station</label><br>
+                @foreach ($stations as $session)
                     <div class="form-check">
                         <input 
                             style="color: #000066" 
                             class="form-check-input" 
-                            type="radio" 
-                            readonly 
-                            name="radioGender" 
-                            value="{{ $session->topic }}" 
+                            type="radio"  
+                            name="station" 
+                            value="{{ $session->name }}" 
                             id="{{ $session->id }}" 
-                            wire:model="topic" 
+                            wire:model="station" 
                             required
                             {{ $session->status }}
                         >
@@ -101,7 +95,7 @@
                             style="color: #000066" 
                             class="form-check-label" 
                             for="{{ $session->id }}">
-                            {{ $session->topic }}
+                            {{ $session->name }}
                         </label>
                     </div>
                 @endforeach

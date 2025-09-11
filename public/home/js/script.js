@@ -1,13 +1,16 @@
-window.addEventListener("load", () =>{
-	const loader = document.querySelector(".loader");
+const loader = document.querySelector(".loader");
 
-	loader.classList.add("loader-hidden");
+if (loader) {
+    loader.classList.add("loader-hidden");
 
-	loader.addEventListener("transistionend", () =>{
-		document.body.removeChild("loader");
-	})
-})
-jQuery(function ($) {
+    window.addEventListener("load", () => {
+        // Wait for the transition animation to finish
+        loader.addEventListener("transitionend", () => {
+            loader.remove(); // removes the actual element safely
+        });
+    });
+
+	jQuery(function ($) {
 	'use strict';
 
 	/* ----------------------------------------------------------- */
@@ -284,3 +287,6 @@ jQuery(function ($) {
 
 
 });
+}
+
+

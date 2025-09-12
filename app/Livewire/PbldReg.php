@@ -5,6 +5,7 @@ namespace App\Livewire;
 use Livewire\Component;
 use Carbon\Carbon;
 use Illuminate\Support\Facades\DB;
+use Illuminate\Support\Facades\Mail;
 
 class PbldReg extends Component
 {
@@ -95,6 +96,8 @@ class PbldReg extends Component
             
             session()->flash('status', 'success');
             session()->flash('message', "You have successfully registered for the PBLD session, '" . $this->topic . "', " . ' Dr. '. $this->first_name ." " . $this->last_name);
+
+            Mail::mailer('smtp')->to('pcreyes09@gmail.com')->send(new \App\Mail\PbldReg($this->last_name, $this->topic));
             
             // return redirect()->route('reg')->with('success', "You have successfully registered for the PBLD session, '" . $this->day2 . "', " . ' Dr. '. $this->first_name ." " . $this->last_name);
         }

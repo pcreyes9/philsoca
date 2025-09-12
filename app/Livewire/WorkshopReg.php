@@ -5,6 +5,7 @@ namespace App\Livewire;
 use Livewire\Component;
 use Carbon\Carbon;
 use Illuminate\Support\Facades\DB;
+use Illuminate\Support\Facades\Mail;
 
 class WorkshopReg extends Component
 {
@@ -126,6 +127,7 @@ class WorkshopReg extends Component
                 'psa_id' => $this->PSAid,
                 'workshop' => $this->workshop,
                 'station' => $this->station,
+                'prc_id' => $this->prcNumber,
 
                 'created_at' => Carbon::now(),  // Use Carbon to get the current timestamp
                 'updated_at' => Carbon::now(),  // Same for updated_at
@@ -133,7 +135,8 @@ class WorkshopReg extends Component
             
             session()->flash('status', 'success');
             session()->flash('message', "You have successfully registered, '" . $this->workshop .': '. $this->station ."', " . ' Dr. '. $this->first_name ." " . $this->last_name);
-            
+            Mail::mailer('smtp')->to('pcrgames09@gmail.com')->send(new \App\Mail\WorkshopReg($this->last_name, $this->workshop, $this->station));
+
             // return redirect()->route('reg')->with('success', "You have successfully registered for the PBLD session, '" . $this->day2 . "', " . ' Dr. '. $this->first_name ." " . $this->last_name);
         }
     }

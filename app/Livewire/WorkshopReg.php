@@ -91,6 +91,7 @@ class WorkshopReg extends Component
     }
 
     public function cleanvars(){
+        $this->PSAid="";
         $this->last_name="";
         $this->first_name="";
         $this->middle_initial="";
@@ -135,7 +136,9 @@ class WorkshopReg extends Component
             
             session()->flash('status', 'success');
             session()->flash('message', "You have successfully registered, '" . $this->workshop .': '. $this->station ."', " . ' Dr. '. $this->first_name ." " . $this->last_name);
-            Mail::mailer('smtp')->to('pcrgames09@gmail.com')->send(new \App\Mail\WorkshopReg($this->last_name, $this->workshop, $this->station));
+            Mail::mailer('smtp')->to('pcrstorage09@gmail.com')->send(new \App\Mail\WorkshopReg($this->last_name, $this->workshop, $this->station));
+
+            $this->cleanvars();
 
             // return redirect()->route('reg')->with('success', "You have successfully registered for the PBLD session, '" . $this->day2 . "', " . ' Dr. '. $this->first_name ." " . $this->last_name);
         }

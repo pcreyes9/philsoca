@@ -12,13 +12,16 @@
     <div class="container" >
         <div class="d-grid gap-2 mt-5">
             <a href="{{ route('memReg') }}" target="_blank" class="btn btn-primary mb-1" style="font-size: 20px">Local Registration</a>
-            <button id="start-scan" class="btn btn-primary mb-1">📷 Open Camera</button>
+            <h2>QR Code Scanner</h2>
 
-             <!-- Scanner will appear here -->
-            <div id="reader" style="width:300px; margin-top:20px; display:none;"></div>
+    <!-- Button -->
+    <button id="start-scan" class="btn btn-primary">📷 Open Camera</button>
 
-            <!-- Result -->
-            <p id="result"></p>
+    <!-- Camera scanner -->
+    <div id="reader" style="width:300px; margin-top:20px;"></div>
+
+    <!-- Input -->
+    <input type="text" id="booth_code" class="form-control mt-3" readonly>
         </div>
         {{-- <div>
             <h3 class="py-2 text-center pb-5" style="font-weight: 700; font-size: 25px; text-transform: none">For Sponsorship, write an email to: <span style="font-style: italic; font-size: 25px;">sponsorshipaca2025@gmail.com</span></h3>
@@ -50,33 +53,31 @@
 @endsection
 
 @section('scripts')
+<script src="https://unpkg.com/html5-qrcode"></script>
 <script>
-document.getElementById("start-scan").addEventListener("click", function() {
-    let reader = document.getElementById("reader");
-    reader.style.display = "block";
+let html5QrCode;
 
-    const html5QrCode = new Html5Qrcode("reader");
+document.getElementById("start-scan").addEventListener("click", function() {
+    if (!html5QrCode) {
+        html5QrCode = new Html5Qrcode("reader");
+    }
 
     html5QrCode.start(
         { facingMode: "environment" }, // back camera
         { fps: 10, qrbox: 250 },
         qrCodeMessage => {
-            document.getElementById("result").innerText = "Scanned: " + qrCodeMessage;
+            document.getElementById("booth_code").value = qrCodeMessage;
 
-            // 🚀 Redirect to Laravel route if QR is a URL
-            window.location.href = qrCodeMessage;
-
-            // Stop scanner after success
+            // stop after one successful scan
             html5QrCode.stop().then(() => {
-                console.log("QR Code scanning stopped.");
+                console.log("Scanner stopped after success.");
             });
         },
         errorMessage => {
-            // Optional: handle scan errors
-            console.log("Scanning...", errorMessage);
+            console.log("Scanning error:", errorMessage);
         }
     ).catch(err => {
-        console.error("Unable to start scanning.", err);
+        console.error("Camera start failed:", err);
     });
 });
 </script>

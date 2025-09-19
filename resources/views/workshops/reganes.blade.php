@@ -46,7 +46,7 @@
                             </tr>
                             <tr>
                                 <th class="text-left" scope="row">1:30 PM - 1:40 PM </th>
-                                <td class="text-center" colspan="2" scope="row">Qand A</td>
+                                <td class="text-center" colspan="2" scope="row">Q and A</td>
                             </tr>
                         </tbody>
                     </table>

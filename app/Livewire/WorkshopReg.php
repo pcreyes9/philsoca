@@ -9,7 +9,7 @@ use Illuminate\Support\Facades\Mail;
 
 class WorkshopReg extends Component
 {
-
+// NOT UPDATING
     public $workshop, $station, $name, $show, $res;
 
     public $PSAid=null, $first_name, $middle_initial, $last_name, $hospitalName, $hospitalAddress;
@@ -171,7 +171,7 @@ class WorkshopReg extends Component
             
             session()->flash('status', 'success');
             session()->flash('message', "You have successfully registered, '" . $this->workshop ."', " . ' Dr. '. $this->first_name ." " . $this->last_name);
-            Mail::mailer('smtp')->to('pcrstorage09@gmail.com')->send(new \App\Mail\WorkshopReg($this->last_name, $this->workshop, $this->station));
+            Mail::mailer('smtp')->to($this->email)->send(new \App\Mail\WorkshopReg($this->last_name, $this->workshop, $this->station));
 
             $this->cleanvars();
 

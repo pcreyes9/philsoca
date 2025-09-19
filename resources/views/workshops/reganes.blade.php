@@ -19,7 +19,7 @@
                 <h3 class="into-workshop-title" >Regional Anesthesia Workshop Program</h3>
             </div>
             <div class="col-lg-11 mb-5">
-                <h3 class="section-header">October 23, 2025 | 1:00 PM - 4:00 PM <br> 3<sup class="text-lowercase">rd</sup> Floor VIP East, Marriot Grand Ballroom</h3>
+                <h3 class="section-header">October 23, 2025 | 1:00 PM - 4:00 PM <br> 3<sup class="text-lowercase">rd</sup> Floor VIP East, Marriott Grand Ballroom</h3>
             </div>
             <div class="col-lg-12 mt-4 mt-lg-0">
                 <div class="table-responsive mb-5">

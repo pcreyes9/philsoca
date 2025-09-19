@@ -19,7 +19,7 @@
                 <h3 class="into-workshop-title" >AIRWAY Workshop Program</h3>
             </div>
             <div class="col-lg-11 mb-3">
-                <h3 class="section-header">October 24, 2025 | 10:30 AM – 1:30 PM <br> 3<sup class="text-lowercase">rd</sup> Floor VIP East, Marriot Grand Ballroom</h3>
+                <h3 class="section-header">October 24, 2025 | 10:30 AM – 1:30 PM <br> 3<sup class="text-lowercase">rd</sup> Floor VIP East, Marriott Grand Ballroom</h3>
             </div>
 
             

@@ -102,7 +102,9 @@
                             <br> (Registered: {{$session->total}} out of 
                             @if ($session->workshop == 'POCUS WORKSHOP') 
                                 40)
-                            @else
+                            @elseif ($session->workshop == 'AIRWAY WORKSHOP') 
+                                48)
+                            @else 
                                 42)                           
                             @endif
                         </label>

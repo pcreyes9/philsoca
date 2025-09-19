@@ -19,7 +19,7 @@
                 <h3 class="into-workshop-title" >POCUS Workshop Program</h3>
             </div>
             <div class="col-lg-11 mb-3">
-                <h3 class="section-header">October 25, 2025 | 8:00 AM – 11:00 AM <br> 3<sup class="text-lowercase">rd</sup> Floor VIP East, Marriot Grand Ballroom</h3>
+                <h3 class="section-header">October 25, 2025 | 8:00 AM – 11:00 AM <br> 3<sup class="text-lowercase">rd</sup> Floor VIP East, Marriott Grand Ballroom</h3>
             </div>
              <div class="col-lg-12 mt-4 mt-lg-5">
                 <div class="table-responsive mb-5">

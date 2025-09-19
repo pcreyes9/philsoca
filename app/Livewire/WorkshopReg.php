@@ -48,8 +48,15 @@ class WorkshopReg extends Component
                 ->where('workshop', $row->workshop)
                 ->update(['status' => 'disabled']);
             }
+            else if ($row->total == 48) {
+                if($row->workshop == 'AIRWAY WORKSHOP'){
+                    DB::table('workshop')
+                    ->where('workshop', $row->workshop)
+                    ->update(['status' => 'disabled']);
+                }
+            }
             else if ($row->total == 42) {
-                if($row->workshop == 'AIRWAY WORKSHOP' || $row->workshop == 'REGIONAL ANESTHESIA WORKSHOP'){
+                if( $row->workshop == 'REGIONAL ANESTHESIA WORKSHOP'){
                     DB::table('workshop')
                     ->where('workshop', $row->workshop)
                     ->update(['status' => 'disabled']);

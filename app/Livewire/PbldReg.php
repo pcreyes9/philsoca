@@ -10,6 +10,7 @@ use Illuminate\Support\Facades\Mail;
 class PbldReg extends Component
 {
     // ADD TABLE IN DATABASE: pbld, pbld_sessions
+    // NOT UPDATING
 
     public $PSAid=null, $first_name, $middle_initial, $last_name, $hospitalName, $hospitalAddress;
     public $email, $contactNumber, $prcNumber, $topic, $name, $show, $res;
@@ -137,7 +138,7 @@ class PbldReg extends Component
             session()->flash('status', 'success');
             session()->flash('message', "You have successfully registered for the PBLD session, '" . $this->topic . "', " . ' Dr. '. $this->first_name ." " . $this->last_name);
 
-            Mail::mailer('smtp')->to('pcrstorage09@gmail.com')->send(new \App\Mail\PbldReg($this->last_name, $this->topic));
+            Mail::mailer('smtp')->to($this->email)->send(new \App\Mail\PbldReg($this->last_name, $this->topic));
             
             // return redirect()->route('reg')->with('success', "You have successfully registered for the PBLD session, '" . $this->day2 . "', " . ' Dr. '. $this->first_name ." " . $this->last_name);
         }

@@ -215,6 +215,18 @@ p {
   /* color: black; */
 }
 
+.workshop-head{
+  font-family: "Open Sans", sans-serif;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased !important;
+  line-height: 35px;
+  font-size: 25px;
+  text-align: left;
+  letter-spacing: 1px;
+  font-weight: 550;
+  color: black;
+}
+
 .list-p {
   font-size: 24px;  
   color: black;
@@ -515,11 +527,20 @@ a:focus {
 
 .section-header{
   font-size: 24px;
-  line-height: 28px;
+  line-height: 35px;
   letter-spacing: 1px;
   margin: 0;
   text-transform: uppercase;
-  font-weight: 300;
+  font-weight: 400;
+}
+
+.into-workshop-title {
+  font-weight: 900;
+  text-transform: uppercase;
+  font-size: 35px;
+  line-height: normal;
+  letter-spacing: 3px;
+  margin: 10px 0;
 }
 /* Section title */
 .section-title {
@@ -569,10 +590,28 @@ a:focus {
 }
 
 @media (max-width: 720px) {
+  .workshop-head
+   {
+    font-size: 20px;
+    line-height: 25px;
+    
+  }
+}
+
+@media (max-width: 720px) {
   .hotel-p
    {
     font-size: 17px;
     line-height: 25px;
+    
+  }
+}
+
+@media (max-width: 720px) {
+  .table
+   {
+    font-size: 15px;
+    /* line-height: 25px; */
     
   }
 }
@@ -1160,6 +1199,25 @@ ul.top-info-box > li.nav-search i {
 }
 
 /* Main navigation */
+
+/* For multi-level dropdown */
+.dropdown-submenu {
+  position: relative;
+  font-size: 12px;
+}
+
+.dropdown-submenu > .dropdown-menu {
+  top: 0;
+  left: 100%; /* makes it appear beside parent */
+  margin-top: -1px;
+  font-size: 12px;
+}
+
+.dropdown-menu .dropdown-item {
+  font-size: 14px;
+}
+
+
 .navbar-toggler {
   float: left;
   margin-top: 10px;
@@ -1171,6 +1229,8 @@ ul.top-info-box > li.nav-search i {
   /* margin-top: 5px; */
   /* padding: 12px; */
 }
+
+
 
 .navbar {
   border-radius: 0;

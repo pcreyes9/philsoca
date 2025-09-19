@@ -23,9 +23,9 @@
                           <li class="dropdown-submenu">
                             <a class="dropdown-item dropdown-toggle" href="#">Hands on Workshops</a>
                             <ul class="dropdown-menu">
+                              <li><a href="{{route('reganes')}}" class="dropdown-item">RA Workshop</a></li>
                               <li><a href="{{route('airway')}}" class="dropdown-item">Airway Workshop</a></li>
                               <li><a href="#" class="dropdown-item">POCUS Workshop</a></li>
-                              <li><a href="{{route('reganes')}}" class="dropdown-item">RA Workshop</a></li>
                             </ul>
                           </li>
                           <li><a href="{{route('pbld')}}" style="font-size: 14px;">PBLD Sessions</a></li>

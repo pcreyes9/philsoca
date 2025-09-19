@@ -59,8 +59,9 @@
             <div class="col-md-6 mt-2 text-left">
                 <label style="font-weight: 750; font-size: medium; color: black">Workshop</label><br>
                 @foreach ($wrk as $session)
-                    <div class="form-check">
+                    <div class="form-check reg-text">
                         <input 
+                            style="color: #000066" 
                             class="form-check-input" 
                             type="radio" 
                             name="workshop" 
@@ -69,7 +70,10 @@
                             wire:model.live="workshop"
                             {{ $session->status }}
                         >
-                        <label class="form-check-label" for="workshop-{{ $session->id }}">
+                        <label class="form-check-label" 
+                            style="color: black" 
+                            for="workshop-{{ $session->id }}">
+                            
                             <strong>{{ $session->workshop }}</strong> (Registered: {{$session->total}} out of 
                             @if ($session->workshop == 'POCUS WORKSHOP') 
                                 40)

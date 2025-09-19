@@ -56,10 +56,10 @@
         </div>
         
         <div class="row p-3">
-            <div class="col-md-4 mt-2 text-left">
+            <div class="col-md-6 mt-2 text-left">
                 <label style="font-weight: 750; font-size: medium; color: black">Day 2</label><br>
                 @foreach ($day_2 as $session)
-                    <div class="form-check">
+                    <div class="form-check reg-text">
                         <input 
                             style="color: #000066" 
                             class="form-check-input" 
@@ -76,15 +76,15 @@
                             style="color: #000066" 
                             class="form-check-label mb-2" 
                             for="{{ $session->id }}">
-                            {{ $session->topic }} <br> <strong>{{ $session->speaker }}</strong> <br> (Registered: {{$session->total}})
+                            {{ $session->topic }} <i  style="color: black">(Registered: {{$session->total}})</i> <br> <strong>{{ $session->speaker }}</strong> 
                         </label>
                     </div>
                 @endforeach
             </div>
-            <div class="col-md-4 mt-2 text-left">
+            <div class="col-md-6 mt-2 text-left">
                 <label style="font-weight: 750; font-size: medium; color: black">Day 3</label><br>
                 @foreach ($day_3 as $session)
-                    <div class="form-check">
+                    <div class="form-check reg-text">
                         <input 
                             style="color: #000066" 
                             class="form-check-input" 
@@ -101,7 +101,7 @@
                             style="color: #000066" 
                             class="form-check-label mb-2"
                             for="{{ $session->id }}">
-                            {{ $session->topic }} <br> <strong>{{ $session->speaker }}</strong> <br> (Registered: {{$session->total}})
+                            {{ $session->topic }} <i  style="color: black">(Registered: {{$session->total}})</i> <br> <strong>{{ $session->speaker }}</strong> 
                         </label>
                     </div>
                 @endforeach

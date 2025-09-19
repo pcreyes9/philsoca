@@ -34,6 +34,8 @@ Description: Constra - Construction Html5 Template
   }
 } */
 
+
+
 .speak-con{
   margin: 20px, 50px, 20px, 50px;
 }
@@ -103,6 +105,10 @@ hr.solid {
 		opacity: 1;
 		transform: translateX(-50%);
 	}
+}
+
+.reg-text{
+  font-size: 17px;
 }
 
 .slider-p{

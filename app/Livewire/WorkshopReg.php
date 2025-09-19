@@ -108,6 +108,8 @@ class WorkshopReg extends Component
         $this->last_name="";
         $this->first_name="";
         $this->middle_initial="";
+        $this->hospitalName="";
+        $this->hospitalAddress="";
         $this->email="";
         $this->contactNumber="";
         $this->prcNumber="";
@@ -117,10 +119,11 @@ class WorkshopReg extends Component
 
     public function submit(){
         //  dd($this->workshop, $this->station);
-        if (DB::table(table: 'workshop_reg')->where('psa_id', $this->PSAid)->exists()) {
+        if (DB::table(table: 'workshop_reg')->where('psa_id', $this->PSAid)->where('workshop', $this->workshop)->exists()) {
     
-            session()->flash('status', 'success');
-            session()->flash('message', 'You are already registered for one of the WORKSHOPS. ' . "(" . $this->workshop=DB::table('workshop_reg')->where('psa_id', $this->PSAid)->value('workshop') .': '. $this->workshop=DB::table('workshop_reg')->where('psa_id', $this->PSAid)->value('station') . ")" );
+            session()->flash('status', 'warning');
+            session()->flash('message', 'You are already registered for this workshop ' . "(" . $this->workshop. ').');
+            $this->workshop="";
         } 
         else if (empty($this->workshop)){
 

@@ -64,7 +64,7 @@
         </div>
         <div class="text-left mt-5">
             <h3 class="into-sub-title" style="color: black">ACA 2025 Workshops</h3>
-            <h4 class="mt-n2" style="color: black; font-style: italic; "><strong>(You can only choose 1 session)</strong></h4>
+            {{-- <h4 class="mt-n2" style="color: black; font-style: italic; "><strong>(You can only choose 1 session)</strong></h4> --}}
         </div>
         
         <div class="row p-3">

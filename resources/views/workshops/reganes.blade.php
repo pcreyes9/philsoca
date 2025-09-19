@@ -62,17 +62,17 @@
                         </thead>
                         <tbody>
                             <tr>
-                                <th class="text-left" scope="row">1:40 PM - 1:55 PM </th>
+                                <th class="text-left" scope="row">1:40 PM - 1:50 PM </th>
                                 <td class="text-left">Paravertebral, ESP, Intertransverse</td>
                                 <td class="text-left">Dr. Jean Louis Horn</td>
                             </tr>
                             <tr>
-                                <th class="text-left" scope="row">1:55 PM - 2:10 PM </th>
+                                <th class="text-left" scope="row">1:50 PM - 2:00 PM </th>
                                 <td class="text-left">Selective Upper Trunk Blocks  </td>
                                 <td class="text-left">Dr. Nabil Elkassabany</td>
                             </tr>
                             <tr>
-                                <th class="text-left" scope="row">1:15 PM - 1:30 PM </th>
+                                <th class="text-left" scope="row">2:00 PM - 2:10 PM </th>
                                 <td class="text-center" colspan="2" scope="row">Qand A</td>
                             </tr>
                         </tbody>
@@ -94,32 +94,32 @@
                             <tr>
                                 <th class="text-left" scope="row">2:15 PM - 2:35 PM  </th>
                                 <td class="text-left">Station 1 - Interscalene, Supraclavicular, Infraclavicular </td>
-                                <td class="text-left">1. Samantha Claire S. Martin-Braganza, MD <br> 2. Romina Alexis Sulit, MD</td>
+                                <td class="text-left">1. Samantha Claire Braganza, MD <br> 2. Romina Alexis Sulit, MD</td>
                             </tr>
                             <tr>
                                 <th class="text-left" scope="row">2:35 PM - 2:55 PM  </th>
                                 <td class="text-left">Station 2 - Femoral, Adductor, Ipack  </td>
-                                <td class="text-left">1.	Marie Angelica G. Lasac, MD  <br> 2.	Mae Anne J. Tabberrah, MD  </td>
+                                <td class="text-left">1.	Marie Angelica Lasac, MD  <br> 2.	Mae Anne Tabberrah, MD  </td>
                             </tr>
                             <tr>
                                 <th class="text-left" scope="row">2:55 PM - 3:15 PM  </th>
                                 <td class="text-left">Station 3 - Sciatic, Transgluteal, Subgluteal, Popliteal</td>
-                                <td class="text-left">1.	Roneil M. Nogoy, MD   <br> 2.	Richard G. Genuino, MD</td>
+                                <td class="text-left">1.	Roneil Nogoy, MD   <br> 2.	Richard Genuino, MD</td>
                             </tr>
                             <tr>
                                 <th class="text-left" scope="row">3:15 PM - 3:35 PM  </th>
                                 <td class="text-left">Station 4 - Facia iliaca, PENG </td>
-                                <td class="text-left">1. Alec Thomas R. Taaca, MD <br> 2. Maria Nathalia S. Nepomuceno Montemayor, MD</td>
+                                <td class="text-left">1. Alec Thomas Taaca, MD <br> 2. Maria Nathalia Montemayor, MD</td>
                             </tr>
                             <tr>
                                 <th class="text-left" scope="row">3:35 PM - 3:55 PM  </th>
                                 <td class="text-left">Station 5 - Quadratus Lumborum (1,2,3)  </td>
-                                <td class="text-left">1.	Numeriano M. Samar Jr., MD <br>2.	Karl Sy Su, MD</td>
+                                <td class="text-left">1.	Numeriano Samar Jr., MD <br>2.	Karl Sy Su, MD</td>
                             </tr>
                             <tr>
                                 <th class="text-left" style="letter-spacing: -1px;" scope="row">3:55 PM - 4:15 PM  </th>
                                 <td class="text-left">Station 6 - Paravertebral, Erector Spinae Plane Block</td>
-                                <td class="text-left">1.	Joniday M. Nieva-Salonga, MD <br> 2.	Noel Aypa, MD </td>
+                                <td class="text-left">1.	Joniday Nieva-Salonga, MD <br> 2.	Noel Aypa, MD </td>
                             </tr>
                         </tbody>
                     </table>

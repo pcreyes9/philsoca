@@ -74,9 +74,9 @@
                         >
                         <label 
                             style="color: #000066" 
-                            class="form-check-label" 
+                            class="form-check-label mb-2" 
                             for="{{ $session->id }}">
-                            {{ $session->topic }}
+                            {{ $session->topic }} <br> <strong>{{ $session->speaker }}</strong> <br> (Registered: {{$session->total}})
                         </label>
                     </div>
                 @endforeach
@@ -99,9 +99,9 @@
                         >
                         <label 
                             style="color: #000066" 
-                            class="form-check-label" 
+                            class="form-check-label mb-2"
                             for="{{ $session->id }}">
-                            {{ $session->topic }}
+                            {{ $session->topic }} <br> <strong>{{ $session->speaker }}</strong> <br> (Registered: {{$session->total}})
                         </label>
                     </div>
                 @endforeach

@@ -30,8 +30,28 @@ class PbldReg extends Component
         }
 
         // dd($cntTopic->toArray());
-        $day_2 = DB::table('pbld_sessions')->where('count', 2)->get();
-        $day_3=DB::table('pbld_sessions')->where('count', 3)->get();
+        // $wrk = DB::table('workshop as w')
+        // ->leftJoin('workshop_reg as wr', 'w.workshop', '=', 'wr.workshop')
+        // ->select('w.id', 'w.workshop', 'w.status', DB::raw('COUNT(wr.id) as total'))
+        // ->groupBy('w.id', 'w.workshop', 'w.status')
+        // ->get();
+
+        $day_2 = DB::table('pbld_sessions as pbld')
+        ->leftJoin('pbld as pbr', 'pbld.topic', '=', 'pbr.topic')
+        ->select('pbld.topic', 'pbld.speaker', 'pbld.id', 'pbld.status', DB::raw('COUNT(pbr.topic) as total'))
+        ->where('count', 2)
+        ->groupBy('pbld.topic', 'pbld.speaker', 'pbld.id', 'pbld.status')
+        ->get();
+
+        // dd($day_2);
+
+
+        $day_3 = DB::table('pbld_sessions as pbld')
+        ->leftJoin('pbld as pbr', 'pbld.topic', '=', 'pbr.topic')
+        ->select('pbld.topic', 'pbld.speaker', 'pbld.id', 'pbld.status', DB::raw('COUNT(pbr.topic) as total'))
+        ->where('count', 3)
+        ->groupBy('pbld.topic', 'pbld.speaker', 'pbld.id', 'pbld.status')
+        ->get();
 
     
         if(strlen($this->PSAid) == 4){

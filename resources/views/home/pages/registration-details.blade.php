@@ -145,8 +145,8 @@
                 <div class="d-grid gap-2 mt-5">
                     <a href="{{ route('memReg') }}" target="_blank" class="btn btn-primary mb-1" style="font-size: 20px">Local Registration</a>
                     <a href="{{ route('nonMemReg') }}"  target="_blank" class="btn btn-dark mb-1" style="font-size: 20px">International Registration</a>
-                    {{-- <a href="{{ route('pbldReg') }}"  target="_blank" class="btn btn-warning mb-1" style="font-size: 20px">PBLD Registration</a>
-                    <a href="{{ route('workshopReg') }}"  target="_blank" class="btn btn-success mb-1" style="font-size: 20px">Workshop Registration</a> --}}
+                    <a href="{{ route('pbldReg') }}"  target="_blank" class="btn btn-warning mb-1" style="font-size: 20px">PBLD Registration</a>
+                    <a href="{{ route('workshopReg') }}"  target="_blank" class="btn btn-success mb-1" style="font-size: 20px">Workshop Registration</a>
                 </div>
             </div>
         </div>

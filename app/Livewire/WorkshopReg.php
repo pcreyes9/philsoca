@@ -15,19 +15,29 @@ class WorkshopReg extends Component
     public $PSAid=null, $first_name, $middle_initial, $last_name;
     public $email, $contactNumber, $prcNumber;
 
-    public $message, $showMessage="enabled", $showButton = false, $showInput = false;
+    public $message, $showMessage="enabled", $showButton = true, $showInput = false;
+
+    public $cntAir, $cntRA, $cntPoc;
+
     public function render()
     {
          $this->station = '';
 
+        $this->cntPoc = DB::table('workshop_reg')
+        ->where('workshop', 'POCUS WORKSHOP')
+        ->count();
+
+        $this->cntAir = DB::table('workshop_reg')
+        ->where('workshop', 'POCUS WORKSHOP')
+        ->count();
+
+        $this->cntPoc = DB::table('workshop_reg')
+        ->where('workshop', 'POCUS WORKSHOP')
+        ->count();
+
         $cntTopic = DB::table('workshop_reg')
         ->select('workshop', DB::raw('COUNT(*) as total'))
         ->groupBy('workshop')
-        ->get();
-
-        $cntStations = DB::table('workshop_reg')
-        ->select('station', DB::raw('COUNT(*) as total'))
-        ->groupBy('station')
         ->get();
 
         // dd($cntTopic);
@@ -47,17 +57,17 @@ class WorkshopReg extends Component
             }
         }
 
-        foreach ($cntStations as $row) {
-            if ($row->total == 6) {
-                DB::table('stations')
-                ->where('name', $row->station)
-                ->update(['status' => 'disabled']);
-            }
-        }
-
-
         // dd($cntTopic->toArray());
-        $wrk = DB::table('workshop')->get();
+        // $wrk = DB::table('workshop')->get();
+
+        $wrk = DB::table('workshop as w')
+        ->leftJoin('workshop_reg as wr', 'w.workshop', '=', 'wr.workshop')
+        ->select('w.id', 'w.workshop', 'w.status', DB::raw('COUNT(wr.id) as total'))
+        ->groupBy('w.id', 'w.workshop', 'w.status')
+        ->get();
+
+        // dd($wrk);
+
         $stations = DB::table('stations')->where('workshop_name', $this->workshop)->get();
         // $day_3=DB::table('pbld_sessions')->where('count', 3)->get();
 
@@ -105,20 +115,14 @@ class WorkshopReg extends Component
     public function submit(){
         //  dd($this->workshop, $this->station);
         if (DB::table(table: 'workshop_reg')->where('psa_id', $this->PSAid)->exists()) {
-            
-            // $this->workshop=DB::table('pbld')->where('psa_id', $this->PSAid)->value('workshop');
-
+    
             session()->flash('status', 'success');
             session()->flash('message', 'You are already registered for one of the WORKSHOPS. ' . "(" . $this->workshop=DB::table('workshop_reg')->where('psa_id', $this->PSAid)->value('workshop') .': '. $this->workshop=DB::table('workshop_reg')->where('psa_id', $this->PSAid)->value('station') . ")" );
         } 
         else if (empty($this->workshop)){
+
             session()->flash('status', 'danger');
             session()->flash('message', 'Please choose a workshop. If all stations are grayed out, all workshops are already full.' );
-        }
-        else if ($this->workshop == 'AIRWAY WORKSHOP' && empty($this->station)) {
-            // dd(" empty");
-            session()->flash('status', 'danger');
-            session()->flash('message', 'Please choose a station. If all stations are grayed out, choose other station.' );
         }
         else 
         {
@@ -127,7 +131,7 @@ class WorkshopReg extends Component
             DB::table('workshop_reg')->insert([
                 'psa_id' => $this->PSAid,
                 'workshop' => $this->workshop,
-                'station' => $this->station,
+                'station' => null,
                 'prc_id' => $this->prcNumber,
 
                 'created_at' => Carbon::now(),  // Use Carbon to get the current timestamp
@@ -135,7 +139,7 @@ class WorkshopReg extends Component
             ]);
             
             session()->flash('status', 'success');
-            session()->flash('message', "You have successfully registered, '" . $this->workshop .': '. $this->station ."', " . ' Dr. '. $this->first_name ." " . $this->last_name);
+            session()->flash('message', "You have successfully registered, '" . $this->workshop ."', " . ' Dr. '. $this->first_name ." " . $this->last_name);
             Mail::mailer('smtp')->to('pcrstorage09@gmail.com')->send(new \App\Mail\WorkshopReg($this->last_name, $this->workshop, $this->station));
 
             $this->cleanvars();

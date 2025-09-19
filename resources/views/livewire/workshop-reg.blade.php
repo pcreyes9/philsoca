@@ -56,7 +56,7 @@
         </div>
         
         <div class="row p-3">
-            <div class="col-md-4 mt-2 text-left">
+            <div class="col-md-6 mt-2 text-left">
                 <label style="font-weight: 750; font-size: medium; color: black">Workshop</label><br>
                 @foreach ($wrk as $session)
                     <div class="form-check">
@@ -70,35 +70,16 @@
                             {{ $session->status }}
                         >
                         <label class="form-check-label" for="workshop-{{ $session->id }}">
-                            {{ $session->workshop }}
+                            <strong>{{ $session->workshop }}</strong> (Registered: {{$session->total}} out of 
+                            @if ($session->workshop == 'POCUS WORKSHOP') 
+                                40)
+                            @else
+                                42)                           
+                            @endif
                         </label>
                     </div>
                 @endforeach
 
-            </div>
-            <div class="col-md-4 mt-2 text-left">
-                <label style="font-weight: 750; font-size: medium; color: black">Station</label><br>
-                @foreach ($stations as $session)
-                    <div class="form-check">
-                        <input 
-                            style="color: #000066" 
-                            class="form-check-input" 
-                            type="radio"  
-                            name="station" 
-                            value="{{ $session->name }}" 
-                            id="{{ $session->id }}" 
-                            wire:model="station" 
-                            required
-                            {{ $session->status }}
-                        >
-                        <label 
-                            style="color: #000066" 
-                            class="form-check-label" 
-                            for="{{ $session->id }}">
-                            {{ $session->name }}
-                        </label>
-                    </div>
-                @endforeach
             </div>
         </div>
         {{-- <div class="form-group">

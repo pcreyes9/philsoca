@@ -15,12 +15,14 @@ use App\Models\Registration;
 use Illuminate\Http\Request;
 use Spatie\Sitemap\Tags\Url;
 use App\Livewire\SpeakerPage;
+use App\Livewire\BoothController;
 use Barryvdh\DomPDF\Facade\Pdf;
 use Illuminate\Support\Facades\Route;
 use Illuminate\Support\Facades\Artisan;
 use App\Http\Controllers\GalleryController;
 use App\Http\Controllers\SpeakerController;
 use App\Http\Controllers\DashboardController;
+use App\Http\Controllers\PharmaController;
 
 
 /*
@@ -136,6 +138,26 @@ Route::get('/workshop-registration', function () {
     return view('registration.workshop-registration');
 })->name('workshopReg');
 
+Route::get('/airway', function () {
+    // dd("asd");
+    return view('workshops.airway');
+})->name('airway');
+
+Route::get('/regional-anesthesia', function () {
+    // dd("asd");
+    return view('workshops.reganes');
+})->name(name: 'reganes');
+// Route::get('/{booth}', [PharmaController::class, 'checkin'])
+//     ->name('booth.checkin');
+
+// Route::get('/{booth}', BoothController::class)
+// ->name('booth.checkin');
+
+Route::get('/{booth}', function ($booth) {
+    // dd($booth);
+    return view('registration.boothreg', compact('booth'));
+})->name('booth.checkin');
+
 // Route::get('/psa-id-checker', function () {
 //     return view('registration.psa-id-checker');
 // })->name('psaID-checker');
@@ -223,6 +245,8 @@ Route::get('/admin/dashboard/export-excel', function () {
     $fileName = 'ACA Registration as of ' . now()->format('m-d-Y_H-i-s') . '.xlsx';
     return Excel::download(new ExcelExport, $fileName);
 })->name('exportExcel');
+
+
 
 
 

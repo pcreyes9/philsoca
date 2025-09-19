@@ -89,13 +89,13 @@
                         </tbody>
                     </table>
                 </div>
-                
+                --}}
                 <br>
                          
-                <div class="d-grid gap-2">
-                    <a href="{{ route('workshopReg') }}" target="_blank" class="btn btn-dark mb-1" style="font-size: 20px">Workshop Registration</a>
+                <div class="d-grid gap-2 mt-4">
+                    <a href="{{ route('pbldReg') }}" target="_blank" class="btn btn-dark mb-1" style="font-size: 20px">PBLD Registration</a>
                 </div>
-            </div> --}}
+            </div> 
         </div>
     </div>
 </section><!-- Main container end -->

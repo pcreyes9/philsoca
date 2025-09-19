@@ -5,12 +5,34 @@
         </div> 
     @endif
     @csrf
+    <div class="mb-5">
+        <button type="button" class="btn btn-dark solid mb-2" wire:click="showChecker" style="box-shadow: 2px 2px 3px gray; background-color: #ac071a; color: white; font-weight: bold">PSA ID NO. Checker</button>
+        @if ($show)
+            <div class="row mt-3">
+                <div class="col-md-4">
+                    <div class="form-group">
+                        <label style=" font-weight: 750; font-size: medium; color:black;">Enter Last Name:</label>
+                        <input style="box-shadow: 2pAx 2px 3px gray; background-color: #000066; color: white; font-weight: bold" class="form-control form-control-subject" placeholder="" wire:model.live='name'>
+                    </div>
+                    <button type="button" class="btn btn-primary solid blank mb-3" wire:click="checker" style="background: #d6cb00; color: #000066">Check</button>
+                </div>
+                <div class="col-md-6">
+                    <div class="form-group">
+                    <label style=" font-weight: 750; font-size: medium; color:black;">PSA ID No.</label>
+                    @if ($this->res != null)
+                        <textarea class="form-control " rows="6" style="box-shadow: 2px 2px 3px gray; background-color: white; color: black; font-weight: bold; text-align:left;" id="message-text" readonly>{{ implode("\n", $res)}}</textarea>
+                    @endif
+                    </div>
+                </div>
+            </div>
+        @endif
+    </div>
     <div class="error-container"></div>
         <div class="row p-3">
             <div class="col-md-2">
                 <div class="form-group">
                     <label style=" font-weight: 750; font-size: medium; color: black">ENTER PSA ID No.</label>
-                    <input style="box-shadow: 2px 2px 3px gray; background-color: #000066; color: white; font-weight: bold" class="form-control form-control-name" name="psa_id" required autofocus autocomplete="psa_id" type="number" required wire:model.live='PSAid' value={{$PSAid}}>
+                    <input style="box-shadow: 2px 2px 3px gray; background-color: #000066; color: white; font-weight: bold" class="form-control form-control-name" name="psa_id" required autofocus autocomplete="psa_id" type="text" required wire:model.live='PSAid' value={{$PSAid}}>
                 </div>
             </div>
             <div class="col-md-4">

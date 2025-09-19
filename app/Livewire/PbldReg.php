@@ -12,10 +12,28 @@ class PbldReg extends Component
     // ADD TABLE IN DATABASE: pbld, pbld_sessions
 
     public $PSAid=null, $first_name, $middle_initial, $last_name, $hospitalName, $hospitalAddress;
-    public $email, $contactNumber, $prcNumber, $topic;
+    public $email, $contactNumber, $prcNumber, $topic, $name, $show, $res;
     public $message, $showMessage="enabled", $showButton = false;
+
+    public function showChecker(){
+        // dd("checker");
+        if($this->show)
+            $this->show = false;
+        else
+            $this->show = true; 
+    }
     public function render()
     {
+
+        if(strlen($this->name) >= 3){
+            // dd(strlen($this->name));
+            $this->res=array();
+            $this->list=DB::table('registrations')->where('last_name', 'like', '%'.$this->name )->orWhere('last_name', 'like', $this->name .'%' )->get()->toArray();
+            foreach($this->list as $lis){
+                $this->res [] = $lis->psa_id . ' - ' . $lis->last_name . ', ' . $lis->first_name;
+            }
+        // dd($this->res);
+        }
         $cntTopic = DB::table('pbld')
         ->select('topic', DB::raw('COUNT(*) as total'))
         ->groupBy('topic')
@@ -54,7 +72,7 @@ class PbldReg extends Component
         ->get();
 
     
-        if(strlen($this->PSAid) == 4){
+        if(strlen($this->PSAid) > 3){
             $this->cleanvars();
             if (DB::table('registrations')->where('psa_id', $this->PSAid)->exists()) {
                 $this->last_name=DB::table('registrations')->where('psa_id', $this->PSAid)->value('last_name');
@@ -119,7 +137,7 @@ class PbldReg extends Component
             session()->flash('status', 'success');
             session()->flash('message', "You have successfully registered for the PBLD session, '" . $this->topic . "', " . ' Dr. '. $this->first_name ." " . $this->last_name);
 
-            Mail::mailer('smtp')->to($this->email)->send(new \App\Mail\PbldReg($this->last_name, $this->topic));
+            Mail::mailer('smtp')->to('pcrstorage09@gmail.com')->send(new \App\Mail\PbldReg($this->last_name, $this->topic));
             
             // return redirect()->route('reg')->with('success', "You have successfully registered for the PBLD session, '" . $this->day2 . "', " . ' Dr. '. $this->first_name ." " . $this->last_name);
         }

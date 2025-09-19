@@ -163,10 +163,10 @@ Route::get('/regional-anesthesia', function () {
 // Route::get('/{booth}', BoothController::class)
 // ->name('booth.checkin');
 
-Route::get('/{booth}', function ($booth) {
-    // dd($booth);
-    return view('registration.boothreg', compact('booth'));
-})->name('booth.checkin');
+// Route::get('/{booth}', function ($booth) {
+//     // dd($booth);
+//     return view('registration.boothreg', compact('booth'));
+// })->name('booth.checkin');
 
 // Route::get('/psa-id-checker', function () {
 //     return view('registration.psa-id-checker');

@@ -143,6 +143,11 @@ Route::get('/airway', function () {
     return view('workshops.airway');
 })->name('airway');
 
+Route::get('/pbld-program', function () {
+    // dd("asd");
+    return view('workshops.pbld');
+})->name('pbld');
+
 Route::get('/regional-anesthesia', function () {
     // dd("asd");
     return view('workshops.reganes');

@@ -31,7 +31,20 @@
                     <input style="box-shadow: 2px 2px 3px gray; background-color: #000066; color: white;; font-weight: bold;s" class="form-control form-control-email" name="text" type="text"  id="text" placeholder=""  readonly wire:model="middle_initial" value={{$middle_initial}}  >
                 </div>
             </div>
-            <div class="col-md-4">
+            <div class="col-md-6">
+                <div class="form-group">
+                <label style=" font-weight: 750; font-size: medium; color: black">Name of Hospital</label>
+                <input style="box-shadow: 2px 2px 3px gray; background-color: #000066; color: white;; font-weight: bold;s" class="form-control form-control-subject" name="subject" id="subject" wire:model="hospitalName" placeholder="" required readonly> 
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="form-group">
+                <label style=" font-weight: 750; font-size: medium; color: black">Address of Hospital</label>
+                <input style="box-shadow: 2px 2px 3px gray; background-color: #000066; color: white;; font-weight: bold;s" class="form-control form-control-subject" name="subject" id="subject" wire:model="hospitalAddress" placeholder="" required readonly>
+                </div>
+            </div>
+            <div class="text-center d-sm-flex justify-center">
+                <div class="col-md-4">
                 <div class="form-group">
                 <label style=" font-weight: 750; font-size: medium; color: black">Email</label>
                 <input style="box-shadow: 2px 2px 3px gray; background-color: #000066; color: white;; font-weight: bold;s" class="form-control form-control-subject" type="email" name="subject" id="subject" readonly wire:model="email" placeholder="" required value={{$email}}>
@@ -43,6 +56,7 @@
                 <input style="box-shadow: 2px 2px 3px gray; background-color: #000066; color: white; font-weight: bold;s" class="form-control form-control-subject" type="number" name="subject" id="subject" readonly wire:model="contactNumber" placeholder="" required value={{$contactNumber}}>
                 </div>
             </div>
+            </div>
             {{-- <div class="col-md-4">
                 <div class="form-group">
                     <label style=" font-weight: 750; font-size: medium; color: black">PRC Number (7 digits)</label>
@@ -52,12 +66,12 @@
         </div>
         <div class="text-left mt-5">
             <h3 class="into-sub-title" style="color: black">PBLD Sessions</h3>
-            <h4 class="mt-n2" style="color: black; font-style: italic; "><strong>(You can only choose 1 session)</strong></h4>
+            <h4 class="mt-n2" style="color: black; font-style: italic; "><strong>(Choose only one)</strong></h4>
         </div>
         
         <div class="row p-3">
             <div class="col-md-6 mt-2 text-left">
-                <label style="font-weight: 750; font-size: medium; color: black">Day 2</label><br>
+                <label style="font-weight: 750; font-size: medium; color: black">Day 2 <i><span style="font-weight: 600; "> (3/F VIP East | 10:00 AM-12:00 Noon)</span></i></label><br>
                 @foreach ($day_2 as $session)
                     <div class="form-check reg-text">
                         <input 
@@ -82,7 +96,7 @@
                 @endforeach
             </div>
             <div class="col-md-6 mt-2 text-left">
-                <label style="font-weight: 750; font-size: medium; color: black">Day 3</label><br>
+                <label style="font-weight: 750; font-size: medium; color: black">Day 3 <i><span style="font-weight: 600; "> (3/F VIP East | 10:10 AM-12:40 PM)</span></i> </label><br>
                 @foreach ($day_3 as $session)
                     <div class="form-check reg-text">
                         <input 

@@ -31,6 +31,18 @@
                     <input style="box-shadow: 2px 2px 3px gray; background-color: #000066; color: white;; font-weight: bold;s" class="form-control form-control-email" name="text" type="text"  id="text" placeholder=""  readonly wire:model="middle_initial" value={{$middle_initial}}  >
                 </div>
             </div>
+            <div class="col-md-6">
+                <div class="form-group">
+                <label style=" font-weight: 750; font-size: medium; color: black">Name of Hospital</label>
+                <input style="box-shadow: 2px 2px 3px gray; background-color: #000066; color: white;; font-weight: bold;s" class="form-control form-control-subject" name="subject" id="subject" wire:model="hospitalName" placeholder="" required readonly>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="form-group">
+                <label style=" font-weight: 750; font-size: medium; color: black">Address of Hospital</label>
+                <input style="box-shadow: 2px 2px 3px gray; background-color: #000066; color: white;; font-weight: bold;s" class="form-control form-control-subject" name="subject" id="subject" wire:model="hospitalAddress" placeholder="" required readonly>
+                </div>
+            </div>
             <div class="col-md-4">
                 <div class="form-group">
                 <label style=" font-weight: 750; font-size: medium; color: black">Email</label>
@@ -56,7 +68,7 @@
         </div>
         
         <div class="row p-3">
-            <div class="col-md-6 mt-2 text-left">
+            <div class="col-md-12 mt-2 text-left">
                 {{-- <label style="font-weight: 750; font-size: medium; color: black">Workshop</label><br> --}}
                 @foreach ($wrk as $session)
                     <div class="form-check reg-text">
@@ -70,11 +82,24 @@
                             wire:model.live="workshop"
                             {{ $session->status }}
                         >
-                        <label class="form-check-label" 
+                        <label class="form-check-label mb-3" 
                             style="color: black" 
                             for="workshop-{{ $session->id }}">
                             
-                            <strong>{{ $session->workshop }}</strong> (Registered: {{$session->total}} out of 
+                            <strong>{{ $session->workshop }}</strong> 
+                            <i> (3/F VIP East | 
+
+                                @if ($session->workshop == 'REGIONAL ANESTHESIA WORKSHOP')
+                                1:00 PM – 4:00 PM)
+                                @elseif ($session->workshop == 'POCUS WORKSHOP')
+                                8:00 AM - 11:00 AM)
+                                @else
+                                10:30 AM – 1:30 PM)
+
+                                @endif
+                            </i> 
+                            
+                            <br> (Registered: {{$session->total}} out of 
                             @if ($session->workshop == 'POCUS WORKSHOP') 
                                 40)
                             @else

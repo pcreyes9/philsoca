@@ -11,7 +11,7 @@ class PbldReg extends Component
 {
     // ADD TABLE IN DATABASE: pbld, pbld_sessions
 
-    public $PSAid=null, $first_name, $middle_initial, $last_name;
+    public $PSAid=null, $first_name, $middle_initial, $last_name, $hospitalName, $hospitalAddress;
     public $email, $contactNumber, $prcNumber, $topic;
     public $message, $showMessage="enabled", $showButton = false;
     public function render()
@@ -62,6 +62,8 @@ class PbldReg extends Component
                 $this->middle_initial=DB::table('registrations')->where('psa_id', $this->PSAid)->value('middle_name');
                 $this->email=DB::table('registrations')->where('psa_id', $this->PSAid)->value('email');
                 $this->contactNumber=DB::table('registrations')->where('psa_id', $this->PSAid)->value('contact_number');
+                $this->hospitalName=DB::table('registrations')->where('psa_id', $this->PSAid)->value('hospital_name');
+                $this->hospitalAddress=DB::table('registrations')->where('psa_id', $this->PSAid)->value('hospital_address');
                 
                 $this->showButton = true;
             } else {

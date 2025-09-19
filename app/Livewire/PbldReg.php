@@ -47,7 +47,7 @@ class PbldReg extends Component
             }
         }
 
-        // dd($cntTopic->toArray());
+        // dd($cntTopic->toArray()); ASD
         // $wrk = DB::table('workshop as w')
         // ->leftJoin('workshop_reg as wr', 'w.workshop', '=', 'wr.workshop')
         // ->select('w.id', 'w.workshop', 'w.status', DB::raw('COUNT(wr.id) as total'))

@@ -91,13 +91,13 @@ class WorkshopReg extends Component
         ->groupBy('w.id', 'w.workshop', 'w.status')
         ->get();
 
-        // dd($wrk);
+        // dd($wrk);ASD
 
         $stations = DB::table('stations')->where('workshop_name', $this->workshop)->get();
         // $day_3=DB::table('pbld_sessions')->where('count', 3)->get();
 
     
-        if(strlen($this->PSAid) > 3){
+        if(strlen($this->PSAid) > 3){ 
         
             // $this->cleanvars();
             if (DB::table('registrations')->where('psa_id', $this->PSAid)->exists()) {

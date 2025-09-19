@@ -143,6 +143,11 @@ Route::get('/airway', function () {
     return view('workshops.airway');
 })->name('airway');
 
+Route::get('/pocus', function () {
+    // dd("asd");
+    return view('workshops.pocus');
+})->name(name: 'pocus');
+
 Route::get('/pbld-program', function () {
     // dd("asd");
     return view('workshops.pbld');

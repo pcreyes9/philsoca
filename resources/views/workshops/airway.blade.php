@@ -70,7 +70,7 @@
                                     &nbsp b)	VL + Optical stylet <br>
                                     &nbsp c)	Intubation thru SGA 
                                 </th>
-                                <td class="text-left">Jonart Villanueva, MD <br> Ralph Anislag, MD <br> Dennis Lopez, MD </td>
+                                <td class="text-left"><br> Jonart Villanueva, MD <br> Ralph Anislag, MD <br> Dennis Lopez, MD </td>
                             </tr>
                             <tr>
                                 <th class="text-left" scope="row">Station # 8 Flexible Guided Intubation</th>

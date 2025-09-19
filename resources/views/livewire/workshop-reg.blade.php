@@ -57,7 +57,7 @@
         
         <div class="row p-3">
             <div class="col-md-6 mt-2 text-left">
-                <label style="font-weight: 750; font-size: medium; color: black">Workshop</label><br>
+                {{-- <label style="font-weight: 750; font-size: medium; color: black">Workshop</label><br> --}}
                 @foreach ($wrk as $session)
                     <div class="form-check reg-text">
                         <input 

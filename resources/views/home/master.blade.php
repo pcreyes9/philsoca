@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <meta name="google-site-verification" content="n-UsMvZohsUwN-AhhK7B6xx09epT6mgl9Ipgj33_YTY" />
+        <meta name="google-site-vdoeserification" content="n-UsMvZohsUwN-AhhK7B6xx09epT6mgl9Ipgj33_YTY" />
         <!-- Basic Page Needs
         ================================================== -->
         <meta charset="utf-8">
@@ -67,8 +67,8 @@
             
 
             {{-- @yield('content') --}}
-            @notifyJs
-            @livewireScripts
+            {{-- @notifyJs --}}
+            
             
 
             <footer id="footer" class="footer bg-overlay">
@@ -81,7 +81,7 @@
 
             <!-- initialize jQuery Library -->
             @include('home.scripts')
-
+{{-- 
             <script type="application/ld+json">
                 {
                   "@context": "https://aca2025manila.org/",
@@ -116,7 +116,14 @@
                             }
                     })
                 });
-            </script>
+            </script> --}}
         </div><!-- Body inner end -->
+        @livewireScripts
+        <script>
+            document.addEventListener("livewire:load", () => {
+                console.log("Livewire is ready!");
+            });
+        </script>
+
     </body>
 </html>

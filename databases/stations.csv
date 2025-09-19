@@ -1,0 +1,9 @@
+id,workshop_name,name,count,status
+1,AIRWAY WORKSHOP,Station 1: Front of Neck Access,0,enabled
+2,AIRWAY WORKSHOP,Station 2: Video Laryncoscope,0,enabled
+3,AIRWAY WORKSHOP,Station 3: Bougie,0,enabled
+4,AIRWAY WORKSHOP,Station 4: Optical Stylet,0,enabled
+5,AIRWAY WORKSHOP,Station 5: Dual Technique,0,enabled
+6,AIRWAY WORKSHOP,Station 6: Suction-Assisted Laryngoscopy Airway Decontamination (SALAD),0,enabled
+7,AIRWAY WORKSHOP,Station 7: Flexible Laryngoscopy,0,enabled
+8,AIRWAY WORKSHOP,Station 8: Hight Flow Nasal Cannula,0,enabled

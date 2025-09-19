@@ -1,6 +1,6 @@
 @extends('home.master')
 
-@section('title', 'PBLD Registration')
+@section('title', 'Workshop Registration')
 {{-- @section('banner-name', 'PSA NON-MEMBERS REGISTRATION') --}}
 
 @section('content')
@@ -10,8 +10,8 @@
     <div class="container">
         <div class="row justify-content-center" data-animation-in="slideInLeft" data-duration-in="1.2">
             <div class="col-lg-12" >
-                <h3 class="section-sub-title">PBLD Registration</h3>
-                <h4 class="mt-n5 mb-5" style="color: black; font-style: italic; "><strong>(There are only 11 participants per session)</strong></h4>
+                <h3 class="section-sub-title">WORKSHOP Registration</h3>
+                {{-- <h4 class="mt-n5 mb-5" style="color: black; font-style: italic; "><strong>(We only accept 11 particpants per PBLD session)</strong></h4> --}}
             </div>
             @if (session('success'))
                 <div class="alert alert-success">
@@ -19,7 +19,7 @@
                 </div>
             @endif
         </div>
-        <livewire:pbld-reg/>
+        <livewire:workshop-reg/>
     </div>
 </section><!-- Main container end -->
 @endsection

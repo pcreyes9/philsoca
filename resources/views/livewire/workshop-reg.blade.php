@@ -34,7 +34,7 @@
             <div class="col-md-6">
                 <div class="form-group">
                 <label style=" font-weight: 750; font-size: medium; color: black">Name of Hospital</label>
-                <input style="box-shadow: 2px 2px 3px gray; background-color: #000066; color: white;; font-weight: bold;s" class="form-control form-control-subject" name="subject" id="subject" wire:model="hospitalName" placeholder="" required readonly> 
+                <input style="box-shadow: 2px 2px 3px gray; background-color: #000066; color: white;; font-weight: bold;s" class="form-control form-control-subject" name="subject" id="subject" wire:model="hospitalName" placeholder="" required readonly>
                 </div>
             </div>
             <div class="col-md-6">
@@ -43,8 +43,7 @@
                 <input style="box-shadow: 2px 2px 3px gray; background-color: #000066; color: white;; font-weight: bold;s" class="form-control form-control-subject" name="subject" id="subject" wire:model="hospitalAddress" placeholder="" required readonly>
                 </div>
             </div>
-            <div class="text-center d-sm-flex justify-center">
-                <div class="col-md-4">
+            <div class="col-md-4">
                 <div class="form-group">
                 <label style=" font-weight: 750; font-size: medium; color: black">Email</label>
                 <input style="box-shadow: 2px 2px 3px gray; background-color: #000066; color: white;; font-weight: bold;s" class="form-control form-control-subject" type="email" name="subject" id="subject" readonly wire:model="email" placeholder="" required value={{$email}}>
@@ -56,69 +55,60 @@
                 <input style="box-shadow: 2px 2px 3px gray; background-color: #000066; color: white; font-weight: bold;s" class="form-control form-control-subject" type="number" name="subject" id="subject" readonly wire:model="contactNumber" placeholder="" required value={{$contactNumber}}>
                 </div>
             </div>
-            </div>
-            {{-- <div class="col-md-4">
+            <div class="col-md-4">
                 <div class="form-group">
                     <label style=" font-weight: 750; font-size: medium; color: black">PRC Number (7 digits)</label>
                     <input style="box-shadow: 2px 2px 3px gray; background-color: #000066; color: white; font-weight: bold;s" class="form-control form-control-subject" type="number" name="subject" id="subject" wire:model="prcNumber" placeholder="" required>
                 </div>
-            </div> --}}
+            </div>
         </div>
         <div class="text-left mt-5">
-            <h3 class="into-sub-title" style="color: black">PBLD Sessions</h3>
-            <h4 class="mt-n2" style="color: black; font-style: italic; "><strong>(Choose only one)</strong></h4>
+            <h3 class="into-sub-title" style="color: black">ACA 2025 Workshops</h3>
+            {{-- <h4 class="mt-n2" style="color: black; font-style: italic; "><strong>(You can only choose 1 session)</strong></h4> --}}
         </div>
         
         <div class="row p-3">
-            <div class="col-md-6 mt-2 text-left">
-                <label style="font-weight: 750; font-size: medium; color: black">Day 2 <i><span style="font-weight: 600; "> (3/F VIP East | 10:00 AM-12:00 Noon)</span></i></label><br>
-                @foreach ($day_2 as $session)
+            <div class="col-md-12 mt-2 text-left">
+                {{-- <label style="font-weight: 750; font-size: medium; color: black">Workshop</label><br> --}}
+                @foreach ($wrk as $session)
                     <div class="form-check reg-text">
                         <input 
                             style="color: #000066" 
                             class="form-check-input" 
                             type="radio" 
-                            readonly 
-                            name="radioGender" 
-                            value="{{ $session->topic }}" 
-                            id="{{ $session->id }}" 
-                            wire:model="topic" 
-                            required
+                            name="workshop" 
+                            id="workshop-{{ $session->id }}" 
+                            value="{{ $session->workshop }}" 
+                            wire:model.live="workshop"
                             {{ $session->status }}
                         >
-                        <label 
-                            style="color: #000066" 
-                            class="form-check-label mb-2" 
-                            for="{{ $session->id }}">
-                            {{ $session->topic }} <i  style="color: black">(Registered: {{$session->total}})</i> <br> <strong>{{ $session->speaker }}</strong> 
+                        <label class="form-check-label mb-3" 
+                            style="color: black" 
+                            for="workshop-{{ $session->id }}">
+                            
+                            <strong>{{ $session->workshop }}</strong> 
+                            <i> (3/F VIP East | 
+
+                                @if ($session->workshop == 'REGIONAL ANESTHESIA WORKSHOP')
+                                1:00 PM – 4:00 PM)
+                                @elseif ($session->workshop == 'POCUS WORKSHOP')
+                                8:00 AM - 11:00 AM)
+                                @else
+                                10:30 AM – 1:30 PM)
+
+                                @endif
+                            </i> 
+                            
+                            <br> (Registered: {{$session->total}} out of 
+                            @if ($session->workshop == 'POCUS WORKSHOP') 
+                                40)
+                            @else
+                                42)                           
+                            @endif
                         </label>
                     </div>
                 @endforeach
-            </div>
-            <div class="col-md-6 mt-2 text-left">
-                <label style="font-weight: 750; font-size: medium; color: black">Day 3 <i><span style="font-weight: 600; "> (3/F VIP East | 10:10 AM-12:40 PM)</span></i> </label><br>
-                @foreach ($day_3 as $session)
-                    <div class="form-check reg-text">
-                        <input 
-                            style="color: #000066" 
-                            class="form-check-input" 
-                            type="radio" 
-                            readonly 
-                            name="radioGender" 
-                            value="{{ $session->topic }}" 
-                            id="{{ $session->id }}" 
-                            wire:model="topic" 
-                            required
-                            {{ $session->status }}
-                        >
-                        <label 
-                            style="color: #000066" 
-                            class="form-check-label mb-2"
-                            for="{{ $session->id }}">
-                            {{ $session->topic }} <i  style="color: black">(Registered: {{$session->total}})</i> <br> <strong>{{ $session->speaker }}</strong> 
-                        </label>
-                    </div>
-                @endforeach
+
             </div>
         </div>
         {{-- <div class="form-group">

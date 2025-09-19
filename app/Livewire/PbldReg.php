@@ -5,12 +5,13 @@ namespace App\Livewire;
 use Livewire\Component;
 use Carbon\Carbon;
 use Illuminate\Support\Facades\DB;
+use Illuminate\Support\Facades\Mail;
 
 class PbldReg extends Component
 {
     // ADD TABLE IN DATABASE: pbld, pbld_sessions
 
-    public $PSAid=null, $first_name, $middle_initial, $last_name;
+    public $PSAid=null, $first_name, $middle_initial, $last_name, $hospitalName, $hospitalAddress;
     public $email, $contactNumber, $prcNumber, $topic;
     public $message, $showMessage="enabled", $showButton = false;
     public function render()
@@ -29,8 +30,28 @@ class PbldReg extends Component
         }
 
         // dd($cntTopic->toArray());
-        $day_2 = DB::table('pbld_sessions')->where('count', 2)->get();
-        $day_3=DB::table('pbld_sessions')->where('count', 3)->get();
+        // $wrk = DB::table('workshop as w')
+        // ->leftJoin('workshop_reg as wr', 'w.workshop', '=', 'wr.workshop')
+        // ->select('w.id', 'w.workshop', 'w.status', DB::raw('COUNT(wr.id) as total'))
+        // ->groupBy('w.id', 'w.workshop', 'w.status')
+        // ->get();
+
+        $day_2 = DB::table('pbld_sessions as pbld')
+        ->leftJoin('pbld as pbr', 'pbld.topic', '=', 'pbr.topic')
+        ->select('pbld.topic', 'pbld.speaker', 'pbld.id', 'pbld.status', DB::raw('COUNT(pbr.topic) as total'))
+        ->where('count', 2)
+        ->groupBy('pbld.topic', 'pbld.speaker', 'pbld.id', 'pbld.status')
+        ->get();
+
+        // dd($day_2);
+
+
+        $day_3 = DB::table('pbld_sessions as pbld')
+        ->leftJoin('pbld as pbr', 'pbld.topic', '=', 'pbr.topic')
+        ->select('pbld.topic', 'pbld.speaker', 'pbld.id', 'pbld.status', DB::raw('COUNT(pbr.topic) as total'))
+        ->where('count', 3)
+        ->groupBy('pbld.topic', 'pbld.speaker', 'pbld.id', 'pbld.status')
+        ->get();
 
     
         if(strlen($this->PSAid) == 4){
@@ -41,6 +62,8 @@ class PbldReg extends Component
                 $this->middle_initial=DB::table('registrations')->where('psa_id', $this->PSAid)->value('middle_name');
                 $this->email=DB::table('registrations')->where('psa_id', $this->PSAid)->value('email');
                 $this->contactNumber=DB::table('registrations')->where('psa_id', $this->PSAid)->value('contact_number');
+                $this->hospitalName=DB::table('registrations')->where('psa_id', $this->PSAid)->value('hospital_name');
+                $this->hospitalAddress=DB::table('registrations')->where('psa_id', $this->PSAid)->value('hospital_address');
                 
                 $this->showButton = true;
             } else {
@@ -95,6 +118,8 @@ class PbldReg extends Component
             
             session()->flash('status', 'success');
             session()->flash('message', "You have successfully registered for the PBLD session, '" . $this->topic . "', " . ' Dr. '. $this->first_name ." " . $this->last_name);
+
+            Mail::mailer('smtp')->to('pcreyes09@gmail.com')->send(new \App\Mail\PbldReg($this->last_name, $this->topic));
             
             // return redirect()->route('reg')->with('success', "You have successfully registered for the PBLD session, '" . $this->day2 . "', " . ' Dr. '. $this->first_name ." " . $this->last_name);
         }

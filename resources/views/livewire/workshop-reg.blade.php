@@ -103,7 +103,7 @@
                             @if ($session->workshop == 'POCUS WORKSHOP') 
                                 40)
                             @elseif ($session->workshop == 'AIRWAY WORKSHOP') 
-                                48)
+                                48) 
                             @else 
                                 42)                           
                             @endif

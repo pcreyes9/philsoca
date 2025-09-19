@@ -10,7 +10,7 @@ use Illuminate\Support\Facades\Mail;
 class WorkshopReg extends Component
 {
 
-    public $workshop, $station;
+    public $workshop, $station, $name, $show, $res;
 
     public $PSAid=null, $first_name, $middle_initial, $last_name, $hospitalName, $hospitalAddress;
     public $email, $contactNumber, $prcNumber;
@@ -19,9 +19,27 @@ class WorkshopReg extends Component
 
     public $cntAir, $cntRA, $cntPoc;
 
+    public function showChecker(){
+        // dd("checker");
+        if($this->show)
+            $this->show = false;
+        else
+            $this->show = true; 
+    }
     public function render()
     {
-         $this->station = '';
+
+        if(strlen($this->name) >= 3){
+            // dd(strlen($this->name));
+            $this->res=array();
+            $this->list=DB::table('registrations')->where('last_name', 'like', '%'.$this->name )->orWhere('last_name', 'like', $this->name .'%' )->get()->toArray();
+            foreach($this->list as $lis){
+                $this->res [] = $lis->psa_id . ' - ' . $lis->last_name . ', ' . $lis->first_name;
+            }
+        // dd($this->res);
+        }
+
+        $this->station = '';
 
         $this->cntPoc = DB::table('workshop_reg')
         ->where('workshop', 'POCUS WORKSHOP')
@@ -79,7 +97,7 @@ class WorkshopReg extends Component
         // $day_3=DB::table('pbld_sessions')->where('count', 3)->get();
 
     
-        if(strlen($this->PSAid) == 4){
+        if(strlen($this->PSAid) > 3){
         
             // $this->cleanvars();
             if (DB::table('registrations')->where('psa_id', $this->PSAid)->exists()) {

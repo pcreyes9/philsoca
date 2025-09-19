@@ -172,7 +172,27 @@ class MemReg extends Component
                 }
                 else{
                     $imgNameCert = "Not available";
-                    Registration::create([
+                    // Registration::create(attributes: [
+                    //     'psa_id' => $this->PSAid,  
+                    //     'prc_number' => $this->prcNumber,
+                    //     'last_name' => $this->last_name,
+                    //     'first_name' => $this->first_name,
+                    //     'middle_name' => $this->middle_initial,
+                    //     'hospital_name' => $this->hospitalName,
+                    //     'hospital_address' => $this->hospitalAddress,
+                    //     'email' => $this->email,
+                    //     'contact_number' => $this->contactNumber,
+                    //     'gender' => 'N/A',
+                    //     'membership' => $this->memType,
+                    //     'status' => "Pending",
+                    //     'country' => "Philippines",
+            
+                    //     'senior_citizen' => $imgNameSenior,
+                    //     'proof_payment' => $imgNamePayment,
+                    //     'trainee_cert' => $imgNameCert
+                    // ]);
+
+                    DB::table('registrations')->insert([
                         'psa_id' => $this->PSAid,  
                         'prc_number' => $this->prcNumber,
                         'last_name' => $this->last_name,
@@ -189,7 +209,10 @@ class MemReg extends Component
             
                         'senior_citizen' => $imgNameSenior,
                         'proof_payment' => $imgNamePayment,
-                        'trainee_cert' => $imgNameCert
+                        'trainee_cert' => $imgNameCert,
+
+                        'created_at' => Carbon::now(),  // Use Carbon to get the current timestamp
+                        'updated_at' => Carbon::now(),  // Same for updated_at
                     ]);
                     
                     session()->flash('message', 'YOU ARE REGISTERED SUCCESSFULLY, DR ' . $this->last_name . '!');

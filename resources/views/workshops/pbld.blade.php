@@ -93,7 +93,7 @@
                 <br>
 
                 <div class="mt-5">
-                    <h3 class="mb-5 into-sub-title">Short Description and Objectives of each PBLD Topics </h3>
+                    <h3 class="mb-3 mt-3 into-sub-title text-left" style="font-size: 30px">Short Description and Objectives of each PBLD Topics </h3>
                     {{-- <p>Minim Austin 3 wolf moon scenester aesthetic, umami odio pariatur bitters. Pop-up occaecat taxidermy street art, tattooed beard literally.</p> --}}
 
                     <div class="accordion accordion-group" id="our-values-accordion">
@@ -101,8 +101,11 @@
                             <div class="card-header p-0 bg-transparent" id="headingOne">
                                 <h2 class="mb-0">
                                 <button class="btn btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
-                                    Pediatric Airway Management (Annery Garcia-Marcinkiewicz MD)
+                                Pediatric Airway Management
+                                <span style="font-weight: 500; text-transform: capitalize;"><i>(Annery Garcia-Marcinkiewicz MD)</i></span>
                                 </button>
+
+
                                 </h2>
                             </div>
                         
@@ -134,7 +137,8 @@
                             <div class="card-header p-0 bg-transparent" id="headingTwo">
                                 <h2 class="mb-0">
                                 <button class="btn btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                                    VATS (Wanda Popescu MD)
+                                    VATS 
+                                    <span style="font-weight: 500; text-transform: capitalize;"><i>(Wanda Popescu MD)</i></span>
                                 </button>
                                 </h2>
                             </div>
@@ -143,9 +147,13 @@
                                     Video-Assisted Thoracoscopic Surgery (VATS) is a minimally invasive
                                     alternative to open thoracotomy, using small incisions and a thoracoscope to
                                     perform intrathoracic procedures such as wedge resections, lobectomies, and
-                                    pleural biopsies. Compared to thoracotomy, VATS offers reduced
-                                    postoperative pain, shorter recovery time, and fewer pulmonary
-                                    complications.
+                                    pleural biopsies. This is a case of a 48 year old female who presented initially
+                                    with dysphagia due obstructive sensation at her throat. After a series of
+                                    workup including a PET SCAN, she is about to undergo resection of
+                                    Pulmonary Nodule in the Right Middle Lobe (To Consider Metastasis).
+                                    Compared to thoracotomy, VATS offers reduced postoperative pain, shorter
+                                    recovery time, and fewer pulmonary complications.
+
 
 
                                     <br>
@@ -185,7 +193,9 @@
                             <div class="card-header p-0 bg-transparent" id="headingThree">
                                 <h2 class="mb-0">
                                 <button class="btn btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                                    Neonatal TIVA (Vesna Jevtovic-Todorovic MD)
+                                    Neonatal TIVA 
+                                    <span style="font-weight: 500; text-transform: capitalize;"><i>(Vesna Jevtovic-Todorovic MD)</i></span>
+
                                 </button>
                                 </h2>
                             </div>
@@ -229,7 +239,9 @@
                             <div class="card-header p-0 bg-transparent" id="headingThree">
                                 <h2 class="mb-0">
                                 <button class="btn btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#col4" aria-expanded="false" aria-controls="col4">
-                                    Hip Surgery (Sanjib Adhikary MD)
+                                    Hip Surgery 
+                                    <span style="font-weight: 500; text-transform: capitalize;"><i>(Sanjib Adhikary MD)</i></span>
+
                                 </button>
                                 </h2>
                             </div>
@@ -265,7 +277,8 @@
                             <div class="card-header p-0 bg-transparent" id="headingThree">
                                 <h2 class="mb-0">
                                 <button class="btn btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#col5" aria-expanded="false" aria-controls="col5">
-                                    Neonatal Surgical Emergencies (Ina Ismiarti Shariffuddin MD)
+                                    Neonatal Surgical Emergencies
+                                    <span style="font-weight: 500; text-transform: capitalize;"><i>(Ina Ismiarti Shariffuddin MD)</i></span>
                                 </button>
                                 </h2>
                             </div>
@@ -300,7 +313,8 @@
                             <div class="card-header p-0 bg-transparent" id="headingThree">
                                 <h2 class="mb-0">
                                 <button class="btn btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#col6" aria-expanded="false" aria-controls="col6">
-                                    Hypertension in Pregnancy (Heather Nixon MD)
+                                    Hypertension in Pregnancy
+                                    <span style="font-weight: 500; text-transform: capitalize;"><i>(Heather Nixon MD)</i></span>
                                 </button>
                                 </h2>
                             </div>
@@ -352,44 +366,8 @@
                             <div class="card-header p-0 bg-transparent" id="headingThree">
                                 <h2 class="mb-0">
                                 <button class="btn btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#col7" aria-expanded="false" aria-controls="col7">
-                                    Coagulopathy (Klaus Goerlinger MD)
-                                </button>
-                                </h2>
-                            </div>
-                            <div id="col7" class="collapse text-left" aria-labelledby="headingThree" data-parent="#our-values-accordion">
-                                <div class="card-body">
-                                    This session explores the complex interplay between <strong>coagulopathy, trauma,
-                                    and liver disease</strong>, with a focus on <strong>trauma patients with cirrhosis</strong>. Learners
-                                    will examine the pathophysiological changes in coagulation balance in
-                                    cirrhotic patients, how these are affected by trauma and hemorrhage, and the
-                                    challenges in interpreting standard coagulation tests. The discussion also
-                                    addresses anesthetic considerations, transfusion strategies, and the role of
-                                    viscoelastic testing in guiding targeted management during resuscitation and
-                                    surgery.
-
-                                    <br>
-                                    <br>
-                                    <strong>Learning Objectives: </strong>
-                                    <br>
-                                    <ol class="list-group list-group-numbered">
-                                        <li><strong>Explain</strong> the impact of trauma and hemorrhage on coagulation balance in cirrhotic patients.</li>
-                                        <li><strong>Identify</strong> clinical and laboratory signs of coagulopathy in a trauma patient with cirrhosis (e.g., elevated INR, low platelets, prolonged PT/aPTT).</li>
-                                        <li><strong>Evaluate</strong> the risks of bleeding versus thrombosis in cirrhotic patients with trauma.</li>
-                                        <li><strong>Interpret</strong> coagulation studies in the context of cirrhosis, understanding limitations (e.g., INR may not reflect bleeding risk accurately).</li>
-                                        <li><strong>Assess</strong> the need for viscoelastic testing (e.g., TEG/ROTEM) in guiding blood product administration.</li>
-                                        <li><strong>Recognize</strong> anesthetic considerations in cirrhotic patients, including drug metabolism, fluid shifts, and hemodynamic instability.</li>
-                                        <li><strong>Plan</strong> perioperative strategies to manage coagulopathy, including use of FFP, cryoprecipitate, platelets, and possibly antifibrinolytics (e.g., TXA).</li>
-                                        <li><strong>Demonstrate</strong> appropriate airway and hemodynamic management in trauma patients with liver dysfunction.</li>
-                                        <li><strong>Discuss</strong> the role of damage control resuscitation and massive transfusion protocols in cirrhotic trauma patients.</li>
-                                    </ol>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="card">
-                            <div class="card-header p-0 bg-transparent" id="headingThree">
-                                <h2 class="mb-0">
-                                <button class="btn btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#col7" aria-expanded="false" aria-controls="col7">
-                                    Coagulopathy (Klaus Goerlinger MD)
+                                    Coagulopathy 
+                                    <span style="font-weight: 500; text-transform: capitalize;"><i>(Klaus Goerlinger MD)</i></span>
                                 </button>
                                 </h2>
                             </div>
@@ -426,7 +404,8 @@
                             <div class="card-header p-0 bg-transparent" id="headingThree">
                                 <h2 class="mb-0">
                                 <button class="btn btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#col8" aria-expanded="false" aria-controls="col8">
-                                    Anesthesia for Spine Surgery (Jeffrey Pasternak MD)
+                                    Anesthesia for Spine Surgery 
+                                    <span style="font-weight: 500; text-transform: capitalize;"><i>(Jeffrey Pasternak MD)</i></span>
                                 </button>
                                 </h2>
                             </div>
@@ -459,7 +438,8 @@
                             <div class="card-header p-0 bg-transparent" id="headingThree">
                                 <h2 class="mb-0">
                                 <button class="btn btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#col9" aria-expanded="false" aria-controls="col9">
-                                    Obstetric Hemorrhage (Christopher Bowden MD)
+                                    Obstetric Hemorrhage 
+                                    <span style="font-weight: 500; text-transform: capitalize;"><i>(Christopher Bowden MD)</i></span>
                                 </button>
                                 </h2>
                             </div>
@@ -532,14 +512,15 @@
                             <div class="card-header p-0 bg-transparent" id="headingThree">
                                 <h2 class="mb-0">
                                 <button class="btn btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#col10" aria-expanded="false" aria-controls="col10">
-                                    Anesthesia for Spine Surgery (Jeffrey Pasternak MD)
+                                    Hypotensive Patient for Surgery 
+                                    <span style="font-weight: 500; text-transform: capitalize;"><i>(Suneel Desai MD)</i></span>
                                 </button>
                                 </h2>
                             </div>
                             <div id="col10" class="collapse text-left" aria-labelledby="headingThree" data-parent="#our-values-accordion">
                                 <div class="card-body">
-                                    This discussion explores the recognition, causes, and management of <strong>perioperative
-                                    hypotension</strong>, a common and potentially harmful complication in surgical patients.
+                                    This discussion explores the recognition, causes, and management of <strong>perioperative</strong>
+                                    hypotension, a common and potentially harmful complication in surgical patients.
                                     The session reviews the physiological basis of blood pressure regulation during
                                     anesthesia, effects of common anesthetic agents, and phase-specific causes of
                                     hypotension. Learners will also assess patient risk factors and understand the shortand long-term consequences of inadequate perfusion during the perioperative period.
@@ -568,7 +549,10 @@
                                         <li><strong>Identify</strong> high-risk patient populations for perioperative hypotension (e.g., elderly, cardiac disease, autonomic dysfunction).</li>
 
                                         <li><strong>Discuss</strong> the short- and long-term consequences of intraoperative hypotension (e.g., myocardial injury, AKI, stroke).</li>
+
+                                        <li><strong>Explain</strong> the role of POCUS aided anesthesia management by differentiating causes of hypotension (e.g., hypovolemia, cardiac dysfunction, vasodilation, tamponade, pneumothorax).</li>
                                     </ol>
+
                                 </div>
                             </div>
                         </div>

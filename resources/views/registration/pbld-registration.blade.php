@@ -8,7 +8,7 @@
 
 <section id="main-container" class="main-container text-center project-area ">
     <div class="container">
-        {{-- <div class="row justify-content-center" data-animation-in="slideInLeft" data-duration-in="1.2">
+        <div class="row justify-content-center" data-animation-in="slideInLeft" data-duration-in="1.2">
             <div class="col-lg-12" >
                 <h3 class="section-sub-title">PBLD Registration</h3>
                 <h4 class="mt-n5 mb-5" style="color: black; font-style: italic; "><strong>(There are only 11 participants per session)</strong></h4>
@@ -20,9 +20,9 @@
                     {{ session('success') }}
                 </div>
             @endif
-        </div> --}}
-        <h3 class="section-sub-title">Registration is still closed</h3>
-        {{-- <livewire:pbld-reg/> --}}
+        </div>
+        {{-- <h3 class="section-sub-title">Registration is still closed</h3> --}}
+        <livewire:pbld-reg/>
     </div>
 </section><!-- Main container end -->
 @endsection

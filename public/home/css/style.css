@@ -2601,6 +2601,8 @@ ul.navbar-nav > li.header-get-a-quote:hover > a:after {
 
 .accordion-group .card-body {
   padding: 15px 20px;
+  line-height: 25px;
+  font-size: medium;
 }
 
 .accordion-group .card-body img {

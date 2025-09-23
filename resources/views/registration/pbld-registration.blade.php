@@ -21,6 +21,7 @@
                 </div>
             @endif
         </div>
+        {{-- <h3 class="section-sub-title">Registration is still closed</h3> --}}
         <livewire:pbld-reg/>
     </div>
 </section><!-- Main container end -->

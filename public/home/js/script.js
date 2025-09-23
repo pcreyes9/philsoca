@@ -1,16 +1,13 @@
-const loader = document.querySelector(".loader");
+window.addEventListener("load", () =>{
+	const loader = document.querySelector(".loader");
 
-if (loader) {
-    loader.classList.add("loader-hidden");
+	loader.classList.add("loader-hidden");
 
-    window.addEventListener("load", () => {
-        // Wait for the transition animation to finish
-        loader.addEventListener("transitionend", () => {
-            loader.remove(); // removes the actual element safely
-        });
-    });
-
-	jQuery(function ($) {
+	loader.addEventListener("transistionend", () =>{
+		document.body.removeChild("loader");
+	})
+})
+jQuery(function ($) {
 	'use strict';
 
 	/* ----------------------------------------------------------- */
@@ -287,6 +284,3 @@ if (loader) {
 
 
 });
-}
-
-

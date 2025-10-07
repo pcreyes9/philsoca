@@ -25,9 +25,9 @@
             <br>
             <button type="submit" class="btn btn-primary" style="background: #f2de02; color: black">Login</button>
             <br>
-            <a href="{{ route('speaker_register') }}" >
+            {{-- <a href="{{ route('speaker_register') }}" >
                 <label class="mt-4" style=" font-weight: 750; font-size: medium; color:white; text-decoration: underline;" >Don't have account yet? Create Account</label>
-            </a> 
+            </a>  --}}
       </form>
    </div>
 </section><!-- Main container end -->

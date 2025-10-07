@@ -36,11 +36,11 @@
                 {{ __('LOG IN') }}
             </x-button>
             <p class="text-lg place-content-center mt-4 text-center">Don't have an account? Please sign up now!</p>
-            <div class="place-content-center text-center">
+            {{-- <div class="place-content-center text-center">
                 <a class="mr-3 text-base  text-gray-600 underline rounded-md hover:text-gray-900 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500" href="{{ route('register') }}">
                     {{ __('Create an account?') }}
                 </a>
-            </div>
+            </div> --}}
             <div class="place-content-center text-center mt-3">
                 @if (Route::has('password.request'))
                     <a class="text-base  text-gray-600 underline rounded-md hover:text-gray-900 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500" href="{{ route('password.request') }}">

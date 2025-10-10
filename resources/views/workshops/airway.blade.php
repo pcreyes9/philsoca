@@ -50,7 +50,7 @@
                             </tr>
                              <tr>
                                 <th class="text-left" scope="row">Station # 3 Videolaryngoscope Macintosh Blade and Hyperangulated Blade </th>
-                                <td class="text-left">Anna Margarita Hilvano Corsiga, MD <br> Ella Patricia Ravanera, MD </td>
+                                <td class="text-left">Christian King Soriño, MD <br> Sheena Abigail Ong, MD </td>
                             </tr>
                             <tr>
                                 <th class="text-left" scope="row">Station #4 Bougie Intubation with the Kiwi Grip/Pistol Grip</th>

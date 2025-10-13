@@ -30,7 +30,7 @@
                             <tr>
                                 <th class="text-left align-middle" scope="col">Time</th>
                                 <th class="text-left align-middle" scope="col">Topic</th>
-                                <th class="text-left align-middle" scope="col">Facilitator</th>
+                                <th class="text-left align-middle" scope="col">Guest Faculty</th>
                             </tr>
                         </thead>
                         <tbody>
@@ -61,7 +61,7 @@
                             <tr>
                                 <th class="text-left align-middle" scope="col">Time</th>
                                 <th class="text-left align-middle" scope="col">Topic</th>
-                                <th class="text-left align-middle" scope="col">Facilitators</th>
+                                <th class="text-left align-middle" scope="col">Guest Faculty</th>
                             </tr>
                         </thead>
                         <tbody>

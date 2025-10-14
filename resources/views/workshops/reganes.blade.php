@@ -83,7 +83,7 @@
                     <p class="para-head text-center fd mb-4">Part 2: WORKSHOP PROPER</p>
                     <p class="workshop-head fd mb-3">Workshop Stations (7 attendees per station)</p>
                     <table class="table fd mb-3">
-                        <thead class="bg-danger text-white">
+                        <thead class="bg-primary text-white">
                             <tr>
                                 <th class="text-left align-middle" scope="col">Time</th>
                                 <th class="text-left align-middle" scope="col">Topic</th>

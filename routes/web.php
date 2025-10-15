@@ -157,16 +157,22 @@ Route::get('/regional-anesthesia', function () {
     // dd("asd");
     return view('workshops.reganes');
 })->name(name: 'reganes');
+
+
 // Route::get('/{booth}', [PharmaController::class, 'checkin'])
 //     ->name('booth.checkin');
 
 // Route::get('/{booth}', BoothController::class)
 // ->name('booth.checkin');
 
-// Route::get('/{booth}', function ($booth) {
-//     // dd($booth);
-//     return view('registration.boothreg', compact('booth'));
-// })->name('booth.checkin');
+Route::get('/sponsors/{booth}', function ($booth) {
+    // dd($booth);
+    return view('registration.boothreg', compact('booth'));
+})->name('booth.checkin');
+
+Route::get('/booth-checker', function () {
+    return view('registration.boothcheck');
+})->name('boothcheck');
 
 // Route::get('/psa-id-checker', function () {
 //     return view('registration.psa-id-checker');

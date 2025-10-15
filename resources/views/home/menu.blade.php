@@ -49,6 +49,7 @@
                       <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">SPONSORSHIP & EXHIBITION </a>
                       <ul class="dropdown-menu" role="menu">
                         <li><a href="{{route('sponsors')}}" style="font-size: 14px;">List of Exhibitors</a></li>
+                        <li><a href="{{route('boothcheck')}}" style="font-size: 14px;">Booth Checker</a></li>
                       </ul>
                     </li>
                     {{-- <li class="nav-item"><a class="nav-link" href="{{route('sponsors')}}">SPONSORSHIP & EXHIBITION</a></li> --}}

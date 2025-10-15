@@ -10,7 +10,11 @@
 
 <section id="news" class="project-area">
     <div class="container" >
-
+        @if (session('success'))
+            <div class="alert alert-success text-center">
+                <strong>{{ session('success') }}</strong> 
+            </div>
+        @endif
         {{-- <div>
             <h3 class="py-2 text-center pb-5" style="font-weight: 700; font-size: 25px; text-transform: none">For Sponsorship, write an email to: <span style="font-style: italic; font-size: 25px;">sponsorshipaca2025@gmail.com</span></h3>
         </div> --}}

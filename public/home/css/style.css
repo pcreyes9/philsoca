@@ -2009,10 +2009,13 @@ ul.navbar-nav > li.header-get-a-quote:hover > a:after {
 .pharma-title {
   font-weight: 900;
   text-transform: uppercase;
-  font-size: 50px;
+  font-size: clamp(20px, 8vw, 50px);
   line-height: normal;
   margin: 10px 0;
+  word-wrap: break-word;
+  text-align: center;
 }
+
 
 .org-title{
   font-weight: 900;

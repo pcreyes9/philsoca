@@ -50,6 +50,5 @@
 
         {{-- @notifyJs --}}
         @livewireScripts
-        
     </body>
 </html>

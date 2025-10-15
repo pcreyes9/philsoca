@@ -19,16 +19,13 @@
                 {{-- <h3 class="into-workshop-title" >PBLD Program</h3> --}}
             </div>
             <div class="col-lg-11 mb-3">
-                <h3 class="into-workshop-title">October 24 & 25, 2025<br> GF Executive 5, Marriot Grand Ballroom</h3>
+                <h3 class="into-workshop-title">October 24 & 25, 2025<br>GF Executive 5, Marriot Grand Ballroom</h3>
             </div>
 
             <div class="d-flex justify-content-center">
                 <img style="width: 100%;" class="align-middle mt-3 " src="images/ACA PBLD POSTER_091825.png?v={{ time() }}" alt="Image is still in process.">
             </div>
 
-
-
-            
             {{-- <div class="col-lg-12 mt-4 mt-lg-0">
                 <p class="workshop-head fd">Opening Remarks:</p>
                 <p class="hotel-p fd">Anna Margarita F. Hilvano-Corsiga, MD</p>
@@ -88,8 +85,8 @@
                             </tr>
                         </tbody>
                     </table>
-                </div>
-                --}}
+                </div> --}}
+                
                 <br>
 
                 <div class="mt-5">
@@ -129,7 +126,6 @@
                                         <li>Understand selection and sizing of airway equipment.</li>
                                         <li>Understand the ASA Difficult Airway Algorithm and adaptations for neonates and pediatric patients.</li>
                                     </ol>
-
                                </div>
                             </div>
                         </div>
@@ -153,8 +149,6 @@
                                     Pulmonary Nodule in the Right Middle Lobe (To Consider Metastasis).
                                     Compared to thoracotomy, VATS offers reduced postoperative pain, shorter
                                     recovery time, and fewer pulmonary complications.
-
-
 
                                     <br>
                                     <br>

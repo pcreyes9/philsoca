@@ -36,6 +36,12 @@
                             Register
                         </div>
                     </button>
+                    <button onclick="window.location.href='{{ url('booth-checker') }}'" class="btn btn-primary solid blank mx-3" style="background: rgba(185, 13, 33); color: white">
+                        {{-- <div class="loader"></div> --}}
+                        <div wire:loading.remove>
+                            Booth Checker
+                        </div>
+                    </button>
                 @endif
             </div>
         </div>

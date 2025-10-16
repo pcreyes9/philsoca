@@ -166,8 +166,15 @@ Route::get('/regional-anesthesia', function () {
 // ->name('booth.checkin');
 
 Route::get('/sponsors/{booth}', function ($booth) {
-    // dd($booth);
-    return view('registration.boothreg', compact('booth'));
+    $exists = DB::table('pharma')->where('code', $booth)->exists();
+
+    if (! $exists) {
+        abort(404); // or any other action you want
+    }
+    else{
+        return view('registration.boothreg', compact('booth'));
+    }
+
 })->name('booth.checkin');
 
 Route::get('/booth-checker', function () {

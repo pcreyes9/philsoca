@@ -4,7 +4,7 @@
             <h3 class="into-workshop-title" >Booth Checker</h3>
         </div>
         <div class="col-lg-11 mb-3">
-            <p class="hotel-p text-center "><i>You have to visit all 48 exhibibtors to be qualified for PSA Raffle</i></p>
+            <p class="hotel-p text-center "><i>You have to visit all 50 exhibibtors to be qualified for PSA Raffle</i></p>
         </div>
         <div class="col-lg-12 mt-4 mt-lg-0">
 

@@ -29,16 +29,16 @@ class BoothController extends Component
             session()->flash('status', 'danger');
             session()->flash('message', 'PSA Raffle is only for LOCAL ACA DELEGATES and PSA MEMBERS' );
         } 
-        else if (DB::table(table: 'booth_reg')->where('psa_id', $this->PSAid)->where('booth', $this->pharmaName)->exists()){
+        else if (DB::table(table: 'booth_reg')->where('psa_id', str_pad($this->PSAid, 4, '0', STR_PAD_LEFT))->where('booth', $this->pharmaName)->exists()){
             session()->flash('status', 'warning');
-            session()->flash('message', 'You are already registered in this booth: ' . "(" . DB::table('booth_reg')->where('psa_id', $this->PSAid)->value('name'). ")" );
+            session()->flash('message', 'You are already registered in this booth: ' . "(" . DB::table('booth_reg')->where('psa_id', str_pad($this->PSAid, 4, '0', STR_PAD_LEFT))->value('name'). ")" );
         }
         else 
         {
             // dd($this->station);
             DB::table('booth_reg')->insert([
-                'psa_id' => $this->PSAid,
-                'name' => DB::table('members')->select(DB::raw("CONCAT(mem_first_name, ' ', mem_last_name) as name"))->where('member_id_no', $this->PSAid)->value('name'),
+                'psa_id' => str_pad($this->PSAid, 4, '0', STR_PAD_LEFT),
+                'name' => DB::table('members')->select(DB::raw("CONCAT(mem_first_name, ' ', mem_last_name) as name"))->where('member_id_no', str_pad($this->PSAid, 4, '0', STR_PAD_LEFT))->value('name'),
                 'mem_type' => null,
                 'booth' => $this->pharmaName,
 

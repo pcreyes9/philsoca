@@ -129,6 +129,9 @@ hr.solid {
   background-repeat: no-repeat;
   background-size: cover;
   position: absolute;
+  pointer-events: none; /* ✅ allows clicks to pass through */
+  z-index: 1;
+
 
   overflow: clip;
   background-size: 100% 100%;   
@@ -1013,17 +1016,19 @@ ul.top-info li p.info-text {
 .header-one,
 .header-one .site-navigation {
   background: #f2de02;
-  z-index: 2;
+  z-index: 100;
 
 }
 
 .header-one .navbar-collapse {
   padding-left: 0;
+  z-index: 999 !important;
 }
 
 @media (max-width: 991px) {
   .navbar-collapse.collapse {
     overflow-y: auto;
+    z-index: 999 !important;
   }
 }
 

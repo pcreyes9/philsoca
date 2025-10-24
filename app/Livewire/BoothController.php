@@ -22,12 +22,12 @@ class BoothController extends Component
 
     public function submit(){
         //  dd($this->PSAid);
-        if (!DB::table(table: 'members')->where('member_id_no', $this->PSAid)->exists()) {
+        if (!DB::table(table: 'members')->where('member_id_no', str_pad($this->PSAid, 4, '0', STR_PAD_LEFT))->exists()) {
             
             // $this->workshop=DB::table('pbld')->where('psa_id', $this->PSAid)->value('workshop');
 
             session()->flash('status', 'danger');
-            session()->flash('message', 'PSA Raffle is only for LOCAL DELEGATES and PSA MEMBERS' );
+            session()->flash('message', 'PSA Raffle is only for LOCAL ACA DELEGATES and PSA MEMBERS' );
         } 
         else if (DB::table(table: 'booth_reg')->where('psa_id', $this->PSAid)->where('booth', $this->pharmaName)->exists()){
             session()->flash('status', 'warning');

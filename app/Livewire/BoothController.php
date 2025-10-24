@@ -46,11 +46,9 @@ class BoothController extends Component
             ]);
 
             
-            return redirect()->route('sponsors')->with('success', 'You have successfully registered to Booth '. $this->pharmaName .', Dr. ' . DB::table('members')->select(DB::raw("CONCAT(mem_first_name, ' ', mem_last_name) as name"))->where('member_id_no', $this->PSAid)->value('name'));
+            return redirect()->route('sponsors')->with('success', 'You have successfully registered to Booth '. $this->pharmaName .', Dr. ' . DB::table('members')->select(DB::raw("CONCAT(mem_first_name, ' ', mem_last_name) as name"))->where('member_id_no', str_pad($this->PSAid, 4, '0', STR_PAD_LEFT))->value('name'));
             // session()->flash('status', 'success');
             // session()->flash('message', "You have successfully registered, '" . $this->pharmaName);
-
-            
 
             // return redirect()->route('reg')->with('success', "You have successfully registered for the PBLD session, '" . $this->day2 . "', " . ' Dr. '. $this->first_name ." " . $this->last_name);
         }

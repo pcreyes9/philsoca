@@ -157,7 +157,7 @@ member_id_no,psa_chapter_code,psa_mem_type,mem_last_name,mem_first_name,mem_midd
 0155,PNL,RM,AQUINO,SARAH JOAN,A.,639189188942,,joanniemd@yahoo.com,1966-05-06,Female,Filipino
 0156,NWL,RM,AQUINO,EDWIN,F.,,523-6080,N/A,1900-01-01,Male,Filipino
 0157,STG,RM,AQUINO,FRANCISCO,C.,639178550920,,fcamd@yahoo.com,1965-09-20,Male,Filipino
-0158,WMN,RM,AQUINO-ANACAN,IRENE,B.,639179890416,639189245789,ireneaquinoanacan@yahoo.com/ireneaanacan@gmail.com,1963-04-30,Female,Filipino
+0158,WMN,RM,AQUINO-ANACAN,IRENE,B.,639955138001,,ireneaquinoanacan@yahoo.com/ireneaanacan@gmail.com,1963-04-30,Female,Filipino
 0159,EVS,RM,ARABA,DELMER,D.,639173160716,(055) 209-3364/209-1323-OFF.,delmer_araba@yahoo.com,1961-09-07,,
 0160,NCR,LM,ARAFILES,NAIA,B.,639175381837,856-6512/551-8290,naia3228@yahoo.com,1946-08-03,,
 0161,STG,RM,ARAGO,JOSE APOLLO,J.,639178980890,,joseapollo.arago@gmail.com,1969-07-21,Male,Filipino
@@ -534,7 +534,7 @@ member_id_no,psa_chapter_code,psa_mem_type,mem_last_name,mem_first_name,mem_midd
 0532,NCR,LM,CRUZ,ANGELINA,C.,,N/A,N/A,1928-09-25,Female,Filipino
 0533,NCR,LM,CRUZ,CENON,R.,639178278216,842-09-74,N/A,1932-03-24,Male,Filipino
 0534,NCR,RM,CRUZ,CORAZON,C.,,951-1185/942-0055,N/A,1960-07-01,Female,Filipino
-0535,NCR,RM,CRUZ,JULIET,E.,639291979173,926-2359,julietcruz721@gmail.com,1949-07-21,Female,Filipino
+0535,NCR,RM,CRUZ,JULIET,E.,639228941092,926-2359,julietcruz721@gmail.com,1949-07-21,Female,Filipino
 0536,NCR,RM,CRUZ,PATRICIA LORNA,O.,639176276275,N/A,plcruzmd@yahoo.com,1900-03-17,Female,Filipino
 0537,NCR,RM,CRUZ,EARL RYAN,F.,639196775996,,rcdoc27@gmail.com,1973-12-27,Male,Filipino
 0538,NCR,RM,CRUZ,MARILOU,A.,,714-0531,N/A,1959-03-02,Female,Filipino
@@ -547,7 +547,7 @@ member_id_no,psa_chapter_code,psa_mem_type,mem_last_name,mem_first_name,mem_midd
 0545,NWL,RM,CUARESMA,MARIO,D.,09179977220,639289472525,"mariocuaresma468@yahoo.com, mcuaresma795@gmail.com",1965-05-04,Male,Filipino
 0546,SMO,RM,CUBERO,VICTORIO,S.,,,NONE,1945-04-13,Male,Filipino
 0547,NCR,RM,"CUENCA, JR.",MANUEL,D.,639178140653 / 639228840653,931-8164 RES. /723-0101 loc 4212 HOSP.,mdcjrmd@yahoo.com,1971-01-14,Male,Filipino
-0548,SMO,RM,"CUENCO, JR.",RICARDO,G.,639177014249,(082) 228-6288/227-2731-HOSP.,riccuenco@yahoo.com / docricjr@icloud.com,1969-05-03,Male,Filipino
+0548,SMO,RM,"CUENCO, JR.",RICARDO,G.,639177014249,,riccuenco@yahoo.com,1969-05-03,Male,Filipino
 0549,WMN,LM,CUEVAS,MA. CRISTINA,R.,639081296125,(062) 984-1072 RES / (062) 992-7330 HOSP,cristy_psa@yahoo.com,1957-06-20,,
 0550,EVS,RM,CULAJARA,RINA,B.,639275174866,639173120261,ladyty_anes@yahoo.com,1961-02-02,Female,Filipino
 0551,NCR,RM,CULAS,CESAR,T.,639178876659,,doczar_11@yahoo.com,1959-11-11,Male,Filipino
@@ -575,7 +575,7 @@ member_id_no,psa_chapter_code,psa_mem_type,mem_last_name,mem_first_name,mem_midd
 0573,NCR,LM,DE CASTRO,LUISITA,R.,,725-2695,N/A,1924-10-11,Female,Filipino
 0574,NCR,LM,DE CASTRO,JORGE,M.,639178130492,928-2276/924-4051,jorgemdecastro23@cloud.com,1947-04-23,Male,Filipino
 0575,NCR,RM,DE CASTRO,GRACIELA,V.,,N/A,N/A,1900-01-01,Female,Filipino
-0576,STG,RM,DE CASTRO,RICARDO,F.,639209017582,(046) 802-2070/416-0226-HOSP.,ricky.decastro@gmail.com,1956-11-19,Male,Filipino
+0576,NCR,RM,DE CASTRO,RICARDO,F.,639209017582,,ricky.decastro@gmail.com,1956-11-19,Male,Filipino
 0577,NCR,RM,DE GUZMAN,MA. CECILIA,V.,639174117196,525-0337,beggystar@yahoo.com,1971-04-23,,
 0578,NCR,OT,DE GUZMAN,LUDIVINO,G.,639189039288,681-7861/727-5751,,1942-04-14,Female,Filipino
 0579,SOC,RM,DE GUZMAN,DENNIS,P.,639189285628,639175686994,cassander1@hotmail.com,1963-11-05,Male,Filipino
@@ -753,7 +753,7 @@ member_id_no,psa_chapter_code,psa_mem_type,mem_last_name,mem_first_name,mem_midd
 0751,SMO,RM,ESTRELLA,JOSEFINA,H.,639196870239,N/A,N/A,1957-05-15,Female,Filipino
 0752,STG,RM,ESTRELLA,ANGEL,A.,639192020913,(046) 414-0793/416-0226-HOSP.,aaestrella48@yahoo.com / estrellahospital@gmail.com,1948-08-11,Male,Filipino
 0753,NCR,LM,ESTRELLAS,IMELDA,S.,639178163532 / 639228363532,931-8586/723-0101 LOC 4212,isestrellas@yahoo.com,1950-12-25,Female,Filipino
-0754,NCR,RM,ESTRELLAS,MA. TERESA,Z.,639189355852,824-6292/723-0101-loc. 4212-hosp.,anesthesiologistmtz@yahoo.com,1968-12-30,Female,Filipino
+0754,NCR,RM,ESTRELLAS,MA. TERESA,Z.,639189355852,,anesthesiologistmtz@yahoo.com,1968-12-30,Female,Filipino
 0755,STG,RM,TORRES-EUGENIO,MARIA  AGNES JOSEPHINE,,639989839503,896-7636,agnesjojo1208@gmail.com,1963-01-28,Female,Filipino
 0756,CLN,RM,EUSEBIO-SICCION,EDELIZA,-,,N/A,N/A,1966-08-31,Female,Filipino
 0757,EVS,TM,EUSORES,GINETTE AGRIPINA,D.,639192830806,(053) 5400114/325-8865-HOSP.,N/A,1967-09-21,Female,Filipino
@@ -835,7 +835,7 @@ member_id_no,psa_chapter_code,psa_mem_type,mem_last_name,mem_first_name,mem_midd
 0833,STG,LM,FRANCISCO,WILFREDO,G.,639185032847,,,1946-10-14,Male,Filipino
 0834,STG,LM,CHAN-FRANCISCO,EDITHA,,09151376293,09234423467,echanf@yahoo.com,1952-04-21,Female,Filipino
 0835,CCV,LM,FRANCISCO,REBECCA,M.,639173291858,,rebfran_md2003@yahoo.com,1953-01-15,Female,Filipino
-0836,CLN,RM,"FRANCISCO, JR.",RUFINO,M.,639175172187,639228517818,rmjfrancisco_anes@yahoo.com,1962-12-14,,
+0836,NCR,RM,"FRANCISCO, JR.",RUFINO,M.,639175172187,639228517818,rmjfrancisco_anes@yahoo.com,1962-12-14,,
 0837,NCR,RM,"FRANCISCO, JR.",MANFREDO,S.,09175763621,,mann_titess@yahoo.com,1959-05-26,Male,Filipino
 0838,BBP,EM,FRANCO,ELSIE,M.,639175072400,(074) 443-4794/442-2012,sheilafrancomd@gmail.com,1944-09-13,Female,Filipino
 0839,NCR,RM,FRIAL,MARIE KRISTIN,F.,6619411804,,mkfrial@yahoo.com ,1970-10-04,Female,Filipino
@@ -1046,7 +1046,7 @@ member_id_no,psa_chapter_code,psa_mem_type,mem_last_name,mem_first_name,mem_midd
 1044,NOL,RM,JARDENIL,GERARD,M.,639182331429,(033) 336-6032,toughyanes@yahoo.com,1961-11-20,Male,Filipino
 1045,NOL,RM,JAVELLANA,GLICERIO,A.,639173044421,,,1963-07-07,Male,Filipino
 1046,NCR,RM,JAVELOSA,LILIBETH,I.,639128850255,931-4948,N/A,1961-05-29,Female,Filipino
-1047,NEC,RM,JAVIER,SALOME,G.,639175661073,N/A,salomegjavier@yahoo.com,1959-08-24,Female,Filipino
+1047,NEC,RM,JAVIER,SALOME,G.,639175661073,,salomegjavier24@gmail.com,1959-08-24,Female,Filipino
 1048,NCR,LM,JAVIER,FRANCIS,O.,639209209686,705-1881,drfrancisjavier@yahoo.com,1956-06-21,Male,Filipino
 1049,NCR,RM,JAVIER,JANE MARIE,L.,639179704349,,,1900-01-01,Female,Filipino
 1050,NCR,RM,JIMENEZ,ADELIZA,S.,639194462006,,drljimenez@yahoo.com,1959-06-27,Female,Filipino
@@ -1062,7 +1062,7 @@ member_id_no,psa_chapter_code,psa_mem_type,mem_last_name,mem_first_name,mem_midd
 1060,NCR,RM,JOVEN,DOMINGO LOUIS,A.,,N/A,N/A,1900-01-01,,
 1061,BCL,RM,JOVERO,SIGRID,N.,,N/A,N/A,1943-10-24,,
 1062,BCL,RM,JUAN-SARMIENTO,MARITA,D.,(+63)9495682272,(056) 211-5542,violetsareblue16@gmail.com,1961-12-16,Female,Filipino
-1063,NWL,RM,JUAN,NENA,D.,639163819136,(075) 522-8647/463-1607,drnenad.juan@yahoo.com,1946-07-14,,
+1063,NWL,RM,JUAN,NENA,D.,09770135745,,drnenad.juan@yahoo.com,1946-07-14,Female,Filipino
 1064,NOL,RM,JUANILLO,MICHELLE,T.,639189014601,(034) 433-1542/433-7331,mikaytjuanillo@yahoo.com,1974-02-12,Female,Filipino
 1065,NCR,RM,JUCO,JAY,R.,639178155691,655-1116 RES /727-5751-HOSP,jrj_md@hotmail.com,1968-07-16,Male,Filipino
 1066,NCR,RM,JULIANO,MA. TEODORA,G.,639175209264,,joji_anesth@yahoo.com,1960-10-02,Female,Filipino
@@ -1292,7 +1292,7 @@ member_id_no,psa_chapter_code,psa_mem_type,mem_last_name,mem_first_name,mem_midd
 1290,NCR,RM,MANTUANO-PAZ,FRITZIE,R.,639284364085,,fritziemd2002@yahoo.com ,1971-10-18,Female,Filipino
 1291,BCL,RM,MANUEL,LAMBERTO,V.,639169439843,,,1951-09-17,Male,Filipino
 1292,TAR,RM,MANUGUID,RENE,C.,639158239179,,renemin1984@hotmail.com,1960-06-21,Male,Filipino
-1293,NMO,RM,MURILLO,AMI,M.,639177045574,(08822) 726-528,N/A,1970-09-15,,
+1293,NMO,RM,MURILLO,AMI,M.,639177045574,(08822) 726-528,ami.murillomd@gmail.com,1970-09-15,Female,Filipino
 1294,NCR,RM,MANZON-SARABIA,NOEMI,B.,639175457300,09998812078,mimi_sarabia_md@yahoo.com,1961-06-25,Female,Filipino
 1295,BBP,RM,MAPILI,ISMAEL JULIUS,R.,639175068342,(074)444-9210,juliusmapili@yahoo.com,1962-06-16,Male,Filipino
 1296,NCR,RM,MAQUIO,ERNESTO,M.,639175370675,,N/A,1962-05-20,,
@@ -1648,7 +1648,7 @@ member_id_no,psa_chapter_code,psa_mem_type,mem_last_name,mem_first_name,mem_midd
 1646,STG,TM,RED,MANUEL ANTONIO,-,,822-3415,N/A,1900-01-01,Male,Filipino
 1647,EVS,RM,REDOBLADO,LEO JOSEPH,V.,639166033413,,leoredoblado@yahoo.com,1965-05-31,Male,Filipino
 1648,NCR,TM,REDONDO,DANILO,M.,,714-0463/426-2701 LOC. 6460,N/A,1900-01-01,,
-1649,NCR,RM,REGALADO-MAGSINO,MA. VERONICA,S.,09393630217,09171048158,doctoraix@yahoo.com,1960-03-27,Female,Filipino
+1649,NCR,RM,REGALADO-MAGSINO,MA. VERONICA,S.,09171048158,09393630217,doctoraix@yahoo.com,1960-03-27,Female,Filipino
 1650,LUC,RM,RELLAMA,NELIA ,N.,639175800546,(072) 607-5321/700-0000,archienel@yahoo.com,1968-03-31,Female,Filipino
 1651,NCR,RM,RELOVA,RONA MARGARITA,V.,,,yvrelova@aol.com,1900-01-01,Female,Filipino
 1652,NCR,RM,RELUCIO,MA. LEILANI,A.,639178335461,,lanirelucio@yahoo.com,1971-11-07,Female,Filipino
@@ -2409,7 +2409,7 @@ member_id_no,psa_chapter_code,psa_mem_type,mem_last_name,mem_first_name,mem_midd
 2407,STG,RM,DAVID,XENIA,P.,639178856770/639228668304,924-3781/924-3601,drxeniapdavid@gmail.com,1977-11-19,Female,Filipino
 2408,NCR,RM,VITO,ISABELITA,L.,,,mativ2md@yahoo.com,1968-09-24,Female,Filipino
 2409,NCR,RM,NOCEDA,FERIE JAMES,A.,639209053715,,ferie@noceda.net,1972-03-06,Female,Filipino
-2410,NCR,RM,BELLO,MITOS,N.,09175856686,,mitosnoble@yahoo.com,1976-09-12,Female,Filipino
+2410,NCR,RM,BELLO,MITOS,NOBLE,09175856686,,mitosnoble@yahoo.com,1976-09-12,Female,Filipino
 2411,NCR,RM,CARVAJAL,ANNIE,D.,639228273920,09989903588,anniecarvajal@yahoo.com,1974-12-13,Male,Filipino
 2412,NCR,RM,TAMAYO,MIGUEL ANGELO,A.,639228782516,928-5705,migomargarita@yahoo.com,1974-06-05,Female,Filipino
 2413,NCR,RM,VIRTUCIO,EMMANUEL,C.,639198321726 /*, 639228321726,chaseanne@yahoo.com,1975-09-10,Male,Filipino
@@ -2488,7 +2488,7 @@ member_id_no,psa_chapter_code,psa_mem_type,mem_last_name,mem_first_name,mem_midd
 2486,NCR,RM,TIONGSON,CRISTINA,TALAVERA,639178931233,842-8302,teenatmd@yahoo.com,1972-05-02,Female,Filipino
 2487,NCR,RM,ALONZO-GALICIO,MELISSA,T.,639209100152,822-6530,,1973-06-28,,
 2488,NCR,RM,REYES,JEORGE ANGELO,H.,639189021408,,jeorge_reyes@yahoo.com,1977-02-27,Male,Filipino
-2489,BOZ,RM,PULIDO,JOSELITO,R.,639178800462,(047) 237-2009,litopulidomd@yahoo.com,1971-10-28,Male,Filipino
+2489,BOZ,RM,PULIDO,JOSELITO,R.,639178800462,(047) 237-2009,jowina_pulido@yahoo.com,1971-10-28,Male,Filipino
 2490,BOZ,RM,BONGCO,JEANETTE,M.,09176338142,09231477266,jeemolinamd@yahoo.com,1972-09-05,Female,Filipino
 2491,NCR,RM,FERNANDEZ,ANDRO JESUS,H.,639178007984,,androfernandez@yahoo.com,1969-06-06,Male,Filipino
 2492,STG,RM,MORIN,JAY SUNDAY,S.,639189671450,(049) 549-4181/411-0070,jaymorin_md@yahoo.com,1974-03-18,Female,Filipino
@@ -2522,7 +2522,7 @@ member_id_no,psa_chapter_code,psa_mem_type,mem_last_name,mem_first_name,mem_midd
 2520,NCR,RM,SANDOVAL,ROBERT,G.,09178318804,,rgsmd@yahoo.com,1976-12-17,,
 2521,NMO,RM,CATALON,CAEZAR,V.,639268964989,,caezar_catalon@yahoo.com,1974-02-15,Male,Filipino
 2522,ILO,RM,LUCOT-LAUD,CERES,G.,639173142720 / 09778844440,(034) 435-1591 LOC. 214,cefipime2002@yahoo.com,1977-02-28,Male,Filipino
-2523,NMO,RM,LUMANG,HAROLD JOSEPH,C.,639274165949,(088)387-1216,harold_lumang@yahoo.com,1975-02-10,Female,Filipino
+2523,NMO,RM,LUMANG,HAROLD JOSEPH,C.,639274165949,(088)387-1216,harold_lumang@yahoo.com,1975-02-10,Male,Filipino
 2524,NCR,TM,UMALI,MARY ANN HILDA,S.,639209611243,,meanumali@yahoo.com,1977-03-03,Female,Filipino
 2525,NCR,RM,RIVERO-FONTANILLA,LIEZL,C.,09176725833,827-2490/524-6061 LOC. 306,liezlrfontanilla@gmail.com,1973-11-16,Female,Filipino
 2526,NCR,RM,MORENO,MA. MORENA,B.,639164602115,998-5350 RES.,mors_anes@yahoo.com,1972-03-09,,
@@ -2560,7 +2560,7 @@ member_id_no,psa_chapter_code,psa_mem_type,mem_last_name,mem_first_name,mem_midd
 2558,NWL,RM,CABATBAT,AILEEN MAE,V.,09175742588,,aileen_mae_77@yahoo.com,1976-03-01,Female,Filipino
 2559,STG,RM,VILLA,JOHN GERARD,ALINDOGAN,639286032588,0918-945-6529*,jgvilla2002@yahoo.com,1970-07-02,Female,Filipino
 2560,NCR,RM,MARTIN,IRIS,DR.,639176238509,(044) 791-1547/743-6919,irismartin_528md@yahoo.com/irisdrmartin@gmail.com,1976-05-28,Female,Filipino
-2561,NCR,RM,BADILLO,KARL,F.,09177410106,639233449876/6397410106,drkarlb165@yahoo.com,1975-01-06,Female,Filipino
+2561,NCR,RM,BADILLO,KARL,F.,09177410106,639233449876/6397410106,drkarlb165@yahoo.com,1975-01-06,Male,Filipino
 2562,STG,RM,CHAVEZ,REYNANTE,C.,639175794694,639258650737,reynancchavez@gmail.com,1973-12-05,Male,Filipino
 2563,STG,RM,SALAZAR,RHODA,R.,09171400609,09228158563 / 09178881693,rhoda_salazar@icloud.com,1976-11-13,Female,Filipino
 2564,NCR,RM,BALLESTEROS,EDWARD,L.,639337200343,,lexxxus888@yahoo.com,1978-11-21,Female,Filipino
@@ -2583,7 +2583,7 @@ member_id_no,psa_chapter_code,psa_mem_type,mem_last_name,mem_first_name,mem_midd
 2581,NWL,RM,CUEVAS,WILBERT,P.,09053223632,09192997994,drwilbertpcuevas67@yahoo.com,1967-12-04,Male,Filipino
 2582,NEL,RM,BAÑEZ,HAROLD,D.,09158574578,(070) 846-7377 / 652-1967 HOSP.,hawiepogi27@gmail.com ,1971-02-27,Male,Filipino
 2583,SCV,RM,BENAVIDEZ-LAGAYAN,TARCILA,G.,639204346748 ,639178705793,benavidezmd@yahoo.com,1975-10-16,Female,Filipino
-2584,NCR,RM,DABU,CECILLE BERNADETTE,C.,639175238614,925-3122,cbcdmd7@gmail.com,1974-10-22,Male,Filipino
+2584,NCR,RM,DABU-FORTUN,CECILLE BERNADETTE,C.,639175238614,925-3122,cbcdmd7@gmail.com,1974-10-22,Male,Filipino
 2585,NCR,RM,CRUZ,ALEX,L.,639178441846,681-0963/925-3122,alex_cruz747@yahoo.com,1978-08-18,Male,Filipino
 2586,,OT,TAN,LIZA SHARON,C.,639175495652,(032) 422-9353/253-9891,,1971-04-11,,
 2587,NCR,RM,ARIZALA-PROTESTA,MARIA CARLA,R.,639175570045,655-3482,mcapmd615@yahoo.com,1971-11-25,Female,Filipino
@@ -2714,7 +2714,7 @@ member_id_no,psa_chapter_code,psa_mem_type,mem_last_name,mem_first_name,mem_midd
 2712,NCR,RM,NARBONITA,MARICEL,T.,639196822850,,mnarbonita76@gmail.com,1976-01-01,Female,Filipino
 2713,NCR,TM,BRINGAS,SHIELA,A.,639186392466,,shielamd@yahoo.com,1978-08-11,Female,Filipino
 2714,NWL,RM,CABACUNGAN-GURENG,GRACELYN,D.,639778506464 / 639062499856,639228743047,gracelyncabacungan@yahoo.com,1978-09-02,Female,Filipino
-2715,NCR,RM,RAMOS,NERISSA,R.,639178176772,727-5751/727-0001 LOCAL 3307,nerissamd@gmail.com / nrs_md@yahoo.com,1972-06-07,Female,Filipino
+2715,NCR,RM,RAMOS,NERISSA,R.,639178176772,727-5751/727-0001 LOCAL 3307,nerissamd@gmail.com,1972-06-07,Female,Filipino
 2716,NEL,RM,GARCIA,JERALDY,P.,639163673984,304-1006,jeraldygarcia@yahoo.com,1974-09-27,,
 2717,STG,RM,AFRICA,RICHIE,G.,09989641925,639173161925 / 639238216422,chie_alamat@yahoo.com,1978-05-21,Male,Filipino
 2718,NEL,RM,SALUDEZ,JENNIFER,L.,639087514824,0917-502-3645,jennifer.saludez@yahoo.com,1977-10-22,Female,Filipino
@@ -2949,7 +2949,7 @@ member_id_no,psa_chapter_code,psa_mem_type,mem_last_name,mem_first_name,mem_midd
 2947,NCR,RM,DIVINA,ANGELITO,D.,639173940714,,angeloknd@yahoo.com,1976-03-15,Male,Filipino
 2948,NCR,RM,UY,MARY JOY,TINDOY,639178253550,09175537569,anesthesiologistsijoy@gmail.com,1980-12-07,Female,Filipino
 2949,NCR,RM,MACABULOS,RITZ RYAN,D.,639154219087,,ritz_macabulos@yahoo.com,1979-01-10,Male,Filipino
-2950,CLN,RM,PASCUAL,ROSELYN,B.,639228354214,639081769942,doc_fifi@yahoo.com,1981-10-23,Female,Filipino
+2950,BUL,RM,PASCUAL,ROSELYN,B.,639228354214,639081769942,doc_fifi@yahoo.com,1981-10-23,Female,Filipino
 2951,WMN,RM,CABILLO,NARDISA,V.,639187663666 / 639152255249,,cnardisa@yahoo.com,1954-10-29,,
 2952,SCV,RM,ANG,JENNIFER,F.,639209076497,(078) 6828359 / (078) 6828123,jenrullan@yahoo.com,1976-01-14,Male,Filipino
 2953,NCR,RM,TAMAYO,MARIA CHRISTINA,C.,639228293903,09175308407,kittytamayo35@gmail.com,1981-08-02,Female,Filipino
@@ -3106,7 +3106,7 @@ member_id_no,psa_chapter_code,psa_mem_type,mem_last_name,mem_first_name,mem_midd
 3104,NEC,RM,SANTIAGO-CATAHAN,ELVA,P.,09178473684,749-2700,vael0729@yahoo.com,1982-07-29,Female,Filipino
 3105,LUC,RM,MENDOZA,JANESSE JOSEPHINE,G.,639177153968,(072) 242-0804 / (072) 888-2617,janesse_josephine@yahoo.com,1982-05-26,Female,Filipino
 3106,PNL,RM,BERMUDEZ,MARY JANE,P.,09154984004,639228273928 / 639204067205,majab14_md@yahoo.com,1980-03-14,Female,Filipino
-3107,NCR,RM,AMAN,MARIA DHAHRANI,M.,639228682384,6590847149,mdm_aman81@yahoo.com,1981-03-21,Female,Filipino
+3107,NCR,RM,AMAN,MARIA DHAHRANI,M.,639228682384,6590847149,niniaman81@gmail.com,1981-03-21,Female,Filipino
 3108,NCR,TM,ANGELES,JORIZ,M.,639178810434 ,639233265412,wil2726@yahoo.com,1980-06-18,Female,Filipino
 3109,NCR,RM,SANCHEZ,CARNAN,M.,639228358115,09778115949,charlienovember681@yahoo.com,1981-09-06,Female,Filipino
 3110,NCR,RM,CONSUELO,ANA MARIA,L.,639088800913,,consueloanamaria@gmail.com,1965-09-13,Male,Filipino
@@ -3126,7 +3126,7 @@ member_id_no,psa_chapter_code,psa_mem_type,mem_last_name,mem_first_name,mem_midd
 3124,NCR,RM,ALCANTARA,JOSE VICTOR,O.,639178888974,,victor_alcantara@yahoo.com,1974-02-05,Male,Filipino
 3125,NCR,RM,SANTOS-CAYABYAB,MARIA ANTONETTE,M.,09328626291,524-6061 LOC. 306,netsantoscayabyab @gmail.com,1979-02-03,Female,Filipino
 3126,NCR,TM,SARMIENTO,LEONARDO,A.,,,,1900-01-01,Male,Filipino
-3127,NCR,RM,TALLON,ABRAHAM JOHN,R.,09773708591,,ajtallon@gmail.com,1976-09-03,Male,Filipino
+3127,NCR,RM,TALLON,ABRAHAM JOHN,R.,09773708591,,ajtallon93@gmail.com,1976-09-03,Male,Filipino
 3128,NCR,RM,AGCOPRA,ELEANOR,C.,639228746780,09173152915,ecagcopra@gmail.com,1976-08-02,Female,Filipino
 3129,NCR,RM,PONCE,JAN MARC,DC.,639082033839,,,1900-01-01,Male,Filipino
 3130,BOZ,RM,"LUCAS, JR.",ROBERTO,B.,639178019469,(047) 237-5874,lucasrobertojr@yahoo.com,1976-07-15,Male,
@@ -3489,7 +3489,7 @@ member_id_no,psa_chapter_code,psa_mem_type,mem_last_name,mem_first_name,mem_midd
 3487,NCR,RM,SALCEDO-MORIER,CLARICE,A.,639064204772,0917-122-1985,clarsalcedo_md@yahoo.com,1985-09-11,Male,Filipino
 3488,NCR,RM,SYJUCO,CHARLENE ROSE,PULUMBARIT,639228348237,0917-314-3422,charlenesyjuco@gmail.com,1985-04-01,Female,Filipino
 3489,NCR,RM,MAURICIO,ALDRINE,P.,639166671080,0917-583-0810,aldrinem@gmail.com,1983-08-23,Female,Filipino
-3490,WMN,RM,CAPE,ALDERICK,R.,09173288787,,dox_md@yahoo.com,1976-11-19,Male,Filipino
+3490,WMN,RM,CAPE,ALDERICK,R.,09173288787,,dox.anesth17@gmail.com,1976-11-19,Male,Filipino
 3491,WMN,RM,ITEM,GLEN,R.,639153975661,09672092426,glenrousitem@gmail.com,1982-06-10,Male,Filipino
 3492,CCV,RM,BARCENAS,CRISELLE ANGELI,C.,639228244423,(032) 238-9884 RES / (032) 255-8000 HOSP,crizyang@yahoo.com,1982-10-12,Female,Filipino
 3493,SMO,RM,REQUIZ,ROMMEL,M.,639292184793 / 639322763201,,ambok69@yahoo.com,1982-08-06,Male,Filipino
@@ -3515,7 +3515,7 @@ member_id_no,psa_chapter_code,psa_mem_type,mem_last_name,mem_first_name,mem_midd
 3513,SMO,RM,GUIANI,GRACE JEHAN,G.,639052455499,,jehan_1682@yahoo.com,1982-11-16,Female,Filipino
 3514,WMN,RM,TAÑEDO,LANIE SALMA,RASUL,639177029680,0917-891-3125,tanedolaniesalma@gmail.com,1900-12-20,Female,Filipino
 3515,WMN,TM,BALTAR,SHERYLL,J.,,,,1900-01-01,Female,Filipino
-3516,BBP,RM,GALPO-BANGGIACAN,FRANCES FELICIA,P.,09184144536,(074) 424-0581 RES.,ffbanggiacan@gmail.com ,1984-10-16,Female,Filipino
+3516,BBP,RM,GALPO-BANGGIACAN,FRANCES FELICIA,P.,09184144536,,ffbanggiacan@gmail.com ,1984-10-16,Female,Filipino
 3517,BBP,RM,FERNANDEZ,JUCEL VENUS,R.,09175164088,09257466565,jucelfernandezmd@gmail.com,1900-01-01,Female,Filipino
 3518,LAN,RM,ONG,RANDI JOSEPH,A.,639228244815,(032) 340-0131 RES.,shrandi_rjao@yahoo.com,1981-07-20,Female,Filipino
 3519,ILO,RM,GENTEROLA,JANIS,O.,09985523692,09325623830,jgentry_18@yahoo.com,1985-01-06,Female,Filipino
@@ -3557,7 +3557,7 @@ member_id_no,psa_chapter_code,psa_mem_type,mem_last_name,mem_first_name,mem_midd
 3555,NCR,RM,DOMA,LORRAINE ANN,N.,639337139255,895-4901 RES. / 731-3001 HOSP.,lorraineanndoma@yahoo.com,1986-01-09,Female,Filipino
 3556,NCR,RM,YRUMA-KALAW,MARIA ETHEL,M.,09178062072*,0925-825-2546,bap_126@yahoo.com,1984-01-26,Female,Filipino
 3557,NCR,RM,EUSTAQUIO,MICHELLE PIA,D.,639228006998,,mdeustaquio@gmail.com,1983-07-23,Female,Filipino
-3558,NCR,RM,YANG-ED,MARICHELLE,R.,639165101794*,,mtryangedmd@gmail.com,1980-12-03,Female,Filipino
+3558,LUC,RM,YANG-ED,MARICHELLE,R.,639165101794*,,mtryangedmd@gmail.com,1980-12-03,Female,Filipino
 3559,STG,RM,GLORIA,KATRINA JOY,A.,09175180613,639166353272,kjgloriamd@gmail.com / kjagloria@yahoo.com,1982-06-13,Female,Filipino
 3560,NCR,RM,BALLESTA-GUTIERREZ,ROWNA ROZELL,J.,09176775750,,rrjb_rozell@yahoo.com,1983-11-26,Female,Filipino
 3561,NCR,RM,DELOS SANTOS,JOHN PAUL,R.,639277964841,,jpdls911@gmail.com / jpdls@hotmail.com ,1980-08-11,Male,Filipino
@@ -3581,7 +3581,7 @@ member_id_no,psa_chapter_code,psa_mem_type,mem_last_name,mem_first_name,mem_midd
 3579,NCR,TM,PACHO,DENNIS,R.,09985411071,,docdenciopatch@gmail.com,1977-11-13,Male,Filipino
 3580,NCR,TM,ESPIRITU,GERARD ANTHONY,M.,639228577202,,gamespiritu@yahoo.com,1984-09-12,Male,Filipino
 3581,NCR,RM,ESTACIO,FILIPINO,L.,+63 927 640 0546,,filipinoestaciomd1978@gmail.com,1900-01-01,Female,Filipino
-3582,BOZ,RM,FELIX-JALAIDI,SHERYL,R.,09178110818,,dalawalablab@gmail.com / srfelix_md@yahoo.com ,1980-05-05,Female,Filipino
+3582,BOZ,RM,FELIX-JALAIDI,SHERYL,R.,09178110818,,srfelix_md@yahoo.com ,1980-05-05,Female,Filipino
 3583,NCR,RM,BOLAÑOS,MARIA VICTORIA,C.,09151870063,,mavicbolanos@yahoo.com,1985-08-28,Female,Filipino
 3584,NCR,RM,SALIDO-ECALNIR,MALAIKA,L.,639165525296/09178610397,426-2701 (6460) HOSP.,salidomalaika19@gmail.com,1982-04-19,Female,Filipino
 3585,NOL,RM,SUCGANG-SIA,LEAH MAE,,639175244820,426-2701 HOSP.,leahmaess@yahoo.com,1984-10-10,Female,Filipino
@@ -3767,7 +3767,7 @@ member_id_no,psa_chapter_code,psa_mem_type,mem_last_name,mem_first_name,mem_midd
 3765,STG,RM,SALONGA,JOSELITO,F,639056610946,,dockie2001@gmail.com / jfsalonga2001@yahoo.com,1976-03-18,Male,Filipino
 3766,NCR,RM,GAMO,ALLAN BENSON,A,0998-535-7850,,allangamo@gmail.com,1982-03-15,Female,Filipino
 3767,NCR,RM,DE GUZMAN,MARK JOSEPH,R.,09228989458,,mark.deguz@yahoo.com,1976-04-19,Male,Filipino
-3768,STG,RM,VELANTE,MARCO PAULO,DELA CRUZ,639253198411,639271555341,medmakoi@gmail.com,1984-11-19,Male,Filipino
+3768,NCR,RM,VELANTE,MARCO PAULO,DELA CRUZ,639271555341,,medmakoi@gmail.com,1984-11-19,Male,Filipino
 3769,PNL,RM,MISA,JOHN PATRICK,A.,09209478610,,misajohnpatrick@gmail.com,2014-04-01,Male,Filipino
 3770,BUL,RM,OAFERINA,MAHARLIKA FILIPINO,C.,09778130858,,korei_84@yahoo.com,2014-04-01,Female,Filipino
 3771,BUL,RM,MUÑOZ,ANTONIO LORENZO,F,09173263696,09175065933,doc.enzo.munoz@gmail.com,1985-07-21,Male,Filipino
@@ -3995,7 +3995,7 @@ member_id_no,psa_chapter_code,psa_mem_type,mem_last_name,mem_first_name,mem_midd
 3994,NCR,RM,TAACA,ALEC THOMAS,RUIZ,639178239259,639332984699,alectaaca@yahoo.com,1988-07-03,Male,Filipino
 3995,NCR,RM,VENTURINA,EUBERT JOHN,FRANCISCO,09178980448,,ejventurina@gmail.com,1982-09-21,Male,Filipino
 3996,NCR,RM,BAUTISTA,RODNEY,G.,09176201464,,rodneygbautista@gmail.com,1986-06-06,Male,Filipino
-3997,NCR,RM,RIVERA,MA. ISABEL,P.,09178555472,,maisabel_rivera@yahoo.com,1883-11-16,Female,Filipino
+3997,NCR,RM,RIVERA,MARIA ISABEL,P.,09178555472,,maisabel_rivera@yahoo.com,1883-11-16,Female,Filipino
 3998,NEC,RM,OREIRO,RALPH ROBIE,B. ,09167981480,09338561557,ralph_roaches@yahoo.com,1987-04-09,Male,Filipino
 3999,NCR,RM,BAYON,VANESSA,M.,09177817433,0933-3291502,vanessabayon@ymail.com,1985-02-16,Female,Filipino
 4000,STG,RM,ALVER,MA. BERNADETTE,M.,09178267583,09190078819,madettemalvermd@yahoo.com,1800-01-01,Female,Filipino
@@ -4083,7 +4083,7 @@ member_id_no,psa_chapter_code,psa_mem_type,mem_last_name,mem_first_name,mem_midd
 4082,NCR,RM,CHENG-DELOVINO,CANDICE LOUISE,C.,09155956381,,candicecheng15@yahoo.com,1988-03-15,Female,Filipino
 4083,NCR,RM,DORONILA,MARIA LEONIDA DOLORES,L.,09156289388,,lia_doronila@yahoo.com,1988-01-06,Female,Filipino
 4084,NCR,RM,GARABILES,ISABELLE,R.,09175440214,,isabellegarabiles@gmail.com /irgarabiles@yahoo.com,1988-05-01,Female,Filipino
-4085,NCR,RM,GOTAMCO-REYES-LAO,CAMILLE,L.,09178891126,,gotskydoodle@gmail.com,1988-10-14,Female,Filipino
+4085,NCR,RM,LAZARO GOTAMCO,CAMILLE,,09178891126,,gotskydoodle@gmail.com,1988-10-14,Female,Filipino
 4086,NCR,TM,LIEM,JULIUS,,,,,1800-01-01,Female,Filipino
 4087,NCR,RM,NG,JEREMY,C.,09228426034,,jengcng@yahoo.com,1988-02-16,Male,Filipino
 4088,NCR,TM,TJAHYANTO,ADHY,,,,,1800-01-01,Female,Filipino
@@ -4281,7 +4281,7 @@ member_id_no,psa_chapter_code,psa_mem_type,mem_last_name,mem_first_name,mem_midd
 4280,ILO,RM,BARBASAN,JAN CARL,D.,09985456990,,jjjjjcb@yahoo.com,1816-07-02,Male,Filipino
 4281,ILO,RM,ROBLES,BERLIN RIZZA,F.,09985560417,09223103327,berlinrizzafamorrobles@gmail.com,1800-01-01,Female,Filipino
 4282,ILO,TM,POSA,RHODA,H.,09330121580,,rhodaposa20@gmail.com,1982-07-20,Female,Filipino
-4283,ILO,RM,CEMBRANO,KATRINA SOCORRO,L.,09190965812.,,kat_cembrano@hotmail.com,1800-01-01,Female,Filipino
+4283,ILO,RM,CEMBRANO-MADRIGAL,KATRINA SOCORRO,L.,09190965812.,,kat_cembrano@hotmail.com,1800-01-01,Female,Filipino
 4284,ILO,RM,VILLEZA,NOEMARK,G.,09999907705,09178092643,nm.villeza@yahoo.com,1982-09-30,Male,Filipino
 4285,NCR,RM,ARVIOLA,GRACE,C.,,,grcrvl@yahoo.com ,1800-08-29,Female,Filipino
 4286,NCR,RM,AGURA,APRILLE ANNE,R.,09176750410,,phingkai@gmail.com,1988-04-10,Female,Filipino
@@ -4540,7 +4540,7 @@ member_id_no,psa_chapter_code,psa_mem_type,mem_last_name,mem_first_name,mem_midd
 4540,NCR,RM,GARCIA,DONIELLE KARLA,C.,09176249197,,doniellekarla@yahoo.com,1989-04-04,Female,Filipino
 4541,NCR,RM,PEREZ,MARICARR,PASCUAL,09055490700,,maricarrperez@gmail.com,1986-09-30,Female,Filipino
 4542,NCR,RM,RUBIO,HAZEL ANN,C.,09656253441,,hazerubio.md@gmail.com,1800-01-01,Female,Filipino
-4543,SMO,TM,JUMIANJANG,ISMAEL,S.,09228417960,,jismhael@yahoo.com,1976-10-13,Female,Filipino
+4543,SMO,RM,JUMIANJANG,ISMAEL,S.,09228417960,,jismhael@yahoo.com,1976-10-13,Female,Filipino
 4544,STG,RM,ESPIRITU,RENZ JAIME,P.,,,renzespiritu05@gmail.com,1800-01-01,Male,Filipino
 4545,STG,RM,CORTEZ JR.,ELISEO,L.,09778199658,,ljcortex2@gmail.com,1800-01-01,Female,Filipino
 4546,STG,RM,TOLENTINO-BAUTISTA,SOFIA KLARETA,,09175268503,,sofiaklareta@gmail.com,1800-01-01,Female,Filipino
@@ -4615,7 +4615,7 @@ member_id_no,psa_chapter_code,psa_mem_type,mem_last_name,mem_first_name,mem_midd
 4615,NCR,RM,LAXAMANA,JACK RENE,A.,09771136398,,jacklaxamana@gmail.com,1990-11-23,Male,Filipino
 4616,NCR,RM,SUMAGANG,CHRISCEILE ABBIE,TAN,09171822229,,abbiesumagang@gmail.com,1988-11-25,Female,Filipino
 4617,NCR,RM,TAN,JOSHUA,CANTO,09976403641,,tanjoshua7@gmail.com,1989-08-19,Male,Filipino
-4618,NCR,RM,DADURAL,CYLIN TEHANI,F.,09052348454,09321976991,cylindadural@gmail.com,1987-02-06,Female,Filipino
+4618,NCR,RM,DADURAL,CYLIN TEHANI,F.,09052348454,09321976991,cylindadural@gmail.com,1987-02-09,Female,Filipino
 4619,NCR,RM,CHUA,SUYIN,L.,09171024411,,suyin.l.chua@gmail.com,1983-02-23,Female,Filipino
 4620,NCR,RM,GRANDA,MARC JANSEN,T.,09178333162,,sengranda@gmail.com,1987-02-11,Male,Filipino
 4621,ILO,RM,VILLALUNA,INRI,ITURIAGA,09108211111*,,ivillaluna@yahoo.com,1800-01-01,Female,Filipino
@@ -4677,7 +4677,7 @@ member_id_no,psa_chapter_code,psa_mem_type,mem_last_name,mem_first_name,mem_midd
 4677,STG,RM,NACORDA,JOSE PAULO,D.,09429698989,,paulo.nacorda@gmail.com,1983-12-11,Male,Filipino
 4678,NCR,RM,MALAKI,MARK WILLIS,L.,09328576719,,mwillis_md@yahoo.com,1986-05-14,Male,Filipino
 4679,NCR,RM,IGLESIAS,RAFA JIREH,O.,09175537232,,rjoiglesias@yahoo.com,1987-09-14,Male,Filipino
-4680,CCV,RM,ORTIZ,CHANTAL MAE,D.,09173273999,,chantaldiao@yahoo.com,1985-09-22,Female,Filipino
+4680,CCV,RM,DIAO-ORTIZ,CHANTAL MAE,A.,09173273999,,chantaldiao@yahoo.com,1985-09-22,Female,Filipino
 4681,NCR,RM,ESGUERRA,KRISTINE JOY,D.,09456827100,,damascokristinejoy@gmail.com,1992-09-03,Female,Filipino
 4682,NCR,RM,CALAOAGAN,MONICA,R.,09178998428,,lovethedreamgiver@gmail.com,1989-12-31,Female,Filipino
 4683,NCR,TM,VILLALUZ,JEPREE,BALITAAN,09954169117,,jepoy_villaluz17@yahoo.com,1990-04-04,Male,Filipino
@@ -4691,13 +4691,13 @@ member_id_no,psa_chapter_code,psa_mem_type,mem_last_name,mem_first_name,mem_midd
 4691,ILO,RM,ANOTADO,RONALD,D.,09985799551,,ronaldanotado@yahoo.com,1985-09-08,Male,Filipino
 4692,NCR,RM,BELEN,QUINN JEFFREY,A.,09055176321,,quinnbelen@gmail.com,1991-05-12,Male,Filipino
 4693,NCR,RM,HOYUMPA,EMMANUEL,E.,09985754589,,hoyumpa14@gmail.com / hoyumpa14@yahoo.com,1989-01-04,Male,Filipino
-4694,NCR,RM,TORIO,DAVE GUILLER,F.,09392585274,,dave.torio@gmail.com,1800-01-01,Male,Filipino
+4694,NCR,RM,TORIO,DAVE GUILLER,F.,09392585274,,dave.torio@gmail.com,1989-01-05,Male,Filipino
 4695,NCR,RM,ESTRELLAS,REGINE ISABELLE,S.,09178451225,,regine.estrellas@gmail.com,1987-04-27,Male,Filipino
 4696,BUK,RM,DELA CRUZ,SEMPRONIANO,B.,09177265321,,impong1980@yahoo.com,1980-11-24,Male,Filipino
 4697,BOZ,RM,CHUA-PASCUAL,ANGELIE,G.,09175810123,,angeliegchua@gmail.com,1989-09-12,Female,Filipino
 4698,NCR,RM,BANZUELA,MA. ANNA ALEXANDRA,M.,09255062689,,mosa.alexandra@gmail.com,1989-06-26,Female,Filipino
 4699,NOL,RM,AGBONES,KEVIN CYRIL,O.,09984243883,,kcgbones@gmail.com,1991-08-30,Male,Filipino
-4700,ILO,RM,VILLANIS,ROCHAS,SEGAYA,09998805608*,,rsvillanis@gmail.com,1800-01-01,Female,Filipino
+4700,ILO,RM,VILLANIS-SORNITO,ROCHAS,S.,09998805608*,,rsvillanis@gmail.com,1800-01-01,Female,Filipino
 4701,STG,RM,VELASQUEZ,JELLA KASKEL,BICOL,09778075049,,jella_kaskel@yahoo.com,1989-11-20,Female,Filipino
 4702,SMO,RM,DIEL,JANUS,F.,09465333333,09773469303,krushadams@yahoo.com,1990-07-06,Male,Filipino
 4703,NCR,RM,GABRIEL,GRETCHEN MAE,Z.,09163494727,09952106706,gemgem.gabriel@gmail.com,1989-05-30,Female,Filipino
@@ -4754,7 +4754,7 @@ member_id_no,psa_chapter_code,psa_mem_type,mem_last_name,mem_first_name,mem_midd
 4754,CCV,RM,WARGUEZ-CARTAJENAS,IRIS KIM,S.,09338541189,,ikimwcartajenas@gmail.com,1988-05-17,Female,Filipino
 4755,NCR,RM,LAGGUI,MARIA CRISTINA,B.,0922 350 1128,,mblaggui.sbcm@gmail.com,1986-05-22,Female,Filipino
 4756,NCR,RM,REVILLA,CHRISTINE JANE,P.,639175351552,,revillajei@gmail.com,1992-10-28,Male,Filipino
-4757,NCR,TM,DE UNGRIA,REX STEPHEN,,09151359947,,rexstephendeungria@gmail.com,1985-02-18,Male,Filipino
+4757,NCR,RM,DE UNGRIA,REX STEPHEN,,09151359947,,rexstephendeungria@gmail.com,1985-02-18,Male,Filipino
 4758,NCR,TM,OPORTO,LUSIETO,B.,09279381128,,luisoporto009@gmail.com,1984-05-11,Male,Filipino
 4759,NCR,RM,AYA-AY,MARICRIS,ALKUINO,09178528270,,maricrisalkuino@yahoo.com,1989-11-27,Female,Filipino
 4760,NCR,RM,TAÑADA,ISABELLA,GARCIA,09178171703,,isabellatanada@yahoo.com,1995-07-03,Male,Filipino
@@ -4766,7 +4766,7 @@ member_id_no,psa_chapter_code,psa_mem_type,mem_last_name,mem_first_name,mem_midd
 4766,CCV,RM,LIAO,LINDSEY CHERUB,T.,09435055730,,lindycherubliao@gmail.com,1989-04-15,Male,Filipino
 4767,CCV,RM,ORTEGA,CARL CHRISTIAN,E.,09177096381,,micocarl@yahoo.com,1988-12-08,Male,Filipino
 4768,CCV,TM,MONTENEGRO,DEV LUKE KALAYAAN,O.,09171382896,,devmontz@gmail.com,1985-05-23,Male,Filipino
-4769,CCV,RM,GONZALES,JOHN PAUL,M.,09173125653,,"johnpaulmgonzales@icloud.com, johnpaulmgonzales@me",1800-01-01,Male,Filipino
+4769,SOC,RM,GONZALES,JOHN PAUL,M.,09173125653,,johnpaulmgonzales@icloud.com,1800-01-01,Male,Filipino
 4770,CCV,RM,PETILO,MARK RAYMOND,S.,09234633571,,mpetilo71@gmail.com / m.petilo@yahoo.com,1990-11-15,Male,Filipino
 4771,CCV,RM,ERNACIO,SHEIN MELICER,G.,09173271658,,sheinmgernacio@gmail.com,1991-10-14,Male,Filipino
 4772,CCV,RM,YAP,HEATHER BRIANNA,G.,09326117170,,heather_yap@yahoo.com,1987-12-01,Female,Filipino
@@ -4935,7 +4935,7 @@ member_id_no,psa_chapter_code,psa_mem_type,mem_last_name,mem_first_name,mem_midd
 4935,NCR,RM,MANATAD,MA. EDA ROSELLE,M.,09399348441,,maedarosellem@gmail.com,1991-10-11,Female,Filipino
 4936,SMO,TM,ROSCOM,DEANN,D.,09959659797,,droscomd@gmail.com,1800-01-01,Male,Filipino
 4937,BBP,RM,REGADIO,ANGELINE BONNE,P.,09175245196,,angelinepati.regadio@gmail.com,1989-03-21,Female,Filipino
-4938,NEC,RM,UERA,ANA SHARMAINE,SANTIAGO,09663218870,09190947158,ana.ueramed@gmail.com,1800-01-01,Female,Filipino
+4938,NEC,RM,UERA,ANA SHARMAINE,SANTIAGO,09190947158,,ana.ueramed@gmail.com,1800-12-22,Female,Filipino
 4939,NEC,RM,CABANAG,ILYSSA MARIE,B.,09267702679,,ilyssacabanag@gmail.com,1992-08-25,Female,Filipino
 4940,NOL,RM,RESURRECCION-KEPA,KRIZLE MAE,P.,,,kmrkepa@gmail.com,1800-01-01,Male,Filipino
 4941,NCR,RM,ORIO,CARYL JEAN,R.,09178940498,,carylorio@ymail.com,1991-04-14,Female,Filipino
@@ -5022,7 +5022,7 @@ member_id_no,psa_chapter_code,psa_mem_type,mem_last_name,mem_first_name,mem_midd
 5022,NCR,RM,"YOUNG, III",MARCELO,S.,09175540115,,msyoung2@up.edu.ph,1800-01-01,Female,Filipino
 5023,NCR,RM,VERONA,KEVIN JOHN,ABREMATEA,09054920448,,kevinjohnverona9310@gmail.com,1800-01-01,Male,Filipino
 5024,NCR,RM,VALERA,MARIA REGINA,SALAZAR,09158811236,,ginasvalera@gmail.com,1800-01-01,Male,Filipino
-5025,NCR,RM,UY,MARY,,09228345777,,maryuy.17@gmail.com,1800-01-01,Male,Filipino
+5025,NCR,RM,UY,MARY,,+639171888913,,maryuy.17@gmail.com,1800-01-01,Male,Filipino
 5026,NCR,RM,TIU,ANGELICA ANDREA,ONG,09228775546,,angelica.andrea.tiu@gmail.com,1800-01-01,Female,Filipino
 5027,NCR,RM,TE,JOEMAR,A.,09177772653,,jmartesaved2019@gmail.com,1800-01-01,Female,Filipino
 5028,NCR,TM,TCHENG,JHOANNA SELINE,C.,,,,1800-01-01,,
@@ -5032,7 +5032,7 @@ member_id_no,psa_chapter_code,psa_mem_type,mem_last_name,mem_first_name,mem_midd
 5032,NCR,RM,SADIANG-ABAY,DARYL,T.,,,darylts416@yahoo.com,1800-01-01,Male,Filipino
 5033,NCR,TM,REYNES,BRYL CONSOLACION,C.,,,,1800-01-01,,
 5034,NCR,RM,OCSAN,PRINCE MARK,F.,,,princemarkocsan@gmail.com,1800-01-01,Male,Filipino
-5035,NCR,RM,NACIONGAYO,TRICIA MARIE,M.,,,bernicebergante@gmail.com,1800-01-01,Female,Filipino
+5035,ILO,RM,NACIONGAYO,TRICIA MARIE,M.,,,bernicebergante@gmail.com,1800-01-01,Female,Filipino
 5036,NCR,RM,MANERA,MICHAEL RYAN,A.,,,michaelmanera228@yahoo.com.ph,1800-01-01,Male,Filipino
 5037,NCR,RM,LASMARIAS,VANESSA PRESCIOSA,S.,,,vanessalasmarias@gmail.com,1800-01-01,Male,Filipino
 5038,NCR,TM,ESPAÑA,JOANA MARIE,L.,09178014334,,jlespana.sbcm@gmail.com,1800-01-01,Male,Filipino
@@ -5139,7 +5139,7 @@ member_id_no,psa_chapter_code,psa_mem_type,mem_last_name,mem_first_name,mem_midd
 5139,ILO,RM,CARO,DORES ELOIZA,P.,09171780157,09322367958,eloizacaroizy@gmail.com,1992-05-01,Female,Filipino
 5140,NCR,RM,BANAAG,DANAH,A.,09175494140,,danah.banaag@yahoo.com ,1994-06-05,Female,Filipino
 5141,NCR,RM,DELA CRUZ,MEGAN CELINI,J.,09175141495,,megancelini.delacruz@gmail.com,1800-01-01,Female,Filipino
-5142,BBP,TM,POLICARPIO,JAIRUS PAOLO,D.,09362962627,,jairuspaolopolicarpio@gmail.com,1994-10-12,Male,Filipino
+5142,BBP,RM,POLICARPIO,JAIRUS PAOLO,D.,09362962627,,jairuspaolopolicarpio@gmail.com,1994-10-12,Male,Filipino
 5143,BBP,TM,REYES,EUNICE,C.,09613655407,,eu.reyes009@gmail.com,1993-11-29,Female,Filipino
 5144,BBP,TM,TORRES,CHRISTIAN PHILIP,Q.,09178694934,,cpt_torres10@yahoo.com,1993-09-10,Male,Filipino
 5145,NCR,TM,YANG,JAY CHRISTOPHER,L.,09189645071,,miroirmd@gmail.com,1800-01-01,Male,Filipino
@@ -5198,7 +5198,7 @@ member_id_no,psa_chapter_code,psa_mem_type,mem_last_name,mem_first_name,mem_midd
 5198,EVS,TM,SOLITE,JAN VINCENT,N.,09173248745,,javisolite@gmail.com,1993-08-02,Male,Filipino
 5199,NCR,TM,DE LEON,KEVIN EDWARD,C.,09155275974,,,1800-01-01,Male,Filipino
 5200,NCR,RM,PESTAÑO,ANGELA,M.,,,gel419@yahoo.com,1800-01-01,Female,Filipino
-5201,CCV,RM,TANCO,JEENA MEGAN,T.,09177723808,,megsiroo@yahoo.com,1992-10-01,Female,
+5201,CCV,RM,TANCO,JEENA MEGAN,T.,09177723808,,megsiroo@yahoo.com,1992-10-01,Female,Filipino
 5202,CCV,RM,MADERAZO,JOHN PAUL STEVEN,C.,09560377045,,jpscmaderazo@yahoo.com,1983-03-07,Male,Filipino
 5203,CCV,RM,CABAHUG,MARIA STEPHANIE,O.,09173223215,,stephanie.cabahug@gmail.com,1992-12-22,Female,Filipino
 5204,CCV,RM,RODRIGUEZ,ARIANNE,S.,09478903922,,rodriguezarianne1990@gmail.com,1990-10-04,Female,
@@ -5222,7 +5222,7 @@ member_id_no,psa_chapter_code,psa_mem_type,mem_last_name,mem_first_name,mem_midd
 5222,NCR,RM,LINGAT,PIAN MARIE,M.,09272780278,,pian.lingat@yahoo.com,1991-04-20,Female,Filipino
 5223,NCR,RM,PEREZ,WILLIAM,M.,09275882184,,william.perez102088@yahoo.com,1988-10-20,Male,Filipino
 5224,NOL,RM,SEÑEREZ,KARLO LORENZO,E.,09613244048,,irie_jah420@yahoo.com,1800-01-01,Male,Filipino
-5225,NMO,RM,SEVILLA,SHIENA ESTHER,V.,09178003493,,shynsevilla@gmail.com,1990-02-10,Female,Filipino
+5225,NMO,RM,SEVILLA-ACUESTA,SHIENA ESTHER,V.,09178003493,,shynsevilla@gmail.com,1990-02-10,Female,Filipino
 5226,NMO,RM,MINDALANO,JOHAYNIE,R.,09177100842,,juhay.mindalano@yahoo.com,1989-12-09,Female,Filipino
 5227,BOZ,RM,BUNAGAN,JENNIFER,A.,09224042829,,jenzbunagan@gmail.com,1800-01-01,Female,Filipino
 5228,SMO,RM,YAMBAO,CHERCHELL,R.,09227177075,,cherchelldey28@gmail.com,1991-10-28,Female,Filipino
@@ -5231,23 +5231,23 @@ member_id_no,psa_chapter_code,psa_mem_type,mem_last_name,mem_first_name,mem_midd
 5231,SMO,RM,GONZALES,APRIL MAE,T.,,,april11mae@yahoo.com,1800-01-01,Male,Filipino
 5232,SMO,RM,PANAL,LOUELLA VALE,,,,bampitz@gmail.com,1800-01-01,Male,Filipino
 5233,NCR,RM,VILLAFUERTE,MARC ODELL,F.,09178806802,,moivillafuerte@gmail.com,1984-10-04,Male,Filipino
-5234,EVS,TM,CLOMA,LORICEL,Y.,09175894731,,loricelyu@gmail.com,1990-10-07,Female,Filipino
+5234,EVS,RM,CLOMA,LORICEL,Y.,09175894731,,loricelyu@gmail.com,1990-10-07,Female,Filipino
 5235,STG,TM,TABURDA,LYCA MARIELLE,S.,09064424473,,lycamariellepooh@yahoo.com,1993-01-12,Female,Filipino
 5236,NEC,RM,TRINIDAD,MA. SOFIA BLANCA,D.,09337201759,09175768120,sofiablancatrinidad@yahoo.com,1995-11-26,Female,Filipino
 5237,NEC,RM,GESMUNDO,IRA BIANCA MAE,G.,09569270820,+639687039672,iragesmundo@gmail.com,1994-12-23,Female,Filipino
-5238,EVS,TM,ADRIANO,MC JANDY,C.,09167381207,09284538771,mcjandyadriano@gmail.com,1988-01-08,Female,Filipino
+5238,EVS,RM,ADRIANO,MC JANDY,C.,09167381207,09284538771,mcjandyadriano@gmail.com,1988-01-08,Female,Filipino
 5239,SOC,TM,MELING,ALIEJA,E.,09356360435,,alieja.leng@gmail.com,1994-04-01,Female,Filipino
 5240,NEC,RM,TOLIONGCO,MARIA VICTORIA,N.,09194890962,,mariavictoria.toliongco@gmail.com,1995-09-25,Female,Filipino
 5241,STG,RM,ALVAREZ,KIM,C.,09178475592,,kimcalvarez@gmail.com,1800-01-01,Male,Filipino
 5242,STG,RM,CABRAL,MA. DENISE,M.,09954858933,,cabralmd13@gmail.com,1991-04-13,Female,Filipino
 5243,EVS,TM,TEGIO,JHON CARLO,S.,09568690798,,jctegio5@gmail.com,1992-09-22,Male,Filipino
-5244,NCR,TM,RANARIO,MARILYN,H.,09171580459,,mranariomd@gmail.com,1992-09-16,Female,Filipino
+5244,NCR,RM,RANARIO,MARILYN,H.,09171580459,,mranariomd@gmail.com,1992-09-16,Female,Filipino
 5245,NCR,RM,TAGOC-IMPERIAL,JEMIMAH PEARL AYIN,P.,09688538695,,jptagoc@up.edu.ph,1990-07-16,Female,Filipino
 5246,BBP,RM,MARIANO,JORDI ARYNNE,C.,09171529995,,jarynne.mariano@gmail.com,1992-11-22,Female,Filipino
 5247,BBP,RM,DIAZ,NATASHA VICTORIA,C.,09955383537,,nvcdiaz@gmail.com,1800-01-01,Male,Filipino
 5248,BCL,RM,MURALLA,KRISTA ANGELA,M.,09175295266,,kristamuralla@yahoo.com,1987-11-04,Female,Filipino
 5249,BCL,RM,SANTOS,YVANNESSA MARIE,A.,09175080192,,ymarieasantos@gmail.com,1992-08-01,Female,Filipino
-5250,NCR,TM,ZULUETA,JAYSON,D.,09173237465,,jhaymt@gmail.com,1990-07-15,Male,Filipino
+5250,NCR,RM,ZULUETA,JAYSON,D.,09173237465,,jhaymt@gmail.com,1990-07-15,Male,Filipino
 5251,NCR,RM,CIMAGALA,GEOFERSON,P.,09178364614,,cimagalageoferson@yahoo.com,1990-01-22,Male,Filipino
 5252,BBP,TM,DOTIMAS,LARA ZARINA,G.,09163439572,,larazarinagdotimas@gmail.com,1993-12-11,Female,Filipino
 5253,BBP,RM,TUMBOCON,RAISA,M.,09178974852,,tumboconraisa@gmail.com,1993-12-14,Female,Filipino
@@ -5256,7 +5256,7 @@ member_id_no,psa_chapter_code,psa_mem_type,mem_last_name,mem_first_name,mem_midd
 5256,NCR,RM,CASTILLO,CHARISMA FAYE,G.,09162075894,,ismagarciacastillo@gmail.com,1800-08-25,Female,Filipino
 5257,LAN,RM,MONTE,SITTIE HAYNNAH,B.,09298367007,,shbmonte.sbcm@gmail.com,1991-07-19,Female,Filipino
 5258,LAN,RM,SANSARONA,ABDUL WAAJID,L.,09167596254,09688816813,wjd.san@gmail.com,1993-02-04,Male,Filipino
-5259,SMO,TM,LABUEN,SHIRLEY ANNE,E.,09565532499,,leyanne17@gmail.com,1990-08-17,Female,
+5259,SMO,RM,LABUEN,SHIRLEY ANNE,E.,09565532499,,leyanne17@gmail.com,1990-08-17,Female,
 5260,SMO,RM,ULAT,ALYSSA NICOLE,,09088209687,,ulat.alyssa@gmail.com,1992-02-19,Female,Filipino
 5261,SMO,TM,ARANETA,TARA SHANE,L.,,,tara.araneta6@gmail.com,1800-01-01,,
 5262,NCR,TM,MAGSAKAY,ALDRIN JOHN,F.,09171831392,,ajmagsakay@yahoo.com,1800-01-01,Male,Filipino
@@ -5311,7 +5311,7 @@ member_id_no,psa_chapter_code,psa_mem_type,mem_last_name,mem_first_name,mem_midd
 5311,NMO,TM,BALHON,IKEA MARIE,J.,09177050124,,ikeabalhon@gmail.com,1994-03-01,Female,Filipino
 5312,NMO,RM,COSIÑERO,PRECIOUS KEZIA,O.,09565360278,,preciouskezia@gmail.com,1993-09-26,Female,Filipino
 5313,NOL,RM,DY TEVES,PATRICK,M.,09771666875,,patdyteves@gmail.com,1993-09-14,Male,Filipino
-5314,CCV,TM,FERNANDEZ,IVAN ROSS,L.,09429622848,,rjfernandez1093@gmail.com,1800-01-01,Male,Filipino
+5314,CCV,RM,FERNANDEZ,IVAN ROSS,L.,09429622848,,rjfernandez1093@gmail.com,1800-01-01,Male,Filipino
 5315,CCV,RM,UY,RHYS RAPHAEL GILBERT,Y.,09171785318,,uyrhys91@gmail.com,1800-01-01,Male,Filipino
 5316,CCV,TM,LIGARAY,PREXIE JADE,J.,09685527000,,prexiejadeligaray@gmail.com,1800-01-01,Male,
 5317,CCV,TM,ABREA,MARIE FRANCES,T.,09173058237,09685531111,maeriyfraenz.md@gmail.com,1987-05-05,Female,Filipino
@@ -5353,7 +5353,7 @@ member_id_no,psa_chapter_code,psa_mem_type,mem_last_name,mem_first_name,mem_midd
 5353,NMO,RM,BARLISAN,ALWINA MAY,P.,09177016325,,alwinabarlisan@gmail.com,1992-05-11,Female,Filipino
 5354,SMO,RM,TABACULDE,PROSER FAITH,H.,09171066185,,proser_faith@yahoo.com,1989-12-02,Female,Filipino
 5355,SMO,TM,PAGALAN-ALCONERA,HEIRAH,J.,09177190710,,hjpagalan@gmail.com,1992-09-06,Female,
-5356,SMO,TM,BAQUIRAN,CHRISTINE,A.,09189481280,,tinbaquiran@yahoo.com,1993-07-15,Female,
+5356,SMO,RM,BAQUIRAN,CHRISTINE,A.,09189481280,,tinbaquiran@yahoo.com,1993-07-15,Female,
 5357,BCL,RM,TABIRARA,MARK,V.,09467130989,,mtabirara30@gmail.com,1995-05-02,Male,Filipino
 5358,NCR,TM,CABANBAN,KRIZZIA BELLE,,,,kbcabanban@gmail.com,1800-01-01,Female,Filipino
 5359,NCR,RM,DIEGO,RAFAEL ANGELO,L.,09178485992,,rafaeldiegomd@gmail.com,1987-10-25,Male,Filipino
@@ -5416,7 +5416,7 @@ member_id_no,psa_chapter_code,psa_mem_type,mem_last_name,mem_first_name,mem_midd
 5416,NCR,RM,LAGANSE,ROSEVIE ANGELICA,S.,09178072324,,"rslaganse@up.edu.ph, laganse.roseangel@gmail.com",1991-10-30,Female,Filipino
 5417,NCR,RM,BUENASEDA,ARJOHN,A.,09179656615,,arjanus_buenas@yahoo.com,1800-01-01,Male,Filipino
 5418,NCR,RM,DONES,TRIXIA ANN,,09173805391,,donestrixia@gmail.com,1800-01-01,Female,Filipino
-5419,NCR,RM,ROSETTE,JUDITH CHARMAINE,,09177751006,,judithcharmaine@gmail.com,1993-10-06,Female,Filipino
+5419,NCR,RM,ROSETTE,JUDITH CHARMAINE,E.,09177751006,,judithcharmaine@gmail.com,1993-10-06,Female,Filipino
 5420,NCR,RM,SYSON,JASON,B.,09321909647,,jbsyson@yahoo.com,1985-12-14,Male,Filipino
 5421,NCR,RM,RAVANILLA,MICHAEL ANGELO,C.,09154888782,,macravanilla.sbcm@gmail.com,1800-01-01,Male,Filipino
 5422,NCR,RM,ORTALEZA,STEPHANIE JOY,F.,09171603856,,stephanie_ortaleza@yahoo.com,1992-10-17,Female,Filipino
@@ -5432,7 +5432,7 @@ member_id_no,psa_chapter_code,psa_mem_type,mem_last_name,mem_first_name,mem_midd
 5432,LUC,RM,LICHAUCO,ANNA KARINA,L.,09284166949,,kaylandrito@gmail.com,1986-03-20,Female,Filipino
 5433,LUC,RM,LICHAUCO,MICHAEL PHILIP,R.,09150618486,,lichaucomd@gmail.com,1988-06-14,Male,Filipino
 5434,LUC,RM,MALAPITAN,FRANCIS,S.,09279484862,,malapitan06@yahoo.com,1993-02-04,Male,Filipino
-5435,LUC,TM,TORDA,DARYL,R.,09555437688,,daryltorda@gmail.com,1994-02-01,Male,Filipino
+5435,LUC,RM,TORDA,DARYL,R.,09555437688,,daryltorda@gmail.com,1994-02-01,Male,Filipino
 5436,NEL,RM,SEDANO-CORTES,DIANA,G.,09201088702,,dianagajosedano23@gmail.com,1992-08-03,Female,Filipino
 5437,NEL,RM,ASUNCION,DOMINIC,R.,09171881101,,dominicasuncion2019@gmail.com,1995-04-19,Male,Filipino
 5438,NOL,RM,ABRASALDO,KRISTINE MAE,T.,09171561049,,dockris10ta@gmail.com,1990-01-05,Female,Filipino
@@ -5448,7 +5448,7 @@ member_id_no,psa_chapter_code,psa_mem_type,mem_last_name,mem_first_name,mem_midd
 5448,SMO,TM,COCJIN,ELLAINE LOU,C.,09171161360,,ellaineloucocjin@yahoo.com,1800-01-01,Female,Filipino
 5449,SMO,RM,SALUMBIDES,CARMELA DIONNE,M.,09171782001,,cdsalumbides@gmail.com,1800-01-01,Female,Filipino
 5450,CCV,RM,ZOSA-ALSAY,JACQUELINE PHILIPPE,D.,09178922855,,jacqueline_philippe@yahoo.com.ph,1993-04-17,Female,Filipino
-5451,SMO,TM,BERGANTE-GAITANO,BERNICE LYNN,,,,bernicebergante@gmail.com,1800-01-01,Male,Filipino
+5451,SMO,RM,BERGANTE-GAITANO,BERNICE LYNN,,,,bernicebergante@gmail.com,1800-01-01,Male,Filipino
 5452,BCL,RM,CO,CATHERINE,C.,09178100346,,catherineco0825md@gmail.com,1989-08-25,Female,Filipino
 5453,SMO,RM,APONESTO,PATRICK ART,B.,09190018874,,patrickaponesto@yahoo.com,1800-01-01,Male,Filipino
 5454,SMO,RM,GAVIRA,NICOLE,A.,09176598788,,nicole.gavira@yahoo.com,1800-01-01,Male,Filipino
@@ -5488,14 +5488,14 @@ member_id_no,psa_chapter_code,psa_mem_type,mem_last_name,mem_first_name,mem_midd
 5488,EVS,TM,CENTINAJE,CARL,B.,09163229328,,drcarlcentinaje@gmail.com,1800-01-01,Male,Filipino
 5489,NCR,RM,SAGOSO,ARIES ARNEL,M.,09304019909,,aamsagoso@gmail.com,1800-01-01,Female,Filipino
 5490,NCR,RM,SACAR,AHLAM,A.,09096571633,,ahlmdsacar@gmail.com,1800-04-03,Female,Filipino
-5491,EVS,TM,CRUZ,LEMUELLE BEA,O.,09173077445,,154bea@gmail.com,1994-02-15,Female,Filipino
+5491,EVS,RM,CRUZ,LEMUELLE BEA,O.,09173077445,,154bea@gmail.com,1994-02-15,Female,Filipino
 5492,STG,RM,SAULOG,ROLDAN,A.,09955084905,,docroldansaulog@gmail.com,1800-01-01,Male,Filipino
 5493,CCV,RM,"LANORIAS, JR.",DENNIS,C.,9175556187,,dennislanorias@yahoo.com,1986-01-26,Male,Filipino
 5494,CCV,RM,CANG,MATHIEU,,09694755993,,mathieucang@gmail.com,1800-01-01,Male,Filipino
 5495,BBP,TM,CASTRO,GERALD GEORGE,L.,09163682221,,castrogeraldgeorge@gmail.com,1800-01-01,Male,Filipino
 5496,NCR,RM,MOJICA,JAIMIE ROSE,O.,,,,1800-01-01,,
 5497,NCR,RM,MANALANG,KARREN ISABELLE,L.,09178570858,,manalang.kil.eamc@gmail.com,1800-01-01,Male,Filipino
-5498,NCR,RM,BAINGAN,MICHELLE,V.,,,michellebaingan@yahoo.com,1800-01-01,Male,Filipino
+5498,NCR,RM,BAINGAN,MICHELLE,V.,,,michellebaingan@yahoo.com,1800-05-06,Male,Filipino
 5499,NCR,RM,LAGARTEJA,MARIA CHRISTINA,B.,,,christinalagarteja0@gmail.com,1800-01-01,Female,Filipino
 5500,NCR,RM,FLORO,RYAN RAFAEL,M.,,,ryanmfloro@yahoo.com,1800-01-01,Male,Filipino
 5501,NCR,RM,MENDOZA-BAJAMONDE,ZORANAH EIGNE,B.,,,zoranah.mendoza@yahoo.com,1800-01-01,Male,Filipino
@@ -5517,14 +5517,14 @@ member_id_no,psa_chapter_code,psa_mem_type,mem_last_name,mem_first_name,mem_midd
 5517,NCR,RM,BONUS,GUADA MARIE,M.,,,miss.bonus2012@gmail.com,1800-01-01,Female,Filipino
 5518,NCR,RM,COO,JOSEPH BENEDICK,P.,09175097834,,josephcoo@gmail.com,1800-01-01,Male,Filipino
 5519,NCR,RM,SY,ROSELLE AIMEE,O.,,,rosy_j12sb@yahoo.com,1800-01-01,Female,Filipino
-5520,NCR,RM,ZAFRA,NEIL BRIAN,T.,,,neilzaframdmba@gmail.com,1800-01-01,,
+5520,NCR,RM,ZAFRA,NEIL BRIAN,T.,,,neilzaframdmba@gmail.com,1800-01-01,Female,Filipino
 5521,CCV,RM,LI BI,BEA CORINNE,B.,09177050471,,beacorinnelibi@gmail.com,1800-01-01,Female,Filipino
 5522,NCR,TM,GONZALES,AMANDA JULIA,D.,,,amandajuliagonzales@gmail.com,1800-01-01,Female,Filipino
 5523,SMO,TM,SAPURAS,YANDE GRACE,T.,,,,1800-01-01,,
 5524,NCR,RM,CANLAS,LOVELY TREASURE,G.,09172082887,,ltgcanlas@yahoo.com,1993-07-31,,
 5525,SMO,TM,MANDAGAN,MARIA NICA,N.,,,,1800-01-01,,
 5526,NCR,RM,TABITA,ALDEE KAY,R.,09052761089,,aldeekaytabita@gmail.com,1800-01-01,Male,Filipino
-5527,NCR,TM,MONTEAGUDO,JINKY,B.,09271685037,,monteagudojinkyb@gmail.com,1991-09-04,Female,
+5527,SCV,RM,MONTEAGUDO,JINKY,B.,09271685037,,monteagudojinkyb@gmail.com,1991-09-04,Female,Filipino
 5528,NCR,TM,LANUZA,INA BIANCA,S.,,,nabianca_lanuza@yahoo.com,1800-01-01,Female,Filipino
 5529,NCR,TM,RAKIM,ABDUL RAHEEM YUSUF ,M.,,,,1800-01-01,Female,Filipino
 5530,NCR,TM,GABALDON,LOUIE MYCO,S.,,,,1800-01-01,Male,Filipino
@@ -5540,14 +5540,14 @@ member_id_no,psa_chapter_code,psa_mem_type,mem_last_name,mem_first_name,mem_midd
 5540,NCR,RM,SAN DIEGO,ANICA PAULINA CAMILLE,C.,,,anicasandiego@gmail.com,1800-01-01,Female,Filipino
 5541,TAR,RM,MOLINA,JAN MARTEEN,O.,,,molinajanmarteen@gmail.com,1800-01-01,Male,Filipino
 5542,NCR,TM,FERIA,BRENT JOSEFF ,C.,,,,1800-01-01,Male,Filipino
-5543,NCR,RM,RIEZA,JAMES,M.,09954838978,,riezajames@gmail.com,1993-10-26,,Single
+5543,NCR,RM,RIEZA,JAMES,M.,09954838978,,riezajames@gmail.com,1993-10-26,Male,Filipino
 5544,NCR,RM,CARAVEO,JOHN HERRY,P.,09266342571,,johnherrymd@gmail.com,1990-10-06,Male,
 5545,NCR,RM,QUIÑONES,ELDRIN ARBE,A.,09451330587,,www.eldrin_23@yahoo.com,1800-01-01,Male,Filipino
 5546,NCR,RM,TONG,JOHN PETER,C.,09561252780,,pctong.sbcm@gmail.com,1800-01-01,,
 5547,NCR,RM,ROÑO,MIGUEL,T.,09175299463,,miguelrono@yahoo.com,1993-01-31,,
 5548,NCR,TM,YAP,KAYE MARGARETH,A.,09778048717,,kayemargarethyap@gmail.com,1992-11-21,Female,Single
 5549,NCR,TM,DELA CRUZ,EMMANUELLE,D.,0917 841 1626,,emdelacruzmd@gmail.com,1993-06-26,Female,Single
-5550,NCR,RM,MOJICA,DENISE KIMBERLY ADRIELLE,B.,09175859973,09399292173,denisemojicamd@gmail.com,1800-01-01,Female,Filipino
+5550,BCL,RM,MOJICA-GERALI,DENISE KIMBERLY ADRIELLE,B.,09175859973,09399292173,denisemojicamd@gmail.com,1800-01-01,Female,Filipino
 5551,NCR,RM,ZABALA,PAOLO ANGELO,L.,09171132975,,paolozabala0517@gmail.com,1989-05-17,Male,Filipino
 5552,NCR,RM,GALANG,MARIA CARINA,,,,,1800-01-01,,
 5553,NCR,RM,BANGUIS,MARIA GLENELLI,L.,09178912034,,glenelli.banguis@gmail.com,1800-01-01,,
@@ -5555,7 +5555,7 @@ member_id_no,psa_chapter_code,psa_mem_type,mem_last_name,mem_first_name,mem_midd
 5555,NCR,RM,LACORTE,JUSTIN CARLO,L.,0917 1490108,,doccoloboy@gmail.com,1989-01-08,Male,
 5556,STG,RM,VIDALLON,ALGER,V.,0968-882-4272,,algervidallon@gmail.com,1990-06-27,Male,Filipino
 5557,NCR,RM,FLORALDE,DONNALYN,E.,0945 1534658,,defloralde.sbcm@gmail.com,1800-01-01,Female,Filipino
-5558,NCR,TM,MATIAS,KENNETH CONRAD,A.,0926 6170779,,kcamatias.sbcm@gmail.com,1800-01-01,Male,
+5558,NCR,TM,MATIAS,KENNETH CONRAD,A.,0926 6170779,,kcamatias.sbcm@gmail.com,1800-04-20,Male,
 5559,NCR,RM,MERCADO,LIA CAITLIN,P.,0917 4774807,,liamercado.md@gmail.com,1800-01-01,Female,Filipino
 5560,NCR,TM,CARUYAN,DUKE MAVERICK,S.,             ,09561683502,dukecaruyan@gmail.com,1800-04-18,Male,
 5561,NCR,TM,GARINGANAO,MARIA CORAZON,P.,09052217177,,mcpgaringanao.sbcm@gmail.com,1992-08-11,Female,
@@ -5611,7 +5611,7 @@ member_id_no,psa_chapter_code,psa_mem_type,mem_last_name,mem_first_name,mem_midd
 5611,NCR,TM,MONTESA,JASON,R.,09151275535,,jasonmontesa@gmail.com,1800-02-19,Male,Filipino
 5612,NCR,RM,BOCLONGAN,RAINE,M.,09171831805,,rainengiyanbocs@gmail.com,1987-11-26,Female,Filipino
 5613,NCR,RM,HABON,HERSCELLE,C.,09190079112,,herscellehabon26@gmail.com,1992-10-26,Female,Filipino
-5614,NEL,TM,NEBRAN,JUMELYN,R.,09560694250,,jumelynramironebran@yahoo.com,1992-11-03,,
+5614,NEL,RM,NEBRAN,JUMELYN,R.,09560694250,,jumelynramironebran@yahoo.com,1992-11-03,,
 5615,NEC,RM,BALIONGA,PATRICE ALEXIA,A.,09177997987,,patrice_alexia@yahoo.com,1989-10-26,Female,Filipino
 5616,STG,TM,PISCO,JOHN PAULO,L.,09277443877,,johnpaulopisco@gmail.com,1991-07-03,Male,Filipino
 5617,NCR,RM,UY,ADRIANNE MEI,L.,09175180448,,adriannemei34@hotmail.com,1800-06-03,Female,Filipino
@@ -5746,7 +5746,7 @@ member_id_no,psa_chapter_code,psa_mem_type,mem_last_name,mem_first_name,mem_midd
 5746,PAM,RM,REYES,MELISSA JANE,M.,09190966488,,mel_mendoza27@yahoo.com,1800-09-27,Female,Filipino
 5747,STG,TM,DE GUZMAN,GIAN ALEC PAOLO,V.,09688777406,09954557377,giodeguzman_37@yahoo.com,1994-11-19,Male,Filipino
 5748,NCR,TM,INAL,MARIAN JUDIELLE,U.,09171075161,,marianinalmd@gmail.com,1997-09-09,Female,Filipino
-5749,NCR,TM,DIMAYACYAC,MARK VINCENT,B.,,,dimayacyac.mark@gmail.com,1992-03-27,Male,Filipino
+5749,NCR,TM,DIMAYACYAC,MARK VINCENT,B.,09175223936,,dimayacyac.mark@gmail.com,1992-03-27,Male,Filipino
 5750,NCR,TM,FONDEVILLA,FRANCIS BENJAMIN,M.,09178451455,,fb.fondevilla@gmail.com,1988-10-03,Male,Filipino
 5751,NCR,TM,GUTIERREZ,ZYRELL JAMES,D.,09397248590,,zjdgutierrezptrpmd@gmail.com,1995-09-27,Male,Filipino
 5752,CCV,RM,CATAN,VAL CATHRYNE,V.,09173250445,,valcatan@gmail.com,1800-11-22,Female,Filipino
@@ -5783,7 +5783,7 @@ member_id_no,psa_chapter_code,psa_mem_type,mem_last_name,mem_first_name,mem_midd
 5783,NOL,TM,PALLAN,BETHEL,P.,,,bethel.pallan1102@gmail.com,1995-02-11,Female,Filipino
 5784,EVS,TM,INVALID,INVALID,INVALID,,,,1800-01-01,,
 5785,CCV,TM,PATALINGHUG,MARC ALAN,V.,09238255758,,marcalanpatalinghug@gmail.com,1800-05-19,Male,Filipino
-5786,NCR,TM,FOJAS,RENZO MIGUEL,G.,09175139204,,renzomiguelfojas@gmail.com,1990-01-29,,
+5786,NCR,RM,FOJAS,RENZO MIGUEL,G.,09175139204,,renzomiguelfojas@gmail.com,1990-01-29,,
 5787,NOL,TM,ALINDOGAN,ERMA JOICE,B.,09276609815,,erma.alindogan@gmail.com,1995-09-23,Female,Filipino
 5788,ILO,TM,CHANG,ALYSSA JAME,M.,09613231951,,alyssajamechang@gmail.com,1996-05-07,Female,Filipino
 5789,NCR,TM,INVALID,INVALID,INVALID,,,,1800-01-01,,
@@ -5801,7 +5801,7 @@ member_id_no,psa_chapter_code,psa_mem_type,mem_last_name,mem_first_name,mem_midd
 5801,NCR,TM,DAYAO,AARON RALPH KAHLIL,C.,09175259753,,arkdayao@gmail.com,1800-01-01,Male,Filipino
 5802,SMO,TM,RAMIREZ,LOUIE JANRIK,A.,0905 533 3001,,louieramirezmd@gmail.com,1991-10-22,Male,Single
 5803,SMO,TM,DECENA,ARIEL SAMANTHA,A.,09176287031,,arielsamanthad@gmail.com,1996-09-19,Female,Filipino
-5804,NCR,TM,PALINGCOD,LIEZEL,,09351670184,,palingcodliezel@gmail.com,1800-01-01,Female,Filipino
+5804,NMO,TM,PALINGCOD,LIEZEL,,09351670184,,palingcodliezel@gmail.com,1800-01-01,Female,Filipino
 5805,STG,TM,LLORIN,ANGELICA,R.,09777482275,,arllorin.md@gmail.com,1990-04-27,Male,Filipino
 5806,NCR,TM,DOLIENTE,JOANNE FARRAH,G.,09173199291,,jfarrahdoliente@gmail.com,1992-07-08,Female,Filipino
 5807,NCR,TM,CO,MARC CHRISTIAN,M.,09958468418,,comarcchristian@gmai.com,1994-02-08,Male,Filipino
@@ -5877,7 +5877,7 @@ member_id_no,psa_chapter_code,psa_mem_type,mem_last_name,mem_first_name,mem_midd
 5878,NCR,TM,DE CHAVEZ,MARCELLA RACHEL,B.,,,,1800-01-01,,
 5879,NCR,TM,DIZON,WEISSLEY DANIELLE,L.,1995-468-9855,,dizonweissley@gmail.com,1994-09-18,Female,Filipino
 5880,NCR,TM,ALEDO,KURT ERICKSON,P.,0919-095-8616,,kurterickson@gmail.com,1992-06-21,Male,
-5881,NCR,TM,JACINTO,CHRISTIAN GERARD,J.,,,,1800-01-01,,
+5881,NCR,TM,JACINTO,CHRISTIAN GERARD,J.,,,cgj090@gmail.com,1800-01-01,Female,Filipino
 5882,NCR,TM,ANTONIO,ANTON STEPHEN,B.,0905-447-0031,,a.stephenantonio@gmail.com,1995-06-11,Male,
 5883,NCR,TM,JUANICH,FRANCIS ALEXIS,R.,0995-535-8928,,frjuanich@up.edu.ph,1990-02-09,Male,
 5884,NCR,TM,DE GUIA,LEAH KIM,R.,,,leahkimdeguia@gmail.com,1800-01-01,,
@@ -5986,7 +5986,7 @@ member_id_no,psa_chapter_code,psa_mem_type,mem_last_name,mem_first_name,mem_midd
 5987,NMO,TM,MACAPAAR,RAISA,S.,,09192009204,reeeeeng@gmail.com,1991-08-29,,
 5988,NCR,RM,TAN,JERICK JEFFREY,S.,09278374085,,jerickjeffrey2013@gmail.com,1800-01-01,Male,Filipino
 5989,NCR,TM,ABENOJAR,KING,U.,,,,1800-01-01,,
-5990,NCR,TM,SAENZ,MA. KARENINA VICTORIA,L.,09959208727,,karenina.saenz@yahoo.com,1993-02-18,,
+5990,NCR,TM,MEDINA,MA. KARENINA VICTORIA,SAENZ,09959208727,,karenina.saenz@yahoo.com,1993-02-18,Male,Filipino
 5991,NCR,TM,CORALDE,JALEA,L.,09397242472,,jaleacoralde@gmail.com,1991-10-29,,
 5992,ILO,TM,FERMINDOZA,MARCO VITTORIO,C.,09173102390,,mfermindoza25@gmail.com,1800-01-01,,
 5993,CCV,TM,VISDA,PATRICIA VANESSA,M.,,,pv.visda@gmail.com,1800-01-01,Male,Filipino
@@ -6082,7 +6082,7 @@ member_id_no,psa_chapter_code,psa_mem_type,mem_last_name,mem_first_name,mem_midd
 6083,NCR,TM,PANALONDONG,JONAIMA,,,,aimapanalondong.md@gmail.com,1800-01-01,,
 6084,NCR,TM,ROÑO,NEIL,,,,,1800-01-01,,
 6085,NCR,TM,MIEDES,KATHRENE JOY,L.,09563024957,,JOYIEMIEDESMD@GMAIL.COM,1994-09-10,Male,Filipino
-6086,NCR,TM,LIM,MARIA KATRINA,D.,,,,1800-01-01,Female,Filipino
+6086,NCR,TM,LIM,MARIA KATRINA,D.,09692797247,,katlimmd@gmail.com,1993-04-22,Female,Filipino
 6087,NCR,TM,RABANG,JENNA CHRISTINE,T.,09368580040,,jennarabang@gmail.com,1994-08-10,Female,Filipino
 6088,NCR,TM,SOSA,ROUVILLE,A.,09177744363,,rouvillesosa@gmail.com,1800-01-01,Female,Filipino
 6089,NCR,TM,VEGA,ANDREA BETINA,M.,09166962043,,vivalavegaaa@gmail.com,1800-01-01,Female,
@@ -6116,7 +6116,7 @@ member_id_no,psa_chapter_code,psa_mem_type,mem_last_name,mem_first_name,mem_midd
 6117,PAM,TM,SARMIENTO-PEREZ,NINA SARAH,G.,099913007210,,ninasarahsarmiento@gmail.com,1800-01-01,Female,Filipino
 6118,PAM,TM,DE LEON,MICHELLE,D.,09325433138,,"michelledeleon_08@yahoo.com, deleon.michelle@auf.e",1800-01-01,Female,Filipino
 6119,PAM,TM,PUNSALAN,PATRICK JOSEPH,G.,09771948161,,punsalanpj@gmail.com,1800-01-01,Male,Filipino
-6120,PAM,TM,MANALOTO,BEATRICE,L.,09344999411,,beamanaloto@gmail.com,1800-01-01,Female,Filipino
+6120,PAM,TM,MANALOTO,BEATRICE,L.,09394999411,,beamanaloto@gmail.com,1800-01-01,Female,Filipino
 6121,NCR,TM,BANOGON,VERNA ANN,D.,,,,1800-01-01,,
 6122,TAR,TM,CASTRO,NICOLE JADE,T.,09190090467,,njadecastro08@gmail.com,1994-08-16,Female,Filipino
 6123,NCR,TM,ROQUE,MAIAH PAOLEEN,A.,09957510155,,roquemaiah@gmail.com,1995-08-29,Female,Filipino
@@ -6133,15 +6133,15 @@ member_id_no,psa_chapter_code,psa_mem_type,mem_last_name,mem_first_name,mem_midd
 6134,SCV,RM,WILLIE,TIMOGA,Q.,09051231388,,willie.timoga@gmail.com,1965-09-05,Male,Filipino
 6135,NCR,TM,NUÑEZ,ARIANE JUDY,P.,09177019727,,arianejudypnunezmd@gmail.com,1987-01-21,Male,
 6136,NCR,TM,JUICO,BERNADETTE,G.,09369255897,,bernadettejuico@gmail.com,1992-08-06,Male,Filipino
-6137,NCR,TM,BAGAYAO,JAMIE DANIELLE,S.,,,,1800-01-01,,
-6138,NCR,TM,BRUL,GERSHON DAVE,T.,,,,1800-01-01,,
+6137,NCR,TM,BAGAYAO,JAMIE DANIELLE,S.,,,bagayaojamie@gmail.com,1800-01-01,Female,Filipino
+6138,NCR,TM,BRUL,GERSHON DAVE,T.,,,gershonbrul@gmail.com,1800-01-01,Female,Filipino
 6139,NCR,TM,ESPINELI,SHARIKA MAE,B.,,,,1800-01-01,,
-6140,NCR,TM,LAPEÑA,DONNA MAE,L.,,,,1800-01-01,,
+6140,NCR,TM,LAPEÑA,DONNA MAE,L.,,,donnalapena@gmail.com,1800-01-01,Female,Filipino
 6141,NCR,TM,LIM,JEREMIAH,D.,,,,1800-01-01,Male,Filipino
 6142,NCR,TM,LUNA,DENNIS,C.,,,,1800-01-01,,
 6143,NCR,TM,MARIANO,SHEA ROXANNE,B.,,,,1800-01-01,,
 6144,NCR,TM,PAGENTE,JOHN IVO,A.,,,,1800-01-01,,
-6145,NCR,TM,RODIL,REINA CARISSA,V.,,,,1800-01-01,,
+6145,NCR,TM,RODIL,REINA CARISSA,V.,,,rodilreinacarissa@gmail.com,1800-01-01,Female,Filipino
 6146,NCR,TM,ROSARIO,FLORIANNE GRACE,T.,,,,1800-01-01,,
 6147,NCR,TM,RUSTE,IRA KLAUSSEL,A.,,,,1800-01-01,,
 6148,NCR,TM,TUBONGBANUA,ROMER,J.,,,,1800-01-01,,
@@ -6150,7 +6150,7 @@ member_id_no,psa_chapter_code,psa_mem_type,mem_last_name,mem_first_name,mem_midd
 6151,NCR,TM,CALANTUAN,CHAKY,R.,09275743807,,"nomlamchuck@yahoo.com, chuckcalantuanmd@gmail.com",1991-07-18,Female,
 6152,NCR,TM,PEREZ,MARTIN LYLE,S.,09955570471,,mlsperez16@gmail.com,1800-10-16,Female,
 6153,BOZ,TM,CONCEPCION,LOUIS RAYMUND,,,,louisraymund_concepcion@yahoo.com,1800-01-01,Male,Filipino
-6154,NCR,TM,LIMIN,PHOEBE ROSE,M.,,,,1800-01-01,,
+6154,BOZ,TM,LIMIN,PHOEBE ROSE,M.,,,limin.pr.2020@gmail.com,1800-01-01,Female,Filipino
 6155,NCR,TM,BERNARDINO,JOANNA DOMINI,,09178989602,,jtbernardino@up.edu.ph,1996-02-09,Female,
 6156,NCR,TM,CASTRO,RENELLE CHARLOTTE,U.,09177206508,,rcucastro@gmail.com,1800-01-01,Female,Filipino
 6157,NCR,TM,CODEN,CHRISTELLE JAE,D.,09451130962,,christellejae@gmail.com,1800-01-01,Female,
@@ -6335,7 +6335,7 @@ member_id_no,psa_chapter_code,psa_mem_type,mem_last_name,mem_first_name,mem_midd
 6336,NCR,TM,DALEON,MIGUEL PHILIP,S.,09272544577,,migz.daleon@gmail.com,1800-01-01,,
 6337,STG,TM,GACUSAN,RANNE CENCHREAE,H.,09175034206,,rchgacusan@gmail.com,1997-05-21,,
 6338,CCV,TM,GODINEZ,HIPOL JOHN,M.,09325990452,,ghipoljohn@gmail.com,1997-01-14,,
-6339,SOC,TM,GONZALEZ,HANNAH KRIZZIA DOMINIQUE,R.,09213540847,,HANNAHRGONZALES@YAHOO.COM,1990-11-07,,
+6339,SOC,RM,GONZALEZ,HANNAH KRIZZIA DOMINIQUE,R.,09213540847,,hannahrgonzalez@yahoo.com,1990-11-07,Male,
 6340,LAN,TM,YUSOPH,OMIE CALZUM,M.,09465313302,,,1994-04-06,,
 6341,SMO,TM,RENDON,PAULIN,M.,09760502854,,rendonpaulin01@gmail.com,1996-12-01,,
 6342,NCR,TM,BALMES,ABEGAIL,S.,09190099556,,asbalmes@up.edu.ph,1997-04-23,,
@@ -6361,7 +6361,7 @@ member_id_no,psa_chapter_code,psa_mem_type,mem_last_name,mem_first_name,mem_midd
 6362,TAR,TM,PARE,JOANNA MARIE,G.,09274236114,,jmgpare.sbcm@gmail.com,1994-04-25,,
 6363,STG,TM,HUMARANG,JIMM AUSTINE,M.,09760919296,,jimmhumarang@gmail.com,1997-02-07,Male,
 6364,EVS,TM,MARABE,VINCENT LOR,,09695908294,,lormarabe@gmail.com,1993-09-13,Male,
-6365,CCV,TM,MAGNO,ARTHUR DAVID,T.,09155897015,,ardavemagno@gmail.com,1800-01-01,Male,
+6365,CCV,TM,MAGNO,ARTHUR DAVID,T.,09155897015,,ardavemagno@gmail.com,1800-01-01,Male,Filipino
 6366,NCR,TM,RIVERA,ERICA,E.,09199708483,,riveraerica083@gmail.com,1988-09-19,Female,
 6367,TAR,TM,PALADAN,KATE,F.,09398242639,,katepaladan0211@gmail.com,1997-02-11,Female,
 6368,LUC,TM,CRIBE,GERALD,M.,09206831133,,gerald.ars.c@gmail.com,1994-08-21,Male,
@@ -6372,40 +6372,107 @@ member_id_no,psa_chapter_code,psa_mem_type,mem_last_name,mem_first_name,mem_midd
 6373,ILO,TM,LUHAN,MAVERICK ANDREW,I.,09166487654,,maverickluhan04@gmail.com,1996-10-13,Female,
 6374,EVS,TM,"LUCBAN, JR.",ROMULO,L.,09267073559,,romulolucbanjr@gmail.com,1800-01-01,Male,
 6375,STG,TM,MAPUSAO,PRECIOUS NEZA,M.,09278227504,,nezamapusao@gmail.com,1800-01-01,Female,Filipino
-6376,NCR,TM,PERSONA,GIANN ROINA,E.,,,,1800-01-01,,
-6377,ILO,TM,PEDROSO,JARED,L.,,,,1800-01-01,,
-6378,CCV,TM,CLERINO,MARK CHRISTIAN,A.,,,,1800-01-01,,
-6379,ILO,TM,ALQUISADA,ADRIAN,T.,,,,1800-01-01,,
-6380,NCR,TM,GABOR,LANCE FREDERICK,J.,,,,1800-01-01,,
-6381,NCR,TM,TAN,JAMIE LYNND,D.,,,,1800-01-01,,
-6382,STG,TM,VIRREY,AILEEN,V.,,,,1800-01-01,,
-6383,NCR,TM,RIMANDO,DENISE ANNE,A.,,,,1800-01-01,,
-6384,BCL,TM,BERTIS,JILL EIZAVEL,J.,,,,1800-01-01,,
+6376,NCR,TM,PERSONA,GIANN ROINA,E.,09053772215,,grepersonamd@gmail.com,1991-12-15,Female,
+6377,ILO,TM,PEDROSO,JARED,L.,09399014531,,jaredpedroso@gmail.com,1800-01-01,Male,
+6378,CCV,TM,CLERINO,MARK CHRISTIAN,A.,09660230268,,mcacklop008@gmail.com,1993-11-21,Male,
+6379,ILO,TM,ALQUISADA,ADRIAN,T.,09999954911,,aalquisada17@gmail.com,1990-02-17,Male,
+6380,NCR,TM,GABOR,LANCE FREDERICK,J.,09176236846,,lfjgabor@yahoo.com.ph,1995-08-02,Male,
+6381,NCR,TM,TAN,JAMIE LYNND,D.,09175070700,,jamietanmd@gmail.com,1988-03-28,,
+6382,STG,TM,VIRREY,AILEEN,V.,09270451644,,aileenvirrey@gmail.com,1996-08-17,Female,Filipino
+6383,NCR,TM,RIMANDO,DENISE ANNE,A.,"09989903799, 09209590329",,deniseannerimando@gmail.com,1998-03-29,Female,Filipino
+6384,BCL,TM,BERTIS,JILL EIZAVEL,J.,09278884245,,jilleizavel.bertis@gmail.com,1996-04-27,Female,Filipino
 6385,SMO,TM,SARAD,CRIZGHIL,E.,09762673179,,saradcrizghil.edu.ph@gmail.com,1997-03-29,Female,Filipino
 6386,SMO,TM,MAGBANUA,SHIREEN,G.,09772849867,,shireenmagbanua@yahoo.com,1996-01-14,Male,Filipino
 6387,SMO,TM,ESPARTERO,THERESA MAE,S.,09951328994,,snowespartero@gmail.com,2005-05-20,Female,Filipino
 6388,SMO,TM,CANTERO,LADY JEAN,U.,09560473879,,ljcantero21@gmail.com,1800-02-01,Female,Filipino
 6389,SMO,TM,PASAJE,PATRICIA LEE,D.,09223875439,,"patleepsje@gmail.com,pldpasaje96@gmail.com",1800-01-01,,
-6390,SMO,TM,DUCO,JOHN LAURENCE,D.,,,,1800-01-01,,
-6391,SMO,TM,JAKOSALEM,RALPH JUDE,I.,,,,1800-01-01,,
-6392,SMO,TM,BARBIN,KHRISTINE,B.,,,,1800-01-01,,
-6393,SMO,TM,CIMAFRANCA,SAMANTHA,M.,,,,1800-01-01,,
-6394,SMO,TM,VERGARA,EMMANUELLE ANNA MELISSE,L.,,,,1800-01-01,,
-6395,SMO,TM,TANGERES,HYACINTH XYRISH,B.,,,,1800-01-01,,
-6396,NCR,TM,TORRES,ANGELI CORINA,A.,,,,1800-01-01,,
-6397,ILO,TM,GONZALUDO,NERFE BRYAN,C.,,,,1800-01-01,,
-6398,NCR,TM,PELAYO,BERNADETTE CLAIRE,D.,,,,1800-01-01,,
-6399,SCV,TM,GALAPON,JASMINE JOY,O.,,,,1800-01-01,,
-6400,SCV,TM,SALAGAN,CHARMIE,A.,,,,1800-01-01,,
-6401,SCV,TM,SIMANGAN,CARLSON,D.,,,,1800-01-01,,
-6402,ILO,TM,RADONES,CHARMAINE MAE KEYIEN,G.,,,,1800-01-01,,
-6403,NCR,TM,BULAN,ANNA PRISCILLA,M.,,,,1800-01-01,,
-6404,NCR,TM,TUASON,MARGARITA,W.,,,,1800-01-01,,
-6405,ILO,TM,ARENGA,JEZIEL CHEN,M.,,,,1800-01-01,,
-6406,BCL,TM,SUAREZ,DENISE JOYCE,P.,,,,1800-01-01,,
-6407,NCR,TM,YEE,LAURA ISABELLE,M.,,,,1800-01-01,,
-6408,NCR,TM,FLORES,FAITH,B.,,,,1800-01-01,,
-6409,BBP,TM,PARPALI,KRIZZIA LEI,K.,,,,1800-01-01,,
-6410,BBP,TM,MERCADO,MICHELLE ANDREA,E.,,,,1800-01-01,,
-6411,BBP,TM,PADERES,JUDI CLARISSE,B.,,,,1800-01-01,,
-6412,STG,TM,MAGBUHAT,SHANNEN,M.,,,,1800-01-01,,
+6390,SMO,TM,DUCO,JOHN LAURENCE,D.,09062920581,,laurenceduco1996@gmail.com,1996-03-06,Male,Filipino
+6391,SMO,TM,JAKOSALEM,RALPH JUDE,I.,09777891639,,jakosalem28@gmail.com,1991-09-28,Male,Filipino
+6392,SMO,TM,BARBIN,KHRISTINE,B.,09076292391,,khristinebarbin@gmail.com,1800-01-01,Female,Filipino
+6393,SMO,TM,CIMAFRANCA,SAMANTHA,M.,09551808175,,cimafranca.samantha27@gmail.com,1995-11-27,Female,Filipino
+6394,SMO,TM,VERGARA,EMMANUELLE ANNA MELISSE,L.,09177055431,,eanvergara1@gmail.com,1800-01-01,Female,Filipino
+6395,SMO,TM,TANGERES,HYACINTH XYRISH,B.,09161272908,,hyacinthxyrish@gmail.com,1995-02-07,Female,Filipino
+6396,NCR,TM,TORRES,ANGELI CORINA,A.,09177961390,,coleentorres2013@gmail.com,1800-01-01,Male,
+6397,ILO,TM,GONZALUDO,NERFE BRYAN,C.,09084431968,,gnerfbryan@gmail.com,1994-01-17,Female,
+6398,NCR,TM,PELAYO,BERNADETTE CLAIRE,D.,09088975357,,bernadetteclairepelayo@gmail.com,1800-01-01,Male,
+6399,SCV,TM,GALAPON,JASMINE JOY,O.,09954677361,,babyjasminejoy@gmail.com,1997-04-21,Male,
+6400,SCV,TM,SALAGAN,CHARMIE,A.,,,charm91992@gmail.com,1992-09-19,Male,
+6401,SCV,TM,SIMANGAN,CARLSON,D.,09358019380,,carlsondsimangan@gmail.com,1990-01-26,Male,
+6402,ILO,TM,RADONES,CHARMAINE MAE KEYIEN,G.,09210468617,,keyienradones@gmail.com,1993-12-07,Female,
+6403,NCR,TM,BULAN,ANNA PRISCILLA,M.,,,apm.bulan@gmail.com,1800-01-01,Female,
+6404,NCR,TM,TUASON,MARGARITA,W.,09063390716,,magutuason@gmail.com,1800-01-01,Female,Filipino
+6405,ILO,TM,ARENGA,JEZIEL CHEN,M.,09157681871,,arengajezielchen@gmail.com,2027-03-25,Female,
+6406,BCL,TM,SUAREZ,DENISE JOYCE,P.,09178899928,,denisejoycesuarezmd@gmail.com,1997-09-09,Female,
+6407,NCR,TM,YEE,LAURA ISABELLE,M.,09173209789,,billieyee21@gmail.com,1996-11-21,Female,
+6408,NCR,TM,FLORES,FAITH,B.,09171522914,,faithflores08@gmail.com,1800-01-01,,
+6409,BBP,TM,PARPALI,KRIZZIA LEI,K.,09985566005,,krizzialeiii@gmail.com,1996-10-12,Female,
+6410,BBP,TM,MERCADO,MICHELLE ANDREA,E.,0906 845 8353,,mikaemercado@gmail.com,1998-10-07,,
+6411,BBP,TM,PADERES,JUDI CLARISSE,B.,09688863405,,jcpaderes.md@gmail.com,1997-12-04,Female,
+6412,STG,TM,MAGBUHAT,SHANNEN,M.,09178377205,,shannenmagbuhat@gmail.com,1997-07-27,Female,
+6413,NCR,TM,CALINAWAN,MARRIONE LOIS,,09176365323,,calinawanmarrionelois@gmail.com,1800-01-01,,
+6414,SOC,RM,KHO,KATHERINE JANE,B.,09955676067,,kathkholut@gmail.com,1800-01-01,Male,Filipino
+6415,NCR,TM,ACLIBON,AIZLE DEBBIE,D.,09065123256,,aclibonaizledebbie@gmail.com,1987-02-07,Female,
+6416,CCV,TM,RAMA,JUSTINE MAE,,,,,1800-01-01,,
+6417,NEL,TM,SAQUILABON,CYRILLE ROSBELLE,C.,,,,1800-01-01,,
+6418,PAM,TM,CRUZ,GEM NOELLE,,,,,1800-01-01,,
+6419,PAM,TM,SAGARBARRIA,PAULINE,C.,,,,1800-01-01,,
+6420,PAM,TM,CARACTA,ROBERT BENEDICT,B.,,,,1800-01-01,,
+6421,NCR,TM,BRIONES,AILA MARIZ,D.,,,,1800-01-01,,
+6422,NCR,TM,VITO CRUZ,PAULINA NICOLE,G.,,,,1800-01-01,,
+6423,BBP,TM,CONGO,BRENIA,,,,,1800-01-01,,
+6424,NCR,TM,BARRETO,ANGELIA GAYLE,S.,,,,1800-01-01,,
+6425,PAM,TM,GARCIA,MELANNIE ROSE,J.,,,,1800-01-01,,
+6426,NCR,TM,MERCADO,JOHANNA PATRICIA,T.,,,,1800-01-01,,
+6427,NCR,TM,ALVAREZ,BRIAN VICTOR,M.,,,,1800-01-01,,
+6428,NCR,TM,DELA ROSA,ANGELA BEATRICE,A.,,,,1800-01-01,,
+6429,LUC,TM,MARZO,JOUELLA MARIE,C.,,,,1800-01-01,,
+6430,NCR,TM,MADRILEJO,IZAC FRANZ,MALABAGUIO,,,,1800-04-06,,
+6431,NCR,TM,SORIANO,SHAIRA,ANAPI,,,,1800-03-06,,
+6432,SMO,TM,REGULACION,JAMIE,G.,,,,1800-01-01,,
+6433,NCR,TM,BALDERAS,CHRISTINE,C.,,,,1800-01-01,,
+6434,NEC,TM,FAJARDO,LEMUEL,B.,,,,1800-01-01,,
+6435,BCL,TM,BALMADRID,JUSTINE,I.,,,,1800-01-01,,
+6436,NCR,TM,CENGCA,MA. RHENEA ANNE,M.,,,,1800-01-01,,
+6437,NCR,TM,PERSEVERANDA,RODY MAE,A.,,,,1800-01-01,Female,Married
+6438,NCR,TM,VIERNES,AUREA NOREEN,T.,,,,1800-01-01,,
+6439,NCR,TM,BITAO,RACHEL,B.,,,,1800-01-01,,
+6440,NCR,TM,VALEROS,EIFFEL RUBY,V.,,,,1800-01-01,,
+6441,NCR,TM,PALENCIA,PATRICIA BERNADETTE,A.,,,,1998-02-24,,
+6442,NCR,TM,MAGAUAY,JEREMY JOE,G.,,,,1800-01-01,,
+6443,NMO,TM,MONREAL,ANGELRUSS MARIE,S.,,,,1800-01-01,,
+6444,NMO,TM,ROQUE,MICHAEL PAUL,S.,,,,1800-01-01,,
+6445,NCR,TM,RIVERA,BIANCA THERESE,T.,,,,1800-01-01,,
+6446,NMO,TM,ABBAS,FARMILLAH,P.,,,,1800-01-01,,
+6447,NCR,TM,VIZCARRA,JENNICA IMAH THERESE,N.,,,,1800-01-01,,
+6448,NCR,TM,QUITORIANO,KRIZA,D.,,,,1800-01-01,,
+6449,SCV,RM,HIDALGO,ROXANNE,F.,,,,1800-01-01,,
+6450,NMO,TM,PABATANG,KIM MICHAEL,D.,,,,1800-01-01,,
+6451,NCR,TM,GAMMAD,CHRISTINE JOY,F.,,,,1800-01-01,,
+6452,NMO,TM,BONIEL,JULIUS SATTUR,M.,,,,1800-01-01,,
+6453,NMO,TM,SAGUINDANG,KEANNU,B.,,,,1800-01-01,,
+6454,NCR,TM,TUAZON,JUDY ANN,V.,,,,1800-01-01,,
+6455,NCR,TM,DIOSOMITO,ALLEN ADRIAN,M.,,,,1800-01-01,,
+6456,NCR,TM,MACAYAON,MA. JALEA,G.,,,,1800-01-01,,
+6457,NCR,TM,SY,FRANCHETTE AN,P.,,,,1800-01-01,,
+6458,NCR,TM,TY,CRESTHEROSE NICOLI,C.,,,,1800-01-01,,
+6459,CCV,TM,ACOSTA,MARY RISEN,J.,,,,1800-01-01,Female,Single
+6460,BOZ,TM,BRAGANZA,AARON CHRISTOPHER,C.,,,,1800-01-01,,
+6461,LUC,TM,CALYA-EN,KEREN,T.,,,,1800-01-01,,
+6462,NCR,TM,GABRIEL,CONNIE ANNE,L.,,,,1800-01-01,,
+6463,NCR,TM,TOLENTINO,JOHN DENIEL,V.,,,,1800-01-01,,
+6464,NCR,TM,ONG,ERIKA JANINE,H.,,,,1800-01-01,,
+6465,NCR,TM,VIERNES,BETSY JOYCE,E.,,,,1800-01-01,,
+6466,NCR,TM,DIMAYUGA,IRA,,,,,1800-01-01,,
+6467,NOL,TM,MABUGAT,PAOLO AUGUSTINE,A.,,,,1800-01-01,,
+6468,LUC,TM,MORALES,KIMBERLY,C.,,,,1800-01-01,,
+6469,NCR,TM,SIBAL,KRISTAL JOYCE,M.,,,,1800-01-01,,
+6470,NCR,TM,SAGARIO,PATRICK LOUIS,G.,,,,1800-01-01,,
+6471,NCR,TM,GERONIMO,ALLEN DOMINIC,F.,,,,1800-01-01,,
+6472,NCR,TM,BERZA,ANNA PATRICIA,B.,,,,1800-01-01,,
+6473,NCR,TM,"CALDERON, JR.",ANTONIO,L.,,,,1800-01-01,,
+6474,NCR,TM,CEÑIDOZA,FIDEL BRYAN,B.,,,,1800-01-01,,
+6475,NCR,TM,"OCAMPO, JR.",DANILO,L.,,,,1800-01-01,,
+6476,NCR,TM,FARAL,ISABELLE JOY,M.,,,,1800-01-01,,
+6477,NCR,TM,HERNAL,DOMINIC ANGELO,V.,,,,1800-01-01,,
+6478,BOZ,TM,SIA,MIKE FRANCIS,D.,,,,1800-01-01,,
+6479,NCR,TM,TORRES,CHRISTIAN PHILIP,,,,,1800-01-01,,

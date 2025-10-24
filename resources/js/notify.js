@@ -1,5 +1,5 @@
-import Notify from 'laravel-notify';
+// import Notify from 'laravel-notify';
 
-document.addEventListener('alpine:init', () => {
-    window.Alpine.plugin(Notify);
-});
+// document.addEventListener('alpine:init', () => {
+//     window.Alpine.plugin(Notify);
+// });

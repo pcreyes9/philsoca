@@ -1,11 +1,11 @@
 -- phpMyAdmin SQL Dump
--- version 5.2.1
+-- version 5.2.2
 -- https://www.phpmyadmin.net/
 --
--- Host: 127.0.0.1
--- Generation Time: Sep 15, 2025 at 09:09 AM
--- Server version: 10.4.32-MariaDB
--- PHP Version: 8.2.12
+-- Host: 127.0.0.1:3306
+-- Generation Time: Sep 19, 2025 at 06:08 AM
+-- Server version: 11.8.3-MariaDB-log
+-- PHP Version: 7.2.34
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 START TRANSACTION;
@@ -18,7 +18,7 @@ SET time_zone = "+00:00";
 /*!40101 SET NAMES utf8mb4 */;
 
 --
--- Database: `laravel`
+-- Database: `u179905176_acaTest`
 --
 
 -- --------------------------------------------------------
@@ -30,25 +30,26 @@ SET time_zone = "+00:00";
 CREATE TABLE `pbld_sessions` (
   `id` int(2) DEFAULT NULL,
   `topic` varchar(42) DEFAULT NULL,
+  `speaker` varchar(31) DEFAULT NULL,
   `count` int(1) DEFAULT NULL,
   `status` varchar(7) DEFAULT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_general_ci;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
 --
 -- Dumping data for table `pbld_sessions`
 --
 
-INSERT INTO `pbld_sessions` (`id`, `topic`, `count`, `status`) VALUES
-(1, 'Pediatric Airway Management (Pierre-Robin)', 2, 'enabled'),
-(2, 'VATS', 2, 'enabled'),
-(3, 'Neonatal TIVA', 2, 'enabled'),
-(4, 'Hip Surgery', 2, 'enabled'),
-(5, 'Neonatal Surgical Emergencies', 2, 'enabled'),
-(6, 'Hypertension in Pregnancy', 3, 'enabled'),
-(7, 'Anesthesia for Spine Surgery', 3, 'enabled'),
-(8, 'Obstetric Hemorrhage', 3, 'enabled'),
-(9, 'Coagulopathy', 3, 'enabled'),
-(10, 'Hypotensive Patient for Surgery for EXLAP', 3, 'enabled');
+INSERT INTO `pbld_sessions` (`id`, `topic`, `speaker`, `count`, `status`) VALUES
+(1, 'Pediatric Airway Management (Pierre-Robin)', 'Annery Garcia-Marcinkiewicz, MD', 2, 'enabled'),
+(2, 'VATS', 'Wanda Popescu, MD', 2, 'enabled'),
+(3, 'Neonatal TIVA', 'Vesna Todorovic, MD', 2, 'enabled'),
+(4, 'Hip Surgery', 'Sanjib Adhikary, MD', 2, 'enabled'),
+(5, 'Neonatal Surgical Emergencies', 'Ina Ismiarti Shariffuddin, MD', 2, 'enabled'),
+(6, 'Hypertension in Pregnancy', 'Heather Nixon, MD', 3, 'enabled'),
+(7, 'Anesthesia for Spine Surgery', 'Jeffrey Pasternak, MD', 3, 'enabled'),
+(8, 'Obstetric Hemorrhage', 'Christopher Bowden, MD', 3, 'enabled'),
+(9, 'Coagulopathy', 'Klaus Goerlinger, MD', 3, 'enabled'),
+(10, 'Hypotensive Patient for Surgery for EXLAP', 'Suneel Desai, MD', 3, 'enabled');
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;

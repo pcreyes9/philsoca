@@ -1,0 +1,103 @@
+-- phpMyAdmin SQL Dump
+-- version 5.2.1
+-- https://www.phpmyadmin.net/
+--
+-- Host: 127.0.0.1
+-- Generation Time: Oct 15, 2025 at 10:07 AM
+-- Server version: 10.4.32-MariaDB
+-- PHP Version: 8.2.12
+
+SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
+START TRANSACTION;
+SET time_zone = "+00:00";
+
+
+/*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
+/*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
+/*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;
+/*!40101 SET NAMES utf8mb4 */;
+
+--
+-- Database: `laravel`
+--
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `pharma`
+--
+
+CREATE TABLE `pharma` (
+  `id` int(2) DEFAULT NULL,
+  `code` varchar(7) NOT NULL,
+  `name` varchar(53) DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_general_ci;
+
+--
+-- Dumping data for table `pharma`
+--
+
+INSERT INTO `pharma` (`id`, `code`, `name`) VALUES
+(16, 'PB1', 'EMS INSTRUMENTS'),
+(18, 'PB13', 'JUNIPER BIOLOGICS'),
+(19, 'PB14', 'MG PRIME'),
+(20, 'PB15', 'MSD'),
+(21, 'PB16', 'VARIANCE TRADING CORPORATION'),
+(22, 'PB19020', 'MINDRAY INTERNATIONAL'),
+(17, 'PB2', 'RESPICARE ENTERPRISES'),
+(13, 'PF11', 'MACESA JEWELRY'),
+(14, 'PF12', 'MALAYSIA'),
+(15, 'PF13', 'DAVAO JEWELRY EXPRESS'),
+(9, 'PFA', 'GLOBAL ALLIANCE MEDICAL INC. (GAMI)'),
+(10, 'PFB', 'GLORIOUS DEXA MANDAYA'),
+(11, 'PFC', 'GETMEDS'),
+(12, 'PFD', 'TECHNOMED'),
+(28, 'RB10', 'JUSTRIGHT HEALTHCARE'),
+(29, 'RB11', 'WELLESTA, PHILS.'),
+(30, 'RB12', 'ZP THERAPEUTICS'),
+(31, 'RB17', 'TELEFLEX'),
+(32, 'RB18', 'B. BRAUN MEDICAL SUPPLIES'),
+(33, 'RB21', 'KARLSTORZ'),
+(34, 'RB22', 'TROIKAA'),
+(35, 'RB23', 'PRIME MEDIX'),
+(36, 'RB24025', 'DRAEGER'),
+(37, 'RB26', 'ASPEN, PHILS.'),
+(38, 'RB27', 'IOS MARKETING'),
+(39, 'RB28', 'BAXTER, PHILS.'),
+(40, 'RB29', 'COMEN'),
+(41, 'RB30', 'PROGRESSIVE ENTERPRISES'),
+(23, 'RB304', 'IDS MEDICAL SYSTEM, INC.'),
+(42, 'RB31032', 'INTERSURGICAL'),
+(43, 'RB33', 'IBERNICA VERHEILEN PHARMACEUTICALS'),
+(44, 'RB34', 'NIHON KOHDEN'),
+(45, 'RB35', 'MACROPHARMA'),
+(46, 'RB36', 'CATHAY DRUG'),
+(47, 'RB37', 'HOSPITAL INFO SERVICES FOR JEHOVAH’S WITNESSES, PHILS'),
+(48, 'RB38', 'HEALTHRUSH ENTERPRISES'),
+(24, 'RB56', 'GENERAL ELECTRIC (GE)'),
+(25, 'RB7', 'GREINER MEDICAL SUPPLIES'),
+(26, 'RB8', 'JOSMEF'),
+(27, 'RB9', 'SANNOVEX'),
+(1, 'Suite1', 'ENDURE MEDICAL'),
+(2, 'Suite2', 'OTIUM HEALTHCARE'),
+(3, 'Suite3', 'SENSEI'),
+(4, 'Suite4', 'FRESENIUS-KABI'),
+(5, 'Suite5', 'SAVIOUR MeDEVICES'),
+(6, 'Suite6', 'DYNAMED'),
+(7, 'Suite7', 'DELEX PHARMA'),
+(8, 'Suite8', 'RBGM MEDICAL');
+
+--
+-- Indexes for dumped tables
+--
+
+--
+-- Indexes for table `pharma`
+--
+ALTER TABLE `pharma`
+  ADD PRIMARY KEY (`code`);
+COMMIT;
+
+/*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
+/*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
+/*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;

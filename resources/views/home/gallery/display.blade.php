@@ -4,12 +4,12 @@
 @section('banner-name', 'PSA: Midyar Convention')
 
 @section('content')
- <div id="page-loader">
+{{-- <div id="page-loader">
     <div class="loader-content">
         <div class="spinner"></div>
         <p class="loader-text">Images are loading...</p>
     </div>
-</div>
+</div> --}}
 
 <section id="project-area" class="project-area solid-bg">
 <div class="container">

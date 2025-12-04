@@ -1,0 +1,18 @@
+
+@extends('home.master')
+
+@section('title', 'PBLD Program')
+@section('banner-name', 'Program > Speakers')
+
+@section('content')
+{{-- @include('home.banner') --}}
+    <section id="main-container" class="main-container text-center project-area">
+        <div class="col-lg-12" >
+                {{-- <h3 class="into-workshop-title" >PBLD Program</h3> --}}
+            </div>
+            <div class="col-lg-11 mb-3">
+                <h3 class="into-workshop-title">October 24 & 25, 2025<br> GF Executive 5, Marriot Grand Ballroom</h3>
+            </div>
+      <livewire:pbld-program/> 
+    </section>
+@endsection

@@ -9,8 +9,21 @@
       <img class="imgSlide w-100 w-lg-75 " src="images/slider-main/ACA POSTER resized.png?v={{ time() }}" alt="ASEAN CONGRESS OF ANESTHESIOLOGISTS 2025">
     </div>
   </div>
+  
+  <div class="container my-3 mt-4">
+        <div class="ratio ratio-16x9" style="max-width: 1200px; margin: 0 auto;">
+            <iframe 
+                src="https://www.youtube.com/embed/CeOh_438Xlo?autoplay=1&mute=1&controls=1&rel=0&modestbranding=1" 
+                title="YouTube video" 
+                allowfullscreen>
+            </iframe>
+        </div>
+    </div>
+  
 
   <section id="news" class="project-area">
+    
+
     <h3 class="section-sub-title text-center">MESSAGE FROM THE PRESIDENT OF THE <br> CONFEDERATION OF ASEAN SOCIETIES OF ANESTHESIOLOGISTS (CASA) <br> and Chair of the 24<sup>th</sup> ASEAN CONGRESS OF ANESTHESIOLOGISTS (ACA)
     </h3>
     <div class="container">
@@ -25,7 +38,7 @@
                 style="box-shadow: 3px 3px 5px;">
           </a>
         </div>
-        
+                
         <div class="col-lg-8 mt-4 mt-lg-0">
           <p class="hotel-p">Dear Esteemed Colleagues,  
             <br>

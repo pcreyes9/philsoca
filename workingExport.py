@@ -5,7 +5,8 @@ from plyer import notification
 
 try:
     # pag connect sa database
-    con = pyodbc.connect('DRIVER={SQL Server};Server=PSASERVER;Database=PSADBLIVE;UID=sa;PWD=p$a@dm1n')
+    # con = pyodbc.connect('DRIVER={SQL Server};Server=PSASERVER;Database=PSADBLIVE;UID=sa;PWD=p$a@dm1n')
+    con = pyodbc.connect('DRIVER={SQL Server};Server=PSASERVER\\MSSQLSRVR;Database=PSADBLIVE;UID=sa;PWD=p$a@dm1n')
 
     # pag create ng sql query
     sqlQuery = """SELECT member_id_no

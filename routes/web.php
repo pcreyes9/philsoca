@@ -157,16 +157,36 @@ Route::get('/regional-anesthesia', function () {
     // dd("asd");
     return view('workshops.reganes');
 })->name(name: 'reganes');
+
+Route::get('/gallery', function () {
+    // dd("asd");
+    return view('home.gallery.display');
+})->name(name: 'gallery');
+
+Route::get('/gallery', [GalleryController::class, 'show'])->name('gallery');
+
+
 // Route::get('/{booth}', [PharmaController::class, 'checkin'])
 //     ->name('booth.checkin');
 
 // Route::get('/{booth}', BoothController::class)
 // ->name('booth.checkin');
 
-// Route::get('/{booth}', function ($booth) {
-//     // dd($booth);
-//     return view('registration.boothreg', compact('booth'));
-// })->name('booth.checkin');
+Route::get('/sponsors/{booth}', function ($booth) {
+    $exists = DB::table('pharma')->where('code', $booth)->exists();
+
+    if (! $exists) {
+        abort(404); // or any other action you want
+    }
+    else{
+        return view('registration.boothreg', compact('booth'));
+    }
+
+})->name('booth.checkin');
+
+Route::get('/booth-checker', function () {
+    return view('registration.boothcheck');
+})->name('boothcheck');
 
 // Route::get('/psa-id-checker', function () {
 //     return view('registration.psa-id-checker');

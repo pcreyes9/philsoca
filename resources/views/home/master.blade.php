@@ -17,10 +17,12 @@
         <meta name="keywords" content="anesthesia, anesthesiologists, ACA, doctors, congress, philippines, manila, anes">
 
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" />
+        
 
         <!-- Favicon
         ================================================== -->
-        <link rel="icon" type="image/png" href="images/ACA_LOGO.png?v={{ time() }}">
+        <link rel="icon" type="image/png" href="{{ asset('images/ACA_LOGO.png') }}?v={{ time() }}">
+
         
 
         <!-- CSS
@@ -55,7 +57,8 @@
             {{-- style="background-image:url(images/bg/master.jpg); " --}}
 
             <div style="overflow: hidden; position: relative;">
-                <img  class="master-bg" src="images/bg/master.jpg" alt="ASEAN CONGRESS OF ANESTHESIOLOGISTS IN MANILA 2025">
+                <img class="master-bg" src="{{ asset('images/bg/master.jpg') }}" alt="ASEAN CONGRESS OF ANESTHESIOLOGISTS IN MANILA 2025">
+
                 <div >
                     @yield('content')
                     {{-- <div class="container">

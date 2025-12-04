@@ -1,22 +1,35 @@
 <?php
 
 namespace App\Http\Controllers;
+use Illuminate\Support\Facades\File;
+
 
 use Illuminate\Http\Request;
 
 class GalleryController extends Controller
 {
     public function show(){
-        $pics = [];
-        $path = public_path('images/convention');
-        $files = \File::allFiles($path);
+        // dd("gallery");
+        $arrOpening = [];
+        $arrReg = [];
+        $arrAsean = [];
+        $opening = File::allFiles(public_path('images/gallery/day 1/opening ceremony'));
+        $reg = File::allFiles(public_path('images/gallery/day 1/registration'));
+        $asean = File::allFiles(public_path('images/gallery/day 1/asean night'));
 
-        foreach($files as $file) {
-            array_push($pics, pathinfo($file)['filename']);
+
+        foreach($opening as $file) {
+            array_push($arrOpening, pathinfo($file)['filename']);
         }
-        // dd($pics);
-        return view("home.gallery.midyear", array("pics"=>$pics));
-    }
 
-    
+        foreach($reg as $file) {
+            array_push($arrReg, pathinfo($file)['filename']);
+        }
+        foreach($asean as $file) {
+            array_push($arrAsean, pathinfo($file)['filename']);
+        }
+        // dd($arrReg);
+
+        return view("home.gallery.display", array("arrOpening"=>$arrOpening, "arrReg"=>$arrReg, "arrAsean"=>$arrAsean));
+    }
 }

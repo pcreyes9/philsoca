@@ -158,6 +158,13 @@ Route::get('/regional-anesthesia', function () {
     return view('workshops.reganes');
 })->name(name: 'reganes');
 
+Route::get('/gallery', function () {
+    // dd("asd");
+    return view('home.gallery.display');
+})->name(name: 'gallery');
+
+Route::get('/gallery', [GalleryController::class, 'show'])->name('gallery');
+
 
 // Route::get('/{booth}', [PharmaController::class, 'checkin'])
 //     ->name('booth.checkin');

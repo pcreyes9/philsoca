@@ -56,7 +56,13 @@
                     <li class="nav-item"><a class="nav-link" href="{{route('venue')}}">VENUE</a></li>
                     <li class="nav-item"><a class="nav-link" href="{{route('accommodations')}}">Accommodation & Tours </a></li>
                     <li class="nav-item"><a class="nav-link" href="{{ route('contact') }}">CONTACT</a></li>
-                    <li class="nav-item"><a class="nav-link" href="{{ route('gallery') }}">Gallery</a></li>
+                    <li class="nav-item dropdown">
+                      <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Gallery </a>
+                      <ul class="dropdown-menu" role="menu">
+                        <li><a href="{{route('gallery')}}" style="font-size: 14px;">Day 1</a></li>
+                        {{-- <li><a href="{{route('boothcheck')}}" style="font-size: 14px;">Booth Checker</a></li> --}}
+                      </ul>
+                    </li>
                   </ul>
               </div>
             </nav>

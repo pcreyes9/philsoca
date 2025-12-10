@@ -2475,9 +2475,9 @@ ul.navbar-nav > li.header-get-a-quote:hover > a:after {
 /* Project filter nav */
 .shuffle-btn-group {
   display: inline-block;
-  margin: 20px 0 50px;
+  margin: 20px 0 25px;
   width: 100%;
-  border-bottom: 3px solid #ac071a;
+  border-bottom: 4px solid #000066;
 }
 
 .shuffle-btn-group label {
@@ -2494,8 +2494,8 @@ ul.navbar-nav > li.header-get-a-quote:hover > a:after {
 }
 
 .shuffle-btn-group label.active {
-  color: #212121;
-  background: #ac071a;
+  color: #e2e2e2;
+  background: #000066;
 }
 
 .shuffle-btn-group label input {

@@ -17,7 +17,7 @@
     <div class="row text-center">
         <div class="col-lg-12">
             <h2 class="section-title">ASEAN CONGRESS OF ANESTHESIOLOGISTS 2025 </h2>
-            <h3 class="section-sub-title">DAY 1</h3>
+            <h3 class="section-sub-title">{{$title}}</h3>
         </div>
     </div>
     <!--/ Title row end -->
@@ -57,10 +57,11 @@
                 @foreach ($arrOpening as $pic)
                     <div class="col-lg-4 col-md-6 col-6 shuffle-item p-1" data-groups="[&quot;opening&quot;]">
                         <div class="project-img-container">
-                            <a class="gallery-popup" href="images/gallery/day 1/opening ceremony/{{ $pic }}.JPG" aria-label="project-img">
-                                <img class="img-fluid" src="images/gallery/day 1/opening ceremony/{{ $pic }}.JPG" alt="project-img">
+                            <a class="gallery-popup" href="{{ asset('images/gallery/day1/opening ceremony/' . $pic . '.JPG') }}" aria-label="project-img">
+                                <img class="img-fluid" src="{{ asset('images/gallery/day1/opening ceremony/' . $pic . '.JPG') }}" alt="project-img">
                                 <span class="gallery-icon"><i class="fa fa-plus"></i></span>
                             </a>
+
                             {{-- <div class="project-item-info">
                                 <div class="project-item-info-content">
                                     <h3 class="project-item-title">
@@ -77,39 +78,23 @@
                 @foreach ($arrReg as $pic)
                     <div class="col-lg-4 col-md-6 col-6 shuffle-item p-1" data-groups="[&quot;registration&quot;]">
                         <div class="project-img-container">
-                            <a class="gallery-popup" href="images/gallery/day 1/registration/{{ $pic }}.JPG" aria-label="project-img">
-                                <img class="img-fluid" src="images/gallery/day 1/registration/{{ $pic }}.JPG" alt="project-img">
+                            <a class="gallery-popup" href="{{ asset('images/gallery/day1/registration/' . $pic . '.JPG') }}" aria-label="project-img">
+                                <img class="img-fluid" src="{{ asset('images/gallery/day1/registration/' . $pic . '.JPG') }}" alt="project-img">
                                 <span class="gallery-icon"><i class="fa fa-plus"></i></span>
                             </a>
-                            {{-- <div class="project-item-info">
-                                <div class="project-item-info-content">
-                                    <h3 class="project-item-title">
-                                        <a href="projects-single.html">Capital Teltway Building</a>
-                                    </h3>
-                                    <p class="project-cat">opening, Interiors</p>
-                                </div>
-                            </div> --}}
                         </div>
-                    </div><!-- shuffle item 1 end -->
+                    </div>
                 @endforeach
 
                 @foreach ($arrAsean as $pic)
                     <div class="col-lg-4 col-md-6 col-6 shuffle-item p-1" data-groups="[&quot;asean&quot;]">
                         <div class="project-img-container">
-                            <a class="gallery-popup" href="images/gallery/day 1/asean night/{{ $pic }}.JPG" aria-label="project-img">
-                                <img class="img-fluid" src="images/gallery/day 1/asean night/{{ $pic }}.JPG" alt="project-img">
+                            <a class="gallery-popup" href="{{ asset('images/gallery/day1/asean night/' . $pic . '.JPG') }}" aria-label="project-img">
+                                <img class="img-fluid" src="{{ asset('images/gallery/day1/asean night/' . $pic . '.JPG') }}" alt="project-img">
                                 <span class="gallery-icon"><i class="fa fa-plus"></i></span>
                             </a>
-                            {{-- <div class="project-item-info">
-                                <div class="project-item-info-content">
-                                    <h3 class="project-item-title">
-                                        <a href="projects-single.html">Capital Teltway Building</a>
-                                    </h3>
-                                    <p class="project-cat">opening, Interiors</p>
-                                </div>
-                            </div> --}}
                         </div>
-                    </div><!-- shuffle item 1 end -->
+                    </div>
                 @endforeach
             </div>
         </div>

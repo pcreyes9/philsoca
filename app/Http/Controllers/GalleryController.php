@@ -10,34 +10,27 @@ class GalleryController extends Controller
 {
     public $day, $title;
 
-    public function mount($day)
-    {
-        $this->day = $day; // Capture the day from the URL
-
-        if($day == 'day1'){
-            $this->title = "Day 1";
-        } elseif($day == 'day2'){
-            $this->title = "Day 2";
-        } elseif($day == 'day3'){
-            $this->title = "Day 3";
-        }
-
-        return $this->show();
-    }
-
-    public function show(){
+    public function show($day){
         // dd("gallery");
+        $this->day = $day;
+
+        if($day == 'day1')
+            { $this->title = "Gallery - Day 1"; } 
+        elseif($day == 'day2')
+            { $this->title = "Gallery - Day 2"; } 
+        elseif($day == 'day3')
+            { $this->title = "Gallery - Day 3"; }
         $arrOpening = [];
         $arrReg = [];
         $arrAsean = [];
 
-        $opening = File::allFiles(public_path('images/gallery/day1/opening_ceremony'));
-        $reg = File::allFiles(public_path('images/gallery/day1/registration'));
-        $asean = File::allFiles(public_path('images/gallery/day1/asean_night'));
+        // $opening = File::allFiles(public_path('images/gallery/day1/opening_ceremony'));
+        // $reg = File::allFiles(public_path('images/gallery/day1/registration'));
+        // $asean = File::allFiles(public_path('images/gallery/day1/asean_night'));
 
-        // $opening = File::allFiles(public_path('images/gallery/' . $this->day . '/opening ceremony'));
-        // $reg = File::allFiles(public_path('images/gallery/' . $this->day . '/registration'));
-        // $asean = File::allFiles(public_path('images/gallery/' . $this->day . '/asean night'));
+        $opening = File::allFiles(public_path('images/gallery/' . $this->day . '/opening_ceremony'));
+        $reg = File::allFiles(public_path('images/gallery/' . $this->day . '/registration'));
+        $asean = File::allFiles(public_path('images/gallery/' . $this->day . '/asean_night'));
 
         foreach ($opening as $file) {
             $arrOpening[] = pathinfo($file)['basename']; // filename + extension

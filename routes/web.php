@@ -166,9 +166,11 @@ Route::get('/regional-anesthesia', function () {
 //     return view('home.gallery.display');
 // })->name(name: 'gallery');
 
-Route::get('/gallery', [GalleryController::class, 'show'])->name('gallery');
+// Route::get('/gallery-day1', [GalleryController::class, 'day1'])->name('gallery1');
+// Route::get('/gallery/day2', [GalleryController::class, 'day2'])->name('gallery2');
+// Route::get('/gallery/day3', [GalleryController::class, 'day3'])->name('gallery3');
 
-// Route::get('/gallery/{day}', [GalleryController::class, 'mount'])->name('gallery');
+Route::get('/gallery-{day}', [GalleryController::class, 'show'])->name('gallery');
 
 // Route::get('/gallery', Gallery::class)->name('gallery');
 

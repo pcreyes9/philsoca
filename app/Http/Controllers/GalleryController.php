@@ -31,9 +31,9 @@ class GalleryController extends Controller
         $arrReg = [];
         $arrAsean = [];
 
-        $opening = File::allFiles(public_path('images/gallery/day1/opening ceremony'));
+        $opening = File::allFiles(public_path('images/gallery/day1/opening_ceremony'));
         $reg = File::allFiles(public_path('images/gallery/day1/registration'));
-        $asean = File::allFiles(public_path('images/gallery/day1/asean night'));
+        $asean = File::allFiles(public_path('images/gallery/day1/asean_night'));
 
         // $opening = File::allFiles(public_path('images/gallery/' . $this->day . '/opening ceremony'));
         // $reg = File::allFiles(public_path('images/gallery/' . $this->day . '/registration'));

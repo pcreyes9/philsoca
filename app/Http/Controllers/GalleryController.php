@@ -39,16 +39,18 @@ class GalleryController extends Controller
         // $reg = File::allFiles(public_path('images/gallery/' . $this->day . '/registration'));
         // $asean = File::allFiles(public_path('images/gallery/' . $this->day . '/asean night'));
 
-        foreach($opening as $file) {
-            array_push($arrOpening, pathinfo($file)['filename']);
+        foreach ($opening as $file) {
+            $arrOpening[] = pathinfo($file)['basename']; // filename + extension
         }
 
-        foreach($reg as $file) {
-            array_push($arrReg, pathinfo($file)['filename']);
+        foreach ($reg as $file) {
+            $arrReg[] = pathinfo($file)['basename']; // filename + extension
         }
-        foreach($asean as $file) {
-            array_push($arrAsean, pathinfo($file)['filename']);
+
+        foreach ($asean as $file) {
+            $arrAsean[] = pathinfo($file)['basename']; // filename + extension
         }
+
         // dd(array("arrOpening"=>$arrOpening, "arrReg"=>$arrReg, "arrAsean"=>$arrAsean), $this->title);
 
         return view("home.gallery.display", array("arrOpening"=>$arrOpening, "arrReg"=>$arrReg, "arrAsean"=>$arrAsean), 

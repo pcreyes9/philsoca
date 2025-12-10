@@ -57,8 +57,8 @@
                 @foreach ($arrOpening as $pic)
                     <div class="col-lg-4 col-md-6 col-6 shuffle-item p-1" data-groups="[&quot;opening&quot;]">
                         <div class="project-img-container">
-                            <a class="gallery-popup" href="{{ asset('images/gallery/day1/opening_ceremony/' . $pic . '.JPG') }}" aria-label="project-img">
-                                <img class="img-fluid" src="{{ asset('images/gallery/day1/opening_ceremony/' . $pic . '.JPG') }}" alt="project-img">
+                            <a class="gallery-popup" href="{{ asset('images/gallery/day1/opening_ceremony/' . $pic) }}" aria-label="project-img">
+                                <img class="img-fluid" src="{{ asset('images/gallery/day1/opening_ceremony/' . $pic) }}" alt="project-img">
                                 <span class="gallery-icon"><i class="fa fa-plus"></i></span>
                             </a>
 
@@ -78,8 +78,8 @@
                 @foreach ($arrReg as $pic)
                     <div class="col-lg-4 col-md-6 col-6 shuffle-item p-1" data-groups="[&quot;registration&quot;]">
                         <div class="project-img-container">
-                            <a class="gallery-popup" href="{{ asset('images/gallery/day1/registration/' . $pic . '.JPG') }}" aria-label="project-img">
-                                <img class="img-fluid" src="{{ asset('images/gallery/day1/registration/' . $pic . '.JPG') }}" alt="project-img">
+                            <a class="gallery-popup" href="{{ asset('images/gallery/day1/registration/' . $pic) }}" aria-label="project-img">
+                                <img class="img-fluid" src="{{ asset('images/gallery/day1/registration/' . $pic) }}" alt="project-img">
                                 <span class="gallery-icon"><i class="fa fa-plus"></i></span>
                             </a>
                         </div>
@@ -89,8 +89,8 @@
                 @foreach ($arrAsean as $pic)
                     <div class="col-lg-4 col-md-6 col-6 shuffle-item p-1" data-groups="[&quot;asean&quot;]">
                         <div class="project-img-container">
-                            <a class="gallery-popup" href="{{ asset('images/gallery/day1/asean_night/' . $pic . '.JPG') }}" aria-label="project-img">
-                                <img class="img-fluid" src="{{ asset('images/gallery/day1/asean_night/' . $pic . '.JPG') }}" alt="project-img">
+                            <a class="gallery-popup" href="{{ asset('images/gallery/day1/asean_night/' . $pic) }}" aria-label="project-img">
+                                <img class="img-fluid" src="{{ asset('images/gallery/day1/asean_night/' . $pic) }}" alt="project-img">
                                 <span class="gallery-icon"><i class="fa fa-plus"></i></span>
                             </a>
                         </div>

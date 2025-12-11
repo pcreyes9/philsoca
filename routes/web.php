@@ -23,6 +23,9 @@ use App\Http\Controllers\GalleryController;
 use App\Http\Controllers\SpeakerController;
 use App\Http\Controllers\DashboardController;
 use App\Http\Controllers\PharmaController;
+use App\Livewire\Gallery;
+
+
 
 
 /*
@@ -157,6 +160,19 @@ Route::get('/regional-anesthesia', function () {
     // dd("asd");
     return view('workshops.reganes');
 })->name(name: 'reganes');
+
+// Route::get('/gallery', function () {
+//     // dd("asd");
+//     return view('home.gallery.display');
+// })->name(name: 'gallery');
+
+// Route::get('/gallery-day1', [GalleryController::class, 'day1'])->name('gallery1');
+// Route::get('/gallery/day2', [GalleryController::class, 'day2'])->name('gallery2');
+// Route::get('/gallery/day3', [GalleryController::class, 'day3'])->name('gallery3');
+
+Route::get('/gallery-{day}', [GalleryController::class, 'show'])->name('gallery');
+
+// Route::get('/gallery', Gallery::class)->name('gallery');
 
 
 // Route::get('/{booth}', [PharmaController::class, 'checkin'])
@@ -301,4 +317,6 @@ Route::middleware([
 //     // Route::get('login', [SpeakerController::class, 'login'])->name('speaker_login');
 //     // Route::post('login', [SpeakerController::class, 'store']);
 // });
+
+
 

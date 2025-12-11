@@ -2,8 +2,8 @@
   <div class="container">
       <div class="row">
         <div class="col-lg-16">
-          <a href="{{route('home')}}">
-            <img loading="lazy" style="width: 16%; object-fit: scale;" class="logo img-fluid icon-logo align-middle mt-3 mt-sm-2" src="images/ACA_LOGO_non.png" alt="">
+          <a href="{{route('home')}}">                                                                                             
+            <img loading="lazy" style="width: 16%; object-fit: scale;" class="logo img-fluid icon-logo align-middle mt-3 mt-sm-2" src="{{asset("images/ACA_LOGO_non.png")}}" alt="">
           </a>
             <nav class="ml-3 py-1 p-0 navbar navbar-expand-lg navbar-dark p-0">
               <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse" aria-controls="navbar-collapse" aria-expanded="false" aria-label="Toggle navigation">
@@ -29,7 +29,7 @@
                             </ul>
                           </li>
                           <li><a href="{{route('pbld')}}" style="font-size: 14px;">PBLD Sessions</a></li>
-                          <li ><a href="{{ route('speakers') }}" style="font-size: 14px;">Speakers</a></li>
+                          {{-- <li ><a href="{{ route('speakers') }}" style="font-size: 14px;">Speakers</a></li> --}}
                         </ul>
                     </li>
                     <li class="nav-item"><a class="nav-link" href="{{ route('orgCom') }}">ORGANIZING COMMITTEE</a></li>
@@ -56,7 +56,20 @@
                     <li class="nav-item"><a class="nav-link" href="{{route('venue')}}">VENUE</a></li>
                     <li class="nav-item"><a class="nav-link" href="{{route('accommodations')}}">Accommodation & Tours </a></li>
                     <li class="nav-item"><a class="nav-link" href="{{ route('contact') }}">CONTACT</a></li>
-                    <li class="nav-item"><a class="nav-link" href="https://forms.gle/fz8S7U4PJHUiJhSy6">EVAL FORM</a></li>
+                    <li class="nav-item dropdown">
+                      <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Gallery </a>
+                      <ul class="dropdown-menu" role="menu">
+                        {{-- <li><a href="{{route('gallery1')}}"  style="font -size: 14px;">Day 1</a></li> --}}
+                        {{-- <li><a href="{{route('gallery2')}}" style="font-size: 14px;">Day 2</a></li>
+                        <li><a href="{{route('gallery3')}}" style="font-size: 14px;">Day 3</a></li> --}}
+
+                        <li><a href="{{route('gallery', ['day' => 'day1'])}}" style="font-size: 14px;">Day 1</a></li>
+                        {{-- <li><a href="{{route('gallery', ['day' => 'day2'])}}" style="font-size: 14px;">Day 2</a></li>
+                        <li><a href="{{route('gallery', ['day' => 'day3'])}}" style="font-size: 14px;">Day 3</a></li> --}}
+
+                        {{-- <li><a href="{{route('boothcheck')}}" style="font-size: 14px;">Booth Checker</a></li> --}}
+                      </ul>
+                    </li>
                   </ul>
               </div>
             </nav>

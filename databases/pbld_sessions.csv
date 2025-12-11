@@ -1,3 +1,29 @@
+<<<<<<< HEAD
+id,topic,speaker_id,speaker,desc,obj,count,status
+1,Pediatric Airway Management (Pierre-Robin),108,"Annery Garcia-Marcinkiewicz, MD","Airway management in pediatric patients with Pierre Robin Sequence (PRS)
+requires a detailed understanding of pediatric airway anatomy, which differs
+significantly from adults—neonates have a larger tongue, smaller jaw
+(micrognathia), anterior larynx, and floppy epiglottis, all of which are
+exaggerated in PRS. These features increase the risk of airway obstruction
+and difficult intubation.","1. Understand airway anatomical differences in neonates, infants, and
+children compared to adults.
+2. Describe developmental changes in respiratory physiology.
+3. Identify predictors of a difficult pediatric or neonatal airway, including
+syndromic features (e.g., Pierre Robin, Down syndrome, Goldenhar,
+CHARGE).
+4. Understand selection and sizing of airway equipment.
+5. Understand the ASA Difficult Airway Algorithm and adaptations for
+neonates and pediatric patients.",2,enabled
+2,VATS,172,"Wanda Popescu, MD",,,2,enabled
+3,Neonatal TIVA,53,"Vesna Todorovic, MD",,,2,enabled
+4,Hip Surgery,130,"Sanjib Adhikary, MD",,,2,enabled
+5,Neonatal Surgical Emergencies,115,"Ina Ismiarti Shariffuddin, MD",,,2,enabled
+6,Hypertension in Pregnancy,97,"Heather Nixon, MD",,,3,enabled
+7,Anesthesia for Spine Surgery,179,"Jeffrey Pasternak, MD",,,3,enabled
+8,Obstetric Hemorrhage,52,"Christopher Bowden, MD",,,3,enabled
+9,Coagulopathy,171,"Klaus Goerlinger, MD",,,3,enabled
+10,Hypotensive Patient for Surgery for EXLAP,175,"Suneel Desai, MD",,,3,enabled
+=======
 id,topic,speaker,count,status
 1,Pediatric Airway Management (Pierre-Robin),"Annery Garcia-Marcinkiewicz, MD",2,enabled
 2,VATS,"Wanda Popescu, MD",2,disabled
@@ -9,3 +35,4 @@ id,topic,speaker,count,status
 8,Obstetric Hemorrhage,"Christopher Bowden, MD",3,enabled
 9,Coagulopathy,"Klaus Goerlinger, MD",3,enabled
 10,Hypotensive Patient for Surgery,"Suneel Desai, MD",3,enabled
+>>>>>>> 114f1cd03512ae0d275f3505dc6a46cb57c52357

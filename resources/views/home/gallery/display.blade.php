@@ -16,7 +16,7 @@
 <div class="container">
     <div class="row text-center">
         <div class="col-lg-12">
-            <h2 class="section-title">ASEAN CONGRESS OF ANESTHESIOLOGISTS 2025 </h2>
+            <h2 class="section-title">ASEAN CONGRESS OF ANESTHESIOLOGISTS 2025</h2>
             <h3 class="section-sub-title">{{$title}}</h3>
         </div>
     </div>
@@ -81,7 +81,7 @@
                 @endforeach
                 
                 
-                @foreach ($arrReg as $pic)
+                {{-- @foreach ($arrReg as $pic)
                     <div class="col-lg-4 col-md-6 col-6 shuffle-item p-1" data-groups="[&quot;registration&quot;]">
                         <div class="project-img-container">
                             <a class="gallery-popup" href="{{ asset('images/gallery/day1/registration/' . $pic) }}" aria-label="project-img">
@@ -122,7 +122,7 @@
                             </a>
                         </div>
                     </div>
-                @endforeach
+                @endforeach --}}
             </div>
         </div>
     </div>

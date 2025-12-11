@@ -37,6 +37,12 @@
                 <label for="asean">
                     <input type="radio" name="shuffle-filter" id="asean" value="asean">ASEAN Night
                 </label>
+                <label for="lectures">
+                    <input type="radio" name="shuffle-filter" id="lectures" value="lectures">Plenary Lectures
+                </label>
+                <label for="chapter">
+                    <input type="radio" name="shuffle-filter" id="chapter" value="chapter">Chapter Delegates Meeting
+                </label>
                 {{-- <label for="government">
                     <input type="radio" name="shuffle-filter" id="government" value="government">Government
                 </label>
@@ -96,12 +102,33 @@
                         </div>
                     </div>
                 @endforeach
+
+                @foreach ($arrChapter as $pic)
+                    <div class="col-lg-4 col-md-6 col-6 shuffle-item p-1" data-groups="[&quot;chapter&quot;]">
+                        <div class="project-img-container">
+                            <a class="gallery-popup" href="{{ asset('images/gallery/day1/chapter_delegates/' . $pic) }}" aria-label="project-img">
+                                <img class="img-fluid" src="{{ asset('images/gallery/day1/chapter_delegates/' . $pic) }}" alt="project-img">
+                                <span class="gallery-icon"><i class="fa fa-plus"></i></span>
+                            </a>
+                        </div>
+                    </div>
+                @endforeach
+                @foreach ($arrLectures as $pic)
+                    <div class="col-lg-4 col-md-6 col-6 shuffle-item p-1" data-groups="[&quot;lectures&quot;]">
+                        <div class="project-img-container">
+                            <a class="gallery-popup" href="{{ asset('images/gallery/day1/lectures/' . $pic) }}" aria-label="project-img">
+                                <img class="img-fluid" src="{{ asset('images/gallery/day1/lectures/' . $pic) }}" alt="project-img">
+                                <span class="gallery-icon"><i class="fa fa-plus"></i></span>
+                            </a>
+                        </div>
+                    </div>
+                @endforeach
             </div>
         </div>
     </div>
     <div class="col-12">
         <div class="general-btn text-center">
-            <a class="btn btn-primary" href="#">View All Photos</a>
+            <a class="btn btn-primary" target="_blank" href="https://www.facebook.com/media/set/?set=a.1333298321827008&type=3">View All Photos</a>
         </div>
     </div>
 </div>

@@ -20,9 +20,12 @@ class GalleryController extends Controller
             { $this->title = "Gallery - Day 2"; } 
         elseif($day == 'day3')
             { $this->title = "Gallery - Day 3"; }
+
         $arrOpening = [];
         $arrReg = [];
         $arrAsean = [];
+        $arrChapter = [];
+        $arrLectures = [];
 
         // $opening = File::allFiles(public_path('images/gallery/day1/opening_ceremony'));
         // $reg = File::allFiles(public_path('images/gallery/day1/registration'));
@@ -31,6 +34,8 @@ class GalleryController extends Controller
         $opening = File::allFiles(public_path('images/gallery/' . $this->day . '/opening_ceremony'));
         $reg = File::allFiles(public_path('images/gallery/' . $this->day . '/registration'));
         $asean = File::allFiles(public_path('images/gallery/' . $this->day . '/asean_night'));
+        $chapter = File::allFiles(public_path('images/gallery/' . $this->day . '/chapter_delegates'));
+        $lectures = File::allFiles(public_path('images/gallery/' . $this->day . '/lectures'));
 
         foreach ($opening as $file) {
             $arrOpening[] = pathinfo($file)['basename']; // filename + extension
@@ -43,10 +48,16 @@ class GalleryController extends Controller
         foreach ($asean as $file) {
             $arrAsean[] = pathinfo($file)['basename']; // filename + extension
         }
+        foreach ($chapter as $file) {
+            $arrChapter[] = pathinfo($file)['basename']; // filename + extension
+        }
+        foreach ($lectures as $file) {
+            $arrLectures[] = pathinfo($file)['basename']; // filename + extension
+        }
 
         // dd(array("arrOpening"=>$arrOpening, "arrReg"=>$arrReg, "arrAsean"=>$arrAsean), $this->title);
 
-        return view("home.gallery.display", array("arrOpening"=>$arrOpening, "arrReg"=>$arrReg, "arrAsean"=>$arrAsean), 
+        return view("home.gallery.display", array("arrOpening"=>$arrOpening, "arrReg"=>$arrReg, "arrAsean"=>$arrAsean, "arrChapter"=>$arrChapter, "arrLectures"=>$arrLectures), 
         ["title" => $this->title]);
     }
 }

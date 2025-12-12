@@ -64,8 +64,8 @@
                         <li><a href="{{route('gallery3')}}" style="font-size: 14px;">Day 3</a></li> --}}
 
                         <li><a href="{{route('gallery', ['day' => 'day1'])}}" style="font-size: 14px;">Day 1</a></li>
-                        {{-- <li><a href="{{route('gallery', ['day' => 'day2'])}}" style="font-size: 14px;">Day 2</a></li>
-                        <li><a href="{{route('gallery', ['day' => 'day3'])}}" style="font-size: 14px;">Day 3</a></li> --}}
+                        <li><a href="{{route('gallery', ['day' => 'day2'])}}" style="font-size: 14px;">Day 2</a></li>
+                        {{-- <li><a href="{{route('gallery', ['day' => 'day3'])}}" style="font-size: 14px;">Day 3</a></li> --}}
 
                         {{-- <li><a href="{{route('boothcheck')}}" style="font-size: 14px;">Booth Checker</a></li> --}}
                       </ul>

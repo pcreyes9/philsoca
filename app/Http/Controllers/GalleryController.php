@@ -66,7 +66,7 @@ class GalleryController extends Controller
             $arrGallery[$subfolderName] = $files;
         }
 
-        // dd($arrGallery);
+        dd($arrGallery);
         // Return to view
         return view("home.gallery.display", [
             "arrGallery" => $arrGallery,

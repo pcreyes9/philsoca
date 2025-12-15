@@ -28,6 +28,7 @@ class GalleryController extends Controller
 
         // Make sure the folder exists
         if (!is_dir($base)) {
+            dd("not found gallery");
             return view("home.gallery.display", [
                 "arrGallery" => [],
                 "title" => $this->title

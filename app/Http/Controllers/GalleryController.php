@@ -28,7 +28,7 @@ class GalleryController extends Controller
 
         // Make sure the folder exists
         if (!is_dir($base)) {
-            return view("template.pages.gallery-aca-test", [
+            return view("home.gallery.display", [
                 "arrGallery" => [],
                 "title" => $this->title
             ]);

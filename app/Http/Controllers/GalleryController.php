@@ -14,50 +14,62 @@ class GalleryController extends Controller
         // dd("gallery");
         $this->day = $day;
 
-        if($day == 'day1')
-            { $this->title = "Gallery - Day 1"; } 
-        elseif($day == 'day2')
-            { $this->title = "Gallery - Day 2"; } 
-        elseif($day == 'day3')
-            { $this->title = "Gallery - Day 3"; }
-
-        $arrOpening = [];
-        $arrReg = [];
-        $arrAsean = [];
-        $arrChapter = [];
-        $arrLectures = [];
-
-        // $opening = File::allFiles(public_path('images/gallery/day1/opening_ceremony'));
-        // $reg = File::allFiles(public_path('images/gallery/day1/registration'));
-        // $asean = File::allFiles(public_path('images/gallery/day1/asean_night'));
-
-        $opening = File::allFiles(public_path('images/gallery/' . $this->day . '/opening_ceremony'));
-        $reg = File::allFiles(public_path('images/gallery/' . $this->day . '/registration'));
-        $asean = File::allFiles(public_path('images/gallery/' . $this->day . '/asean_night'));
-        $chapter = File::allFiles(public_path('images/gallery/' . $this->day . '/chapter_delegates'));
-        $lectures = File::allFiles(public_path('images/gallery/' . $this->day . '/lectures'));
-
-        foreach ($opening as $file) {
-            $arrOpening[] = pathinfo($file)['basename']; // filename + extension
+        // Set the title
+        if ($day == 'day1') {
+            $this->title = "Gallery - Day 1"; 
+        } elseif ($day == 'day2') {
+            $this->title = "Gallery - Day 2"; 
+        } elseif ($day == 'day3') {
+            $this->title = "Gallery - Day 3"; 
         }
 
-        foreach ($reg as $file) {
-            $arrReg[] = pathinfo($file)['basename']; // filename + extension
+        // Path to the specific day folder inside aca_2025
+        $base = public_path('images/gallery/aca_2025/' . $day);
+
+        // Make sure the folder exists
+        if (!is_dir($base)) {
+            return view("template.pages.gallery-aca-test", [
+                "arrGallery" => [],
+                "title" => $this->title
+            ]);
         }
 
-        foreach ($asean as $file) {
-            $arrAsean[] = pathinfo($file)['basename']; // filename + extension
-        }
-        foreach ($chapter as $file) {
-            $arrChapter[] = pathinfo($file)['basename']; // filename + extension
-        }
-        foreach ($lectures as $file) {
-            $arrLectures[] = pathinfo($file)['basename']; // filename + extension
+        $folders = collect(File::directories($base)); // get subfolders only
+
+        $arrGallery = [];
+
+        foreach ($folders as $folderPath) {
+            $subfolderName = basename($folderPath); // e.g., opening_ceremony, asean_night
+
+            // Get all files in this subfolder
+            $files = collect(File::files($folderPath))
+                ->map(function ($file) use ($base) {
+                    // Check if landscape
+                    [$width, $height] = getimagesize($file->getPathname());
+                    if ($width <= $height) {
+                        return null; // skip portrait
+                    }
+
+                    // Relative path from public/
+                    $relativePath = str_replace(public_path() . DIRECTORY_SEPARATOR, '', $file->getPathname());
+
+                    return [
+                        'filename' => $file->getFilename(),
+                        'relative_path' => $relativePath
+                    ];
+                })
+                ->filter() // remove portrait images
+                ->values()
+                ->toArray();
+
+            $arrGallery[$subfolderName] = $files;
         }
 
-        // dd(array("arrOpening"=>$arrOpening, "arrReg"=>$arrReg, "arrAsean"=>$arrAsean), $this->title);
-
-        return view("home.gallery.display", array("arrOpening"=>$arrOpening, "arrReg"=>$arrReg, "arrAsean"=>$arrAsean, "arrChapter"=>$arrChapter, "arrLectures"=>$arrLectures), 
-        ["title" => $this->title]);
+        // dd($arrGallery);
+        // Return to view
+        return view("home.gallery.display", [
+            "arrGallery" => $arrGallery,
+            "title" => $this->title
+        ]);
     }
 }

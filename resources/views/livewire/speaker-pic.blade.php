@@ -10,7 +10,7 @@
               @if ($speakers->photo == null || $speakers->photo == "")
                 <img onerror="this.src='{{ asset('images/speaker_placeholder.png') }}';" style="width: 100%;" class="align-middle mt-3 align-middle" src="images/speaker_placeholder.png" alt="Image is still in process.">
               @else
-                <img onerror="this.src='{{ asset('images/speaker_placeholder.png') }}';" style="width: 100%;" class="align-middle mt-3 align-middle" src='storage/resized/{{ $speakers->photo }} ' alt="Image is still in process.">
+                <img onerror="this.src='{{ asset('images/speaker_placeholder.png') }}';" style="width: 100%;" class="align-middle mt-3 align-middle" src='images/resized/{{ $speakers->photo }} ' alt="Image is still in process.">
               @endif
             </a>
             <div style="background: rgba(73, 73, 73, 0.6); width: 100%; position: absolute;

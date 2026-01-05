@@ -61,7 +61,7 @@
             @if ($photoModal == null || $photoModal == "")
               <img onerror="this.src='{{ asset('images/speaker_placeholder.png') }}';" style="width: 100%;" class="fixed-size-img align-middle mt-3 align-middle" src="images/speaker_placeholder.png" alt="Image is still in process.">
             @else 
-              <img onerror="this.src='{{ asset('images/speaker_placeholder.png') }}';" style="width: 100%;" class="fixed-size-img align-middle mt-3 align-middle" src='storage/resized/{{ $photoModal }} ' alt="Image is still in process.">
+              <img onerror="this.src='{{ asset('images/speaker_placeholder.png') }}';" style="width: 100%;" class="fixed-size-img align-middle mt-3 align-middle" src='images/resized/{{ $photoModal }} ' alt="Image is still in process.">
             @endif
           </div>
           <div class="col-md-10">

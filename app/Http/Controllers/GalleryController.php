@@ -3,9 +3,6 @@
 namespace App\Http\Controllers;
 use Illuminate\Support\Facades\File;
 
-
-use Illuminate\Http\Request;
-
 class GalleryController extends Controller
 {
     public $day, $title;

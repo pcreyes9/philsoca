@@ -28,7 +28,7 @@ class SpeakerPic extends Component
         // dd($results->toArray());
         $speaker = User::where('userType', 'speaker')->orderBy('profile_photo_path')->orderByRaw('SUBSTRING_INDEX(name, " ", -1) ASC')->get();
         $schedule = DB::table('speakers_schedule')->get();
-        // dd($schedule->toArray());
+        // dd($speaker);
         return view('livewire.speaker-pic', ['speaker' => $speaker]);
     }
 }

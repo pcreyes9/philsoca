@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1:3306
--- Generation Time: Sep 22, 2025 at 05:31 AM
+-- Generation Time: Dec 25, 2025 at 11:13 PM
 -- Server version: 11.8.3-MariaDB-log
 -- PHP Version: 7.2.34
 
@@ -28,7 +28,7 @@ SET time_zone = "+00:00";
 --
 
 CREATE TABLE `speakers_schedule` (
-  `id` int(2) DEFAULT NULL,
+  `id` int(2) NOT NULL,
   `speaker_id` int(3) DEFAULT NULL,
   `username` varchar(27) DEFAULT NULL,
   `topic` varchar(97) DEFAULT NULL,
@@ -47,11 +47,11 @@ INSERT INTO `speakers_schedule` (`id`, `speaker_id`, `username`, `topic`, `venue
 (3, 134, 'Sng Ban Leong', 'Obstetric Update on Non-neuraxial Labour Analgesia ', 'BALLROOM B', '23-Oct-25', '1:00 PM-1:20 PM'),
 (4, 129, 'Varinee Lekprasert', 'The Impact of Perioperative Care on Patient Outcomes ', 'BALLROOM A', '23-Oct-25', '1:20 PM-1:40 PM'),
 (5, 130, 'Sanjib Adhikary', 'Myths and facts of Epidural Analgesia ', 'BALLROOM B', '23-Oct-25', '1:20 PM-1:40 PM'),
-(6, 179, 'Jeffrey Pasternak', 'The Pregnant Patient and Neurosurgery', 'BALLROOM C', '23-Oct-25', '1:20 PM-1:40 PM'),
+(6, 179, 'Jeffrey Pasternak', 'Anesthetic Management in Patients with Ischemic Stroke', 'BALLROOM C', '23-Oct-25', '1:20 PM-1:40 PM'),
 (7, 125, 'Balavenkat Subramanian', 'Anesthesia for Scoliosis Surgery - An Update', 'BALLROOM C', '23-Oct-25', '1:40 PM-2:00 PM'),
 (8, 126, 'Alex Sia Tiong Heng', 'Post Dural Puncture Headache: The Not-So-Good, The Bad and the Ugly', 'BALLROOM B', '23-Oct-25', '1:40 PM-2:00 PM'),
 (9, 132, 'Patrick Giam', 'Advancing Patient Safety', 'BALLROOM A', '23-Oct-25', '1:40 PM-2:00 PM'),
-(10, 58, 'Sophia Chew', 'Geroprotection and Anesthesiology', 'BALLROOM C', '23-Oct-25', '2:00 PM-2:20 PM'),
+(10, 58, 'Sophia Chew', 'Geroprotection and Anesthesiology', 'BALLROOM C', '23-Oct-25', '4:20 PM-4:40 PM'),
 (11, 97, 'Heather Nixon', 'Intraoperative Pain During Cesarian Delivery-Optimizing Team Care', 'BALLROOM B', '23-Oct-25', '2:00 PM-2:20 PM'),
 (12, 151, 'Rodney Gabriel', 'Leveraging Artificial Intelligence in Perioperative Medicine', 'BALLROOM A', '23-Oct-25', '2:00 PM-2:20 PM'),
 (13, 137, 'Shahridan Mohd Fathil', 'Monitoring Standards for Anesthesia', 'BALLROOM C', '23-Oct-25', '3:20 PM-3:40 PM'),
@@ -64,7 +64,7 @@ INSERT INTO `speakers_schedule` (`id`, `speaker_id`, `username`, `topic`, `venue
 (20, 131, 'Yong Chow Yen', 'Permissive Hypotension: How Low Can You Go Dato', 'BALLROOM A', '23-Oct-25', '4:00 PM-4:20 PM'),
 (21, 164, 'Carina Li', 'Visceral Abdominal Cancer Pain Management with Neurolytic Blocks', 'BALLROOM B', '23-Oct-25', '4:00 PM-4:20 PM'),
 (22, 125, 'Balavenkat Subramanian', 'Anesthesia for Orthogeriatrics', 'BALLROOM B', '23-Oct-25', '4:20 PM-4:40 PM'),
-(23, 139, 'Phuping Akavipat', 'Anesthesia Considerations in Neurological Emergencies', 'BALLROOM C', '23-Oct-25', '4:20 PM-4:40 PM'),
+(23, 139, 'Phuping Akavipat', 'Anesthesia Considerations in Neurological Emergencies', 'BALLROOM C', '23-Oct-25', '2:00 PM-2:20 PM'),
 (24, 144, 'Suresh Paranjothy', 'How not to fail with a patient with Heart Failure', 'BALLROOM A', '23-Oct-25', '4:20 PM-4:40 PM'),
 (25, 133, 'Daniela Filipescu', 'SAY WAN LIM Memorial Lecture: WHO ECO Resolution, Health Emergencies and WFSA ', 'PLENARY HALL', '23-Oct-25', '8:30 AM-9:00 AM'),
 (26, 141, 'Susilo Chandra', 'QUINTIN GOMEZ MEMORIAL LECTURE: Opioid Free Anesthesia: The Next Frontier in Anesthesia Practice ', 'PLENARY HALL', '23-Oct-25', '9:00 AM-9:30 AM'),
@@ -78,7 +78,7 @@ INSERT INTO `speakers_schedule` (`id`, `speaker_id`, `username`, `topic`, `venue
 (34, 93, 'Samuel Ern Hung Tsan', 'Targeted Temperature Management Post Cardiac Arrest', 'BALLROOM B', '24-Oct-25', '10:50 AM-11:10 AM'),
 (35, 173, 'Afak Nsiri', 'Hip Fracture: Which Anesthetic Techniques Should We Choose', 'BALLROOM C', '24-Oct-25', '10:50 AM-11:10 AM'),
 (36, 169, 'ASHOKKA BALAKRISHNAN', 'POCUS in Cardiac Arrest', 'BALLROOM A', '24-Oct-25', '11:10 AM-11:30 AM'),
-(37, 179, 'Jeffrey Pasternak', 'Anesthetic Management in Patients with Ischemic Stroke', 'BALLROOM B', '24-Oct-25', '11:10 AM-11:30 AM'),
+(37, 179, 'Jeffrey Pasternak', 'The Pregnant Patient and Neurosurgery', 'BALLROOM B', '24-Oct-25', '11:10 AM-11:30 AM'),
 (38, 180, 'Jean-Louis Horn', 'Continuous Nerve Blocks: Why, When and How to Manage', 'BALLROOM C', '24-Oct-25', '11:10 AM-11:30 AM'),
 (39, 49, 'Suraphong Lorsomradee', 'AMBU/BLOOD MANAGEMENT of Ambulatory in the ASEAN Region', 'BALLROOM A', '24-Oct-25', '12:30 PM-12:50 PM'),
 (40, 134, 'Sng Ban Leong', 'Education in obstetric anesthesia-what’s new', 'BALLROOM C', '24-Oct-25', '12:30 PM-12:50 PM'),
@@ -86,7 +86,7 @@ INSERT INTO `speakers_schedule` (`id`, `speaker_id`, `username`, `topic`, `venue
 (42, 60, 'Bishwas Pradhan', 'Lung Recruitment Maneuvers – Efficacy & Safety', 'BALLROOM B', '24-Oct-25', '12:50 PM-1:10 PM'),
 (43, 126, 'Alex Sia Tiong Heng', 'AI in Obstetric Anesthesia and Analgesia', 'BALLROOM C', '24-Oct-25', '12:50 PM-1:10 PM'),
 (44, 133, 'Daniela Filipescu', 'Old Habits Die Hard in Perioperative Haemostasis and Transfusion', 'BALLROOM A', '24-Oct-25', '12:50 PM-1:10 PM'),
-(45, 141, 'Susilo Chandra', 'Opioid Free Anesthesia for OBSTETRIC and GYNECOLOGIC Surgery', 'BALLROOM C', '25-Oct-25', '8:00 AM-8:20 AM'),
+(45, 191, 'Celina Ancheta', 'Opioid Free Anesthesia for OBSTETRIC and GYNECOLOGIC Surgery', 'BALLROOM C', '25-Oct-25', '8:00 AM-8:20 AM'),
 (46, 47, 'Tony Ng', 'Update in Regenerative Medicine in Pain Management', 'BALLROOM B', '25-Oct-25', '1:00 PM-1:20 PM'),
 (47, 127, 'Azarinah Izaham', 'ERAS in Ambulatory Anesthesia: Beyond Traditional Protocols', 'BALLROOM A', '25-Oct-25', '1:00 PM-1:20 PM'),
 (48, 174, 'Raveenthiran Rasiah', 'Guidelines for TIVA/TCI in Pediatrics', 'BALLROOM C', '25-Oct-25', '1:00 PM-1:20 PM'),
@@ -123,6 +123,16 @@ INSERT INTO `speakers_schedule` (`id`, `speaker_id`, `username`, `topic`, `venue
 (79, 135, 'Sasikaan Nimmaanrat', 'Developing Quality Assurance for Pain Management', 'BALLROOM B', '25-Oct-25', '9:00 AM-9:20 AM'),
 (80, 161, 'KHALIL ULLAH SHIBLI', 'Perioperative Care of the Obese Patient', 'BALLROOM A', '25-Oct-25', '9:00 AM-9:20 AM'),
 (81, 140, 'Maria Lourdes Mendoza', '', '', '', '');
+
+--
+-- Indexes for dumped tables
+--
+
+--
+-- Indexes for table `speakers_schedule`
+--
+ALTER TABLE `speakers_schedule`
+  ADD PRIMARY KEY (`id`);
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;

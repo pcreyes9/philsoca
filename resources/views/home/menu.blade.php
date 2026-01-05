@@ -29,7 +29,7 @@
                             </ul>
                           </li>
                           <li><a href="{{route('pbld')}}" style="font-size: 14px;">PBLD Sessions</a></li>
-                          {{-- <li ><a href="{{ route('speakers') }}" style="font-size: 14px;">Speakers</a></li> --}}
+                          <li ><a href="{{ route('speakers') }}" style="font-size: 14px;">Speakers</a></li>
                         </ul>
                     </li>
                     <li class="nav-item"><a class="nav-link" href="{{ route('orgCom') }}">ORGANIZING COMMITTEE</a></li>

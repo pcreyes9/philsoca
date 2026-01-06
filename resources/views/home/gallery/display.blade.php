@@ -108,7 +108,7 @@
     </div>
     <div class="col-12">
         <div class="general-btn text-center">
-            <a class="btn btn-primary" target="_blank" href="https://www.facebook.com/media/set/?set=a.1333298321827008&type=3">View All Photos</a>
+            <a class="btn btn-primary" target="_blank" href='{{ $fb_link }}'>View All Photos</a>
         </div>
     </div>
 </div>

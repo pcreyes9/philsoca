@@ -5,7 +5,7 @@ use Illuminate\Support\Facades\File;
 
 class GalleryController extends Controller
 {
-    public $day, $title;
+    public $day, $title, $fb_link;
 
     public function show($day){
         // dd("gallery");
@@ -14,10 +14,13 @@ class GalleryController extends Controller
         // Set the title
         if ($day == 'day1') {
             $this->title = "Gallery - Day 1"; 
+            $this->fb_link = "https://www.facebook.com/media/set/?set=a.1333298321827008&type=3";
         } elseif ($day == 'day2') {
             $this->title = "Gallery - Day 2"; 
+            $this->fb_link = "https://www.facebook.com/media/set/?set=a.1338982804591893&type=3";
         } elseif ($day == 'day3') {
             $this->title = "Gallery - Day 3"; 
+            $this->fb_link = "https://www.facebook.com/media/set/?set=a.1352343376589169&type=3";
         }
 
         // Path to the specific day folder inside aca_2025
@@ -67,7 +70,8 @@ class GalleryController extends Controller
         // Return to view
         return view("home.gallery.display", [
             "arrGallery" => $arrGallery,
-            "title" => $this->title
+            "title" => $this->title,
+            "fb_link" => $this->fb_link
         ]);
     }
 }

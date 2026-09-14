@@ -26,14 +26,14 @@ class ExcelExport implements FromCollection, WithHeadings, ShouldAutoSize
             'email',
             'contact_number',
             'gender',
-            'country',
             'membership',
             'senior_citizen',
             'proof_payment',
             'trainee_cert',
+            'status',
+            'country',
             'created_at',
             'updated_at',
-            'status'
         ];
     }
 

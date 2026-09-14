@@ -8,7 +8,7 @@
 {{-- @include('home.banner') --}}
 
 <section id="news" class="project-area">
-    <div class="container" >
+    <div class="" >
         @if (session('success'))
             <div class="alert alert-success">
                 {{ session('success') }}
@@ -16,7 +16,7 @@
         @endif
         {{-- style="background: rgba(255, 255, 255, 0.5); border-radius: 25px" --}}
         <div class="d-flex justify-content-center">
-            <img style="width: 100%;" class="align-middle "src="images/abstract prizes.png?v={{ time() }}" alt="Image is still in process.">
+            <img style="width: 75%;" class="align-middle "src="images/abstract prizes.png?v={{ time() }}" alt="Image is still in process.">
         </div>
     </div>
 </section>

@@ -22,6 +22,7 @@
 <script src="home/js/script.js?ver=<?php echo time()?>"></script>
 
 
+
 {{-- <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script> --}}
 
 {{-- SWEET ALERT SCRIPTS --}}
@@ -47,7 +48,18 @@
                 }
         })
     });
+
+
+    $('.dropdown-submenu .dropdown-toggle').on("click", function(e){
+  $(this).next('.dropdown-menu').toggle();
+  e.stopPropagation();
+  e.preventDefault();
+});
+
+// asd
 </script>
+
+
 
 
 

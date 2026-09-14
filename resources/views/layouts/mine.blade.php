@@ -46,7 +46,7 @@
 
         @stack('modals')
 
-        @notifyJs
+        {{-- @notifyJs --}}
         @livewireScripts
         
     </body>

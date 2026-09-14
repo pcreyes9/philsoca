@@ -10,7 +10,7 @@
     <div class="container">
         <div class="row justify-content-center mb-5" data-animation-in="slideInLeft" data-duration-in="1.2">
             <div class="col-lg-12" >
-                <h3 class="into-sub-title" style="color: black">ABSTRACT SUBMISSION</h3>
+                <h3 class="into-sub-title" style="color: black">ABSTRACT SUBMISSION IS NOW CLOSED!</h3>
             </div>
             @if (session('success'))
                 <div class="alert alert-success">
@@ -18,7 +18,7 @@
                 </div>
             @endif
         </div>
-        <livewire:reg-abstract/>
+        {{-- <livewire:reg-abstract/> --}}
     </div>
 </section><!-- Main container end -->
 @endsection

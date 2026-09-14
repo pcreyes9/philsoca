@@ -14,12 +14,16 @@ use App\Mail\ApprovedEmail;
 use Illuminate\Support\Facades\Storage;
 use Illuminate\Support\Facades\Mail;
 
+use chillerlan\QRCode\QRCode;
+use chillerlan\QRCode\QROptions;
+
+
 
 
 class ViewMemReg extends Component
 {
     use WithPagination;
-    public $barcode, $from, $to, $sort ="regNew", $sortName="Registration ID";
+    public $search, $barcode, $from, $to, $sort ="regNew", $sortName="Registration ID";
 
     public function render()
     {
@@ -28,7 +32,12 @@ class ViewMemReg extends Component
         //     return view('user_account.viewMemReg');
         // }
 
-        if($this->sort == 'regNew'){
+        if($this->search != "" || $this->search != null){
+            // dd("asd");
+            $reg = Registration::where('last_name', 'like', $this->search.'%')->Paginate(30);
+        }
+
+        else if($this->sort == 'regNew'){
             $reg = Registration::orderBy('id', 'DESC')->Paginate(30);
             $this->sortName="Registration ID (newest)";
         }
@@ -69,7 +78,6 @@ class ViewMemReg extends Component
             'info' => $info
         ]);
         return response()->streamDownload(function () use ($pdf) { echo $pdf->stream(); }, 'Registration ID ' . $this->from . ' - ' . $this->to .'.pdf');
-        return redirect()->back();
     }
 
     public function barcodePDF(){
@@ -81,7 +89,7 @@ class ViewMemReg extends Component
 
         Storage::put('public/storage/uploads/'. $info->psa_id . 'pdf', $pdf->output());
     }
-
+  
     public function approval ($id){
         notify()->success('Laravel Notify is awesome!');
         // dd($id);
@@ -117,11 +125,11 @@ class ViewMemReg extends Component
     
         $path = Storage::put('public/storage/uploads/'.  $info->psa_id . '.pdf', $pdf->output());
         Storage::put($path, $pdf->output());
+        // dd('test reached');j
         
         Mail::to($info->email)->send(new ApprovedEmail($info->last_name, $info->psa_id));
     
         Registration::where('psa_id', $info->psa_id)->update(['status' => 'Approved']);
-    
 
         notify()->success( $info->name . ' has been approved and barcode was already sent!', 'Approval Success!');
         // return redirect()->back();

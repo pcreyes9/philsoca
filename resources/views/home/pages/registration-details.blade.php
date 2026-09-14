@@ -7,8 +7,6 @@
 @include('home.banner')
 
 <section id="main-container" class="pb-4 main-container text-center project-area ">
-
-
     <div class="container">
         @if (session('success'))
             <div class="alert alert-success">
@@ -53,6 +51,12 @@
                                 <td>$750</td>
                             </tr>
                             <tr>
+                                <th class="text-left" scope="row">ASEAN Members; Trainee</th>
+                                <td>-</td>
+                                <td>$300</td>
+                                <td>$350</td>
+                            </tr>
+                            <tr>
                                 <th class="text-left" scope="row">Non-ASEAN Members</th>
                                 <td>$600</td>
                                 <td>$650</td>
@@ -63,6 +67,7 @@
                 </div>
                 
                 <br>
+                
                 <p class="para-head text-center fd mb-4">Local (Philippines) Rates</p>
                 <div class="table-responsive mb-3">
                     <table class="table">
@@ -137,15 +142,14 @@
                     Account name: <strong>Philippine Society of Anesthesiologists, Inc.</strong> <br> SWIFT CODE: <strong>BOPIPHMM</strong>
                 </p>
 
-
                 <div class="d-grid gap-2 mt-5">
                     <a href="{{ route('memReg') }}" target="_blank" class="btn btn-primary mb-1" style="font-size: 20px">Local Registration</a>
                     <a href="{{ route('nonMemReg') }}"  target="_blank" class="btn btn-dark mb-1" style="font-size: 20px">International Registration</a>
+                    <a href="{{ route('pbldReg') }}"  target="_blank" class="btn btn-warning mb-1" style="font-size: 20px">PBLD Registration</a>
+                    <a href="{{ route('workshopReg') }}"  target="_blank" class="btn btn-success mb-1" style="font-size: 20px">Workshop Registration</a>
                 </div>
             </div>
-            
         </div>
-        
     </div>
 </section><!-- Main container end -->
 @endsection

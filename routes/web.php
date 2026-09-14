@@ -15,12 +15,17 @@ use App\Models\Registration;
 use Illuminate\Http\Request;
 use Spatie\Sitemap\Tags\Url;
 use App\Livewire\SpeakerPage;
+use App\Livewire\BoothController;
 use Barryvdh\DomPDF\Facade\Pdf;
 use Illuminate\Support\Facades\Route;
 use Illuminate\Support\Facades\Artisan;
 use App\Http\Controllers\GalleryController;
 use App\Http\Controllers\SpeakerController;
 use App\Http\Controllers\DashboardController;
+use App\Http\Controllers\PharmaController;
+use App\Livewire\Gallery;
+
+
 
 
 /*
@@ -63,9 +68,13 @@ Route::get('/organizing-committee', function () {
     return view('home/pages/organizing-committee');
 })->name('orgCom');
 
-Route::get('/prelim-program', function () {
+Route::get('/sci-program', function () {
     return view('home/pages/prelimProgram');
 })->name('prelim');
+
+Route::get('/glance-program', function () {
+    return view('home/pages/glanceProgram');
+})->name('glance');
 
 // Route::get('/organizing-committee', function () {
 //     return view('home/pages/orgComPic');
@@ -104,7 +113,7 @@ Route::get('/sponsors', function () {
 })->name('sponsors');
 
 
-Route::get('/accommodations', function () {
+Route::get('/accommodation-tours', function () {
     return view('home/pages/accommodations');
 })->name('accommodations');
 
@@ -121,6 +130,72 @@ Route::get('/international-registration', function () {
     // dd("asd");
     return view('registration.non-mem-registration');
 })->name('nonMemReg');
+
+Route::get('/pbld-registration', function () {
+    // dd("asd");
+    return view('registration.pbld-registration');
+})->name('pbldReg');
+
+Route::get('/workshop-registration', function () {
+    // dd("asd");
+    return view('registration.workshop-registration');
+})->name('workshopReg');
+
+Route::get('/airway', function () {
+    // dd("asd");
+    return view('workshops.airway');
+})->name('airway');
+
+Route::get('/pocus', function () {
+    // dd("asd");
+    return view('workshops.pocus');
+})->name(name: 'pocus');
+
+Route::get('/pbld-program', function () {
+    // dd("asd");
+    return view('workshops.pbld');
+})->name('pbld');
+
+Route::get('/regional-anesthesia', function () {
+    // dd("asd");
+    return view('workshops.reganes');
+})->name(name: 'reganes');
+
+// Route::get('/gallery', function () {
+//     // dd("asd");
+//     return view('home.gallery.display');
+// })->name(name: 'gallery');
+
+// Route::get('/gallery-day1', [GalleryController::class, 'day1'])->name('gallery1');
+// Route::get('/gallery/day2', [GalleryController::class, 'day2'])->name('gallery2');
+// Route::get('/gallery/day3', [GalleryController::class, 'day3'])->name('gallery3');
+
+Route::get('/gallery-{day}', [GalleryController::class, 'show'])->name('gallery');
+
+// Route::get('/gallery', Gallery::class)->name('gallery');
+
+
+// Route::get('/{booth}', [PharmaController::class, 'checkin'])
+//     ->name('booth.checkin');
+
+// Route::get('/{booth}', BoothController::class)
+// ->name('booth.checkin');
+
+Route::get('/sponsors/{booth}', function ($booth) {
+    $exists = DB::table('pharma')->where('code', $booth)->exists();
+
+    if (! $exists) {
+        abort(404); // or any other action you want
+    }
+    else{
+        return view('registration.boothreg', compact('booth'));
+    }
+
+})->name('booth.checkin');
+
+Route::get('/booth-checker', function () {
+    return view('registration.boothcheck');
+})->name('boothcheck');
 
 // Route::get('/psa-id-checker', function () {
 //     return view('registration.psa-id-checker');
@@ -206,8 +281,11 @@ Route::get('/download-abstract', function (){
 
 
 Route::get('/admin/dashboard/export-excel', function () {
-    return Excel::download(new ExcelExport, 'regs.xlsx');
+    $fileName = 'ACA Registration as of ' . now()->format('m-d-Y_H-i-s') . '.xlsx';
+    return Excel::download(new ExcelExport, $fileName);
 })->name('exportExcel');
+
+
 
 
 
@@ -239,4 +317,6 @@ Route::middleware([
 //     // Route::get('login', [SpeakerController::class, 'login'])->name('speaker_login');
 //     // Route::post('login', [SpeakerController::class, 'store']);
 // });
+
+
 

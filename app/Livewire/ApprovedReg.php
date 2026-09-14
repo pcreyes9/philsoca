@@ -14,7 +14,7 @@ use Illuminate\Support\Facades\DB;
 class ApprovedReg extends Component
 {
     use WithPagination;
-    public $barcode, $from, $to, $sort ="regNew", $sortName="Registration ID";
+    public $barcode, $from, $to, $sort ="dateNew", $sortName="Approved Date (latest)";
 
     public function render()
     {
@@ -35,12 +35,12 @@ class ApprovedReg extends Component
             $this->sortName="PSA ID (oldest)";
         }
         else if ($this->sort == 'dateNew'){
-            $reg = Registration::where('status', 'Approved')->orderBy('created_at', 'DESC')->paginate(30);
-            $this->sortName="Date of Registration (newest)";
+            $reg = Registration::where('status', 'Approved')->orderBy('updated_at', 'DESC')->paginate(30);
+            $this->sortName="Approved Date (latest)";
         }
         else if ($this->sort == 'dateOld'){
-            $reg = Registration::where('status', 'Approved')->orderBy('created_at', 'ASC')->paginate(30);
-            $this->sortName="Date of Registration (oldest)";
+            $reg = Registration::where('status', 'Approved')->orderBy('updated_at', 'ASC')->paginate(30);
+            $this->sortName="Approved Date (oldest)";
         }
 
         return view('livewire.approved-reg',  ['reg' => $reg]);

@@ -7,7 +7,7 @@ Greetings!
 Thank you for registering to the <strong>24th ASEAN Congress</strong> which will be held concurrently with the <strong>57th Philippine Society of Anesthesiologists (PSA) Annual Convention and Postgraduate Course on October 23-25, 2025</strong> at the <strong>Marriott Grand Ballroom, Pasay City, Philippines.</strong>
 <br>
 <br>
-Please refer to the barcode attached herein. This will be used in claiming your convention ID and kit. You may print or take a screenshot of your individual barcode which you will present to the convention’s <strong>Registration Area - Pre-Registered Delegates.</strong>
+Please refer to the QR CODE attached herein. This will be used in claiming your convention ID and kit. You may print or take a screenshot of your individual QR CODE which you will present to the convention’s <strong>Registration Area - Pre-Registered Delegates.</strong>
 <br>
 <br>
 Take note that the registration fee is <strong>NON-REFUNDABLE, NON-TRANSFERRABLE, AND NON-CONVERTIBLE</strong> once registration is accepted and approved. 

@@ -89,7 +89,7 @@
                 <option value="Colombia">Colombia</option>
                 <option value="Comoros">Comoros</option>
                 <option value="Congo">Congo</option>
-                <option value="Congo, The Democratic Republic of The">Congo, The Democratic Republic of The</option>
+                <option value="Congo">Congo</option>
                 <option value="Cook Islands">Cook Islands</option>
                 <option value="Costa Rica">Costa Rica</option>
                 <option value="Cote D'ivoire">Cote D'ivoire</option>
@@ -141,7 +141,7 @@
                 <option value="Iceland">Iceland</option>
                 <option value="India">India</option>
                 <option value="Indonesia">Indonesia</option>
-                <option value="Iran, Islamic Republic of">Iran, Islamic Republic of</option>
+                <option value="Iran">Iran</option>
                 <option value="Iraq">Iraq</option>
                 <option value="Ireland">Ireland</option>
                 <option value="Isle of Man">Isle of Man</option>
@@ -154,8 +154,8 @@
                 <option value="Kazakhstan">Kazakhstan</option>
                 <option value="Kenya">Kenya</option>
                 <option value="Kiribati">Kiribati</option>
-                <option value="Korea, Democratic People's Republic of">Korea, Democratic People's Republic of</option>
-                <option value="Korea, Republic of">Korea, Republic of</option>
+                {{-- <option value="Korea, Democratic People's Republic of">Korea, Democratic People's Republic of</option> --}}
+                <option value="South Korea">South Korea</option>
                 <option value="Kuwait">Kuwait</option>
                 <option value="Kyrgyzstan">Kyrgyzstan</option>
                 <option value="Laos">Laos</option>
@@ -168,7 +168,7 @@
                 <option value="Lithuania">Lithuania</option>
                 <option value="Luxembourg">Luxembourg</option>
                 <option value="Macao">Macao</option>
-                <option value="Macedonia, The Former Yugoslav Republic of">Macedonia, The Former Yugoslav Republic of</option>
+                {{-- <option value="Macedonia, The Former Yugoslav Republic of">Macedonia, The Former Yugoslav Republic of</option> --}}
                 <option value="Madagascar">Madagascar</option>
                 <option value="Malawi">Malawi</option>
                 <option value="Malaysia">Malaysia</option>
@@ -181,8 +181,8 @@
                 <option value="Mauritius">Mauritius</option>
                 <option value="Mayotte">Mayotte</option>
                 <option value="Mexico">Mexico</option>
-                <option value="Micronesia, Federated States of">Micronesia, Federated States of</option>
-                <option value="Moldova, Republic of">Moldova, Republic of</option>
+                <option value="Micronesia">Micronesia</option>
+                <option value="Moldova">Moldova</option>
                 <option value="Monaco">Monaco</option>
                 <option value="Mongolia">Mongolia</option>
                 <option value="Montenegro">Montenegro</option>
@@ -253,7 +253,7 @@
                 <option value="Syrian Arab Republic">Syrian Arab Republic</option>
                 <option value="Taiwan">Taiwan</option>
                 <option value="Tajikistan">Tajikistan</option>
-                <option value="Tanzania, United Republic of">Tanzania, United Republic of</option>
+                <option value="Tanzania">Tanzania</option>
                 <option value="Thailand">Thailand</option>
                 <option value="Timor-leste">Timor-leste</option>
                 <option value="Togo">Togo</option>
@@ -340,7 +340,7 @@
             @endif --}}
                 
             
-            <div class="col-md-4 mt-4">
+            {{-- <div class="col-md-4 mt-4">
                 <label style="font-weight: 750; font-size: medium; color: black">Rate to be paid:</label><br>
                 @if  ($country  == "Brunei" ||  $country  == "Cambodia" ||  $country  == "Indonesia" ||  $country  == "Laos" ||  $country  == "Malaysia" || 
                      $country  == "Myanmar" ||  $country  == "Singapore" ||  $country  == "Thailand" ||  $country  == "Vietnam")
@@ -350,12 +350,12 @@
                 @else
                     <label style="font-weight: 750; font-size: medium; color: black">NON ASEAN MEMBER: $600</label><br>
                 @endif
-                <label style="font-style: italic; font-weight: 300; font-size: normal; color: black">Early Bird (Jan 20 - Apr 30, 2025)</label><br>
+                <label style="font-style: italic; font-weight: 300; font-size: normal; color: black">Registration Period (May 01 - Oct 10, 2025)</label><br>
 
             
                 <label style="font-weight: 750; font-size: medium; color: black"></label>
                 @error('paymentProof') <span class="error">{{ $message }}</span> @enderror
-            </div>
+            </div> --}}
 
             <div class="col-md-4 mt-4">
                 <label style="font-weight: 750; font-size: medium; color: black">Proof of Payment</label><br>
@@ -389,8 +389,7 @@
                 <svg wire:loading xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 24 24"><path fill="currentColor" d="M12,1A11,11,0,1,0,23,12,11,11,0,0,0,12,1Zm0,19a8,8,0,1,1,8-8A8,8,0,0,1,12,20Z" opacity="0.25"/><path fill="currentColor" d="M10.14,1.16a11,11,0,0,0-9,8.92A1.59,1.59,0,0,0,2.46,12,1.52,1.52,0,0,0,4.11,10.7a8,8,0,0,1,6.66-6.61A1.42,1.42,0,0,0,12,2.69h0A1.57,1.57,0,0,0,10.14,1.16Z"><animateTransform attributeName="transform" dur="0.75s" repeatCount="indefinite" type="rotate" values="0 12 12;360 12 12"/></path></svg>
                 <div wire:loading.remove>
                     Register
-                </div>
-                
+                </div> 
             </button>
         </div>
     </div>
